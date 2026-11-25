@@ -1,0 +1,3332 @@
+{
+ "subject": "math",
+ "name": "Math AI",
+ "units": [
+  {
+   "id": "error",
+   "name": "Approximation & error"
+  },
+  {
+   "id": "seq",
+   "name": "Sequences & series"
+  },
+  {
+   "id": "fin",
+   "name": "Financial maths"
+  },
+  {
+   "id": "lines",
+   "name": "Straight lines"
+  },
+  {
+   "id": "func",
+   "name": "Functions & graphs"
+  },
+  {
+   "id": "model",
+   "name": "Mathematical modelling (Unit 3)"
+  }
+ ],
+ "prompts": [
+  {
+   "id": "math-01",
+   "unit": "error",
+   "prompt": "Name a number with exactly 2 decimal places that rounds to 3.5 (to 1 d.p.)",
+   "answers": [
+    {
+     "text": "3.45",
+     "tier": 4,
+     "why": "3.45 is the LOWER bound of 3.5 (1 d.p.) and is included: the 5 rounds up to 3.5."
+    },
+    {
+     "text": "3.46",
+     "tier": 3,
+     "why": "3.46 → look at the 2nd d.p. digit: rounds to 3.5."
+    },
+    {
+     "text": "3.47",
+     "tier": 3,
+     "why": "3.47 → look at the 2nd d.p. digit: rounds to 3.5."
+    },
+    {
+     "text": "3.48",
+     "tier": 2,
+     "why": "3.48 → look at the 2nd d.p. digit: rounds to 3.5."
+    },
+    {
+     "text": "3.49",
+     "tier": 1,
+     "why": "3.49 → look at the 2nd d.p. digit: rounds to 3.5."
+    },
+    {
+     "text": "3.51",
+     "tier": 1,
+     "why": "3.51 → look at the 2nd d.p. digit: rounds to 3.5."
+    },
+    {
+     "text": "3.52",
+     "tier": 2,
+     "why": "3.52 → look at the 2nd d.p. digit: rounds to 3.5."
+    },
+    {
+     "text": "3.53",
+     "tier": 2,
+     "why": "3.53 → look at the 2nd d.p. digit: rounds to 3.5."
+    },
+    {
+     "text": "3.54",
+     "tier": 3,
+     "why": "3.54 rounds down to 3.5. 3.55 would round up to 3.6, so the upper bound is never reached."
+    }
+   ]
+  },
+  {
+   "id": "math-02",
+   "unit": "error",
+   "prompt": "Name a multiple of 10 that rounds to 2400 when written to 2 significant figures",
+   "answers": [
+    {
+     "text": "2350",
+     "tier": 4,
+     "why": "2350 is the lower bound (2400 − half of 100). A 5 rounds up, so it is included."
+    },
+    {
+     "text": "2360",
+     "tier": 3,
+     "why": "2360 → 2 s.f. means round to the nearest 100: 2360 becomes 2400."
+    },
+    {
+     "text": "2370",
+     "tier": 3,
+     "why": "2370 → 2 s.f. means round to the nearest 100: 2370 becomes 2400."
+    },
+    {
+     "text": "2380",
+     "tier": 2,
+     "why": "2380 → 2 s.f. means round to the nearest 100: 2380 becomes 2400."
+    },
+    {
+     "text": "2390",
+     "tier": 2,
+     "why": "2390 → 2 s.f. means round to the nearest 100: 2390 becomes 2400."
+    },
+    {
+     "text": "2400",
+     "tier": 1,
+     "why": "2400 itself is already 2400 to 2 s.f."
+    },
+    {
+     "text": "2410",
+     "tier": 2,
+     "why": "2410 → 2 s.f. means round to the nearest 100: 2410 becomes 2400."
+    },
+    {
+     "text": "2420",
+     "tier": 2,
+     "why": "2420 → 2 s.f. means round to the nearest 100: 2420 becomes 2400."
+    },
+    {
+     "text": "2430",
+     "tier": 3,
+     "why": "2430 → 2 s.f. means round to the nearest 100: 2430 becomes 2400."
+    },
+    {
+     "text": "2440",
+     "tier": 3,
+     "why": "2440 is the biggest multiple of 10 that still rounds to 2400. 2450 would round to 2500."
+    }
+   ]
+  },
+  {
+   "id": "math-03",
+   "unit": "error",
+   "prompt": "Name a number with exactly 3 decimal places that rounds to 0.07 (to 1 significant figure)",
+   "answers": [
+    {
+     "text": "0.065",
+     "tier": 4,
+     "why": "0.065 is the lower bound for 0.07 (1 s.f.). The 5 rounds up, so it is included."
+    },
+    {
+     "text": "0.066",
+     "tier": 3,
+     "why": "Leading zeros don't count, so the 1st sig fig is the 7 (or 6): 0.066 → 0.07."
+    },
+    {
+     "text": "0.067",
+     "tier": 3,
+     "why": "Leading zeros don't count, so the 1st sig fig is the 7 (or 6): 0.067 → 0.07."
+    },
+    {
+     "text": "0.068",
+     "tier": 2,
+     "why": "Leading zeros don't count, so the 1st sig fig is the 7 (or 6): 0.068 → 0.07."
+    },
+    {
+     "text": "0.069",
+     "tier": 1,
+     "why": "Leading zeros don't count, so the 1st sig fig is the 7 (or 6): 0.069 → 0.07."
+    },
+    {
+     "text": "0.071",
+     "tier": 1,
+     "why": "Leading zeros don't count, so the 1st sig fig is the 7 (or 6): 0.071 → 0.07."
+    },
+    {
+     "text": "0.072",
+     "tier": 2,
+     "why": "Leading zeros don't count, so the 1st sig fig is the 7 (or 6): 0.072 → 0.07."
+    },
+    {
+     "text": "0.073",
+     "tier": 2,
+     "why": "Leading zeros don't count, so the 1st sig fig is the 7 (or 6): 0.073 → 0.07."
+    },
+    {
+     "text": "0.074",
+     "tier": 3,
+     "why": "0.074 rounds down to 0.07. 0.075 would go up to 0.08."
+    }
+   ]
+  },
+  {
+   "id": "math-04",
+   "unit": "error",
+   "prompt": "Name a whole number of cm that a length measured as 40 cm (to the nearest 10 cm) could really be",
+   "answers": [
+    {
+     "text": "35",
+     "tier": 4,
+     "why": "35 is the lower bound (40 − 5) and is included, because 35 rounds UP to 40."
+    },
+    {
+     "text": "36",
+     "tier": 3,
+     "why": "36 cm lies in the bounds 35 ≤ L < 45 (40 ± half of 10)."
+    },
+    {
+     "text": "37",
+     "tier": 3,
+     "why": "37 cm lies in the bounds 35 ≤ L < 45 (40 ± half of 10)."
+    },
+    {
+     "text": "38",
+     "tier": 2,
+     "why": "38 cm lies in the bounds 35 ≤ L < 45 (40 ± half of 10)."
+    },
+    {
+     "text": "39",
+     "tier": 2,
+     "why": "39 cm lies in the bounds 35 ≤ L < 45 (40 ± half of 10)."
+    },
+    {
+     "text": "40",
+     "tier": 1,
+     "why": "40 cm lies in the bounds 35 ≤ L < 45 (40 ± half of 10)."
+    },
+    {
+     "text": "41",
+     "tier": 2,
+     "why": "41 cm lies in the bounds 35 ≤ L < 45 (40 ± half of 10)."
+    },
+    {
+     "text": "42",
+     "tier": 2,
+     "why": "42 cm lies in the bounds 35 ≤ L < 45 (40 ± half of 10)."
+    },
+    {
+     "text": "43",
+     "tier": 3,
+     "why": "43 cm lies in the bounds 35 ≤ L < 45 (40 ± half of 10)."
+    },
+    {
+     "text": "44",
+     "tier": 3,
+     "why": "44 is the biggest whole cm: 45 is the strict upper bound (45 rounds to 50)."
+    }
+   ]
+  },
+  {
+   "id": "math-05",
+   "unit": "error",
+   "prompt": "Name a number from this list with exactly 3 significant figures: 0.0507, 4.20, 3005, 120.0, 0.00810, 6.02, 900, 1.05, 70.4, 0.300, 25.0, 4.007",
+   "answers": [
+    {
+     "text": "0.0507",
+     "tier": 3,
+     "why": "Leading zeros don't count; 5, 0, 7 do (a zero between non-zero digits counts)."
+    },
+    {
+     "text": "4.20",
+     "tier": 2,
+     "why": "The trailing zero after the decimal point counts: 4, 2, 0 = 3 s.f."
+    },
+    {
+     "text": "0.00810",
+     "tier": 4,
+     "why": "Leading zeros don't count; 8, 1 and the trailing 0 after the point do."
+    },
+    {
+     "text": "6.02",
+     "tier": 1,
+     "why": "6, 0, 2: the sandwiched zero counts."
+    },
+    {
+     "text": "1.05",
+     "tier": 1,
+     "why": "1, 0, 5: the sandwiched zero counts."
+    },
+    {
+     "text": "70.4",
+     "tier": 2,
+     "why": "7, 0, 4: the zero is between non-zero digits, so it counts."
+    },
+    {
+     "text": "0.300",
+     "tier": 4,
+     "why": "Leading 0 doesn't count; 3 and both trailing zeros after the point do."
+    },
+    {
+     "text": "25.0",
+     "tier": 3,
+     "why": "Writing .0 shows it was measured to 1 d.p., so that zero counts: 3 s.f."
+    }
+   ]
+  },
+  {
+   "id": "math-06",
+   "unit": "error",
+   "prompt": "Name a way to round or approximate a number",
+   "answers": [
+    {
+     "text": "Decimal places",
+     "tier": 1,
+     "why": "Count digits after the point, then look at the next digit to round.",
+     "alias": [
+      "d.p.",
+      "dp",
+      "decimal place"
+     ]
+    },
+    {
+     "text": "Significant figures",
+     "tier": 1,
+     "why": "Count from the first non-zero digit. IB default is 3 s.f.",
+     "alias": [
+      "sig figs",
+      "s.f.",
+      "sf",
+      "significant figure"
+     ]
+    },
+    {
+     "text": "Nearest whole number",
+     "tier": 2,
+     "why": "Round to the nearest 1 (units digit), e.g. 7.6 → 8.",
+     "alias": [
+      "nearest integer",
+      "nearest unit",
+      "nearest one"
+     ]
+    },
+    {
+     "text": "Nearest 10",
+     "tier": 2,
+     "why": "Look at the units digit, e.g. 7423 → 7420.",
+     "alias": [
+      "nearest ten"
+     ]
+    },
+    {
+     "text": "Nearest 100",
+     "tier": 2,
+     "why": "Look at the tens digit, e.g. 7423 → 7400.",
+     "alias": [
+      "nearest hundred"
+     ]
+    },
+    {
+     "text": "Nearest 1000",
+     "tier": 3,
+     "why": "Look at the hundreds digit, e.g. 408 961 → 409 000.",
+     "alias": [
+      "nearest thousand"
+     ]
+    },
+    {
+     "text": "One-figure estimation",
+     "tier": 3,
+     "why": "Round every number to 1 s.f. first, then calculate, to sanity-check a GDC answer.",
+     "alias": [
+      "one figure approximation",
+      "1 s.f. estimate",
+      "estimation",
+      "estimate"
+     ]
+    },
+    {
+     "text": "Scientific notation",
+     "tier": 4,
+     "why": "Write as a × 10ᵏ with 1 ≤ a < 10, e.g. 0.000452 = 4.52 × 10⁻⁴.",
+     "alias": [
+      "standard form",
+      "a x 10^k"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-07",
+   "unit": "seq",
+   "prompt": "Name a term of the arithmetic sequence 5, 12, 19, … that is under 100",
+   "answers": [
+    {
+     "text": "5",
+     "tier": 1,
+     "why": "uₙ = 7n − 2, so u1 = 7(1) − 2 = 5."
+    },
+    {
+     "text": "12",
+     "tier": 1,
+     "why": "uₙ = 7n − 2, so u2 = 7(2) − 2 = 12."
+    },
+    {
+     "text": "19",
+     "tier": 1,
+     "why": "uₙ = 7n − 2, so u3 = 7(3) − 2 = 19."
+    },
+    {
+     "text": "26",
+     "tier": 2,
+     "why": "uₙ = 7n − 2, so u4 = 7(4) − 2 = 26."
+    },
+    {
+     "text": "33",
+     "tier": 2,
+     "why": "uₙ = 7n − 2, so u5 = 7(5) − 2 = 33."
+    },
+    {
+     "text": "40",
+     "tier": 2,
+     "why": "uₙ = 7n − 2, so u6 = 7(6) − 2 = 40."
+    },
+    {
+     "text": "47",
+     "tier": 3,
+     "why": "uₙ = 7n − 2, so u7 = 7(7) − 2 = 47."
+    },
+    {
+     "text": "54",
+     "tier": 3,
+     "why": "uₙ = 7n − 2, so u8 = 7(8) − 2 = 54."
+    },
+    {
+     "text": "61",
+     "tier": 3,
+     "why": "uₙ = 7n − 2, so u9 = 7(9) − 2 = 61."
+    },
+    {
+     "text": "68",
+     "tier": 3,
+     "why": "uₙ = 7n − 2, so u10 = 7(10) − 2 = 68."
+    },
+    {
+     "text": "75",
+     "tier": 4,
+     "why": "uₙ = 7n − 2, so u11 = 7(11) − 2 = 75."
+    },
+    {
+     "text": "82",
+     "tier": 4,
+     "why": "uₙ = 7n − 2, so u12 = 7(12) − 2 = 82."
+    },
+    {
+     "text": "89",
+     "tier": 4,
+     "why": "uₙ = 7n − 2, so u13 = 7(13) − 2 = 89."
+    },
+    {
+     "text": "96",
+     "tier": 5,
+     "why": "uₙ = 7n − 2, so u14 = 7(14) − 2 = 96. Biggest term under 100."
+    }
+   ]
+  },
+  {
+   "id": "math-08",
+   "unit": "seq",
+   "prompt": "Name a term of the geometric sequence 3, 6, 12, … that is under 2000",
+   "answers": [
+    {
+     "text": "3",
+     "tier": 1,
+     "why": "uₙ = 3 × 2ⁿ⁻¹, so u1 = 3 × 2^0 = 3."
+    },
+    {
+     "text": "6",
+     "tier": 1,
+     "why": "uₙ = 3 × 2ⁿ⁻¹, so u2 = 3 × 2^1 = 6."
+    },
+    {
+     "text": "12",
+     "tier": 1,
+     "why": "uₙ = 3 × 2ⁿ⁻¹, so u3 = 3 × 2^2 = 12."
+    },
+    {
+     "text": "24",
+     "tier": 2,
+     "why": "uₙ = 3 × 2ⁿ⁻¹, so u4 = 3 × 2^3 = 24."
+    },
+    {
+     "text": "48",
+     "tier": 2,
+     "why": "uₙ = 3 × 2ⁿ⁻¹, so u5 = 3 × 2^4 = 48."
+    },
+    {
+     "text": "96",
+     "tier": 3,
+     "why": "uₙ = 3 × 2ⁿ⁻¹, so u6 = 3 × 2^5 = 96."
+    },
+    {
+     "text": "192",
+     "tier": 3,
+     "why": "uₙ = 3 × 2ⁿ⁻¹, so u7 = 3 × 2^6 = 192."
+    },
+    {
+     "text": "384",
+     "tier": 4,
+     "why": "uₙ = 3 × 2ⁿ⁻¹, so u8 = 3 × 2^7 = 384."
+    },
+    {
+     "text": "768",
+     "tier": 4,
+     "why": "uₙ = 3 × 2ⁿ⁻¹, so u9 = 3 × 2^8 = 768."
+    },
+    {
+     "text": "1536",
+     "tier": 5,
+     "why": "uₙ = 3 × 2ⁿ⁻¹, so u10 = 3 × 2^9 = 1536."
+    }
+   ]
+  },
+  {
+   "id": "math-09",
+   "unit": "seq",
+   "prompt": "Name a term of 2, 9, 16, 23, … that lies between 600 and 700",
+   "answers": [
+    {
+     "text": "604",
+     "tier": 2,
+     "why": "First term over 600: 7n − 5 > 600 gives n > 86.4, so n = 87 → 604."
+    },
+    {
+     "text": "611",
+     "tier": 3,
+     "why": "uₙ = 7n − 5 and n = 88 gives 611."
+    },
+    {
+     "text": "618",
+     "tier": 4,
+     "why": "uₙ = 7n − 5 and n = 89 gives 618."
+    },
+    {
+     "text": "625",
+     "tier": 3,
+     "why": "uₙ = 7n − 5 and n = 90 gives 625."
+    },
+    {
+     "text": "632",
+     "tier": 4,
+     "why": "uₙ = 7n − 5 and n = 91 gives 632."
+    },
+    {
+     "text": "639",
+     "tier": 4,
+     "why": "uₙ = 7n − 5 and n = 92 gives 639."
+    },
+    {
+     "text": "646",
+     "tier": 4,
+     "why": "uₙ = 7n − 5 and n = 93 gives 646."
+    },
+    {
+     "text": "653",
+     "tier": 4,
+     "why": "uₙ = 7n − 5 and n = 94 gives 653."
+    },
+    {
+     "text": "660",
+     "tier": 3,
+     "why": "uₙ = 7n − 5 and n = 95 gives 660."
+    },
+    {
+     "text": "667",
+     "tier": 4,
+     "why": "uₙ = 7n − 5 and n = 96 gives 667."
+    },
+    {
+     "text": "674",
+     "tier": 4,
+     "why": "uₙ = 7n − 5 and n = 97 gives 674."
+    },
+    {
+     "text": "681",
+     "tier": 3,
+     "why": "uₙ = 7n − 5 and n = 98 gives 681."
+    },
+    {
+     "text": "688",
+     "tier": 2,
+     "why": "uₙ = 7n − 5 and n = 99 gives 688."
+    },
+    {
+     "text": "695",
+     "tier": 1,
+     "why": "Class example: u₁₀₀ = 7(100) − 5 = 695."
+    }
+   ]
+  },
+  {
+   "id": "math-10",
+   "unit": "seq",
+   "prompt": "Name a value of Sₙ for the arithmetic series 1 + 3 + 5 + 7 + … that is under 200",
+   "answers": [
+    {
+     "text": "1",
+     "tier": 1,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S1 = 1."
+    },
+    {
+     "text": "4",
+     "tier": 1,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S2 = 4."
+    },
+    {
+     "text": "9",
+     "tier": 1,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S3 = 9."
+    },
+    {
+     "text": "16",
+     "tier": 2,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S4 = 16."
+    },
+    {
+     "text": "25",
+     "tier": 2,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S5 = 25."
+    },
+    {
+     "text": "36",
+     "tier": 2,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S6 = 36."
+    },
+    {
+     "text": "49",
+     "tier": 3,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S7 = 49."
+    },
+    {
+     "text": "64",
+     "tier": 3,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S8 = 64."
+    },
+    {
+     "text": "81",
+     "tier": 3,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S9 = 81."
+    },
+    {
+     "text": "100",
+     "tier": 3,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S10 = 100."
+    },
+    {
+     "text": "121",
+     "tier": 4,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S11 = 121."
+    },
+    {
+     "text": "144",
+     "tier": 4,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S12 = 144."
+    },
+    {
+     "text": "169",
+     "tier": 4,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S13 = 169."
+    },
+    {
+     "text": "196",
+     "tier": 5,
+     "why": "Sₙ = n/2(2 + 2(n − 1)) = n². S14 = 196."
+    }
+   ]
+  },
+  {
+   "id": "math-11",
+   "unit": "seq",
+   "prompt": "Name a value of Sₙ for the geometric series 1 + 2 + 4 + 8 + … that is under 1000",
+   "answers": [
+    {
+     "text": "1",
+     "tier": 1,
+     "why": "Sₙ = 1(2ⁿ − 1)/(2 − 1) = 2ⁿ − 1. S1 = 1."
+    },
+    {
+     "text": "3",
+     "tier": 1,
+     "why": "Sₙ = 1(2ⁿ − 1)/(2 − 1) = 2ⁿ − 1. S2 = 3."
+    },
+    {
+     "text": "7",
+     "tier": 2,
+     "why": "Sₙ = 1(2ⁿ − 1)/(2 − 1) = 2ⁿ − 1. S3 = 7."
+    },
+    {
+     "text": "15",
+     "tier": 2,
+     "why": "Sₙ = 1(2ⁿ − 1)/(2 − 1) = 2ⁿ − 1. S4 = 15."
+    },
+    {
+     "text": "31",
+     "tier": 3,
+     "why": "Sₙ = 1(2ⁿ − 1)/(2 − 1) = 2ⁿ − 1. S5 = 31."
+    },
+    {
+     "text": "63",
+     "tier": 3,
+     "why": "Sₙ = 1(2ⁿ − 1)/(2 − 1) = 2ⁿ − 1. S6 = 63."
+    },
+    {
+     "text": "127",
+     "tier": 4,
+     "why": "Sₙ = 1(2ⁿ − 1)/(2 − 1) = 2ⁿ − 1. S7 = 127."
+    },
+    {
+     "text": "255",
+     "tier": 4,
+     "why": "Sₙ = 1(2ⁿ − 1)/(2 − 1) = 2ⁿ − 1. S8 = 255."
+    },
+    {
+     "text": "511",
+     "tier": 5,
+     "why": "Sₙ = 1(2ⁿ − 1)/(2 − 1) = 2ⁿ − 1. S9 = 511."
+    }
+   ]
+  },
+  {
+   "id": "math-12",
+   "unit": "seq",
+   "prompt": "Name a value of Σ (2r + 1) from r = 1 to n, for a whole number n from 1 to 12",
+   "answers": [
+    {
+     "text": "3",
+     "tier": 1,
+     "why": "n = 1: add 3 + 5 + … + 3 = 3 (it's arithmetic, u₁ = 3, d = 2)."
+    },
+    {
+     "text": "8",
+     "tier": 1,
+     "why": "n = 2: add 3 + 5 + … + 5 = 8 (it's arithmetic, u₁ = 3, d = 2)."
+    },
+    {
+     "text": "15",
+     "tier": 2,
+     "why": "n = 3: add 3 + 5 + … + 7 = 15 (it's arithmetic, u₁ = 3, d = 2)."
+    },
+    {
+     "text": "24",
+     "tier": 2,
+     "why": "n = 4: add 3 + 5 + … + 9 = 24 (it's arithmetic, u₁ = 3, d = 2)."
+    },
+    {
+     "text": "35",
+     "tier": 2,
+     "why": "n = 5: add 3 + 5 + … + 11 = 35 (it's arithmetic, u₁ = 3, d = 2)."
+    },
+    {
+     "text": "48",
+     "tier": 3,
+     "why": "n = 6: add 3 + 5 + … + 13 = 48 (it's arithmetic, u₁ = 3, d = 2)."
+    },
+    {
+     "text": "63",
+     "tier": 3,
+     "why": "n = 7: add 3 + 5 + … + 15 = 63 (it's arithmetic, u₁ = 3, d = 2)."
+    },
+    {
+     "text": "80",
+     "tier": 3,
+     "why": "n = 8: add 3 + 5 + … + 17 = 80 (it's arithmetic, u₁ = 3, d = 2)."
+    },
+    {
+     "text": "99",
+     "tier": 4,
+     "why": "n = 9: add 3 + 5 + … + 19 = 99 (it's arithmetic, u₁ = 3, d = 2)."
+    },
+    {
+     "text": "120",
+     "tier": 4,
+     "why": "n = 10: add 3 + 5 + … + 21 = 120 (it's arithmetic, u₁ = 3, d = 2)."
+    },
+    {
+     "text": "143",
+     "tier": 4,
+     "why": "n = 11: add 3 + 5 + … + 23 = 143 (it's arithmetic, u₁ = 3, d = 2)."
+    },
+    {
+     "text": "168",
+     "tier": 5,
+     "why": "n = 12: add 3 + 5 + … + 25 = 168 (it's arithmetic, u₁ = 3, d = 2)."
+    }
+   ]
+  },
+  {
+   "id": "math-13",
+   "unit": "seq",
+   "prompt": "Name a key term from sequences and series",
+   "answers": [
+    {
+     "text": "Arithmetic sequence",
+     "tier": 1,
+     "why": "Add the same number (d) each time, e.g. 2, 9, 16, 23.",
+     "alias": [
+      "arithmetic",
+      "arithmetic progression"
+     ]
+    },
+    {
+     "text": "Geometric sequence",
+     "tier": 1,
+     "why": "Multiply by the same number (r) each time, e.g. 3, 6, 12.",
+     "alias": [
+      "geometric",
+      "geometric progression"
+     ]
+    },
+    {
+     "text": "Common difference",
+     "tier": 2,
+     "why": "d = uₙ₊₁ − uₙ, constant in an arithmetic sequence."
+    },
+    {
+     "text": "Common ratio",
+     "tier": 2,
+     "why": "r = uₙ₊₁ ÷ uₙ, constant in a geometric sequence."
+    },
+    {
+     "text": "Series",
+     "tier": 2,
+     "why": "The SUM of the terms of a sequence, written Sₙ.",
+     "alias": [
+      "sum"
+     ]
+    },
+    {
+     "text": "nth term",
+     "tier": 2,
+     "why": "The general formula uₙ, e.g. uₙ = u₁ + (n − 1)d.",
+     "alias": [
+      "general term",
+      "un"
+     ]
+    },
+    {
+     "text": "Sigma notation",
+     "tier": 3,
+     "why": "Σ means 'add up' every term from the bottom index to the top.",
+     "alias": [
+      "sigma",
+      "summation notation"
+     ]
+    },
+    {
+     "text": "Recursive formula",
+     "tier": 3,
+     "why": "Defines each term from the one before, e.g. uₙ₊₁ = uₙ + 6.",
+     "alias": [
+      "recursive",
+      "recurrence relation"
+     ]
+    },
+    {
+     "text": "Explicit formula",
+     "tier": 4,
+     "why": "Gives uₙ directly from n, e.g. uₙ = 7n − 5.",
+     "alias": [
+      "explicit",
+      "closed form"
+     ]
+    },
+    {
+     "text": "Sum to infinity",
+     "tier": 4,
+     "why": "S∞ = u₁/(1 − r), only exists when |r| < 1.",
+     "alias": [
+      "s infinity",
+      "infinite sum",
+      "infinite series"
+     ]
+    },
+    {
+     "text": "First term",
+     "tier": 3,
+     "why": "u₁: you need it (plus d or r) in every sequence formula.",
+     "alias": [
+      "u1"
+     ]
+    },
+    {
+     "text": "Gauss's method",
+     "tier": 5,
+     "why": "Pair first + last terms: each pair sums to u₁ + uₙ, giving Sₙ = n/2(u₁ + uₙ).",
+     "alias": [
+      "gauss",
+      "gauss trick",
+      "gauss pairing"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-14",
+   "unit": "seq",
+   "prompt": "Name a real-life situation modelled by a geometric sequence",
+   "answers": [
+    {
+     "text": "Compound interest",
+     "tier": 1,
+     "why": "Balance is multiplied by (1 + r/100k) every period.",
+     "alias": [
+      "interest",
+      "savings account"
+     ]
+    },
+    {
+     "text": "Depreciation",
+     "tier": 1,
+     "why": "Value is multiplied by (1 − r/100) each year, e.g. a car losing 12% a year.",
+     "alias": [
+      "car value",
+      "reducing balance"
+     ]
+    },
+    {
+     "text": "Bouncing ball",
+     "tier": 2,
+     "why": "Each bounce reaches a fixed % of the last, e.g. 60% of 8 m.",
+     "alias": [
+      "ball bounce",
+      "rebound height"
+     ]
+    },
+    {
+     "text": "Population growth",
+     "tier": 2,
+     "why": "Grows by a constant % each year, so multiply by the same ratio.",
+     "alias": [
+      "population"
+     ]
+    },
+    {
+     "text": "Bacteria doubling",
+     "tier": 3,
+     "why": "Doubling every period is r = 2.",
+     "alias": [
+      "bacteria",
+      "cell division",
+      "doubling"
+     ]
+    },
+    {
+     "text": "Radioactive decay",
+     "tier": 3,
+     "why": "Half-life: amount multiplied by 0.5 each half-life.",
+     "alias": [
+      "half life",
+      "decay"
+     ]
+    },
+    {
+     "text": "Inflation",
+     "tier": 4,
+     "why": "Prices rise by a fixed % each year, a ratio like 1.05.",
+     "alias": [
+      "price rises"
+     ]
+    },
+    {
+     "text": "Viral spread",
+     "tier": 4,
+     "why": "Each person passes it on to the same number of people, so terms multiply.",
+     "alias": [
+      "chain message",
+      "virus spread",
+      "chain letter"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-15",
+   "unit": "fin",
+   "prompt": "Name a compounding frequency (how often interest is added)",
+   "answers": [
+    {
+     "text": "Annually",
+     "tier": 1,
+     "why": "k = 1: interest added once a year.",
+     "alias": [
+      "yearly",
+      "per annum",
+      "annual"
+     ]
+    },
+    {
+     "text": "Monthly",
+     "tier": 1,
+     "why": "k = 12: so 3 years is 36 periods, not 3.",
+     "alias": [
+      "every month"
+     ]
+    },
+    {
+     "text": "Quarterly",
+     "tier": 2,
+     "why": "k = 4: every 3 months.",
+     "alias": [
+      "every 3 months"
+     ]
+    },
+    {
+     "text": "Semi-annually",
+     "tier": 2,
+     "why": "k = 2: every 6 months.",
+     "alias": [
+      "half-yearly",
+      "half yearly",
+      "biannually",
+      "semiannually",
+      "twice a year"
+     ]
+    },
+    {
+     "text": "Weekly",
+     "tier": 4,
+     "why": "k = 52.",
+     "alias": [
+      "every week"
+     ]
+    },
+    {
+     "text": "Daily",
+     "tier": 4,
+     "why": "k = 365. More frequent compounding gives a slightly bigger FV.",
+     "alias": [
+      "every day"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-16",
+   "unit": "fin",
+   "prompt": "Name a field you fill in on the GDC Finance Solver (TVM)",
+   "answers": [
+    {
+     "text": "FV",
+     "tier": 1,
+     "why": "Future value: what the money grows to. Opposite sign to PV.",
+     "alias": [
+      "future value"
+     ]
+    },
+    {
+     "text": "PV",
+     "tier": 1,
+     "why": "Present value: the money at the start. Money you pay out is negative.",
+     "alias": [
+      "present value"
+     ]
+    },
+    {
+     "text": "I%",
+     "tier": 2,
+     "why": "The ANNUAL rate as a percentage, e.g. 4.5 (not 0.045).",
+     "alias": [
+      "i",
+      "interest rate",
+      "rate"
+     ]
+    },
+    {
+     "text": "N",
+     "tier": 2,
+     "why": "TOTAL number of periods: 5 years quarterly = 20.",
+     "alias": [
+      "number of periods",
+      "periods"
+     ]
+    },
+    {
+     "text": "PMT",
+     "tier": 3,
+     "why": "Payment each period. 0 for a single lump-sum deposit.",
+     "alias": [
+      "payment"
+     ]
+    },
+    {
+     "text": "C/Y",
+     "tier": 4,
+     "why": "Compounding periods per year, the same as k in the formula.",
+     "alias": [
+      "cy",
+      "compounding periods per year"
+     ]
+    },
+    {
+     "text": "P/Y",
+     "tier": 4,
+     "why": "Payments per year. Set it equal to C/Y in our questions.",
+     "alias": [
+      "py",
+      "payments per year"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-17",
+   "unit": "fin",
+   "prompt": "Name a value (to the nearest $) of $1000 invested at 10% p.a. compounded annually, after 1 to 10 whole years",
+   "answers": [
+    {
+     "text": "1100",
+     "tier": 1,
+     "why": "FV = 1000(1.1)^1 = 1100.00 → $1100."
+    },
+    {
+     "text": "1210",
+     "tier": 1,
+     "why": "FV = 1000(1.1)^2 = 1210.00 → $1210."
+    },
+    {
+     "text": "1331",
+     "tier": 2,
+     "why": "FV = 1000(1.1)^3 = 1331.00 → $1331."
+    },
+    {
+     "text": "1464",
+     "tier": 2,
+     "why": "FV = 1000(1.1)^4 = 1464.10 → $1464."
+    },
+    {
+     "text": "1611",
+     "tier": 3,
+     "why": "FV = 1000(1.1)^5 = 1610.51 → $1611."
+    },
+    {
+     "text": "1772",
+     "tier": 3,
+     "why": "FV = 1000(1.1)^6 = 1771.56 → $1772."
+    },
+    {
+     "text": "1949",
+     "tier": 3,
+     "why": "FV = 1000(1.1)^7 = 1948.72 → $1949."
+    },
+    {
+     "text": "2144",
+     "tier": 4,
+     "why": "FV = 1000(1.1)^8 = 2143.59 → $2144."
+    },
+    {
+     "text": "2358",
+     "tier": 4,
+     "why": "FV = 1000(1.1)^9 = 2357.95 → $2358."
+    },
+    {
+     "text": "2594",
+     "tier": 5,
+     "why": "FV = 1000(1.1)^10 = 2593.74 → $2594."
+    }
+   ]
+  },
+  {
+   "id": "math-18",
+   "unit": "fin",
+   "prompt": "Name a value (to the nearest $) of a $20 000 car that depreciates by 20% per year, after 1 to 8 whole years",
+   "answers": [
+    {
+     "text": "16000",
+     "tier": 1,
+     "why": "FV = 20000(1 − 0.2)^1 = 20000 × 0.8^1 = 16000 → $16000."
+    },
+    {
+     "text": "12800",
+     "tier": 1,
+     "why": "FV = 20000(1 − 0.2)^2 = 20000 × 0.8^2 = 12800 → $12800."
+    },
+    {
+     "text": "10240",
+     "tier": 2,
+     "why": "FV = 20000(1 − 0.2)^3 = 20000 × 0.8^3 = 10240 → $10240."
+    },
+    {
+     "text": "8192",
+     "tier": 2,
+     "why": "FV = 20000(1 − 0.2)^4 = 20000 × 0.8^4 = 8192 → $8192."
+    },
+    {
+     "text": "6554",
+     "tier": 3,
+     "why": "FV = 20000(1 − 0.2)^5 = 20000 × 0.8^5 = 6553.6 → $6554."
+    },
+    {
+     "text": "5243",
+     "tier": 3,
+     "why": "FV = 20000(1 − 0.2)^6 = 20000 × 0.8^6 = 5242.88 → $5243."
+    },
+    {
+     "text": "4194",
+     "tier": 4,
+     "why": "FV = 20000(1 − 0.2)^7 = 20000 × 0.8^7 = 4194.3 → $4194."
+    },
+    {
+     "text": "3355",
+     "tier": 5,
+     "why": "FV = 20000(1 − 0.2)^8 = 20000 × 0.8^8 = 3355.44 → $3355."
+    }
+   ]
+  },
+  {
+   "id": "math-19",
+   "unit": "lines",
+   "prompt": "Name a term from the straight lines topic",
+   "answers": [
+    {
+     "text": "Gradient",
+     "tier": 1,
+     "why": "Steepness: y-step ÷ x-step = (y₂ − y₁)/(x₂ − x₁).",
+     "alias": [
+      "slope",
+      "m"
+     ]
+    },
+    {
+     "text": "y-intercept",
+     "tier": 1,
+     "why": "Where the line cuts the y-axis (let x = 0). It's c in y = mx + c.",
+     "alias": [
+      "y intercept",
+      "c"
+     ]
+    },
+    {
+     "text": "x-intercept",
+     "tier": 2,
+     "why": "Where the line cuts the x-axis (let y = 0).",
+     "alias": [
+      "x intercept"
+     ]
+    },
+    {
+     "text": "Parallel",
+     "tier": 2,
+     "why": "Parallel lines have the same gradient: m₁ = m₂.",
+     "alias": [
+      "parallel lines"
+     ]
+    },
+    {
+     "text": "Perpendicular",
+     "tier": 2,
+     "why": "Gradients are negative reciprocals: m₂ = −1/m₁.",
+     "alias": [
+      "perpendicular lines"
+     ]
+    },
+    {
+     "text": "Negative reciprocal",
+     "tier": 3,
+     "why": "Flip and change sign: 2 becomes −1/2.",
+     "alias": [
+      "negative reciprocals"
+     ]
+    },
+    {
+     "text": "Midpoint",
+     "tier": 3,
+     "why": "((x₁ + x₂)/2, (y₁ + y₂)/2), in the booklet under prior learning.",
+     "alias": [
+      "mid point"
+     ]
+    },
+    {
+     "text": "Perpendicular bisector",
+     "tier": 3,
+     "why": "Line through the midpoint of [AB], perpendicular to it.",
+     "alias": [
+      "perp bisector"
+     ]
+    },
+    {
+     "text": "Gradient-intercept form",
+     "tier": 3,
+     "why": "y = mx + c.",
+     "alias": [
+      "slope intercept form",
+      "y = mx + c",
+      "y=mx+c"
+     ]
+    },
+    {
+     "text": "Point-gradient form",
+     "tier": 3,
+     "why": "y − y₁ = m(x − x₁).",
+     "alias": [
+      "point slope form",
+      "point gradient"
+     ]
+    },
+    {
+     "text": "General form",
+     "tier": 3,
+     "why": "ax + by = d (book), or ax + by + d = 0 (booklet).",
+     "alias": [
+      "standard form",
+      "ax + by = d",
+      "ax+by+d=0"
+     ]
+    },
+    {
+     "text": "Equidistant",
+     "tier": 4,
+     "why": "Every point on a perpendicular bisector is the same distance from A and B.",
+     "alias": [
+      "equal distance"
+     ]
+    },
+    {
+     "text": "Distance formula",
+     "tier": 4,
+     "why": "d = √((x₁ − x₂)² + (y₁ − y₂)²), in the booklet as prior learning.",
+     "alias": [
+      "distance",
+      "distance between two points"
+     ]
+    },
+    {
+     "text": "Simultaneous equations",
+     "tier": 4,
+     "why": "Where two lines meet: solve both equations at once (GDC is fine).",
+     "alias": [
+      "simultaneous",
+      "intersection"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-20",
+   "unit": "lines",
+   "prompt": "Name a point with whole-number coordinates on the line y = 2x + 1, where 0 ≤ x ≤ 8",
+   "answers": [
+    {
+     "text": "(0, 1)",
+     "tier": 1,
+     "why": "x = 0 gives the y-intercept: (0, 1).",
+     "alias": [
+      "0,1",
+      "0 1"
+     ]
+    },
+    {
+     "text": "(1, 3)",
+     "tier": 1,
+     "why": "Substitute x = 1: y = 2(1) + 1 = 3, so the point is on the line.",
+     "alias": [
+      "1,3",
+      "1 3"
+     ]
+    },
+    {
+     "text": "(2, 5)",
+     "tier": 2,
+     "why": "Substitute x = 2: y = 2(2) + 1 = 5, so the point is on the line.",
+     "alias": [
+      "2,5",
+      "2 5"
+     ]
+    },
+    {
+     "text": "(3, 7)",
+     "tier": 2,
+     "why": "Substitute x = 3: y = 2(3) + 1 = 7, so the point is on the line.",
+     "alias": [
+      "3,7",
+      "3 7"
+     ]
+    },
+    {
+     "text": "(4, 9)",
+     "tier": 3,
+     "why": "Substitute x = 4: y = 2(4) + 1 = 9, so the point is on the line.",
+     "alias": [
+      "4,9",
+      "4 9"
+     ]
+    },
+    {
+     "text": "(5, 11)",
+     "tier": 3,
+     "why": "Substitute x = 5: y = 2(5) + 1 = 11, so the point is on the line.",
+     "alias": [
+      "5,11",
+      "5 11"
+     ]
+    },
+    {
+     "text": "(6, 13)",
+     "tier": 3,
+     "why": "Substitute x = 6: y = 2(6) + 1 = 13, so the point is on the line.",
+     "alias": [
+      "6,13",
+      "6 13"
+     ]
+    },
+    {
+     "text": "(7, 15)",
+     "tier": 4,
+     "why": "Substitute x = 7: y = 2(7) + 1 = 15, so the point is on the line.",
+     "alias": [
+      "7,15",
+      "7 15"
+     ]
+    },
+    {
+     "text": "(8, 17)",
+     "tier": 4,
+     "why": "Substitute x = 8: y = 2(8) + 1 = 17, so the point is on the line.",
+     "alias": [
+      "8,17",
+      "8 17"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-21",
+   "unit": "lines",
+   "prompt": "Name a gradient of a line through (0, 0) and (x, 6), where x is a whole number from 1 to 6",
+   "answers": [
+    {
+     "text": "6",
+     "tier": 1,
+     "why": "m = (6 − 0)/(1 − 0) = 6."
+    },
+    {
+     "text": "3",
+     "tier": 1,
+     "why": "m = (6 − 0)/(2 − 0) = 3."
+    },
+    {
+     "text": "2",
+     "tier": 2,
+     "why": "m = (6 − 0)/(3 − 0) = 2."
+    },
+    {
+     "text": "3/2",
+     "tier": 3,
+     "why": "m = (6 − 0)/(4 − 0) = 3/2 = 1.5.",
+     "alias": [
+      "1.5"
+     ]
+    },
+    {
+     "text": "6/5",
+     "tier": 4,
+     "why": "m = (6 − 0)/(5 − 0) = 6/5 = 1.2.",
+     "alias": [
+      "1.2"
+     ]
+    },
+    {
+     "text": "1",
+     "tier": 2,
+     "why": "m = (6 − 0)/(6 − 0) = 1."
+    }
+   ]
+  },
+  {
+   "id": "math-22",
+   "unit": "lines",
+   "prompt": "Name a point with whole-number coordinates (y from 0 to 9) that is equidistant from A(0, 0) and B(6, 0)",
+   "answers": [
+    {
+     "text": "(3, 0)",
+     "tier": 1,
+     "why": "(3, 0) is the midpoint of [AB], which always lies on the perpendicular bisector.",
+     "alias": [
+      "3,0",
+      "3 0"
+     ]
+    },
+    {
+     "text": "(3, 1)",
+     "tier": 2,
+     "why": "The perpendicular bisector is x = 3, and (3, 1) is the same distance from A and B.",
+     "alias": [
+      "3,1",
+      "3 1"
+     ]
+    },
+    {
+     "text": "(3, 2)",
+     "tier": 2,
+     "why": "The perpendicular bisector is x = 3, and (3, 2) is the same distance from A and B.",
+     "alias": [
+      "3,2",
+      "3 2"
+     ]
+    },
+    {
+     "text": "(3, 3)",
+     "tier": 2,
+     "why": "The perpendicular bisector is x = 3, and (3, 3) is the same distance from A and B.",
+     "alias": [
+      "3,3",
+      "3 3"
+     ]
+    },
+    {
+     "text": "(3, 4)",
+     "tier": 3,
+     "why": "The perpendicular bisector is x = 3, and (3, 4) is the same distance from A and B.",
+     "alias": [
+      "3,4",
+      "3 4"
+     ]
+    },
+    {
+     "text": "(3, 5)",
+     "tier": 3,
+     "why": "The perpendicular bisector is x = 3, and (3, 5) is the same distance from A and B.",
+     "alias": [
+      "3,5",
+      "3 5"
+     ]
+    },
+    {
+     "text": "(3, 6)",
+     "tier": 3,
+     "why": "The perpendicular bisector is x = 3, and (3, 6) is the same distance from A and B.",
+     "alias": [
+      "3,6",
+      "3 6"
+     ]
+    },
+    {
+     "text": "(3, 7)",
+     "tier": 4,
+     "why": "The perpendicular bisector is x = 3, and (3, 7) is the same distance from A and B.",
+     "alias": [
+      "3,7",
+      "3 7"
+     ]
+    },
+    {
+     "text": "(3, 8)",
+     "tier": 4,
+     "why": "The perpendicular bisector is x = 3, and (3, 8) is the same distance from A and B.",
+     "alias": [
+      "3,8",
+      "3 8"
+     ]
+    },
+    {
+     "text": "(3, 9)",
+     "tier": 4,
+     "why": "The perpendicular bisector is x = 3, and (3, 9) is the same distance from A and B.",
+     "alias": [
+      "3,9",
+      "3 9"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-23",
+   "unit": "lines",
+   "prompt": "Name a method for solving a pair of simultaneous equations",
+   "answers": [
+    {
+     "text": "Substitution",
+     "tier": 1,
+     "why": "Rearrange one equation, e.g. y = x − 3, and put it into the other.",
+     "alias": [
+      "substitute"
+     ]
+    },
+    {
+     "text": "Elimination",
+     "tier": 1,
+     "why": "Scale and add/subtract to remove a variable, e.g. 3×(1) − 2×(2).",
+     "alias": [
+      "eliminate"
+     ]
+    },
+    {
+     "text": "Graphing",
+     "tier": 2,
+     "why": "Draw both lines; the solution is where they cross.",
+     "alias": [
+      "graphically",
+      "graph",
+      "drawing graphs"
+     ]
+    },
+    {
+     "text": "GDC intersection",
+     "tier": 2,
+     "why": "Graph both on the Nspire and use the intersection tool.",
+     "alias": [
+      "intersection point",
+      "intersect",
+      "gdc graph"
+     ]
+    },
+    {
+     "text": "GDC linear solver",
+     "tier": 3,
+     "why": "Nspire 'solve system of linear equations' (linSolve) gives x and y at once.",
+     "alias": [
+      "linsolve",
+      "simultaneous solver",
+      "system solver",
+      "gdc solver"
+     ]
+    },
+    {
+     "text": "Table of values",
+     "tier": 4,
+     "why": "Tabulate both on the GDC and find the x where y-values match.",
+     "alias": [
+      "table",
+      "gdc table"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-24",
+   "unit": "func",
+   "prompt": "Name a key feature of a graph",
+   "answers": [
+    {
+     "text": "y-intercept",
+     "tier": 1,
+     "why": "Where the graph cuts the y-axis: put x = 0.",
+     "alias": [
+      "y intercept"
+     ]
+    },
+    {
+     "text": "x-intercept",
+     "tier": 1,
+     "why": "Where it cuts the x-axis: the zeros of f(x).",
+     "alias": [
+      "x intercept"
+     ]
+    },
+    {
+     "text": "Maximum turning point",
+     "tier": 2,
+     "why": "A highest point locally. Use the GDC maximum tool.",
+     "alias": [
+      "maximum",
+      "local maximum",
+      "max",
+      "max turning point"
+     ]
+    },
+    {
+     "text": "Minimum turning point",
+     "tier": 2,
+     "why": "A lowest point locally. Use the GDC minimum tool.",
+     "alias": [
+      "minimum",
+      "local minimum",
+      "min",
+      "min turning point"
+     ]
+    },
+    {
+     "text": "Vertical asymptote",
+     "tier": 3,
+     "why": "A line x = a the graph gets closer to but never reaches, e.g. x = 0 for y = 1/x.",
+     "alias": [
+      "vertical asymptotes"
+     ]
+    },
+    {
+     "text": "Horizontal asymptote",
+     "tier": 3,
+     "why": "A line y = b approached as x → ±∞, e.g. y = 0 for y = 1/x.",
+     "alias": [
+      "horizontal asymptotes"
+     ]
+    },
+    {
+     "text": "Endpoint",
+     "tier": 3,
+     "why": "Where the graph stops. Filled dot = included, open dot = not.",
+     "alias": [
+      "endpoints",
+      "end point"
+     ]
+    },
+    {
+     "text": "Vertex",
+     "tier": 3,
+     "why": "The turning point of a parabola.",
+     "alias": [
+      "vertices"
+     ]
+    },
+    {
+     "text": "Zeros",
+     "tier": 3,
+     "why": "The x-values where f(x) = 0 (roots of the equation).",
+     "alias": [
+      "roots",
+      "zero",
+      "root"
+     ]
+    },
+    {
+     "text": "Axis of symmetry",
+     "tier": 4,
+     "why": "For y = ax² + bx + c it's x = −b/(2a), which is in the booklet.",
+     "alias": [
+      "line of symmetry",
+      "symmetry"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-25",
+   "unit": "func",
+   "prompt": "Name a transformation of a graph",
+   "answers": [
+    {
+     "text": "Vertical translation",
+     "tier": 1,
+     "why": "y = f(x) + d moves the graph d units up (d > 0) or down (d < 0).",
+     "alias": [
+      "translation",
+      "shift up",
+      "vertical shift",
+      "translate up"
+     ]
+    },
+    {
+     "text": "Reflection in the x-axis",
+     "tier": 2,
+     "why": "y = −f(x) flips the graph upside down.",
+     "alias": [
+      "reflect in x axis",
+      "x axis reflection"
+     ]
+    },
+    {
+     "text": "Reflection in the y-axis",
+     "tier": 2,
+     "why": "y = f(−x) flips the graph left to right.",
+     "alias": [
+      "reflect in y axis",
+      "y axis reflection"
+     ]
+    },
+    {
+     "text": "Vertical stretch",
+     "tier": 2,
+     "why": "y = p f(x), scale factor p: points move p times as far from the x-axis.",
+     "alias": [
+      "vertical dilation",
+      "pf(x)"
+     ]
+    },
+    {
+     "text": "Horizontal stretch",
+     "tier": 3,
+     "why": "y = f(qx) has scale factor 1/q: f(2x) squashes it to half the width.",
+     "alias": [
+      "horizontal dilation",
+      "f(qx)"
+     ]
+    },
+    {
+     "text": "Horizontal translation",
+     "tier": 4,
+     "why": "y = f(x − a) moves the graph a units to the RIGHT (the sign looks backwards).",
+     "alias": [
+      "horizontal shift",
+      "shift right",
+      "shift left",
+      "f(x-a)"
+     ]
+    },
+    {
+     "text": "Dilation",
+     "tier": 5,
+     "why": "The teacher's alternative word for a stretch.",
+     "alias": [
+      "dilations"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-26",
+   "unit": "func",
+   "prompt": "Name a whole number up to 15 that is in the domain of f(x) = √(x − 3)",
+   "answers": [
+    {
+     "text": "3",
+     "tier": 2,
+     "why": "x = 3 is the endpoint: √0 = 0 is defined, so 3 IS in the domain (x ≥ 3)."
+    },
+    {
+     "text": "4",
+     "tier": 1,
+     "why": "x − 3 = 1 ≥ 0, so √(4 − 3) = √1 is defined."
+    },
+    {
+     "text": "5",
+     "tier": 1,
+     "why": "x − 3 = 2 ≥ 0, so √(5 − 3) = √2 is defined."
+    },
+    {
+     "text": "6",
+     "tier": 1,
+     "why": "x − 3 = 3 ≥ 0, so √(6 − 3) = √3 is defined."
+    },
+    {
+     "text": "7",
+     "tier": 2,
+     "why": "x − 3 = 4 ≥ 0, so √(7 − 3) = √4 is defined."
+    },
+    {
+     "text": "8",
+     "tier": 2,
+     "why": "x − 3 = 5 ≥ 0, so √(8 − 3) = √5 is defined."
+    },
+    {
+     "text": "9",
+     "tier": 2,
+     "why": "x − 3 = 6 ≥ 0, so √(9 − 3) = √6 is defined."
+    },
+    {
+     "text": "10",
+     "tier": 3,
+     "why": "x − 3 = 7 ≥ 0, so √(10 − 3) = √7 is defined."
+    },
+    {
+     "text": "11",
+     "tier": 3,
+     "why": "x − 3 = 8 ≥ 0, so √(11 − 3) = √8 is defined."
+    },
+    {
+     "text": "12",
+     "tier": 3,
+     "why": "x − 3 = 9 ≥ 0, so √(12 − 3) = √9 is defined."
+    },
+    {
+     "text": "13",
+     "tier": 3,
+     "why": "x − 3 = 10 ≥ 0, so √(13 − 3) = √10 is defined."
+    },
+    {
+     "text": "14",
+     "tier": 4,
+     "why": "x − 3 = 11 ≥ 0, so √(14 − 3) = √11 is defined."
+    },
+    {
+     "text": "15",
+     "tier": 4,
+     "why": "x − 3 = 12 ≥ 0, so √(15 − 3) = √12 is defined."
+    }
+   ]
+  },
+  {
+   "id": "math-27",
+   "unit": "func",
+   "prompt": "Name a whole number less than 20 that is in the range of f(x) = x² + 5",
+   "answers": [
+    {
+     "text": "5",
+     "tier": 1,
+     "why": "The minimum: f(0) = 0 + 5 = 5. The range is y ≥ 5, endpoint included."
+    },
+    {
+     "text": "6",
+     "tier": 1,
+     "why": "f(1) = 1² + 5 = 6."
+    },
+    {
+     "text": "7",
+     "tier": 2,
+     "why": "x² ≥ 0, so f(x) ≥ 5. f(x) = 7 when x = ±√2."
+    },
+    {
+     "text": "8",
+     "tier": 2,
+     "why": "x² ≥ 0, so f(x) ≥ 5. f(x) = 8 when x = ±√3."
+    },
+    {
+     "text": "9",
+     "tier": 1,
+     "why": "f(2) = 2² + 5 = 9."
+    },
+    {
+     "text": "10",
+     "tier": 2,
+     "why": "x² ≥ 0, so f(x) ≥ 5. f(x) = 10 when x = ±√5."
+    },
+    {
+     "text": "11",
+     "tier": 3,
+     "why": "x² ≥ 0, so f(x) ≥ 5. f(x) = 11 when x = ±√6."
+    },
+    {
+     "text": "12",
+     "tier": 3,
+     "why": "x² ≥ 0, so f(x) ≥ 5. f(x) = 12 when x = ±√7."
+    },
+    {
+     "text": "13",
+     "tier": 3,
+     "why": "x² ≥ 0, so f(x) ≥ 5. f(x) = 13 when x = ±√8."
+    },
+    {
+     "text": "14",
+     "tier": 2,
+     "why": "f(3) = 3² + 5 = 14."
+    },
+    {
+     "text": "15",
+     "tier": 3,
+     "why": "x² ≥ 0, so f(x) ≥ 5. f(x) = 15 when x = ±√10."
+    },
+    {
+     "text": "16",
+     "tier": 4,
+     "why": "x² ≥ 0, so f(x) ≥ 5. f(x) = 16 when x = ±√11."
+    },
+    {
+     "text": "17",
+     "tier": 4,
+     "why": "x² ≥ 0, so f(x) ≥ 5. f(x) = 17 when x = ±√12."
+    },
+    {
+     "text": "18",
+     "tier": 4,
+     "why": "x² ≥ 0, so f(x) ≥ 5. f(x) = 18 when x = ±√13."
+    },
+    {
+     "text": "19",
+     "tier": 4,
+     "why": "x² ≥ 0, so f(x) ≥ 5. f(x) = 19 when x = ±√14."
+    }
+   ]
+  },
+  {
+   "id": "math-28",
+   "unit": "func",
+   "prompt": "Name a value of f(x) = 2x² − 3x for a whole number x from 2 to 9",
+   "answers": [
+    {
+     "text": "2",
+     "tier": 1,
+     "why": "f(2) = 2(2)² − 3(2) = 8 − 6 = 2."
+    },
+    {
+     "text": "9",
+     "tier": 1,
+     "why": "f(3) = 2(3)² − 3(3) = 18 − 9 = 9."
+    },
+    {
+     "text": "20",
+     "tier": 2,
+     "why": "f(4) = 2(4)² − 3(4) = 32 − 12 = 20."
+    },
+    {
+     "text": "35",
+     "tier": 2,
+     "why": "Class example: f(5) = 2(25) − 15 = 35."
+    },
+    {
+     "text": "54",
+     "tier": 3,
+     "why": "f(6) = 2(6)² − 3(6) = 72 − 18 = 54."
+    },
+    {
+     "text": "77",
+     "tier": 3,
+     "why": "f(7) = 2(7)² − 3(7) = 98 − 21 = 77."
+    },
+    {
+     "text": "104",
+     "tier": 4,
+     "why": "f(8) = 2(8)² − 3(8) = 128 − 24 = 104."
+    },
+    {
+     "text": "135",
+     "tier": 4,
+     "why": "f(9) = 2(9)² − 3(9) = 162 − 27 = 135."
+    }
+   ]
+  },
+  {
+   "id": "math-29",
+   "unit": "func",
+   "prompt": "Name a key term from the functions topic",
+   "answers": [
+    {
+     "text": "Domain",
+     "tier": 1,
+     "why": "The set of x-values (horizontal axis) a function can take."
+    },
+    {
+     "text": "Range",
+     "tier": 1,
+     "why": "The set of y-values (vertical axis) the function produces."
+    },
+    {
+     "text": "Function",
+     "tier": 2,
+     "why": "A relation where each x gives at most one y."
+    },
+    {
+     "text": "Relation",
+     "tier": 2,
+     "why": "Any set of points connecting x and y. Every function is a relation."
+    },
+    {
+     "text": "Vertical line test",
+     "tier": 2,
+     "why": "Every vertical line cuts the graph at most once → it's a function."
+    },
+    {
+     "text": "Inverse function",
+     "tier": 2,
+     "why": "f⁻¹ undoes f: the reflection of f in y = x.",
+     "alias": [
+      "inverse",
+      "f inverse"
+     ]
+    },
+    {
+     "text": "Asymptote",
+     "tier": 3,
+     "why": "A line the graph approaches but never reaches."
+    },
+    {
+     "text": "Horizontal line test",
+     "tier": 3,
+     "why": "Each horizontal line cuts at most once → one-to-one → has an inverse."
+    },
+    {
+     "text": "One-to-one",
+     "tier": 3,
+     "why": "Each y comes from only one x. Only these functions are invertible.",
+     "alias": [
+      "one to one",
+      "injective"
+     ]
+    },
+    {
+     "text": "Natural domain",
+     "tier": 4,
+     "why": "The largest set of x for which f(x) is defined, e.g. x ≥ 0 for √x."
+    },
+    {
+     "text": "Interval notation",
+     "tier": 4,
+     "why": "e.g. −2 < x ≤ 3. Watch open and closed ends."
+    },
+    {
+     "text": "Set notation",
+     "tier": 4,
+     "why": "e.g. {x | x ≥ 3}, read 'the set of x such that x ≥ 3'."
+    },
+    {
+     "text": "Function notation",
+     "tier": 3,
+     "why": "f(x) is 'f of x', the y-value for a given x.",
+     "alias": [
+      "f(x)"
+     ]
+    },
+    {
+     "text": "Image",
+     "tier": 5,
+     "why": "f(x) is the image of x, e.g. 7 is the image of 2 under f(x) = 2x + 3."
+    },
+    {
+     "text": "Sign diagram",
+     "tier": 4,
+     "why": "A line showing where f(x) is +, −, zero or undefined."
+    }
+   ]
+  },
+  {
+   "id": "math-30",
+   "unit": "func",
+   "prompt": "Name a point with whole-number coordinates on the graph of f⁻¹, where f(x) = 2x + 1 with domain 0 ≤ x ≤ 6",
+   "answers": [
+    {
+     "text": "(1, 0)",
+     "tier": 1,
+     "why": "(0, 1) is on f, so swap x and y: (1, 0) is on f⁻¹. It's an endpoint.",
+     "alias": [
+      "1,0",
+      "1 0"
+     ]
+    },
+    {
+     "text": "(3, 1)",
+     "tier": 1,
+     "why": "(1, 3) is on f, so swap x and y: (3, 1) is on f⁻¹.",
+     "alias": [
+      "3,1",
+      "3 1"
+     ]
+    },
+    {
+     "text": "(5, 2)",
+     "tier": 2,
+     "why": "(2, 5) is on f, so swap x and y: (5, 2) is on f⁻¹.",
+     "alias": [
+      "5,2",
+      "5 2"
+     ]
+    },
+    {
+     "text": "(7, 3)",
+     "tier": 2,
+     "why": "(3, 7) is on f, so swap x and y: (7, 3) is on f⁻¹.",
+     "alias": [
+      "7,3",
+      "7 3"
+     ]
+    },
+    {
+     "text": "(9, 4)",
+     "tier": 3,
+     "why": "(4, 9) is on f, so swap x and y: (9, 4) is on f⁻¹.",
+     "alias": [
+      "9,4",
+      "9 4"
+     ]
+    },
+    {
+     "text": "(11, 5)",
+     "tier": 4,
+     "why": "(5, 11) is on f, so swap x and y: (11, 5) is on f⁻¹.",
+     "alias": [
+      "11,5",
+      "11 5"
+     ]
+    },
+    {
+     "text": "(13, 6)",
+     "tier": 4,
+     "why": "(6, 13) is on f, so swap x and y: (13, 6) is on f⁻¹. It's an endpoint.",
+     "alias": [
+      "13,6",
+      "13 6"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-31",
+   "unit": "func",
+   "prompt": "Name a whole number x for which f(x) = (x − 2)(x − 11) is negative",
+   "answers": [
+    {
+     "text": "3",
+     "tier": 4,
+     "why": "f(3) = (1)(−8) = −8. Just inside the zeros 2 and 11 (those give 0, not negative)."
+    },
+    {
+     "text": "4",
+     "tier": 3,
+     "why": "Sign diagram: + , − , + with zeros at 2 and 11. f(4) = (2)(−7) = −14 < 0."
+    },
+    {
+     "text": "5",
+     "tier": 2,
+     "why": "Sign diagram: + , − , + with zeros at 2 and 11. f(5) = (3)(−6) = −18 < 0."
+    },
+    {
+     "text": "6",
+     "tier": 1,
+     "why": "Sign diagram: + , − , + with zeros at 2 and 11. f(6) = (4)(−5) = −20 < 0."
+    },
+    {
+     "text": "7",
+     "tier": 1,
+     "why": "Sign diagram: + , − , + with zeros at 2 and 11. f(7) = (5)(−4) = −20 < 0."
+    },
+    {
+     "text": "8",
+     "tier": 2,
+     "why": "Sign diagram: + , − , + with zeros at 2 and 11. f(8) = (6)(−3) = −18 < 0."
+    },
+    {
+     "text": "9",
+     "tier": 3,
+     "why": "Sign diagram: + , − , + with zeros at 2 and 11. f(9) = (7)(−2) = −14 < 0."
+    },
+    {
+     "text": "10",
+     "tier": 4,
+     "why": "f(10) = (8)(−1) = −8. Just inside the zeros 2 and 11 (those give 0, not negative)."
+    }
+   ]
+  },
+  {
+   "id": "math-32",
+   "unit": "model",
+   "prompt": "Name a type of function used as a model in Math AI",
+   "answers": [
+    {
+     "text": "Linear",
+     "tier": 1,
+     "why": "f(x) = mx + c: a constant rate of change, e.g. $10 entry + $6 per ride.",
+     "alias": [
+      "linear model",
+      "straight line"
+     ]
+    },
+    {
+     "text": "Quadratic",
+     "tier": 1,
+     "why": "f(x) = ax² + bx + c: a parabola, e.g. a thrown ball's height.",
+     "alias": [
+      "quadratic model",
+      "parabola"
+     ]
+    },
+    {
+     "text": "Exponential",
+     "tier": 2,
+     "why": "Growth or decay by a constant factor, with a horizontal asymptote.",
+     "alias": [
+      "exponential model",
+      "exponential growth",
+      "exponential decay"
+     ]
+    },
+    {
+     "text": "Cubic",
+     "tier": 3,
+     "why": "f(x) = ax³ + bx² + cx + d.",
+     "alias": [
+      "cubic model"
+     ]
+    },
+    {
+     "text": "Direct variation",
+     "tier": 3,
+     "why": "y = kxⁿ: y increases as x increases.",
+     "alias": [
+      "direct proportion"
+     ]
+    },
+    {
+     "text": "Inverse variation",
+     "tier": 4,
+     "why": "y = k/xⁿ: y decreases as x increases.",
+     "alias": [
+      "inverse proportion"
+     ]
+    },
+    {
+     "text": "Sinusoidal",
+     "tier": 4,
+     "why": "a sin(bx) + d: repeating patterns like tides or a Ferris wheel.",
+     "alias": [
+      "sine",
+      "trig",
+      "periodic",
+      "sin"
+     ]
+    },
+    {
+     "text": "Piecewise linear",
+     "tier": 4,
+     "why": "Different straight-line rules on different parts of the domain, e.g. a taxi fare.",
+     "alias": [
+      "piecewise",
+      "piecewise function"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-33",
+   "unit": "model",
+   "prompt": "Name a stage of the mathematical modelling process",
+   "answers": [
+    {
+     "text": "Choose a model",
+     "tier": 1,
+     "why": "Pick a model type (linear, quadratic…) from the data's shape or the context.",
+     "alias": [
+      "choose model",
+      "pick a model",
+      "select a model"
+     ]
+    },
+    {
+     "text": "Use the model",
+     "tier": 1,
+     "why": "Make predictions and interpret answers in context, with units.",
+     "alias": [
+      "make predictions",
+      "predict",
+      "prediction"
+     ]
+    },
+    {
+     "text": "Fit the model",
+     "tier": 2,
+     "why": "Find the parameters, e.g. m and c from two data points.",
+     "alias": [
+      "find parameters",
+      "fit",
+      "develop the model"
+     ]
+    },
+    {
+     "text": "Test the model",
+     "tier": 2,
+     "why": "Check it against the data: does it give sensible values?",
+     "alias": [
+      "test",
+      "check the model"
+     ]
+    },
+    {
+     "text": "Define variables",
+     "tier": 3,
+     "why": "Say what x and y stand for, with units.",
+     "alias": [
+      "identify variables",
+      "variables"
+     ]
+    },
+    {
+     "text": "Reasonable domain",
+     "tier": 3,
+     "why": "State which x-values make sense, e.g. no negative rides.",
+     "alias": [
+      "state the domain",
+      "domain"
+     ]
+    },
+    {
+     "text": "Reflect on the model",
+     "tier": 3,
+     "why": "Comment on how appropriate and reasonable it is, and its limits.",
+     "alias": [
+      "reflect",
+      "evaluate the model",
+      "limitations"
+     ]
+    },
+    {
+     "text": "Make assumptions",
+     "tier": 4,
+     "why": "Simplify the real situation, e.g. 'the price per ride stays the same'.",
+     "alias": [
+      "assumptions",
+      "assume"
+     ]
+    },
+    {
+     "text": "Refine the model",
+     "tier": 5,
+     "why": "Improve or change the model if testing shows it's a poor fit.",
+     "alias": [
+      "refine",
+      "improve the model"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "math-34",
+   "unit": "model",
+   "prompt": "Name a total cost (in $) for 0 to 12 rides at a theme park charging $10 entry plus $6 per ride",
+   "answers": [
+    {
+     "text": "10",
+     "tier": 1,
+     "why": "C = 10 + 6x with x = 0 rides: 10 + 0 = 10. The y-intercept is the entry fee."
+    },
+    {
+     "text": "16",
+     "tier": 1,
+     "why": "C = 10 + 6x with x = 1 rides: 10 + 6 = 16."
+    },
+    {
+     "text": "22",
+     "tier": 2,
+     "why": "C = 10 + 6x with x = 2 rides: 10 + 12 = 22."
+    },
+    {
+     "text": "28",
+     "tier": 2,
+     "why": "C = 10 + 6x with x = 3 rides: 10 + 18 = 28."
+    },
+    {
+     "text": "34",
+     "tier": 2,
+     "why": "C = 10 + 6x with x = 4 rides: 10 + 24 = 34."
+    },
+    {
+     "text": "40",
+     "tier": 3,
+     "why": "C = 10 + 6x with x = 5 rides: 10 + 30 = 40."
+    },
+    {
+     "text": "46",
+     "tier": 3,
+     "why": "C = 10 + 6x with x = 6 rides: 10 + 36 = 46."
+    },
+    {
+     "text": "52",
+     "tier": 3,
+     "why": "C = 10 + 6x with x = 7 rides: 10 + 42 = 52."
+    },
+    {
+     "text": "58",
+     "tier": 4,
+     "why": "C = 10 + 6x with x = 8 rides: 10 + 48 = 58."
+    },
+    {
+     "text": "64",
+     "tier": 4,
+     "why": "C = 10 + 6x with x = 9 rides: 10 + 54 = 64."
+    },
+    {
+     "text": "70",
+     "tier": 3,
+     "why": "C = 10 + 6x with x = 10 rides: 10 + 60 = 70."
+    },
+    {
+     "text": "76",
+     "tier": 4,
+     "why": "C = 10 + 6x with x = 11 rides: 10 + 66 = 76."
+    },
+    {
+     "text": "82",
+     "tier": 5,
+     "why": "C = 10 + 6x with x = 12 rides: 10 + 72 = 82."
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "unit": "error",
+   "front": "Round to n significant figures",
+   "back": "Count from the first non-zero digit, then look at the next digit to round. Leading zeros never count; zeros between digits, or after the point at the end, do."
+  },
+  {
+   "unit": "error",
+   "front": "Round to n decimal places",
+   "back": "Count digits after the decimal point; look at the (n+1)th digit after the point to decide whether to round up or down."
+  },
+  {
+   "unit": "error",
+   "front": "Bounds of a rounded measurement",
+   "back": "If x is rounded to the nearest unit u, the true value lies in x − 0.5u ≤ value < x + 0.5u. The lower bound is included; the upper bound is never reached."
+  },
+  {
+   "unit": "error",
+   "front": "Absolute error",
+   "back": "|approximate value − exact value|. Always positive, no % sign."
+  },
+  {
+   "unit": "error",
+   "front": "Percentage error formula (TRAP)",
+   "back": "ε = |vA − vE| ÷ |vE| × 100%. Divide by the EXACT value, never the estimate, even if the question gives the estimate first. It's in the formula booklet."
+  },
+  {
+   "unit": "error",
+   "front": "One-figure estimation",
+   "back": "Round every number to 1 significant figure BEFORE doing the arithmetic, to sanity-check a GDC answer."
+  },
+  {
+   "unit": "error",
+   "front": "Maximum possible value of a sum/product of measurements",
+   "back": "Use the UPPER bound of every measurement being added or multiplied."
+  },
+  {
+   "unit": "error",
+   "front": "Minimum possible value of a sum/product of measurements",
+   "back": "Use the LOWER bound of every measurement being added or multiplied."
+  },
+  {
+   "unit": "error",
+   "front": "Scientific notation",
+   "back": "a × 10ᵏ where 1 ≤ a < 10 and k is an integer, e.g. 52 000 = 5.2 × 10⁴ and 0.000452 = 4.52 × 10⁻⁴."
+  },
+  {
+   "unit": "error",
+   "front": "Why errors grow when you square",
+   "back": "Rounding a diameter 2.8 → 3 m (about 7%) gave a 14.8% error in the circle's area. Squaring roughly doubles the % error."
+  },
+  {
+   "unit": "seq",
+   "front": "Arithmetic nth term (TRAP: n vs n−1)",
+   "back": "uₙ = u₁ + (n − 1)d. The multiplier is (n − 1), not n. Check: n = 1 must give u₁ back."
+  },
+  {
+   "unit": "seq",
+   "front": "Common difference d",
+   "back": "d = uₙ₊₁ − uₙ (any term minus the one before it). It must be CONSTANT for the sequence to be arithmetic."
+  },
+  {
+   "unit": "seq",
+   "front": "\"Is X a term of this sequence?\"",
+   "back": "Set uₙ = X and solve for n. X is a term ONLY if n is a positive whole number (e.g. 828 is the 119th term of 2, 9, 16, …)."
+  },
+  {
+   "unit": "seq",
+   "front": "Arithmetic series sum (form 1)",
+   "back": "Sₙ = n/2 (2u₁ + (n − 1)d)"
+  },
+  {
+   "unit": "seq",
+   "front": "Arithmetic series sum (form 2)",
+   "back": "Sₙ = n/2 (u₁ + uₙ). Use it when you already know the last term."
+  },
+  {
+   "unit": "seq",
+   "front": "Gauss pairing trick",
+   "back": "Pair first + last, second + second-last… Each pair sums to u₁ + uₙ and there are n/2 pairs, which gives Sₙ = n/2(u₁ + uₙ)."
+  },
+  {
+   "unit": "seq",
+   "front": "Geometric nth term",
+   "back": "uₙ = u₁ × rⁿ⁻¹. Again the power is (n − 1), not n."
+  },
+  {
+   "unit": "seq",
+   "front": "Common ratio r",
+   "back": "r = uₙ₊₁ ÷ uₙ (any term divided by the one before it). It must be CONSTANT for the sequence to be geometric."
+  },
+  {
+   "unit": "seq",
+   "front": "Finding r from two terms",
+   "back": "Divide the equations: if u₂ = 12 and u₅ = 96 then r³ = 96 ÷ 12 = 8, so r = 2."
+  },
+  {
+   "unit": "seq",
+   "front": "Geometric series sum (r ≠ 1)",
+   "back": "Sₙ = u₁(rⁿ − 1)/(r − 1), or equivalently u₁(1 − rⁿ)/(1 − r)."
+  },
+  {
+   "unit": "seq",
+   "front": "Sum to infinity: condition",
+   "back": "A geometric series has a finite sum to infinity only if |r| < 1 (−1 < r < 1)."
+  },
+  {
+   "unit": "seq",
+   "front": "Sum to infinity formula",
+   "back": "S∞ = u₁ / (1 − r), valid only when |r| < 1. Example: u₁ = 20, r = 0.6 gives S∞ = 50."
+  },
+  {
+   "unit": "seq",
+   "front": "Sigma notation",
+   "back": "Σ from r = 1 to n of f(r) means add up f(r) for every whole number r from the bottom index to the top. Σ(2r + 1) for r = 1 to 3 is 3 + 5 + 7 = 15."
+  },
+  {
+   "unit": "seq",
+   "front": "Recursive formula (arithmetic)",
+   "back": "uₙ₊₁ = uₙ + d with a stated u₁: each term is defined from the previous one."
+  },
+  {
+   "unit": "seq",
+   "front": "\"Least n so that Sₙ exceeds K\"",
+   "back": "Solve Sₙ > K on the GDC (table or solver), round UP, and show the check: e.g. S₁₆ = 488 < 500, S₁₇ = 544 > 500, so n = 17."
+  },
+  {
+   "unit": "fin",
+   "front": "Compound interest formula (booklet)",
+   "back": "FV = PV (1 + r/(100k))^(kn)"
+  },
+  {
+   "unit": "fin",
+   "front": "Compound interest: r",
+   "back": "The ANNUAL interest rate as a plain percentage (enter 4.5 for 4.5%, not 0.045)."
+  },
+  {
+   "unit": "fin",
+   "front": "Compound interest: k",
+   "back": "Compounding periods PER YEAR: annually 1, semi-annually 2, quarterly 4, monthly 12."
+  },
+  {
+   "unit": "fin",
+   "front": "Compound interest: n",
+   "back": "Number of YEARS. The formula turns it into periods itself through kn."
+  },
+  {
+   "unit": "fin",
+   "front": "Compound interest exponent trap",
+   "back": "The power is kn (total periods), not n. Forgetting to multiply by k is the most common financial-maths error."
+  },
+  {
+   "unit": "fin",
+   "front": "Depreciation (reducing balance)",
+   "back": "FV = PV (1 − r/100)ⁿ. Same idea as compound interest with the rate subtracted (or I% entered as negative on the GDC)."
+  },
+  {
+   "unit": "fin",
+   "front": "Finance Solver sign convention (TRAP)",
+   "back": "Money LEAVING you (invested or paid) is negative; money ARRIVING is positive. PV and FV must have opposite signs or the GDC gives an error."
+  },
+  {
+   "unit": "fin",
+   "front": "Finance Solver: N",
+   "back": "TOTAL number of compounding periods, already multiplied out: 3 years monthly = 36, not 3."
+  },
+  {
+   "unit": "fin",
+   "front": "Finance Solver: I%",
+   "back": "The ANNUAL rate as a percentage, not per period and not a decimal. The GDC divides by C/Y itself."
+  },
+  {
+   "unit": "fin",
+   "front": "Finance Solver: P/Y and C/Y",
+   "back": "P/Y = payments per year, C/Y = compounding periods per year (the k in the formula). In our questions set P/Y = C/Y."
+  },
+  {
+   "unit": "fin",
+   "front": "TI-Nspire Finance Solver path",
+   "back": "On a Calculator page: menu → Finance → Finance Solver. Fill in the fields, put the cursor on the unknown and press enter."
+  },
+  {
+   "unit": "error",
+   "front": "IB default answer precision",
+   "back": "Give final answers exact OR to 3 significant figures unless the question says otherwise."
+  },
+  {
+   "unit": "error",
+   "front": "Premature rounding trap",
+   "back": "Never round an intermediate result before the next step. Keep full GDC precision until the last line, then round once."
+  },
+  {
+   "unit": "fin",
+   "front": "\"How long until…\" rounding rule",
+   "back": "Interest is added at the end of each period, so round N UP to the next whole period, and check the period before doesn't yet reach the target."
+  },
+  {
+   "unit": "lines",
+   "front": "Gradient between two points",
+   "back": "m = (y₂ − y₁)/(x₂ − x₁), i.e. y-step ÷ x-step. Example: A(3, 2), B(5, −1) gives m = −3/2."
+  },
+  {
+   "unit": "lines",
+   "front": "Gradient-intercept form",
+   "back": "y = mx + c, where m is the gradient and c the y-intercept."
+  },
+  {
+   "unit": "lines",
+   "front": "Point-gradient form",
+   "back": "y − y₁ = m(x − x₁). Use it with any known point on the line and the gradient."
+  },
+  {
+   "unit": "lines",
+   "front": "General form",
+   "back": "ax + by = d in the textbook (ax + by + d = 0 in the booklet). If asked for integers a, b, d, clear all fractions."
+  },
+  {
+   "unit": "lines",
+   "front": "Parallel lines",
+   "back": "Same gradient: m₁ = m₂."
+  },
+  {
+   "unit": "lines",
+   "front": "Perpendicular lines",
+   "back": "Gradients are negative reciprocals: m₂ = −1/m₁, so m₁ × m₂ = −1. Gradient 3/4 → perpendicular −4/3."
+  },
+  {
+   "unit": "lines",
+   "front": "Does a point lie on a line?",
+   "back": "Substitute its x and y into the equation. If both sides match, it lies on the line."
+  },
+  {
+   "unit": "lines",
+   "front": "Graphing ax + by = d",
+   "back": "Let x = 0 to get the y-intercept, let y = 0 to get the x-intercept, join and extend. If d = 0 it passes through the origin."
+  },
+  {
+   "unit": "lines",
+   "front": "Midpoint formula",
+   "back": "((x₁ + x₂)/2, (y₁ + y₂)/2). It's in the booklet under Prior learning, not Topic 2."
+  },
+  {
+   "unit": "lines",
+   "front": "Perpendicular bisector of [AB]",
+   "back": "The line through the midpoint of [AB], perpendicular to it. Recipe: midpoint → gradient of AB → negative reciprocal → point-gradient form."
+  },
+  {
+   "unit": "lines",
+   "front": "Key property of a perpendicular bisector",
+   "back": "Every point on it is equidistant from A and B."
+  },
+  {
+   "unit": "lines",
+   "front": "Number of solutions for two lines",
+   "back": "Cross once = 1 solution. Parallel (same m, different c) = none. Same line = infinitely many."
+  },
+  {
+   "unit": "lines",
+   "front": "Problem solving with simultaneous equations",
+   "back": "1 Define the two unknowns (with units). 2 Write two equations. 3 Solve. 4 Check with the data. 5 Answer in a sentence."
+  },
+  {
+   "unit": "func",
+   "front": "Relation",
+   "back": "Any set of points connecting x and y, e.g. y = x + 3, x = y², or x > 0 and y > 0."
+  },
+  {
+   "unit": "func",
+   "front": "Function",
+   "back": "A relation where no two ordered pairs have the same x. Every function is a relation, but not every relation is a function."
+  },
+  {
+   "unit": "func",
+   "front": "Vertical line test",
+   "back": "If every vertical line cuts the graph at most once, it's a function. x = y² fails: x = 4 gives y = ±2."
+  },
+  {
+   "unit": "func",
+   "front": "Function notation",
+   "back": "f(x) is the y-value for a given x, so y = f(x). f(2) = 7 means the point (2, 7) is on the graph."
+  },
+  {
+   "unit": "func",
+   "front": "Domain and range",
+   "back": "Domain = the set of x-values (horizontal axis). Range = the set of y-values (vertical axis)."
+  },
+  {
+   "unit": "func",
+   "front": "Open vs filled dot on a graph",
+   "back": "Open circle = point NOT included (strict < or >). Filled dot = point included (≤ or ≥). Arrowhead = graph continues."
+  },
+  {
+   "unit": "func",
+   "front": "Natural domain",
+   "back": "The largest set of x where f(x) is defined: x² → x ∈ ℝ, √x → x ≥ 0, 1/x → x ≠ 0, 1/√x → x > 0."
+  },
+  {
+   "unit": "func",
+   "front": "Domain and range of y = (x − 2)² − 5",
+   "back": "Domain x ∈ ℝ. Range y ≥ −5 (the vertex (2, −5) is the minimum)."
+  },
+  {
+   "unit": "func",
+   "front": "Key features of a graph",
+   "back": "Axes intercepts, max/min turning points, endpoints (included or not), asymptotes. Also the vertex, axis of symmetry and zeros."
+  },
+  {
+   "unit": "func",
+   "front": "Sketch vs draw",
+   "back": "Sketch = general shape with labelled axes and key features. Draw = accurately, to scale."
+  },
+  {
+   "unit": "func",
+   "front": "Vertical asymptote from a fraction",
+   "back": "Any x that makes the denominator zero gives a vertical asymptote: y = 6/(x − 3) − 2 has x = 3 (and y = −2 is horizontal)."
+  },
+  {
+   "unit": "func",
+   "front": "Sign diagram",
+   "back": "A number line showing where f(x) is +, − or 0, or undefined. A single factor makes the sign change; a squared factor doesn't (the graph touches)."
+  },
+  {
+   "unit": "func",
+   "front": "y = f(x) + d",
+   "back": "Vertical translation by d units: up if d > 0, down if d < 0."
+  },
+  {
+   "unit": "func",
+   "front": "y = p f(x), p > 0",
+   "back": "Vertical stretch, scale factor p. Points become p times as far from the x-axis; points on the x-axis don't move."
+  },
+  {
+   "unit": "func",
+   "front": "y = f(qx), q > 0",
+   "back": "Horizontal stretch, scale factor 1/q. f(2x) halves the width; points on the y-axis don't move."
+  },
+  {
+   "unit": "func",
+   "front": "y = −f(x) and y = f(−x)",
+   "back": "−f(x) = reflection in the x-axis. f(−x) = reflection in the y-axis."
+  },
+  {
+   "unit": "func",
+   "front": "Inverse function f⁻¹",
+   "back": "Undoes f: if f maps x to y, f⁻¹ maps y back to x. (a, b) on f means (b, a) on f⁻¹. Graph = reflection of f in y = x."
+  },
+  {
+   "unit": "func",
+   "front": "When does an inverse exist?",
+   "back": "Only for one-to-one functions (each y from one x). Check with the horizontal line test."
+  },
+  {
+   "unit": "func",
+   "front": "Domain and range of f⁻¹",
+   "back": "Domain of f⁻¹ = range of f. Range of f⁻¹ = domain of f."
+  },
+  {
+   "unit": "func",
+   "front": "Finding f⁻¹(x) algebraically",
+   "back": "Write y = f(x), swap x and y, rearrange for y. Check f(f⁻¹(x)) = x. e.g. f(x) = 2x + 1 → f⁻¹(x) = (x − 1)/2."
+  },
+  {
+   "unit": "func",
+   "front": "Solving f(x) = k with an inverse",
+   "back": "Solving f(x) = 10 is the same as finding f⁻¹(10)."
+  },
+  {
+   "unit": "func",
+   "front": "Quadratic function",
+   "back": "y = ax² + bx + c with a ≠ 0. Axis of symmetry x = −b/(2a) (in the booklet). On the Nspire, rearrange to = 0 and use polyRoots."
+  },
+  {
+   "unit": "model",
+   "front": "Linear model",
+   "back": "f(x) = mx + c: m is the rate of change (e.g. $6 per ride), c is the starting value (e.g. $10 entry)."
+  },
+  {
+   "unit": "model",
+   "front": "Linear model from two data points",
+   "back": "Find m = change in y ÷ change in x, then c by substituting a point. (2, 22) and (5, 40): m = 6, c = 10."
+  },
+  {
+   "unit": "model",
+   "front": "Reasonable domain of a model",
+   "back": "Only the x-values that make sense in context, e.g. whole numbers of rides ≥ 0, or times 0 < t ≤ 24."
+  },
+  {
+   "unit": "model",
+   "front": "Modelling process",
+   "back": "Define variables and assumptions → choose a model → fit it → test it against data → reflect on how reasonable it is → use it to predict."
+  },
+  {
+   "unit": "model",
+   "front": "Piecewise model",
+   "back": "Different rules on different parts of the domain (e.g. taxi fares). State each piece with its own domain."
+  },
+  {
+   "unit": "model",
+   "front": "Interpreting a model's answer",
+   "back": "Always say what the number means in context, with units, e.g. 'after 7 rides the cost is $52'."
+  }
+ ],
+ "quiz": [
+  {
+   "unit": "error",
+   "q": "Round 48 637.2846 to 3 significant figures.",
+   "choices": [
+    "48 600",
+    "48 637",
+    "48 700",
+    "486"
+   ],
+   "answer": 0,
+   "explain": "The 3rd sig fig is the 6; the next digit is 3, so round down: 48 600 (zeros keep the place value)."
+  },
+  {
+   "unit": "error",
+   "q": "Estimated ticket sales were 5200; actual sales were 5678. Find the percentage error.",
+   "choices": [
+    "9.19%",
+    "478%",
+    "0.0842%",
+    "8.42%"
+   ],
+   "answer": 3,
+   "explain": "|5200 − 5678| ÷ 5678 × 100 = 8.42%. Divide by the EXACT value (5678), not the estimate; 9.19% is that trap."
+  },
+  {
+   "unit": "error",
+   "q": "A road is 5.6 km long to the nearest 0.1 km. Which interval contains its true length L?",
+   "choices": [
+    "5.5 ≤ L < 5.7",
+    "5.55 < L ≤ 5.65",
+    "5.55 ≤ L < 5.65",
+    "5.59 ≤ L ≤ 5.61"
+   ],
+   "answer": 2,
+   "explain": "Half of 0.1 is 0.05, so 5.6 ± 0.05. The lower bound is included and the upper bound is strict."
+  },
+  {
+   "unit": "error",
+   "q": "A field measures 24.5 m by 18.2 m, each to the nearest 0.1 m. Find the maximum possible area (3 s.f.).",
+   "choices": [
+    "446 m²",
+    "448 m²",
+    "444 m²",
+    "449 m²"
+   ],
+   "answer": 1,
+   "explain": "Max area uses both upper bounds: 24.55 × 18.25 = 448.04 → 448 m². 446 uses the measured values; 444 uses the lower bounds."
+  },
+  {
+   "unit": "error",
+   "q": "Evaluate 0.307³ to 3 significant figures.",
+   "choices": [
+    "0.029",
+    "0.0289",
+    "0.0290",
+    "0.921"
+   ],
+   "answer": 1,
+   "explain": "0.307³ = 0.028934… Leading zeros don't count, so 3 s.f. is 0.0289. 0.921 is 3 × 0.307 (a cube is not times 3)."
+  },
+  {
+   "unit": "error",
+   "q": "The radius of a circle is 3.8 m but someone uses r = 4 m. Find the percentage error in the area.",
+   "choices": [
+    "10.8%",
+    "5.26%",
+    "9.75%",
+    "1.56%"
+   ],
+   "answer": 0,
+   "explain": "(16π − 14.44π) ÷ 14.44π × 100 = 10.8%; π cancels. 5.26% is only the radius error; 9.75% divides by the wrong area."
+  },
+  {
+   "unit": "error",
+   "q": "Use one-figure estimation to estimate (382 × 41) ÷ 78.",
+   "choices": [
+    "201",
+    "160",
+    "2000",
+    "200"
+   ],
+   "answer": 3,
+   "explain": "Round each to 1 s.f.: (400 × 40) ÷ 80 = 16 000 ÷ 80 = 200. (The exact value is 200.8, but that isn't an estimate.)"
+  },
+  {
+   "unit": "error",
+   "q": "Write 0.000452 in scientific notation.",
+   "choices": [
+    "4.52 × 10⁻³",
+    "45.2 × 10⁻⁵",
+    "4.52 × 10⁻⁴",
+    "4.52 × 10⁴"
+   ],
+   "answer": 2,
+   "explain": "Move the point 4 places right to get 4.52 (1 ≤ a < 10), so the power is −4. 45.2 × 10⁻⁵ is equal but not in correct form."
+  },
+  {
+   "unit": "seq",
+   "q": "Find u₅₀ for the arithmetic sequence 5, 12, 19, 26, …",
+   "choices": [
+    "355",
+    "350",
+    "348",
+    "245"
+   ],
+   "answer": 2,
+   "explain": "u₅₀ = 5 + (50 − 1)(7) = 5 + 343 = 348. 355 is the n-instead-of-(n − 1) trap."
+  },
+  {
+   "unit": "seq",
+   "q": "An arithmetic sequence has u₃ = 14 and u₉ = 44. Find u₂₀.",
+   "choices": [
+    "104",
+    "99",
+    "100",
+    "94"
+   ],
+   "answer": 1,
+   "explain": "6d = 44 − 14 = 30, so d = 5 and u₁ = 14 − 2(5) = 4. u₂₀ = 4 + 19(5) = 99."
+  },
+  {
+   "unit": "seq",
+   "q": "Is 1000 a term of 5, 12, 19, 26, …?",
+   "choices": [
+    "No: n would be 143.14…",
+    "Yes: it is the 143rd term",
+    "Yes: it is the 144th term",
+    "No: the sequence is not arithmetic"
+   ],
+   "answer": 0,
+   "explain": "uₙ = 7n − 2 = 1000 gives n = 143.14… A term needs n to be a positive whole number, so 1000 is not a term."
+  },
+  {
+   "unit": "seq",
+   "q": "An arithmetic series has u₁ = 5 and d = 4. Find S₂₅.",
+   "choices": [
+    "1350",
+    "101",
+    "2650",
+    "1325"
+   ],
+   "answer": 3,
+   "explain": "S₂₅ = 25/2 (2(5) + 24(4)) = 12.5 × 106 = 1325. 101 is u₂₅, not the sum."
+  },
+  {
+   "unit": "seq",
+   "q": "Find the least number of terms of 8 + 11 + 14 + … needed for the sum to exceed 500.",
+   "choices": [
+    "16",
+    "18",
+    "165",
+    "17"
+   ],
+   "answer": 3,
+   "explain": "S₁₆ = 488 (still under 500) and S₁₇ = 544, so 17 terms. Always round UP and show both checks."
+  },
+  {
+   "unit": "seq",
+   "q": "A geometric sequence has u₂ = 12 and u₅ = 96. Find u₈.",
+   "choices": [
+    "384",
+    "180",
+    "768",
+    "1536"
+   ],
+   "answer": 2,
+   "explain": "r³ = 96 ÷ 12 = 8, so r = 2 and u₁ = 6. u₈ = 6 × 2⁷ = 768."
+  },
+  {
+   "unit": "seq",
+   "q": "Find the sum of the first 8 terms of 5 + 10 + 20 + …",
+   "choices": [
+    "640",
+    "1275",
+    "1280",
+    "2555"
+   ],
+   "answer": 1,
+   "explain": "S₈ = 5(2⁸ − 1)/(2 − 1) = 5 × 255 = 1275. 640 is u₈, not the sum."
+  },
+  {
+   "unit": "seq",
+   "q": "Evaluate Σ (4k + 1) from k = 1 to 20.",
+   "choices": [
+    "860",
+    "840",
+    "81",
+    "880"
+   ],
+   "answer": 0,
+   "explain": "It's arithmetic: 5 + 9 + … + 81. S₂₀ = 20/2 (5 + 81) = 860. 840 forgets the +1 in every term."
+  },
+  {
+   "unit": "seq",
+   "q": "A ball is dropped from 8 m and each bounce reaches 60% of the previous height. Find the height after the 4th bounce.",
+   "choices": [
+    "1.04 m",
+    "1.73 m",
+    "0.622 m",
+    "3.20 m"
+   ],
+   "answer": 0,
+   "explain": "Height = 8 × 0.6⁴ = 1.0368 → 1.04 m. 1.73 m is after only 3 bounces; 0.622 m is after 5."
+  },
+  {
+   "unit": "seq",
+   "q": "A geometric series has u₁ = 20 and r = 0.6. Find S∞.",
+   "choices": [
+    "12.5",
+    "33.3",
+    "It does not exist",
+    "50"
+   ],
+   "answer": 3,
+   "explain": "|r| = 0.6 < 1, so S∞ exists: 20 ÷ (1 − 0.6) = 20 ÷ 0.4 = 50."
+  },
+  {
+   "unit": "seq",
+   "q": "A theatre has 22 seats in row 1 and each row has 4 more seats than the one before. How many seats in 15 rows?",
+   "choices": [
+    "78",
+    "810",
+    "750",
+    "720"
+   ],
+   "answer": 2,
+   "explain": "u₁₅ = 22 + 14(4) = 78, then S₁₅ = 15/2 (22 + 78) = 750. 78 is just the last row."
+  },
+  {
+   "unit": "fin",
+   "q": "₹40 000 is invested at 6.8% p.a. compounded quarterly for 5 years. Find the future value (3 s.f.).",
+   "choices": [
+    "₹55 600",
+    "₹56 000",
+    "₹53 600",
+    "₹42 800"
+   ],
+   "answer": 1,
+   "explain": "FV = 40000(1 + 6.8/400)²⁰ = ₹56 037.54 → ₹56 000. ₹55 600 compounds yearly; ₹53 600 is simple interest."
+  },
+  {
+   "unit": "fin",
+   "q": "A car bought for ₹950 000 depreciates at 12% p.a. Find its value after 4 years (3 s.f.).",
+   "choices": [
+    "₹494 000",
+    "₹570 000",
+    "₹501 000",
+    "₹836 000"
+   ],
+   "answer": 1,
+   "explain": "FV = 950000 × 0.88⁴ = ₹569 711 → ₹570 000. ₹494 000 takes off 12% of the original each year (that isn't reducing balance)."
+  },
+  {
+   "unit": "fin",
+   "q": "$1000 is invested at 8% p.a. compounded annually. After how many whole years has it first doubled?",
+   "choices": [
+    "10 years",
+    "9 years",
+    "9.01 years",
+    "12.5 years"
+   ],
+   "answer": 0,
+   "explain": "Solving gives n = 9.01, but interest is only added at year ends: after 9 years it's $1999, after 10 it's $2159. Round UP."
+  },
+  {
+   "unit": "fin",
+   "q": "On the Finance Solver, money is compounded monthly for 3 years. What is N?",
+   "choices": [
+    "3",
+    "12",
+    "4",
+    "36"
+   ],
+   "answer": 3,
+   "explain": "N is the total number of periods: 12 × 3 = 36. Entering 3 is the most common Finance Solver mistake."
+  },
+  {
+   "unit": "fin",
+   "q": "You invest $5000 (PV = −5000) with PMT = 0. What sign must FV have?",
+   "choices": [
+    "Negative",
+    "Zero",
+    "Positive",
+    "Either sign works"
+   ],
+   "answer": 2,
+   "explain": "Money out is negative and money back is positive, so PV and FV must have opposite signs or the GDC gives an error."
+  },
+  {
+   "unit": "lines",
+   "q": "Find the equation of the line with gradient −3 through (4, −5).",
+   "choices": [
+    "y = −3x − 17",
+    "y = −3x + 17",
+    "y = −3x + 7",
+    "y = 4x − 5"
+   ],
+   "answer": 2,
+   "explain": "y − (−5) = −3(x − 4) → y + 5 = −3x + 12 → y = −3x + 7. Check: −3(4) + 7 = −5 ✓."
+  },
+  {
+   "unit": "lines",
+   "q": "Find the gradient of the line through A(3, 2) and B(5, −1).",
+   "choices": [
+    "−2/3",
+    "−3/2",
+    "3/2",
+    "1/8"
+   ],
+   "answer": 1,
+   "explain": "m = (−1 − 2)/(5 − 3) = −3/2. −2/3 is x-step over y-step (upside down)."
+  },
+  {
+   "unit": "lines",
+   "q": "Find the gradient of a line perpendicular to 3x − 4y = 2.",
+   "choices": [
+    "−4/3",
+    "3/4",
+    "−3/4",
+    "4/3"
+   ],
+   "answer": 0,
+   "explain": "Rearrange: y = (3/4)x − 1/2, so m = 3/4. The perpendicular gradient is the negative reciprocal: −4/3."
+  },
+  {
+   "unit": "lines",
+   "q": "Find the perpendicular bisector of A(3, 1) and B(5, 7).",
+   "choices": [
+    "3x − y = 8",
+    "x + 3y = 12",
+    "y = 3x − 8",
+    "x + 3y = 16"
+   ],
+   "answer": 3,
+   "explain": "Midpoint (4, 4), gradient of AB = 3, so the perpendicular gradient is −1/3: y − 4 = −1/3(x − 4) → x + 3y = 16."
+  },
+  {
+   "unit": "lines",
+   "q": "2 adult + 3 child tickets cost £45; 3 adult + 4 child tickets cost £64. Find the cost of each.",
+   "choices": [
+    "Adult £7, child £12",
+    "Adult £15, child £5",
+    "Adult £10, child £8.33",
+    "Adult £12, child £7"
+   ],
+   "answer": 3,
+   "explain": "2x + 3y = 45 and 3x + 4y = 64 give x = 12, y = 7. Check: 3(12) + 4(7) = 64 ✓."
+  },
+  {
+   "unit": "lines",
+   "q": "Find k if (3, k) lies on the line x + 4y = −9.",
+   "choices": [
+    "k = −1.5",
+    "k = 3",
+    "k = −3",
+    "k = −12"
+   ],
+   "answer": 2,
+   "explain": "Substitute: 3 + 4k = −9 → 4k = −12 → k = −3."
+  },
+  {
+   "unit": "lines",
+   "q": "Where do y = 3x − 1 and x + y = 3 intersect?",
+   "choices": [
+    "(2, 1)",
+    "(1, 2)",
+    "(0, 3)",
+    "(1, 3)"
+   ],
+   "answer": 1,
+   "explain": "Substitute y = 3x − 1 into x + y = 3: 4x − 1 = 3 → x = 1, y = 2. Check both lines ✓."
+  },
+  {
+   "unit": "func",
+   "q": "If f(x) = 2x² − 3x, find f(−4).",
+   "choices": [
+    "44",
+    "20",
+    "−20",
+    "76"
+   ],
+   "answer": 0,
+   "explain": "f(−4) = 2(−4)² − 3(−4) = 32 + 12 = 44. 20 comes from treating −3(−4) as −12."
+  },
+  {
+   "unit": "func",
+   "q": "State the domain of f(x) = √(x − 5).",
+   "choices": [
+    "x ≥ 5",
+    "x > 5",
+    "x ≥ 0",
+    "x ∈ ℝ"
+   ],
+   "answer": 0,
+   "explain": "The square root needs x − 5 ≥ 0, so x ≥ 5. The endpoint x = 5 is included (√0 = 0)."
+  },
+  {
+   "unit": "func",
+   "q": "State the range of y = (x − 2)² − 5.",
+   "choices": [
+    "y ≥ 2",
+    "y ∈ ℝ",
+    "y > −5",
+    "y ≥ −5"
+   ],
+   "answer": 3,
+   "explain": "(x − 2)² ≥ 0, so y ≥ −5. The minimum point (2, −5) is included."
+  },
+  {
+   "unit": "func",
+   "q": "Describe the transformation from y = f(x) to y = f(2x).",
+   "choices": [
+    "Horizontal stretch, scale factor 2",
+    "Vertical stretch, scale factor 2",
+    "Horizontal stretch, scale factor 1/2",
+    "Translation 2 units right"
+   ],
+   "answer": 2,
+   "explain": "y = f(qx) is a horizontal stretch with scale factor 1/q, so f(2x) halves the width."
+  },
+  {
+   "unit": "func",
+   "q": "f(x) = 2x + 1. Find f⁻¹(9).",
+   "choices": [
+    "19",
+    "4",
+    "5",
+    "1/19"
+   ],
+   "answer": 1,
+   "explain": "Solve f(x) = 9: 2x + 1 = 9 → x = 4. 19 is f(9) and 1/19 is 1 ÷ f(9), neither is the inverse."
+  },
+  {
+   "unit": "func",
+   "q": "f has domain −2 ≤ x ≤ 4 and range 1 ≤ y ≤ 7. What is the domain of f⁻¹?",
+   "choices": [
+    "−2 ≤ x ≤ 4",
+    "1 ≤ x ≤ 7",
+    "−7 ≤ x ≤ −1",
+    "x ∈ ℝ"
+   ],
+   "answer": 1,
+   "explain": "The inverse swaps x and y, so the domain of f⁻¹ = the range of f = 1 ≤ x ≤ 7."
+  },
+  {
+   "unit": "func",
+   "q": "Find the asymptotes of y = 6/(x − 3) − 2.",
+   "choices": [
+    "x = 3 and y = −2",
+    "x = −3 and y = 2",
+    "x = 3 and y = 6",
+    "x = 0 and y = −2"
+   ],
+   "answer": 0,
+   "explain": "The denominator is 0 at x = 3 (vertical). As x → ±∞, 6/(x − 3) → 0, so y → −2 (horizontal)."
+  },
+  {
+   "unit": "func",
+   "q": "Which relation is NOT a function?",
+   "choices": [
+    "y = x² − 9",
+    "x + y = 9",
+    "y = √x",
+    "x = y²"
+   ],
+   "answer": 3,
+   "explain": "For x = y², x = 4 gives y = 2 and y = −2: two y-values for one x, so it fails the vertical line test."
+  },
+  {
+   "unit": "model",
+   "q": "A linear model passes through (2, 22) and (5, 40). Find it.",
+   "choices": [
+    "C = 6x + 22",
+    "C = 18x + 4",
+    "C = 6x + 10",
+    "C = 3x + 16"
+   ],
+   "answer": 2,
+   "explain": "m = (40 − 22)/(5 − 2) = 6; then 22 = 6(2) + c gives c = 10. It's the theme park: $10 entry + $6 a ride."
+  }
+ ]
+}

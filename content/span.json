@@ -1,0 +1,4425 @@
+{
+ "subject": "span",
+ "name": "Spanish B",
+ "units": [
+  {
+   "id": "u1",
+   "name": "El perfil del aprendiz IB"
+  },
+  {
+   "id": "u2",
+   "name": "Identidad, etiquetas y estereotipos"
+  },
+  {
+   "id": "u3",
+   "name": "Lengua e identidad"
+  },
+  {
+   "id": "u4",
+   "name": "Estilos de vida, salud y bienestar"
+  },
+  {
+   "id": "u5",
+   "name": "Gramática"
+  },
+  {
+   "id": "u6",
+   "name": "Prueba 1: tipos de texto y conectores"
+  }
+ ],
+ "prompts": [
+  {
+   "id": "span-01",
+   "unit": "u1",
+   "prompt": "Name an IB learner-profile attribute in Spanish",
+   "answers": [
+    {
+     "text": "indagador",
+     "alias": [
+      "indagadora",
+      "indagadores"
+     ],
+     "tier": 1,
+     "why": "Inquirer: curious, asks questions and researches on their own."
+    },
+    {
+     "text": "pensador",
+     "alias": [
+      "pensadora",
+      "pensadores"
+     ],
+     "tier": 1,
+     "why": "Thinker: uses critical and creative thinking to solve problems."
+    },
+    {
+     "text": "reflexivo",
+     "alias": [
+      "reflexiva",
+      "reflexivos"
+     ],
+     "tier": 1,
+     "why": "Reflective: thinks about their own learning, strengths and weaknesses."
+    },
+    {
+     "text": "buen comunicador",
+     "alias": [
+      "comunicador",
+      "buena comunicadora",
+      "comunicadora"
+     ],
+     "tier": 2,
+     "why": "Communicator: expresses ideas confidently in more than one language."
+    },
+    {
+     "text": "equilibrado",
+     "alias": [
+      "equilibrada"
+     ],
+     "tier": 2,
+     "why": "Balanced: looks after mind, body and emotions. Links to the bienestar unit too."
+    },
+    {
+     "text": "solidario",
+     "alias": [
+      "solidaria"
+     ],
+     "tier": 2,
+     "why": "Caring: shows empathy and helps others. Careful: not 'solitario' (lonely)."
+    },
+    {
+     "text": "audaz",
+     "alias": [
+      "audaces"
+     ],
+     "tier": 3,
+     "why": "Risk-taker: faces new challenges with courage. Audaz = bold."
+    },
+    {
+     "text": "íntegro",
+     "alias": [
+      "integra"
+     ],
+     "tier": 3,
+     "why": "Principled: acts honestly and fairly. Íntegro = has integrity."
+    },
+    {
+     "text": "de mentalidad abierta",
+     "alias": [
+      "mentalidad abierta",
+      "abierto de mente"
+     ],
+     "tier": 3,
+     "why": "Open-minded: values other cultures and points of view."
+    },
+    {
+     "text": "informado e instruido",
+     "alias": [
+      "informado",
+      "instruido",
+      "informada e instruida"
+     ],
+     "tier": 4,
+     "why": "Knowledgeable: the longest attribute name, so few remember it in full."
+    }
+   ]
+  },
+  {
+   "id": "span-02",
+   "unit": "u1",
+   "prompt": "Name a Spanish verb that describes something you do as a learner",
+   "answers": [
+    {
+     "text": "aprender",
+     "alias": [],
+     "tier": 1,
+     "why": "To learn. The base verb of the 'Atributos de aprendizaje' set."
+    },
+    {
+     "text": "estudiar",
+     "alias": [],
+     "tier": 1,
+     "why": "To study. Regular -ar verb: estudio, estudias, estudia..."
+    },
+    {
+     "text": "mejorar",
+     "alias": [],
+     "tier": 2,
+     "why": "To improve. 'Quiero mejorar mi gramática.'"
+    },
+    {
+     "text": "participar",
+     "alias": [],
+     "tier": 2,
+     "why": "To participate. Regular -ar verb, great for describing class habits."
+    },
+    {
+     "text": "investigar",
+     "alias": [],
+     "tier": 2,
+     "why": "To investigate / research. What an indagador does."
+    },
+    {
+     "text": "comprender",
+     "alias": [],
+     "tier": 2,
+     "why": "To understand (a synonym of entender, which is stem-changing)."
+    },
+    {
+     "text": "analizar",
+     "alias": [],
+     "tier": 2,
+     "why": "To analyse. Spelled with z in Spanish."
+    },
+    {
+     "text": "colaborar",
+     "alias": [],
+     "tier": 3,
+     "why": "To collaborate. Use for group work."
+    },
+    {
+     "text": "reflexionar",
+     "alias": [],
+     "tier": 3,
+     "why": "To reflect. Verb form of the attribute reflexivo."
+    },
+    {
+     "text": "resolver",
+     "alias": [],
+     "tier": 3,
+     "why": "To solve / resolve. Stem-changing: resuelvo."
+    },
+    {
+     "text": "lograr",
+     "alias": [],
+     "tier": 3,
+     "why": "To achieve. 'Logro mis metas.'"
+    },
+    {
+     "text": "desarrollar",
+     "alias": [],
+     "tier": 3,
+     "why": "To develop. 'Desarrollar habilidades' = develop skills."
+    },
+    {
+     "text": "superar",
+     "alias": [],
+     "tier": 4,
+     "why": "To overcome. 'Superar un obstáculo.'"
+    },
+    {
+     "text": "dominar",
+     "alias": [],
+     "tier": 4,
+     "why": "To master (a skill or language)."
+    },
+    {
+     "text": "destacar",
+     "alias": [],
+     "tier": 4,
+     "why": "To stand out. 'Destaco en matemáticas.'"
+    }
+   ]
+  },
+  {
+   "id": "span-03",
+   "unit": "u1",
+   "prompt": "Name a Spanish phrase from the 'Atributos de aprendizaje' set (not a single verb)",
+   "answers": [
+    {
+     "text": "estar de acuerdo",
+     "alias": [
+      "de acuerdo"
+     ],
+     "tier": 1,
+     "why": "To agree. 'Estoy de acuerdo contigo.' Uses estar, not ser."
+    },
+    {
+     "text": "cometer un error",
+     "alias": [
+      "cometer errores"
+     ],
+     "tier": 2,
+     "why": "To make a mistake. Cometer, not 'hacer un error'."
+    },
+    {
+     "text": "darse cuenta de",
+     "alias": [
+      "darse cuenta",
+      "me doy cuenta"
+     ],
+     "tier": 2,
+     "why": "To realise. Reflexive: me doy cuenta de que..."
+    },
+    {
+     "text": "por mi cuenta",
+     "alias": [],
+     "tier": 2,
+     "why": "On my own. 'Estudio por mi cuenta.'"
+    },
+    {
+     "text": "en vez de",
+     "alias": [],
+     "tier": 3,
+     "why": "Instead of. Followed by an infinitive or noun."
+    },
+    {
+     "text": "tener éxito",
+     "alias": [],
+     "tier": 3,
+     "why": "To succeed. Not 'éxito' = exit (that's salida)."
+    },
+    {
+     "text": "hacer un esfuerzo",
+     "alias": [],
+     "tier": 3,
+     "why": "To make an effort. Same meaning as esforzarse."
+    },
+    {
+     "text": "poner en práctica",
+     "alias": [],
+     "tier": 3,
+     "why": "To put into practice."
+    },
+    {
+     "text": "tener en cuenta",
+     "alias": [],
+     "tier": 4,
+     "why": "To take into account."
+    },
+    {
+     "text": "sacar provecho de",
+     "alias": [
+      "sacar provecho"
+     ],
+     "tier": 4,
+     "why": "To make the most of / benefit from."
+    },
+    {
+     "text": "gracias a",
+     "alias": [],
+     "tier": 2,
+     "why": "Thanks to. 'Gracias a mis profesores, he mejorado.'"
+    },
+    {
+     "text": "a pesar de",
+     "alias": [],
+     "tier": 3,
+     "why": "Despite. Followed by a noun or infinitive."
+    }
+   ]
+  },
+  {
+   "id": "span-04",
+   "unit": "u1",
+   "prompt": "Nombra una expresión para dar tu opinión",
+   "answers": [
+    {
+     "text": "creo que",
+     "alias": [
+      "yo creo que"
+     ],
+     "tier": 1,
+     "why": "I think that. Takes the indicative: creo que es útil."
+    },
+    {
+     "text": "en mi opinión",
+     "alias": [],
+     "tier": 1,
+     "why": "In my opinion. The safest opener."
+    },
+    {
+     "text": "pienso que",
+     "alias": [],
+     "tier": 1,
+     "why": "I think that. Pensar is stem-changing: pienso."
+    },
+    {
+     "text": "me parece que",
+     "alias": [],
+     "tier": 2,
+     "why": "It seems to me that. Works like gustar: me parece."
+    },
+    {
+     "text": "para mí",
+     "alias": [
+      "para mi"
+     ],
+     "tier": 2,
+     "why": "For me. Short and natural."
+    },
+    {
+     "text": "a mi parecer",
+     "alias": [],
+     "tier": 4,
+     "why": "In my view. A short, classy opener."
+    },
+    {
+     "text": "a mi juicio",
+     "alias": [],
+     "tier": 5,
+     "why": "In my judgement. Formal, rare at SL."
+    },
+    {
+     "text": "considero que",
+     "alias": [],
+     "tier": 3,
+     "why": "I consider that. Slightly more formal."
+    },
+    {
+     "text": "estoy convencido de que",
+     "alias": [
+      "estoy convencida de que",
+      "estoy convencido"
+     ],
+     "tier": 4,
+     "why": "I am convinced that. Strong opinion, band-7 phrase."
+    },
+    {
+     "text": "no creo que",
+     "alias": [],
+     "tier": 4,
+     "why": "I don't think that. Triggers the SUBJUNCTIVE: no creo que sea..."
+    },
+    {
+     "text": "estoy de acuerdo",
+     "alias": [],
+     "tier": 3,
+     "why": "I agree. Useful to react to someone else's view."
+    }
+   ]
+  },
+  {
+   "id": "span-05",
+   "unit": "u2",
+   "prompt": "Nombra algo que forma parte de la identidad de una persona",
+   "answers": [
+    {
+     "text": "la lengua",
+     "alias": [
+      "el idioma",
+      "lengua materna"
+     ],
+     "tier": 1,
+     "why": "Language shapes identity. A whole sub-unit was 'Lengua e identidad'."
+    },
+    {
+     "text": "la familia",
+     "alias": [],
+     "tier": 1,
+     "why": "Family: who raised you and your relationships."
+    },
+    {
+     "text": "la nacionalidad",
+     "alias": [
+      "el pais"
+     ],
+     "tier": 1,
+     "why": "Nationality. But Texto C said one nationality does not fix how you look."
+    },
+    {
+     "text": "la cultura",
+     "alias": [],
+     "tier": 2,
+     "why": "Culture: traditions, food, music, values."
+    },
+    {
+     "text": "la religión",
+     "alias": [],
+     "tier": 2,
+     "why": "Religion or beliefs."
+    },
+    {
+     "text": "la edad",
+     "alias": [],
+     "tier": 2,
+     "why": "Age changes how others see us and how we see ourselves."
+    },
+    {
+     "text": "el género",
+     "alias": [
+      "el genero"
+     ],
+     "tier": 2,
+     "why": "Gender is one of the identity categories."
+    },
+    {
+     "text": "los valores",
+     "alias": [
+      "valores y actitudes"
+     ],
+     "tier": 3,
+     "why": "Values: what you believe is right."
+    },
+    {
+     "text": "las aficiones",
+     "alias": [
+      "los pasatiempos",
+      "los hobbies"
+     ],
+     "tier": 3,
+     "why": "Hobbies and interests."
+    },
+    {
+     "text": "los orígenes",
+     "alias": [
+      "el origen"
+     ],
+     "tier": 3,
+     "why": "Origins. Texto C: Latin America has people of many orígenes."
+    },
+    {
+     "text": "la etnia",
+     "alias": [
+      "la raza"
+     ],
+     "tier": 3,
+     "why": "Ethnicity. Texto C mentioned indigenous and afrodescendiente roots."
+    },
+    {
+     "text": "el aspecto físico",
+     "alias": [
+      "la apariencia"
+     ],
+     "tier": 4,
+     "why": "Physical appearance. Texto C: people expect you to 'look' a certain way."
+    },
+    {
+     "text": "el apellido",
+     "alias": [],
+     "tier": 4,
+     "why": "Surname. Texto C: your apellido can make people label you."
+    },
+    {
+     "text": "el acento",
+     "alias": [],
+     "tier": 4,
+     "why": "Accent. Another clue people use to label you in Texto C."
+    },
+    {
+     "text": "las raíces",
+     "alias": [
+      "raices"
+     ],
+     "tier": 4,
+     "why": "Roots. 'Raíces indígenas, japonesas...' in Texto C."
+    },
+    {
+     "text": "la profesión",
+     "alias": [
+      "los estudios",
+      "el trabajo"
+     ],
+     "tier": 4,
+     "why": "Your job or studies is part of how you describe yourself."
+    }
+   ]
+  },
+  {
+   "id": "span-06",
+   "unit": "u2",
+   "prompt": "Name a Spanish word for talking about labels and stereotypes",
+   "answers": [
+    {
+     "text": "el estereotipo",
+     "alias": [],
+     "tier": 1,
+     "why": "Stereotype: a fixed generalisation about a group."
+    },
+    {
+     "text": "la etiqueta",
+     "alias": [],
+     "tier": 1,
+     "why": "Label. The A3 post said labels help but can become a 'camisa de fuerza'."
+    },
+    {
+     "text": "el prejuicio",
+     "alias": [],
+     "tier": 2,
+     "why": "Prejudice: judging before knowing someone."
+    },
+    {
+     "text": "la discriminación",
+     "alias": [],
+     "tier": 2,
+     "why": "Discrimination: treating people unfairly because of a label."
+    },
+    {
+     "text": "la generalización",
+     "alias": [],
+     "tier": 3,
+     "why": "Generalisation. Texto C: stereotypes hurt when we stop seeing them as generalizaciones."
+    },
+    {
+     "text": "las expectativas",
+     "alias": [
+      "la expectativa"
+     ],
+     "tier": 3,
+     "why": "Expectations other people put on you."
+    },
+    {
+     "text": "pertenecer",
+     "alias": [
+      "la pertenencia"
+     ],
+     "tier": 3,
+     "why": "To belong / belonging. You can belong to several communities at once."
+    },
+    {
+     "text": "encajar",
+     "alias": [],
+     "tier": 4,
+     "why": "To fit in. 'No encajo en ninguna caja.'"
+    },
+    {
+     "text": "cuestionar",
+     "alias": [],
+     "tier": 4,
+     "why": "To question (a stereotype). Opposite of reforzar."
+    },
+    {
+     "text": "reforzar",
+     "alias": [],
+     "tier": 4,
+     "why": "To reinforce. Social media can reforzar stereotypes."
+    },
+    {
+     "text": "camisa de fuerza",
+     "alias": [],
+     "tier": 5,
+     "why": "Straitjacket: the A3 post's image of what labels can become."
+    },
+    {
+     "text": "el mosaico",
+     "alias": [],
+     "tier": 4,
+     "why": "Mosaic: the A3 post's image of identity, many pieces that evolve."
+    },
+    {
+     "text": "coexistir",
+     "alias": [],
+     "tier": 5,
+     "why": "To coexist. Texto C: several identities can coexist without any being false."
+    }
+   ]
+  },
+  {
+   "id": "span-07",
+   "unit": "u2",
+   "prompt": "Name an image or metaphor the class texts used for identity or labels (in Spanish)",
+   "answers": [
+    {
+     "text": "el agua",
+     "alias": [
+      "agua"
+     ],
+     "tier": 1,
+     "why": "The A3 post's central metaphor: identity is like WATER, it adapts and escapes containers."
+    },
+    {
+     "text": "un mosaico",
+     "alias": [
+      "mosaico"
+     ],
+     "tier": 2,
+     "why": "Identity as an evolving mosaic of many pieces (A3 post)."
+    },
+    {
+     "text": "una caja",
+     "alias": [
+      "caja"
+     ],
+     "tier": 2,
+     "why": "Texto C: identity is not a box that decides how we must speak, think or dress."
+    },
+    {
+     "text": "camisa de fuerza",
+     "alias": [
+      "una camisa de fuerza"
+     ],
+     "tier": 3,
+     "why": "Straitjacket: what labels become when they trap you (A3 post)."
+    },
+    {
+     "text": "un contenedor",
+     "alias": [
+      "contenedor",
+      "el recipiente"
+     ],
+     "tier": 4,
+     "why": "Water escapes any container, just as identity escapes labels."
+    },
+    {
+     "text": "una prisión",
+     "alias": [
+      "prision",
+      "carcel"
+     ],
+     "tier": 4,
+     "why": "Labels as a prison: they limit freedom (A3 vocab)."
+    },
+    {
+     "text": "fluir",
+     "alias": [],
+     "tier": 5,
+     "why": "To flow: identity flows and adapts like water."
+    }
+   ]
+  },
+  {
+   "id": "span-08",
+   "unit": "u3",
+   "prompt": "Name a language (other than Spanish) spoken in the Spanish-speaking world",
+   "answers": [
+    {
+     "text": "quechua",
+     "alias": [
+      "el quechua",
+      "kechua"
+     ],
+     "tier": 1,
+     "why": "Andes (Peru, Bolivia). Lenin Tamayo sings in quechua; it 'te abraza'."
+    },
+    {
+     "text": "catalán",
+     "alias": [
+      "catala",
+      "el catalan"
+     ],
+     "tier": 1,
+     "why": "Catalonia, Spain. Co-official with castellano, a source of tension."
+    },
+    {
+     "text": "guaraní",
+     "alias": [
+      "guarani"
+     ],
+     "tier": 2,
+     "why": "Paraguay: co-official and spoken by most of the population."
+    },
+    {
+     "text": "náhuatl",
+     "alias": [
+      "nahuatl",
+      "nahuat"
+     ],
+     "tier": 2,
+     "why": "Mexico, language of the Aztecs. Gave Spanish chocolate, tomate, aguacate."
+    },
+    {
+     "text": "spanglish",
+     "alias": [
+      "espanglish"
+     ],
+     "tier": 2,
+     "why": "Mix of Spanish and English in the USA. Debate: corrección vs identidad."
+    },
+    {
+     "text": "aimara",
+     "alias": [
+      "aymara"
+     ],
+     "tier": 4,
+     "why": "Spoken in Bolivia and Peru around Lake Titicaca."
+    },
+    {
+     "text": "euskera",
+     "alias": [
+      "vasco",
+      "euskara"
+     ],
+     "tier": 4,
+     "why": "The Basque language, Spain. Not related to any other known language."
+    },
+    {
+     "text": "gallego",
+     "alias": [
+      "galego"
+     ],
+     "tier": 4,
+     "why": "Galicia, north-west Spain. Close to Portuguese."
+    },
+    {
+     "text": "maya",
+     "alias": [
+      "kiche",
+      "maya kiche"
+     ],
+     "tier": 4,
+     "why": "Mayan languages are spoken in Guatemala and southern Mexico."
+    },
+    {
+     "text": "mapudungun",
+     "alias": [
+      "mapuche"
+     ],
+     "tier": 5,
+     "why": "Language of the Mapuche people in Chile and Argentina."
+    },
+    {
+     "text": "inglés",
+     "alias": [
+      "ingles"
+     ],
+     "tier": 3,
+     "why": "Official alongside Spanish in Puerto Rico; mixes into Spanglish."
+    }
+   ]
+  },
+  {
+   "id": "span-09",
+   "unit": "u3",
+   "prompt": "Name a Spanish word for describing someone's language situation",
+   "answers": [
+    {
+     "text": "bilingüe",
+     "alias": [
+      "bilingue"
+     ],
+     "tier": 1,
+     "why": "Speaks two languages."
+    },
+    {
+     "text": "la lengua materna",
+     "alias": [
+      "lengua materna",
+      "idioma materno"
+     ],
+     "tier": 1,
+     "why": "Mother tongue: the first language you learned."
+    },
+    {
+     "text": "monolingüe",
+     "alias": [
+      "monolingue"
+     ],
+     "tier": 2,
+     "why": "Speaks only one language."
+    },
+    {
+     "text": "la lengua oficial",
+     "alias": [
+      "lengua oficial",
+      "idioma oficial"
+     ],
+     "tier": 2,
+     "why": "The language a state uses officially."
+    },
+    {
+     "text": "plurilingüe",
+     "alias": [
+      "plurilingue",
+      "multilingue",
+      "multilingüe"
+     ],
+     "tier": 3,
+     "why": "Speaks several languages."
+    },
+    {
+     "text": "la lengua minoritaria",
+     "alias": [
+      "lengua minoritaria"
+     ],
+     "tier": 3,
+     "why": "A language spoken by a smaller group, often needing protection."
+    },
+    {
+     "text": "la lengua indígena",
+     "alias": [
+      "lengua indigena",
+      "lengua originaria"
+     ],
+     "tier": 3,
+     "why": "Language of an original people, e.g. quechua, náhuatl, guaraní."
+    },
+    {
+     "text": "el dialecto",
+     "alias": [],
+     "tier": 3,
+     "why": "A regional variety of a language."
+    },
+    {
+     "text": "la lengua cooficial",
+     "alias": [
+      "lengua cooficial"
+     ],
+     "tier": 4,
+     "why": "Shares official status with castellano, e.g. catalán, guaraní."
+    },
+    {
+     "text": "el castellano",
+     "alias": [],
+     "tier": 2,
+     "why": "Another name for Spanish, used especially in Spain and the Andes."
+    },
+    {
+     "text": "la discriminación lingüística",
+     "alias": [
+      "discriminacion linguistica"
+     ],
+     "tier": 5,
+     "why": "Treating people worse for how they speak: 'valor cultural ↔ discriminación'."
+    }
+   ]
+  },
+  {
+   "id": "span-10",
+   "unit": "u3",
+   "prompt": "Name one concept from the 'linguistic tensions' concept pairs",
+   "answers": [
+    {
+     "text": "identidad",
+     "alias": [
+      "la identidad"
+     ],
+     "tier": 1,
+     "why": "Pair: corrección ↔ identidad (e.g. is Spanglish 'wrong' or part of who you are?)."
+    },
+    {
+     "text": "poder",
+     "alias": [
+      "el poder"
+     ],
+     "tier": 2,
+     "why": "Pair: reconocimiento ↔ poder. Official recognition gives a language power."
+    },
+    {
+     "text": "discriminación",
+     "alias": [
+      "discriminacion"
+     ],
+     "tier": 2,
+     "why": "Pair: valor cultural ↔ discriminación."
+    },
+    {
+     "text": "protección",
+     "alias": [
+      "proteccion"
+     ],
+     "tier": 3,
+     "why": "Pair: protección ↔ elección. Protecting a language vs letting people choose."
+    },
+    {
+     "text": "elección",
+     "alias": [
+      "eleccion"
+     ],
+     "tier": 3,
+     "why": "Pair: protección ↔ elección."
+    },
+    {
+     "text": "reconocimiento",
+     "alias": [],
+     "tier": 4,
+     "why": "Pair: reconocimiento ↔ poder."
+    },
+    {
+     "text": "valor cultural",
+     "alias": [],
+     "tier": 4,
+     "why": "Pair: valor cultural ↔ discriminación."
+    },
+    {
+     "text": "corrección",
+     "alias": [
+      "correccion"
+     ],
+     "tier": 4,
+     "why": "Pair: corrección ↔ identidad. 'Correct' Spanish vs how people really speak."
+    }
+   ]
+  },
+  {
+   "id": "span-11",
+   "unit": "u4",
+   "prompt": "Nombra un hábito saludable",
+   "answers": [
+    {
+     "text": "hacer ejercicio",
+     "alias": [
+      "hacer deporte",
+      "hacer actividad fisica",
+      "ejercicio"
+     ],
+     "tier": 1,
+     "why": "Physical activity: one of the 3 pillars of a healthy lifestyle in the class reading."
+    },
+    {
+     "text": "dormir bien",
+     "alias": [
+      "dormir ocho horas",
+      "dormir lo suficiente"
+     ],
+     "tier": 1,
+     "why": "Good sleep. Teens need 8 to 10 hours."
+    },
+    {
+     "text": "beber agua",
+     "alias": [
+      "tomar agua"
+     ],
+     "tier": 1,
+     "why": "Staying hydrated."
+    },
+    {
+     "text": "alimentación equilibrada",
+     "alias": [
+      "dieta equilibrada",
+      "comer sano",
+      "comer bien",
+      "alimentacion sana",
+      "comer saludable"
+     ],
+     "tier": 1,
+     "why": "A balanced diet: the second pillar (alimentación)."
+    },
+    {
+     "text": "descansar",
+     "alias": [],
+     "tier": 2,
+     "why": "To rest. 'Es importante que descanses.'"
+    },
+    {
+     "text": "meditar",
+     "alias": [
+      "la meditacion",
+      "hacer meditacion"
+     ],
+     "tier": 2,
+     "why": "Clase 4 was all about la meditación."
+    },
+    {
+     "text": "comer fruta",
+     "alias": [
+      "comer frutas y verduras",
+      "comer verduras"
+     ],
+     "tier": 2,
+     "why": "Fresh produce, opposite of comida basura."
+    },
+    {
+     "text": "caminar",
+     "alias": [
+      "andar",
+      "pasear"
+     ],
+     "tier": 2,
+     "why": "Walking: an easy way to mantenerse activo."
+    },
+    {
+     "text": "desayunar",
+     "alias": [
+      "desayunar bien"
+     ],
+     "tier": 3,
+     "why": "Don't skip breakfast: 'no te saltes el desayuno'."
+    },
+    {
+     "text": "mantenerse activo",
+     "alias": [
+      "mantenerse activa",
+      "mantenerse en forma"
+     ],
+     "tier": 3,
+     "why": "To stay active / keep fit. Reflexive verb from the vocab list."
+    },
+    {
+     "text": "pedir ayuda",
+     "alias": [],
+     "tier": 3,
+     "why": "Asking for help is a mental-health habit from Clase 3."
+    },
+    {
+     "text": "pasar tiempo con amigos",
+     "alias": [
+      "ver a los amigos",
+      "salir con amigos"
+     ],
+     "tier": 3,
+     "why": "Mantener relaciones cercanas: social wellbeing."
+    },
+    {
+     "text": "regular el estrés",
+     "alias": [
+      "manejar el estres",
+      "controlar el estres"
+     ],
+     "tier": 4,
+     "why": "Emotional balance, the third pillar (equilibrio emocional)."
+    },
+    {
+     "text": "hacer yoga",
+     "alias": [
+      "yoga"
+     ],
+     "tier": 3,
+     "why": "Mind and body together."
+    },
+    {
+     "text": "desconectarse del móvil",
+     "alias": [
+      "desconectarse",
+      "apagar el movil",
+      "desconectar"
+     ],
+     "tier": 4,
+     "why": "Unplug: limit screen time and the uso excesivo of phones."
+    },
+    {
+     "text": "cuidar la higiene",
+     "alias": [
+      "la higiene personal",
+      "higiene"
+     ],
+     "tier": 4,
+     "why": "Personal hygiene is on the Estilos de vida list."
+    }
+   ]
+  },
+  {
+   "id": "span-12",
+   "unit": "u4",
+   "prompt": "Name something perjudicial (harmful) for your health, in Spanish",
+   "answers": [
+    {
+     "text": "la comida basura",
+     "alias": [
+      "comida chatarra",
+      "comida rapida"
+     ],
+     "tier": 1,
+     "why": "Junk food. From the Hábitos saludables Quizlet."
+    },
+    {
+     "text": "el estrés",
+     "alias": [
+      "estres"
+     ],
+     "tier": 1,
+     "why": "Stress harms both body and mind."
+    },
+    {
+     "text": "fumar",
+     "alias": [
+      "el tabaco"
+     ],
+     "tier": 1,
+     "why": "Smoking."
+    },
+    {
+     "text": "el sedentarismo",
+     "alias": [
+      "vida sedentaria",
+      "ser sedentario"
+     ],
+     "tier": 2,
+     "why": "Physical inactivity: 'llevar una vida sedentaria'."
+    },
+    {
+     "text": "dormir poco",
+     "alias": [
+      "no dormir",
+      "la falta de sueno"
+     ],
+     "tier": 2,
+     "why": "Lack of sleep hurts concentration and mood."
+    },
+    {
+     "text": "beber alcohol",
+     "alias": [
+      "el alcohol"
+     ],
+     "tier": 2,
+     "why": "Alcohol."
+    },
+    {
+     "text": "la comida procesada",
+     "alias": [
+      "comida procesada",
+      "alimentos procesados"
+     ],
+     "tier": 3,
+     "why": "Processed food. Opposite of productos frescos."
+    },
+    {
+     "text": "el uso excesivo",
+     "alias": [
+      "uso excesivo del movil",
+      "uso excesivo de pantallas"
+     ],
+     "tier": 3,
+     "why": "Excessive use (of screens, phones, social media)."
+    },
+    {
+     "text": "el insomnio",
+     "alias": [],
+     "tier": 3,
+     "why": "Insomnia: not being able to sleep."
+    },
+    {
+     "text": "la dependencia",
+     "alias": [
+      "la adiccion"
+     ],
+     "tier": 4,
+     "why": "Dependence / addiction, e.g. to the phone."
+    },
+    {
+     "text": "las prisas",
+     "alias": [
+      "las prisa"
+     ],
+     "tier": 4,
+     "why": "Always being in a rush. On the Quizlet set."
+    },
+    {
+     "text": "saltarse comidas",
+     "alias": [
+      "saltarse el desayuno"
+     ],
+     "tier": 4,
+     "why": "Skipping meals."
+    },
+    {
+     "text": "abusar del azúcar",
+     "alias": [
+      "el azucar",
+      "abusar de"
+     ],
+     "tier": 5,
+     "why": "Abusar de = to overconsume. A precise word for band 7."
+    },
+    {
+     "text": "las pantallas",
+     "alias": [
+      "el tiempo de pantalla",
+      "el movil"
+     ],
+     "tier": 3,
+     "why": "Too much screen time before bed ruins sleep."
+    }
+   ]
+  },
+  {
+   "id": "span-13",
+   "unit": "u4",
+   "prompt": "Name a Spanish word or phrase about mental health",
+   "answers": [
+    {
+     "text": "el estrés",
+     "alias": [
+      "estres"
+     ],
+     "tier": 1,
+     "why": "Stress. Masculine: el estrés."
+    },
+    {
+     "text": "la ansiedad",
+     "alias": [],
+     "tier": 1,
+     "why": "Anxiety."
+    },
+    {
+     "text": "la depresión",
+     "alias": [
+      "depresion"
+     ],
+     "tier": 1,
+     "why": "Depression."
+    },
+    {
+     "text": "el bienestar",
+     "alias": [
+      "bienestar mental"
+     ],
+     "tier": 2,
+     "why": "Wellbeing. The theme of Clase 6."
+    },
+    {
+     "text": "la salud mental",
+     "alias": [],
+     "tier": 1,
+     "why": "Mental health. 'Cuidar tu salud mental' was a whole lesson."
+    },
+    {
+     "text": "las emociones",
+     "alias": [
+      "la emocion"
+     ],
+     "tier": 2,
+     "why": "Emotions. 'Manejar las emociones' = manage emotions."
+    },
+    {
+     "text": "el estado de ánimo",
+     "alias": [
+      "estado de animo"
+     ],
+     "tier": 3,
+     "why": "Mood."
+    },
+    {
+     "text": "la autoestima",
+     "alias": [],
+     "tier": 3,
+     "why": "Self-esteem. Feminine: la autoestima."
+    },
+    {
+     "text": "el autocuidado",
+     "alias": [],
+     "tier": 3,
+     "why": "Self-care."
+    },
+    {
+     "text": "el equilibrio emocional",
+     "alias": [],
+     "tier": 3,
+     "why": "Emotional balance: one of the 3 pillars of a healthy lifestyle."
+    },
+    {
+     "text": "sentirse abrumado",
+     "alias": [
+      "abrumado",
+      "abrumada",
+      "sentirse abrumada"
+     ],
+     "tier": 4,
+     "why": "To feel overwhelmed. Reflexive: me siento abrumado."
+    },
+    {
+     "text": "agobiarse",
+     "alias": [
+      "agobiado",
+      "estar agobiado"
+     ],
+     "tier": 4,
+     "why": "To get stressed out. 'No te agobies' = don't stress."
+    },
+    {
+     "text": "el agotamiento",
+     "alias": [
+      "agotado",
+      "agotada"
+     ],
+     "tier": 4,
+     "why": "Exhaustion / burnout."
+    },
+    {
+     "text": "la presión académica",
+     "alias": [
+      "presion academica",
+      "la presion"
+     ],
+     "tier": 4,
+     "why": "Academic pressure. 'Afrontar las presiones' = cope with pressures."
+    },
+    {
+     "text": "el estigma",
+     "alias": [
+      "el tabu"
+     ],
+     "tier": 5,
+     "why": "Stigma / taboo: why many teens don't ask for help."
+    }
+   ]
+  },
+  {
+   "id": "span-14",
+   "unit": "u4",
+   "prompt": "Name a tip for looking after your mental health (in Spanish)",
+   "answers": [
+    {
+     "text": "pedir ayuda",
+     "alias": [],
+     "tier": 1,
+     "why": "Ask for help. The key tip from Clase 3."
+    },
+    {
+     "text": "meditar",
+     "alias": [
+      "la meditacion"
+     ],
+     "tier": 1,
+     "why": "Meditation: Clase 4 'La meditación'."
+    },
+    {
+     "text": "hacer ejercicio",
+     "alias": [
+      "hacer deporte"
+     ],
+     "tier": 1,
+     "why": "Exercise also helps the mind: mente sana en cuerpo sano."
+    },
+    {
+     "text": "hablar con alguien",
+     "alias": [
+      "hablar con amigos",
+      "hablar con un profesional"
+     ],
+     "tier": 2,
+     "why": "Talking to someone you trust, or a mental-health professional."
+    },
+    {
+     "text": "dormir bien",
+     "alias": [
+      "descansar bien"
+     ],
+     "tier": 2,
+     "why": "Rest is part of mental health."
+    },
+    {
+     "text": "pasar tiempo con amigos",
+     "alias": [
+      "ver a los amigos"
+     ],
+     "tier": 2,
+     "why": "Social connection: sentirse apoyado."
+    },
+    {
+     "text": "respirar profundamente",
+     "alias": [
+      "respirar",
+      "la respiracion profunda"
+     ],
+     "tier": 3,
+     "why": "Deep breathing calms stress fast."
+    },
+    {
+     "text": "desconectarse",
+     "alias": [
+      "desconectar",
+      "desconectarse del movil"
+     ],
+     "tier": 3,
+     "why": "Switch off from screens and social media."
+    },
+    {
+     "text": "hacer yoga",
+     "alias": [
+      "yoga"
+     ],
+     "tier": 3,
+     "why": "Body and mind together."
+    },
+    {
+     "text": "escribir un diario",
+     "alias": [
+      "llevar un diario"
+     ],
+     "tier": 4,
+     "why": "Journalling your feelings."
+    },
+    {
+     "text": "tomarse un respiro",
+     "alias": [
+      "tomate un respiro"
+     ],
+     "tier": 4,
+     "why": "Take a breather. Imperative: ¡tómate un respiro!"
+    },
+    {
+     "text": "aceptarse a uno mismo",
+     "alias": [
+      "aceptarse"
+     ],
+     "tier": 4,
+     "why": "To accept oneself. From the Quizlet set."
+    },
+    {
+     "text": "manejar las emociones",
+     "alias": [
+      "gestionar las emociones"
+     ],
+     "tier": 4,
+     "why": "Manage your emotions."
+    },
+    {
+     "text": "desahogarse",
+     "alias": [],
+     "tier": 5,
+     "why": "To vent / let it all out. Very precise vocab."
+    },
+    {
+     "text": "escuchar música",
+     "alias": [
+      "escuchar musica"
+     ],
+     "tier": 2,
+     "why": "Music to relax (the class even started with a merengue warm-up)."
+    }
+   ]
+  },
+  {
+   "id": "span-15",
+   "unit": "u4",
+   "prompt": "Name a category from the Clase 2 'estilos de vida' reflection list",
+   "answers": [
+    {
+     "text": "formas de comer",
+     "alias": [
+      "forma de comer",
+      "la alimentacion"
+     ],
+     "tier": 1,
+     "why": "How you eat. The first and most obvious lifestyle category."
+    },
+    {
+     "text": "forma física",
+     "alias": [
+      "forma fisica"
+     ],
+     "tier": 2,
+     "why": "Physical fitness."
+    },
+    {
+     "text": "relaciones personales",
+     "alias": [
+      "las relaciones"
+     ],
+     "tier": 2,
+     "why": "Personal relationships."
+    },
+    {
+     "text": "formas de divertirse",
+     "alias": [
+      "forma de divertirse",
+      "el ocio"
+     ],
+     "tier": 3,
+     "why": "How you have fun / leisure."
+    },
+    {
+     "text": "profesión o estudios",
+     "alias": [
+      "los estudios",
+      "la profesion"
+     ],
+     "tier": 3,
+     "why": "Your job or studies."
+    },
+    {
+     "text": "valores y actitudes",
+     "alias": [
+      "los valores",
+      "las actitudes"
+     ],
+     "tier": 4,
+     "why": "Your values and attitudes."
+    },
+    {
+     "text": "posición económica o social",
+     "alias": [
+      "posicion economica",
+      "posicion social"
+     ],
+     "tier": 5,
+     "why": "Economic or social position: the one almost everyone forgets."
+    }
+   ]
+  },
+  {
+   "id": "span-16",
+   "unit": "u4",
+   "prompt": "Name a noun from the 'Estilos de vida' vocabulary list",
+   "answers": [
+    {
+     "text": "la rutina",
+     "alias": [
+      "la rutina diaria"
+     ],
+     "tier": 1,
+     "why": "Routine. 'Mi rutina diaria' = my daily routine."
+    },
+    {
+     "text": "el hábito",
+     "alias": [
+      "habito"
+     ],
+     "tier": 1,
+     "why": "Habit. Masculine: el hábito."
+    },
+    {
+     "text": "la dieta",
+     "alias": [
+      "la dieta equilibrada"
+     ],
+     "tier": 1,
+     "why": "Diet. 'Una dieta equilibrada.'"
+    },
+    {
+     "text": "el sueño",
+     "alias": [
+      "sueno"
+     ],
+     "tier": 2,
+     "why": "Sleep (also 'dream')."
+    },
+    {
+     "text": "la alimentación",
+     "alias": [
+      "alimentacion"
+     ],
+     "tier": 2,
+     "why": "Diet / nutrition: what and how you eat."
+    },
+    {
+     "text": "los pasatiempos",
+     "alias": [
+      "el pasatiempo"
+     ],
+     "tier": 2,
+     "why": "Pastimes / hobbies."
+    },
+    {
+     "text": "la diversión",
+     "alias": [
+      "diversion"
+     ],
+     "tier": 2,
+     "why": "Fun."
+    },
+    {
+     "text": "el estrés",
+     "alias": [
+      "estres"
+     ],
+     "tier": 2,
+     "why": "Stress."
+    },
+    {
+     "text": "el ocio",
+     "alias": [],
+     "tier": 3,
+     "why": "Leisure time. A short word people forget."
+    },
+    {
+     "text": "la higiene",
+     "alias": [
+      "la higiene personal"
+     ],
+     "tier": 3,
+     "why": "Hygiene."
+    },
+    {
+     "text": "el insomnio",
+     "alias": [],
+     "tier": 3,
+     "why": "Insomnia."
+    },
+    {
+     "text": "la vida sana",
+     "alias": [
+      "vida saludable"
+     ],
+     "tier": 3,
+     "why": "Healthy life."
+    },
+    {
+     "text": "la vida cotidiana",
+     "alias": [
+      "vida cotidiana"
+     ],
+     "tier": 4,
+     "why": "Everyday life."
+    },
+    {
+     "text": "las relaciones interpersonales",
+     "alias": [
+      "relaciones interpersonales"
+     ],
+     "tier": 4,
+     "why": "Interpersonal relationships."
+    },
+    {
+     "text": "las actividades diarias",
+     "alias": [
+      "actividades diarias"
+     ],
+     "tier": 4,
+     "why": "Daily activities."
+    }
+   ]
+  },
+  {
+   "id": "span-17",
+   "unit": "u4",
+   "prompt": "Name a Spanish word you'd use to describe meditating",
+   "answers": [
+    {
+     "text": "relajarse",
+     "alias": [
+      "relajacion",
+      "la relajacion"
+     ],
+     "tier": 1,
+     "why": "To relax. Imperative with pronoun: ¡relájate!"
+    },
+    {
+     "text": "la respiración",
+     "alias": [
+      "respirar",
+      "respiracion"
+     ],
+     "tier": 1,
+     "why": "Breathing: the core of most meditation."
+    },
+    {
+     "text": "la calma",
+     "alias": [
+      "tranquilo",
+      "la tranquilidad"
+     ],
+     "tier": 2,
+     "why": "Calm / tranquillity."
+    },
+    {
+     "text": "la mente",
+     "alias": [],
+     "tier": 2,
+     "why": "The mind. 'Mente sana en cuerpo sano.'"
+    },
+    {
+     "text": "concentrarse",
+     "alias": [
+      "la concentracion"
+     ],
+     "tier": 2,
+     "why": "To concentrate. Reflexive verb from the learner set."
+    },
+    {
+     "text": "cerrar los ojos",
+     "alias": [
+      "cierra los ojos"
+     ],
+     "tier": 3,
+     "why": "Close your eyes. Cerrar is e→ie: cierra."
+    },
+    {
+     "text": "el silencio",
+     "alias": [],
+     "tier": 3,
+     "why": "Silence."
+    },
+    {
+     "text": "la paz",
+     "alias": [
+      "paz interior"
+     ],
+     "tier": 3,
+     "why": "Peace."
+    },
+    {
+     "text": "el presente",
+     "alias": [
+      "vivir el presente"
+     ],
+     "tier": 4,
+     "why": "Being in the present moment."
+    },
+    {
+     "text": "la atención plena",
+     "alias": [
+      "atencion plena",
+      "mindfulness"
+     ],
+     "tier": 4,
+     "why": "Mindfulness. The Spanish term for it."
+    },
+    {
+     "text": "la postura",
+     "alias": [],
+     "tier": 4,
+     "why": "Posture: how you sit to meditate."
+    },
+    {
+     "text": "la ansiedad",
+     "alias": [
+      "reducir la ansiedad"
+     ],
+     "tier": 3,
+     "why": "Meditation helps reduce anxiety."
+    }
+   ]
+  },
+  {
+   "id": "span-18",
+   "unit": "u4",
+   "prompt": "Name a food of the Mediterranean diet (in Spanish)",
+   "answers": [
+    {
+     "text": "el aceite de oliva",
+     "alias": [
+      "aceite de oliva",
+      "aceite"
+     ],
+     "tier": 1,
+     "why": "Olive oil: the signature fat of the dieta mediterránea."
+    },
+    {
+     "text": "el pescado",
+     "alias": [
+      "pescado"
+     ],
+     "tier": 1,
+     "why": "Fish, eaten several times a week."
+    },
+    {
+     "text": "las verduras",
+     "alias": [
+      "verdura",
+      "las hortalizas"
+     ],
+     "tier": 1,
+     "why": "Vegetables."
+    },
+    {
+     "text": "las frutas",
+     "alias": [
+      "la fruta"
+     ],
+     "tier": 1,
+     "why": "Fruit."
+    },
+    {
+     "text": "las legumbres",
+     "alias": [
+      "lentejas",
+      "garbanzos"
+     ],
+     "tier": 2,
+     "why": "Pulses like lentils and chickpeas."
+    },
+    {
+     "text": "los frutos secos",
+     "alias": [
+      "nueces",
+      "almendras"
+     ],
+     "tier": 3,
+     "why": "Nuts. 'Frutos secos' = nuts, not dried fruit."
+    },
+    {
+     "text": "los cereales integrales",
+     "alias": [
+      "cereales integrales",
+      "pan integral"
+     ],
+     "tier": 3,
+     "why": "Wholegrains."
+    },
+    {
+     "text": "el yogur",
+     "alias": [
+      "yogur",
+      "el queso"
+     ],
+     "tier": 4,
+     "why": "Dairy in moderation, mostly yogurt and cheese."
+    },
+    {
+     "text": "las hierbas aromáticas",
+     "alias": [
+      "hierbas",
+      "hierbas aromaticas"
+     ],
+     "tier": 5,
+     "why": "Herbs instead of lots of salt."
+    },
+    {
+     "text": "el pollo",
+     "alias": [
+      "carne blanca"
+     ],
+     "tier": 4,
+     "why": "White meat in moderation; red meat only rarely."
+    }
+   ]
+  },
+  {
+   "id": "span-19",
+   "unit": "u5",
+   "prompt": "Name a reflexive verb in Spanish (infinitive)",
+   "answers": [
+    {
+     "text": "levantarse",
+     "alias": [
+      "me levanto"
+     ],
+     "tier": 1,
+     "why": "To get up. Pronoun before the conjugated verb: me levanto."
+    },
+    {
+     "text": "ducharse",
+     "alias": [
+      "me ducho"
+     ],
+     "tier": 1,
+     "why": "To shower."
+    },
+    {
+     "text": "acostarse",
+     "alias": [
+      "me acuesto"
+     ],
+     "tier": 2,
+     "why": "To go to bed. Stem-changing o→ue: me acuesto."
+    },
+    {
+     "text": "despertarse",
+     "alias": [
+      "me despierto"
+     ],
+     "tier": 2,
+     "why": "To wake up. e→ie: me despierto."
+    },
+    {
+     "text": "vestirse",
+     "alias": [
+      "me visto"
+     ],
+     "tier": 2,
+     "why": "To get dressed. e→i: me visto."
+    },
+    {
+     "text": "sentirse",
+     "alias": [
+      "me siento"
+     ],
+     "tier": 2,
+     "why": "To feel. e→ie: me siento abrumado."
+    },
+    {
+     "text": "relajarse",
+     "alias": [
+      "me relajo"
+     ],
+     "tier": 2,
+     "why": "To relax. Command: ¡relájate!"
+    },
+    {
+     "text": "esforzarse",
+     "alias": [
+      "me esfuerzo"
+     ],
+     "tier": 3,
+     "why": "To make an effort. o→ue: me esfuerzo."
+    },
+    {
+     "text": "concentrarse",
+     "alias": [
+      "me concentro"
+     ],
+     "tier": 3,
+     "why": "To concentrate."
+    },
+    {
+     "text": "equivocarse",
+     "alias": [
+      "me equivoco"
+     ],
+     "tier": 3,
+     "why": "To make a mistake / be wrong."
+    },
+    {
+     "text": "preocuparse",
+     "alias": [
+      "me preocupo"
+     ],
+     "tier": 3,
+     "why": "To worry."
+    },
+    {
+     "text": "adaptarse",
+     "alias": [
+      "me adapto"
+     ],
+     "tier": 3,
+     "why": "To adapt. Like water in the identity post."
+    },
+    {
+     "text": "arriesgarse",
+     "alias": [
+      "me arriesgo"
+     ],
+     "tier": 4,
+     "why": "To take a risk. What an audaz learner does."
+    },
+    {
+     "text": "agobiarse",
+     "alias": [
+      "me agobio"
+     ],
+     "tier": 4,
+     "why": "To get stressed out. 'No te agobies.'"
+    },
+    {
+     "text": "superarse",
+     "alias": [
+      "me supero"
+     ],
+     "tier": 4,
+     "why": "To better oneself."
+    },
+    {
+     "text": "desahogarse",
+     "alias": [
+      "me desahogo"
+     ],
+     "tier": 5,
+     "why": "To vent. Rare but precise wellbeing vocab."
+    }
+   ]
+  },
+  {
+   "id": "span-20",
+   "unit": "u5",
+   "prompt": "Name an irregular or stem-changing YO form in the present tense",
+   "answers": [
+    {
+     "text": "soy",
+     "alias": [],
+     "tier": 1,
+     "why": "Ser → soy. Fully irregular."
+    },
+    {
+     "text": "tengo",
+     "alias": [],
+     "tier": 1,
+     "why": "Tener → tengo (not 'tieno'). The -go group."
+    },
+    {
+     "text": "voy",
+     "alias": [],
+     "tier": 1,
+     "why": "Ir → voy."
+    },
+    {
+     "text": "hago",
+     "alias": [],
+     "tier": 1,
+     "why": "Hacer → hago."
+    },
+    {
+     "text": "estoy",
+     "alias": [],
+     "tier": 2,
+     "why": "Estar → estoy."
+    },
+    {
+     "text": "puedo",
+     "alias": [],
+     "tier": 2,
+     "why": "Poder o→ue → puedo. Nosotros stays podemos."
+    },
+    {
+     "text": "quiero",
+     "alias": [],
+     "tier": 2,
+     "why": "Querer e→ie → quiero."
+    },
+    {
+     "text": "duermo",
+     "alias": [],
+     "tier": 3,
+     "why": "Dormir o→ue → duermo."
+    },
+    {
+     "text": "salgo",
+     "alias": [],
+     "tier": 3,
+     "why": "Salir → salgo."
+    },
+    {
+     "text": "pongo",
+     "alias": [],
+     "tier": 3,
+     "why": "Poner → pongo."
+    },
+    {
+     "text": "digo",
+     "alias": [],
+     "tier": 3,
+     "why": "Decir → digo (and e→i: dices)."
+    },
+    {
+     "text": "vengo",
+     "alias": [],
+     "tier": 3,
+     "why": "Venir → vengo."
+    },
+    {
+     "text": "sé",
+     "alias": [
+      "se"
+     ],
+     "tier": 4,
+     "why": "Saber → sé (with accent, to differ from the pronoun se)."
+    },
+    {
+     "text": "conozco",
+     "alias": [],
+     "tier": 4,
+     "why": "Conocer → conozco. The -zco group."
+    },
+    {
+     "text": "doy",
+     "alias": [],
+     "tier": 4,
+     "why": "Dar → doy."
+    },
+    {
+     "text": "pido",
+     "alias": [],
+     "tier": 4,
+     "why": "Pedir e→i → pido."
+    }
+   ]
+  },
+  {
+   "id": "span-21",
+   "unit": "u5",
+   "prompt": "Name an irregular affirmative TÚ command",
+   "answers": [
+    {
+     "text": "ven",
+     "alias": [],
+     "tier": 1,
+     "why": "Venir → ¡ven! (come!)."
+    },
+    {
+     "text": "haz",
+     "alias": [],
+     "tier": 1,
+     "why": "Hacer → ¡haz! (do/make!). Hazlo = do it."
+    },
+    {
+     "text": "ten",
+     "alias": [],
+     "tier": 2,
+     "why": "Tener → ¡ten! (have!). 'Ten cuidado.'"
+    },
+    {
+     "text": "pon",
+     "alias": [],
+     "tier": 2,
+     "why": "Poner → ¡pon! (put!). Ponte = put on."
+    },
+    {
+     "text": "sal",
+     "alias": [],
+     "tier": 3,
+     "why": "Salir → ¡sal! (go out!)."
+    },
+    {
+     "text": "di",
+     "alias": [],
+     "tier": 3,
+     "why": "Decir → ¡di! (say!). Dime = tell me."
+    },
+    {
+     "text": "ve",
+     "alias": [],
+     "tier": 4,
+     "why": "Ir → ¡ve! (go!). Vete = go away."
+    },
+    {
+     "text": "sé",
+     "alias": [
+      "se"
+     ],
+     "tier": 5,
+     "why": "Ser → ¡sé! (be!). 'Sé paciente.' The one nobody remembers."
+    }
+   ]
+  },
+  {
+   "id": "span-22",
+   "unit": "u5",
+   "prompt": "Name a trigger phrase that is followed by the present subjunctive",
+   "answers": [
+    {
+     "text": "es importante que",
+     "alias": [
+      "es importante"
+     ],
+     "tier": 1,
+     "why": "One of the six advice openers: es importante que duermas."
+    },
+    {
+     "text": "ojalá",
+     "alias": [
+      "ojala",
+      "ojala que"
+     ],
+     "tier": 1,
+     "why": "Always takes the subjunctive: ojalá descanses."
+    },
+    {
+     "text": "es bueno que",
+     "alias": [
+      "es bueno"
+     ],
+     "tier": 2,
+     "why": "Advice opener: es bueno que hagas ejercicio."
+    },
+    {
+     "text": "te sugiero que",
+     "alias": [
+      "sugiero que"
+     ],
+     "tier": 2,
+     "why": "I suggest that you... + subjunctive."
+    },
+    {
+     "text": "espero que",
+     "alias": [],
+     "tier": 2,
+     "why": "Wish: Carlos espera que descansemos pronto."
+    },
+    {
+     "text": "quiero que",
+     "alias": [],
+     "tier": 2,
+     "why": "Wish with a different subject: ¿quieres que hagamos una meditación?"
+    },
+    {
+     "text": "se recomienda que",
+     "alias": [],
+     "tier": 3,
+     "why": "Impersonal advice: perfect for an informe or folleto."
+    },
+    {
+     "text": "te aconsejamos que",
+     "alias": [
+      "aconsejamos que",
+      "te aconsejo que"
+     ],
+     "tier": 3,
+     "why": "We advise you to... + subjunctive."
+    },
+    {
+     "text": "te recomiendo que",
+     "alias": [
+      "recomiendo que"
+     ],
+     "tier": 3,
+     "why": "Recommendation (the R in WEIRDO)."
+    },
+    {
+     "text": "dudo que",
+     "alias": [],
+     "tier": 3,
+     "why": "Doubt: dudo que Susana esté bien."
+    },
+    {
+     "text": "es necesario que",
+     "alias": [
+      "es necesario"
+     ],
+     "tier": 3,
+     "why": "Impersonal expression: es necesario que comamos mejor."
+    },
+    {
+     "text": "me preocupa que",
+     "alias": [],
+     "tier": 4,
+     "why": "Emotion: me preocupa que no duermas bien."
+    },
+    {
+     "text": "no creo que",
+     "alias": [],
+     "tier": 4,
+     "why": "Denial takes subjunctive; creo que takes indicative."
+    },
+    {
+     "text": "para que",
+     "alias": [],
+     "tier": 4,
+     "why": "Purpose with a different subject: para que los estudiantes se relajen."
+    },
+    {
+     "text": "es fundamental que",
+     "alias": [
+      "es imprescindible que"
+     ],
+     "tier": 5,
+     "why": "Band-7 variant of es importante que."
+    },
+    {
+     "text": "antes de que",
+     "alias": [],
+     "tier": 5,
+     "why": "Always subjunctive: antes de que empiecen los exámenes."
+    }
+   ]
+  },
+  {
+   "id": "span-23",
+   "unit": "u5",
+   "prompt": "Name a present-subjunctive form of an irregular verb (yo/él form)",
+   "answers": [
+    {
+     "text": "sea",
+     "alias": [],
+     "tier": 1,
+     "why": "Ser → sea. Not from the yo form."
+    },
+    {
+     "text": "vaya",
+     "alias": [],
+     "tier": 1,
+     "why": "Ir → vaya. Not from the yo form."
+    },
+    {
+     "text": "esté",
+     "alias": [
+      "este"
+     ],
+     "tier": 2,
+     "why": "Estar → esté (keep the accent)."
+    },
+    {
+     "text": "haga",
+     "alias": [],
+     "tier": 2,
+     "why": "Hacer → hago → haga."
+    },
+    {
+     "text": "tenga",
+     "alias": [],
+     "tier": 2,
+     "why": "Tener → tengo → tenga."
+    },
+    {
+     "text": "salga",
+     "alias": [],
+     "tier": 3,
+     "why": "Salir → salgo → salga."
+    },
+    {
+     "text": "diga",
+     "alias": [],
+     "tier": 3,
+     "why": "Decir → digo → diga."
+    },
+    {
+     "text": "ponga",
+     "alias": [],
+     "tier": 3,
+     "why": "Poner → pongo → ponga."
+    },
+    {
+     "text": "venga",
+     "alias": [],
+     "tier": 3,
+     "why": "Venir → vengo → venga."
+    },
+    {
+     "text": "duerma",
+     "alias": [],
+     "tier": 3,
+     "why": "Dormir → duermo → duerma (nosotros: durmamos)."
+    },
+    {
+     "text": "pida",
+     "alias": [],
+     "tier": 4,
+     "why": "Pedir → pido → pida."
+    },
+    {
+     "text": "sepa",
+     "alias": [],
+     "tier": 4,
+     "why": "Saber → sepa. Irregular, not from 'sé'."
+    },
+    {
+     "text": "haya",
+     "alias": [],
+     "tier": 4,
+     "why": "Haber → haya."
+    },
+    {
+     "text": "dé",
+     "alias": [
+      "de"
+     ],
+     "tier": 4,
+     "why": "Dar → dé (accent separates it from the preposition de)."
+    },
+    {
+     "text": "conozca",
+     "alias": [],
+     "tier": 5,
+     "why": "Conocer → conozco → conozca."
+    }
+   ]
+  },
+  {
+   "id": "span-24",
+   "unit": "u5",
+   "prompt": "Name a use of SER (think DOCTOR)",
+   "answers": [
+    {
+     "text": "descripción",
+     "alias": [
+      "descripcion",
+      "description"
+     ],
+     "tier": 1,
+     "why": "Permanent description: es alto, es inteligente."
+    },
+    {
+     "text": "ocupación",
+     "alias": [
+      "ocupacion",
+      "la profesion",
+      "occupation"
+     ],
+     "tier": 1,
+     "why": "Job or role: soy estudiante (not 'estoy estudiante')."
+    },
+    {
+     "text": "característica",
+     "alias": [
+      "caracteristica",
+      "personalidad",
+      "characteristic"
+     ],
+     "tier": 2,
+     "why": "Character traits: es paciente, es reflexivo."
+    },
+    {
+     "text": "origen",
+     "alias": [
+      "nacionalidad",
+      "procedencia",
+      "origin"
+     ],
+     "tier": 2,
+     "why": "Where you're from: soy de Mumbai, soy indio."
+    },
+    {
+     "text": "la hora",
+     "alias": [
+      "hora",
+      "tiempo",
+      "time"
+     ],
+     "tier": 2,
+     "why": "Telling the time: son las tres."
+    },
+    {
+     "text": "relación",
+     "alias": [
+      "relacion",
+      "relationship"
+     ],
+     "tier": 3,
+     "why": "Relationships: es mi hermano."
+    },
+    {
+     "text": "la fecha",
+     "alias": [
+      "fecha",
+      "date"
+     ],
+     "tier": 3,
+     "why": "Dates and days: hoy es lunes."
+    },
+    {
+     "text": "el material",
+     "alias": [
+      "material"
+     ],
+     "tier": 4,
+     "why": "What something is made of: es de madera."
+    },
+    {
+     "text": "eventos",
+     "alias": [
+      "el evento",
+      "events",
+      "lugar de un evento"
+     ],
+     "tier": 5,
+     "why": "Where an EVENT takes place uses ser: la fiesta es en mi casa."
+    },
+    {
+     "text": "expresiones impersonales",
+     "alias": [
+      "es importante",
+      "impersonal"
+     ],
+     "tier": 4,
+     "why": "Es importante / es bueno / es necesario + que."
+    }
+   ]
+  },
+  {
+   "id": "span-25",
+   "unit": "u5",
+   "prompt": "Name a verb you put directly before an infinitive (modal-style)",
+   "answers": [
+    {
+     "text": "poder",
+     "alias": [
+      "puedo"
+     ],
+     "tier": 1,
+     "why": "Can / be able to: puedo mejorar."
+    },
+    {
+     "text": "querer",
+     "alias": [
+      "quiero"
+     ],
+     "tier": 1,
+     "why": "Want to: quiero hablar con más confianza."
+    },
+    {
+     "text": "deber",
+     "alias": [
+      "debo",
+      "deberias"
+     ],
+     "tier": 1,
+     "why": "Must / should: debo practicar. Deber is regular."
+    },
+    {
+     "text": "tener que",
+     "alias": [
+      "tengo que"
+     ],
+     "tier": 1,
+     "why": "Have to: tengo que estudiar."
+    },
+    {
+     "text": "ir a",
+     "alias": [
+      "voy a"
+     ],
+     "tier": 2,
+     "why": "Going to (near future): voy a relajarme."
+    },
+    {
+     "text": "hay que",
+     "alias": [],
+     "tier": 2,
+     "why": "One must (impersonal): hay que dormir bien."
+    },
+    {
+     "text": "necesitar",
+     "alias": [
+      "necesito"
+     ],
+     "tier": 3,
+     "why": "Need to: necesitas relajarte."
+    },
+    {
+     "text": "preferir",
+     "alias": [
+      "prefiero"
+     ],
+     "tier": 3,
+     "why": "Prefer to: prefiero estudiar por mi cuenta."
+    },
+    {
+     "text": "saber",
+     "alias": [
+      "se nadar"
+     ],
+     "tier": 4,
+     "why": "Know how to: sé nadar."
+    },
+    {
+     "text": "soler",
+     "alias": [
+      "suelo"
+     ],
+     "tier": 4,
+     "why": "Usually do: suelo levantarme a las seis."
+    },
+    {
+     "text": "empezar a",
+     "alias": [
+      "empiezo a"
+     ],
+     "tier": 4,
+     "why": "Start to: empiezo a entender."
+    },
+    {
+     "text": "acabar de",
+     "alias": [
+      "acabo de"
+     ],
+     "tier": 5,
+     "why": "Have just done: acabo de terminar."
+    },
+    {
+     "text": "volver a",
+     "alias": [
+      "vuelvo a"
+     ],
+     "tier": 5,
+     "why": "Do again: vuelvo a leer el texto."
+    }
+   ]
+  },
+  {
+   "id": "span-26",
+   "unit": "u5",
+   "prompt": "Name a stem-changing verb (infinitive)",
+   "answers": [
+    {
+     "text": "poder",
+     "alias": [],
+     "tier": 1,
+     "why": "o→ue: puedo, but podemos."
+    },
+    {
+     "text": "querer",
+     "alias": [],
+     "tier": 1,
+     "why": "e→ie: quiero, but queremos."
+    },
+    {
+     "text": "dormir",
+     "alias": [],
+     "tier": 1,
+     "why": "o→ue: duermo."
+    },
+    {
+     "text": "pensar",
+     "alias": [],
+     "tier": 2,
+     "why": "e→ie: pienso."
+    },
+    {
+     "text": "preferir",
+     "alias": [],
+     "tier": 2,
+     "why": "e→ie: prefiero."
+    },
+    {
+     "text": "empezar",
+     "alias": [],
+     "tier": 2,
+     "why": "e→ie: empiezo."
+    },
+    {
+     "text": "volver",
+     "alias": [],
+     "tier": 2,
+     "why": "o→ue: vuelvo."
+    },
+    {
+     "text": "pedir",
+     "alias": [],
+     "tier": 3,
+     "why": "e→i: pido. 'Pedir ayuda.'"
+    },
+    {
+     "text": "sentir",
+     "alias": [
+      "sentirse"
+     ],
+     "tier": 3,
+     "why": "e→ie: siento / me siento."
+    },
+    {
+     "text": "entender",
+     "alias": [],
+     "tier": 3,
+     "why": "e→ie: entiendo."
+    },
+    {
+     "text": "jugar",
+     "alias": [],
+     "tier": 3,
+     "why": "The only u→ue verb: juego."
+    },
+    {
+     "text": "encontrar",
+     "alias": [],
+     "tier": 3,
+     "why": "o→ue: encuentro."
+    },
+    {
+     "text": "recordar",
+     "alias": [],
+     "tier": 3,
+     "why": "o→ue: recuerdo."
+    },
+    {
+     "text": "resolver",
+     "alias": [],
+     "tier": 4,
+     "why": "o→ue: resuelvo."
+    },
+    {
+     "text": "repetir",
+     "alias": [],
+     "tier": 4,
+     "why": "e→i: repito."
+    },
+    {
+     "text": "despertarse",
+     "alias": [
+      "despertar"
+     ],
+     "tier": 4,
+     "why": "e→ie: me despierto."
+    }
+   ]
+  },
+  {
+   "id": "span-27",
+   "unit": "u5",
+   "prompt": "Name a tense or mood (besides the present) you can show off in Paper 1",
+   "answers": [
+    {
+     "text": "presente de subjuntivo",
+     "alias": [
+      "subjuntivo",
+      "subjunctive"
+     ],
+     "tier": 1,
+     "why": "Taught in Clase 6 for advice: es bueno que...+ subjunctive."
+    },
+    {
+     "text": "imperativo",
+     "alias": [
+      "imperative",
+      "los mandatos"
+     ],
+     "tier": 1,
+     "why": "Commands, the signature of a folleto (Clase 5)."
+    },
+    {
+     "text": "pretérito perfecto",
+     "alias": [
+      "preterito perfecto",
+      "present perfect",
+      "perfecto"
+     ],
+     "tier": 2,
+     "why": "he + participle: 'he cambiado mi rutina'."
+    },
+    {
+     "text": "futuro",
+     "alias": [
+      "future",
+      "futuro simple"
+     ],
+     "tier": 2,
+     "why": "Benefits in a folleto: dormirás mejor."
+    },
+    {
+     "text": "condicional",
+     "alias": [
+      "conditional"
+     ],
+     "tier": 3,
+     "why": "Polite advice: deberías apagar el móvil."
+    },
+    {
+     "text": "indefinido",
+     "alias": [
+      "preterito indefinido",
+      "preterite",
+      "preterito"
+     ],
+     "tier": 3,
+     "why": "Completed past events in an anecdote: dejé el fútbol."
+    },
+    {
+     "text": "imperfecto",
+     "alias": [
+      "preterito imperfecto",
+      "imperfect"
+     ],
+     "tier": 3,
+     "why": "Background and habits in the past: cuando tenía catorce años..."
+    },
+    {
+     "text": "futuro próximo",
+     "alias": [
+      "ir a",
+      "futuro proximo",
+      "near future"
+     ],
+     "tier": 2,
+     "why": "ir a + infinitive: voy a cambiar."
+    },
+    {
+     "text": "imperfecto de subjuntivo",
+     "alias": [
+      "imperfect subjunctive"
+     ],
+     "tier": 5,
+     "why": "Stretch structure: lo ideal sería que durmiéramos más."
+    }
+   ]
+  },
+  {
+   "id": "span-28",
+   "unit": "u6",
+   "prompt": "Name a Paper 1 text type (in Spanish)",
+   "answers": [
+    {
+     "text": "blog",
+     "alias": [
+      "el blog",
+      "entrada de blog"
+     ],
+     "tier": 1,
+     "why": "Personal, informal, comments at the end. The Paper 1 practice task was a blog."
+    },
+    {
+     "text": "folleto",
+     "alias": [
+      "el folleto"
+     ],
+     "tier": 1,
+     "why": "Brochure: title, sections, imperatives, call to action (Clases 5–6)."
+    },
+    {
+     "text": "correo electrónico",
+     "alias": [
+      "email",
+      "correo",
+      "e mail"
+     ],
+     "tier": 1,
+     "why": "Needs Asunto, greeting, farewell; register depends on the reader."
+    },
+    {
+     "text": "artículo",
+     "alias": [
+      "articulo",
+      "articulo de opinion"
+     ],
+     "tier": 2,
+     "why": "Headline, byline, argument, counter-argument, conclusion."
+    },
+    {
+     "text": "informe",
+     "alias": [
+      "el informe"
+     ],
+     "tier": 2,
+     "why": "Formal, impersonal, numbered sections and data (Clase 7)."
+    },
+    {
+     "text": "carta formal",
+     "alias": [
+      "carta"
+     ],
+     "tier": 2,
+     "why": "Estimado/a...: and Le saluda atentamente."
+    },
+    {
+     "text": "publicación en redes sociales",
+     "alias": [
+      "publicacion",
+      "post",
+      "redes sociales"
+     ],
+     "tier": 3,
+     "why": "The A3 model: emoji title, metaphor, hashtags, call to comment."
+    },
+    {
+     "text": "discurso",
+     "alias": [],
+     "tier": 3,
+     "why": "Speech: greet the audience, rhetorical questions, thanks at the end."
+    },
+    {
+     "text": "entrevista",
+     "alias": [],
+     "tier": 3,
+     "why": "Interview: intro of the interviewee, labelled Q and A."
+    },
+    {
+     "text": "diario",
+     "alias": [
+      "diario personal",
+      "querido diario"
+     ],
+     "tier": 3,
+     "why": "Diary: date, 'Querido diario:', intimate first person."
+    },
+    {
+     "text": "reseña",
+     "alias": [
+      "resena"
+     ],
+     "tier": 4,
+     "why": "Review: summary, judgement, rating, recommendation."
+    },
+    {
+     "text": "propuesta",
+     "alias": [],
+     "tier": 4,
+     "why": "Proposal: Para/De/Asunto, problem, plan, request."
+    },
+    {
+     "text": "instrucciones",
+     "alias": [],
+     "tier": 4,
+     "why": "Numbered steps that each start with an imperative."
+    },
+    {
+     "text": "ensayo",
+     "alias": [],
+     "tier": 4,
+     "why": "Essay: a formal, argued text on one question."
+    },
+    {
+     "text": "noticia",
+     "alias": [
+      "reportaje"
+     ],
+     "tier": 5,
+     "why": "News report: headline, who/what/when/where, third person."
+    }
+   ]
+  },
+  {
+   "id": "span-29",
+   "unit": "u6",
+   "prompt": "Name a convention of a BLOG",
+   "answers": [
+    {
+     "text": "título",
+     "alias": [
+      "titulo"
+     ],
+     "tier": 1,
+     "why": "A catchy entry title, not just 'Mi blog'."
+    },
+    {
+     "text": "comentarios",
+     "alias": [
+      "seccion de comentarios"
+     ],
+     "tier": 1,
+     "why": "Reader comments at the bottom: blogs are interactive."
+    },
+    {
+     "text": "fecha",
+     "alias": [
+      "la fecha"
+     ],
+     "tier": 2,
+     "why": "Date of the entry."
+    },
+    {
+     "text": "nombre del autor",
+     "alias": [
+      "autor",
+      "el autor"
+     ],
+     "tier": 2,
+     "why": "Author / username. Praised in the practice blog feedback."
+    },
+    {
+     "text": "imagen",
+     "alias": [
+      "foto",
+      "imagenes"
+     ],
+     "tier": 2,
+     "why": "An image. Also praised in the practice feedback."
+    },
+    {
+     "text": "saludo",
+     "alias": [
+      "saludo a los lectores",
+      "hola a todos"
+     ],
+     "tier": 2,
+     "why": "Greet your followers: ¡Hola a todos!"
+    },
+    {
+     "text": "párrafos",
+     "alias": [
+      "parrafos"
+     ],
+     "tier": 2,
+     "why": "Clear paragraphs, one idea each. The big fix from the practice blog."
+    },
+    {
+     "text": "pregunta a los lectores",
+     "alias": [
+      "pregunta retorica",
+      "preguntas"
+     ],
+     "tier": 3,
+     "why": "Ask readers a question: ¿Y ustedes...?"
+    },
+    {
+     "text": "anécdota personal",
+     "alias": [
+      "anecdota"
+     ],
+     "tier": 3,
+     "why": "A personal story, told with indefinido + imperfecto."
+    },
+    {
+     "text": "registro informal",
+     "alias": [
+      "informal",
+      "tono personal"
+     ],
+     "tier": 3,
+     "why": "Personal, friendly register. Pick tú or ustedes and stick to it."
+    },
+    {
+     "text": "despedida",
+     "alias": [],
+     "tier": 3,
+     "why": "A sign-off plus name."
+    },
+    {
+     "text": "URL",
+     "alias": [
+      "direccion web",
+      "enlace"
+     ],
+     "tier": 4,
+     "why": "A web address. Praised in the practice blog."
+    },
+    {
+     "text": "nombre del blog",
+     "alias": [],
+     "tier": 4,
+     "why": "Blog name separate from the entry title."
+    },
+    {
+     "text": "etiquetas",
+     "alias": [
+      "hashtags"
+     ],
+     "tier": 4,
+     "why": "Tags or hashtags at the end."
+    }
+   ]
+  },
+  {
+   "id": "span-30",
+   "unit": "u6",
+   "prompt": "Name a convention of a FOLLETO (brochure)",
+   "answers": [
+    {
+     "text": "título atractivo",
+     "alias": [
+      "titulo",
+      "titulo llamativo"
+     ],
+     "tier": 1,
+     "why": "A catchy title, often a question: ¿Agobiado antes de los exámenes?"
+    },
+    {
+     "text": "imágenes",
+     "alias": [
+      "imagen",
+      "dibujos",
+      "fotos"
+     ],
+     "tier": 1,
+     "why": "Visual support. The teacher asked for it in the folleto feedback."
+    },
+    {
+     "text": "subtítulos",
+     "alias": [
+      "subtitulos",
+      "encabezados"
+     ],
+     "tier": 2,
+     "why": "Headings so a skimming reader finds things."
+    },
+    {
+     "text": "imperativos",
+     "alias": [
+      "mandatos",
+      "imperativo"
+     ],
+     "tier": 2,
+     "why": "At least 5 commands: ¡participa!, descansa, no te agobies."
+    },
+    {
+     "text": "secciones",
+     "alias": [
+      "secciones cortas"
+     ],
+     "tier": 2,
+     "why": "Short sections: intro → beneficios → información práctica → llamada."
+    },
+    {
+     "text": "viñetas",
+     "alias": [
+      "vinetas",
+      "puntos",
+      "lista"
+     ],
+     "tier": 3,
+     "why": "Bullet-point tips."
+    },
+    {
+     "text": "llamada a la acción",
+     "alias": [
+      "llamada a la accion"
+     ],
+     "tier": 3,
+     "why": "The ending that tells the reader to act: ¡Inscríbete hoy!"
+    },
+    {
+     "text": "información de contacto",
+     "alias": [
+      "contacto",
+      "datos de contacto"
+     ],
+     "tier": 3,
+     "why": "Phone, email or web so the reader can act."
+    },
+    {
+     "text": "beneficios",
+     "alias": [],
+     "tier": 4,
+     "why": "A section on benefits, often in the future: dormirás mejor."
+    },
+    {
+     "text": "fecha y lugar",
+     "alias": [
+      "cuando y donde",
+      "informacion practica"
+     ],
+     "tier": 4,
+     "why": "Practical info: when, where, price."
+    },
+    {
+     "text": "eslogan",
+     "alias": [
+      "slogan",
+      "lema"
+     ],
+     "tier": 4,
+     "why": "A short memorable slogan."
+    },
+    {
+     "text": "preguntas retóricas",
+     "alias": [
+      "pregunta retorica"
+     ],
+     "tier": 4,
+     "why": "Hook the reader with a question."
+    },
+    {
+     "text": "nombre de la organización",
+     "alias": [
+      "logotipo",
+      "logo",
+      "organizacion"
+     ],
+     "tier": 5,
+     "why": "Who is behind the brochure (club, school, NGO)."
+    }
+   ]
+  },
+  {
+   "id": "span-31",
+   "unit": "u6",
+   "prompt": "Name a convention of an INFORME (report)",
+   "answers": [
+    {
+     "text": "título",
+     "alias": [
+      "titulo",
+      "informe sobre"
+     ],
+     "tier": 1,
+     "why": "'Informe sobre...' as the title."
+    },
+    {
+     "text": "conclusión",
+     "alias": [
+      "conclusion"
+     ],
+     "tier": 1,
+     "why": "The final numbered section."
+    },
+    {
+     "text": "recomendaciones",
+     "alias": [],
+     "tier": 2,
+     "why": "A section of recommendations: se recomienda que + subjunctive."
+    },
+    {
+     "text": "introducción",
+     "alias": [
+      "introduccion",
+      "objetivo"
+     ],
+     "tier": 2,
+     "why": "States the aim: 'El presente informe tiene como objetivo...'"
+    },
+    {
+     "text": "resultados",
+     "alias": [],
+     "tier": 2,
+     "why": "Results section: 'Según los datos obtenidos...'"
+    },
+    {
+     "text": "datos y estadísticas",
+     "alias": [
+      "datos",
+      "estadisticas",
+      "porcentajes"
+     ],
+     "tier": 2,
+     "why": "Data and evidence. Charts belong here, not in a folleto."
+    },
+    {
+     "text": "registro formal",
+     "alias": [
+      "formal",
+      "lenguaje formal"
+     ],
+     "tier": 2,
+     "why": "Formal and objective: no jokes, no emojis."
+    },
+    {
+     "text": "análisis",
+     "alias": [
+      "analisis"
+     ],
+     "tier": 3,
+     "why": "Analysis section: 'Los resultados indican que...'"
+    },
+    {
+     "text": "secciones numeradas",
+     "alias": [
+      "numeracion",
+      "apartados"
+     ],
+     "tier": 3,
+     "why": "Numbered sections with clear subtitles."
+    },
+    {
+     "text": "gráficos",
+     "alias": [
+      "graficos",
+      "tablas",
+      "grafico"
+     ],
+     "tier": 3,
+     "why": "A simple chart or table of results."
+    },
+    {
+     "text": "asunto",
+     "alias": [],
+     "tier": 3,
+     "why": "The 'Asunto:' line in the header block."
+    },
+    {
+     "text": "lenguaje impersonal",
+     "alias": [
+      "se impersonal",
+      "impersonal",
+      "tercera persona"
+     ],
+     "tier": 4,
+     "why": "Se realizó, se recomienda: keeps it objective."
+    },
+    {
+     "text": "para y de",
+     "alias": [
+      "para",
+      "destinatario",
+      "de"
+     ],
+     "tier": 4,
+     "why": "Header block: Para / De / Fecha / Asunto."
+    },
+    {
+     "text": "metodología",
+     "alias": [
+      "metodologia",
+      "encuesta"
+     ],
+     "tier": 4,
+     "why": "How the data was collected, e.g. 'se realizó una encuesta'."
+    }
+   ]
+  },
+  {
+   "id": "span-32",
+   "unit": "u6",
+   "prompt": "Name a convention of a FORMAL email or letter",
+   "answers": [
+    {
+     "text": "asunto",
+     "alias": [
+      "el asunto"
+     ],
+     "tier": 1,
+     "why": "Subject line: says why you're writing before it's opened."
+    },
+    {
+     "text": "estimado",
+     "alias": [
+      "estimada",
+      "estimado senor",
+      "estimada senora"
+     ],
+     "tier": 1,
+     "why": "Formal greeting: Estimado/a Sr./Sra. ...: (with a colon)."
+    },
+    {
+     "text": "atentamente",
+     "alias": [
+      "le saluda atentamente"
+     ],
+     "tier": 2,
+     "why": "Formal farewell."
+    },
+    {
+     "text": "usted",
+     "alias": [
+      "ustedes",
+      "tratamiento de usted"
+     ],
+     "tier": 2,
+     "why": "Formal you throughout. Never slip into tú."
+    },
+    {
+     "text": "le escribo para",
+     "alias": [
+      "me dirijo a usted"
+     ],
+     "tier": 3,
+     "why": "Formal opener stating your purpose."
+    },
+    {
+     "text": "firma",
+     "alias": [
+      "nombre y firma"
+     ],
+     "tier": 3,
+     "why": "Your name / signature at the end."
+    },
+    {
+     "text": "fecha",
+     "alias": [
+      "la fecha"
+     ],
+     "tier": 3,
+     "why": "The date (especially in a letter)."
+    },
+    {
+     "text": "registro formal",
+     "alias": [
+      "formal"
+     ],
+     "tier": 2,
+     "why": "No slang, no emojis, no exclamations."
+    },
+    {
+     "text": "un cordial saludo",
+     "alias": [
+      "cordial saludo",
+      "reciba un cordial saludo"
+     ],
+     "tier": 4,
+     "why": "Another formal sign-off."
+    },
+    {
+     "text": "le agradecería que",
+     "alias": [
+      "le agradeceria"
+     ],
+     "tier": 5,
+     "why": "Polite request + imperfect subjunctive: band-7 stretch."
+    },
+    {
+     "text": "dirección",
+     "alias": [
+      "direccion",
+      "remitente"
+     ],
+     "tier": 4,
+     "why": "Sender's address in a formal letter."
+    }
+   ]
+  },
+  {
+   "id": "span-33",
+   "unit": "u6",
+   "prompt": "Name a connector for CONTRASTING ideas (in Spanish)",
+   "answers": [
+    {
+     "text": "sin embargo",
+     "alias": [],
+     "tier": 1,
+     "why": "However. The classic contrast connector."
+    },
+    {
+     "text": "pero",
+     "alias": [],
+     "tier": 1,
+     "why": "But. Simple, use it but don't rely on it."
+    },
+    {
+     "text": "aunque",
+     "alias": [],
+     "tier": 1,
+     "why": "Although. In the learner-profile phrase list."
+    },
+    {
+     "text": "en cambio",
+     "alias": [],
+     "tier": 2,
+     "why": "On the other hand / whereas."
+    },
+    {
+     "text": "por otro lado",
+     "alias": [],
+     "tier": 2,
+     "why": "On the other hand (pairs with por un lado)."
+    },
+    {
+     "text": "a pesar de",
+     "alias": [
+      "a pesar de que"
+     ],
+     "tier": 3,
+     "why": "Despite / even though."
+    },
+    {
+     "text": "no obstante",
+     "alias": [],
+     "tier": 3,
+     "why": "Nevertheless. More formal than sin embargo."
+    },
+    {
+     "text": "mientras que",
+     "alias": [],
+     "tier": 3,
+     "why": "Whereas / while."
+    },
+    {
+     "text": "ahora bien",
+     "alias": [],
+     "tier": 4,
+     "why": "That said... Great for introducing a counter-argument."
+    },
+    {
+     "text": "por el contrario",
+     "alias": [
+      "al contrario"
+     ],
+     "tier": 4,
+     "why": "On the contrary."
+    },
+    {
+     "text": "sino",
+     "alias": [
+      "no...sino"
+     ],
+     "tier": 4,
+     "why": "But rather: no se trata de dormir más, sino de dormir mejor."
+    },
+    {
+     "text": "si bien",
+     "alias": [
+      "si bien es cierto que"
+     ],
+     "tier": 5,
+     "why": "While it's true that... Band-7 concession."
+    }
+   ]
+  },
+  {
+   "id": "span-34",
+   "unit": "u6",
+   "prompt": "Name a connector for CAUSE or CONSEQUENCE (in Spanish)",
+   "answers": [
+    {
+     "text": "por lo tanto",
+     "alias": [
+      "por tanto"
+     ],
+     "tier": 1,
+     "why": "Therefore."
+    },
+    {
+     "text": "porque",
+     "alias": [],
+     "tier": 1,
+     "why": "Because."
+    },
+    {
+     "text": "por eso",
+     "alias": [],
+     "tier": 1,
+     "why": "That's why."
+    },
+    {
+     "text": "así que",
+     "alias": [
+      "asi que"
+     ],
+     "tier": 2,
+     "why": "So."
+    },
+    {
+     "text": "ya que",
+     "alias": [],
+     "tier": 2,
+     "why": "Since / as. Sounds more advanced than porque."
+    },
+    {
+     "text": "como resultado",
+     "alias": [
+      "como consecuencia"
+     ],
+     "tier": 3,
+     "why": "As a result. In the learner-profile phrase list."
+    },
+    {
+     "text": "debido a",
+     "alias": [],
+     "tier": 3,
+     "why": "Due to (+ noun)."
+    },
+    {
+     "text": "gracias a",
+     "alias": [],
+     "tier": 3,
+     "why": "Thanks to (a positive cause)."
+    },
+    {
+     "text": "puesto que",
+     "alias": [],
+     "tier": 4,
+     "why": "Since / given that. Formal."
+    },
+    {
+     "text": "dado que",
+     "alias": [],
+     "tier": 4,
+     "why": "Given that."
+    },
+    {
+     "text": "por consiguiente",
+     "alias": [],
+     "tier": 5,
+     "why": "Consequently. Very formal, good in an informe."
+    },
+    {
+     "text": "en consecuencia",
+     "alias": [],
+     "tier": 5,
+     "why": "Consequently."
+    }
+   ]
+  },
+  {
+   "id": "span-35",
+   "unit": "u6",
+   "prompt": "Name a connector for ORDERING or CONCLUDING paragraphs",
+   "answers": [
+    {
+     "text": "en primer lugar",
+     "alias": [
+      "primero"
+     ],
+     "tier": 1,
+     "why": "First of all. Start of paragraph 1."
+    },
+    {
+     "text": "además",
+     "alias": [
+      "ademas"
+     ],
+     "tier": 1,
+     "why": "Moreover / in addition."
+    },
+    {
+     "text": "en conclusión",
+     "alias": [
+      "en conclusion"
+     ],
+     "tier": 1,
+     "why": "In conclusion."
+    },
+    {
+     "text": "finalmente",
+     "alias": [],
+     "tier": 1,
+     "why": "Finally."
+    },
+    {
+     "text": "por último",
+     "alias": [
+      "por ultimo"
+     ],
+     "tier": 2,
+     "why": "Lastly."
+    },
+    {
+     "text": "en segundo lugar",
+     "alias": [
+      "segundo"
+     ],
+     "tier": 2,
+     "why": "Secondly."
+    },
+    {
+     "text": "para empezar",
+     "alias": [],
+     "tier": 2,
+     "why": "To begin with."
+    },
+    {
+     "text": "para concluir",
+     "alias": [
+      "para terminar"
+     ],
+     "tier": 2,
+     "why": "To conclude."
+    },
+    {
+     "text": "por un lado",
+     "alias": [],
+     "tier": 3,
+     "why": "On one hand (then: por otro lado)."
+    },
+    {
+     "text": "en resumen",
+     "alias": [],
+     "tier": 3,
+     "why": "In summary."
+    },
+    {
+     "text": "asimismo",
+     "alias": [],
+     "tier": 4,
+     "why": "Likewise / also. More formal than además."
+    },
+    {
+     "text": "en definitiva",
+     "alias": [],
+     "tier": 4,
+     "why": "All in all."
+    },
+    {
+     "text": "sobre todo",
+     "alias": [],
+     "tier": 3,
+     "why": "Above all. In the learner-profile phrase list."
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "unit": "u1",
+   "front": "indagador",
+   "back": "inquirer"
+  },
+  {
+   "unit": "u1",
+   "front": "informado e instruido",
+   "back": "knowledgeable"
+  },
+  {
+   "unit": "u1",
+   "front": "pensador",
+   "back": "thinker"
+  },
+  {
+   "unit": "u1",
+   "front": "buen comunicador",
+   "back": "communicator"
+  },
+  {
+   "unit": "u1",
+   "front": "íntegro",
+   "back": "principled"
+  },
+  {
+   "unit": "u1",
+   "front": "de mentalidad abierta",
+   "back": "open-minded"
+  },
+  {
+   "unit": "u1",
+   "front": "solidario",
+   "back": "caring"
+  },
+  {
+   "unit": "u1",
+   "front": "audaz",
+   "back": "risk-taker"
+  },
+  {
+   "unit": "u1",
+   "front": "equilibrado",
+   "back": "balanced"
+  },
+  {
+   "unit": "u1",
+   "front": "reflexivo",
+   "back": "reflective"
+  },
+  {
+   "unit": "u1",
+   "front": "aprender",
+   "back": "to learn"
+  },
+  {
+   "unit": "u1",
+   "front": "mejorar",
+   "back": "to improve"
+  },
+  {
+   "unit": "u1",
+   "front": "reflexionar",
+   "back": "to reflect"
+  },
+  {
+   "unit": "u1",
+   "front": "resolver",
+   "back": "to solve / to resolve"
+  },
+  {
+   "unit": "u1",
+   "front": "lograr",
+   "back": "to achieve"
+  },
+  {
+   "unit": "u1",
+   "front": "superar",
+   "back": "to overcome"
+  },
+  {
+   "unit": "u1",
+   "front": "desarrollar",
+   "back": "to develop"
+  },
+  {
+   "unit": "u1",
+   "front": "participar",
+   "back": "to participate"
+  },
+  {
+   "unit": "u1",
+   "front": "colaborar",
+   "back": "to collaborate"
+  },
+  {
+   "unit": "u1",
+   "front": "investigar",
+   "back": "to investigate / research"
+  },
+  {
+   "unit": "u1",
+   "front": "analizar",
+   "back": "to analyze"
+  },
+  {
+   "unit": "u1",
+   "front": "comprender",
+   "back": "to understand"
+  },
+  {
+   "unit": "u1",
+   "front": "dominar",
+   "back": "to master"
+  },
+  {
+   "unit": "u1",
+   "front": "destacar",
+   "back": "to stand out"
+  },
+  {
+   "unit": "u1",
+   "front": "esforzarse",
+   "back": "to make an effort"
+  },
+  {
+   "unit": "u1",
+   "front": "equivocarse",
+   "back": "to make a mistake / be wrong"
+  },
+  {
+   "unit": "u1",
+   "front": "arriesgarse",
+   "back": "to take a risk"
+  },
+  {
+   "unit": "u1",
+   "front": "adaptarse",
+   "back": "to adapt"
+  },
+  {
+   "unit": "u1",
+   "front": "superarse",
+   "back": "to better oneself"
+  },
+  {
+   "unit": "u1",
+   "front": "concentrarse",
+   "back": "to concentrate"
+  },
+  {
+   "unit": "u1",
+   "front": "estar de acuerdo",
+   "back": "to agree"
+  },
+  {
+   "unit": "u1",
+   "front": "darse cuenta de",
+   "back": "to realize"
+  },
+  {
+   "unit": "u1",
+   "front": "por mi cuenta",
+   "back": "on my own"
+  },
+  {
+   "unit": "u1",
+   "front": "en vez de",
+   "back": "instead of"
+  },
+  {
+   "unit": "u6",
+   "front": "aunque",
+   "back": "although"
+  },
+  {
+   "unit": "u1",
+   "front": "cometer un error",
+   "back": "to make a mistake"
+  },
+  {
+   "unit": "u1",
+   "front": "tener éxito",
+   "back": "to succeed / be successful"
+  },
+  {
+   "unit": "u1",
+   "front": "sacar provecho de",
+   "back": "to make the most of / benefit from"
+  },
+  {
+   "unit": "u1",
+   "front": "tener en cuenta",
+   "back": "to take into account"
+  },
+  {
+   "unit": "u1",
+   "front": "hacer un esfuerzo",
+   "back": "to make an effort"
+  },
+  {
+   "unit": "u1",
+   "front": "poner en práctica",
+   "back": "to put into practice"
+  },
+  {
+   "unit": "u6",
+   "front": "a mi modo de ver",
+   "back": "in my view"
+  },
+  {
+   "unit": "u6",
+   "front": "desde mi punto de vista",
+   "back": "from my point of view"
+  },
+  {
+   "unit": "u6",
+   "front": "gracias a",
+   "back": "thanks to"
+  },
+  {
+   "unit": "u6",
+   "front": "a pesar de",
+   "back": "despite"
+  },
+  {
+   "unit": "u6",
+   "front": "sobre todo",
+   "back": "above all"
+  },
+  {
+   "unit": "u6",
+   "front": "por otro lado",
+   "back": "on the other hand"
+  },
+  {
+   "unit": "u6",
+   "front": "como resultado",
+   "back": "as a result"
+  },
+  {
+   "unit": "u1",
+   "front": "cuidadoso/a",
+   "back": "careful"
+  },
+  {
+   "unit": "u1",
+   "front": "perseverante",
+   "back": "persevering / persistent"
+  },
+  {
+   "unit": "u2",
+   "front": "la etiqueta",
+   "back": "label"
+  },
+  {
+   "unit": "u2",
+   "front": "el estereotipo",
+   "back": "stereotype: a fixed generalisation about a group"
+  },
+  {
+   "unit": "u2",
+   "front": "encajar",
+   "back": "to fit in"
+  },
+  {
+   "unit": "u2",
+   "front": "pertenecer",
+   "back": "to belong"
+  },
+  {
+   "unit": "u2",
+   "front": "camisa de fuerza",
+   "back": "straitjacket (what labels become when they trap you, in the A3 post)"
+  },
+  {
+   "unit": "u2",
+   "front": "Central metaphor of the A3 identity post",
+   "back": "Identity is like WATER: it adapts and escapes any container. Identity is also an evolving 'mosaico'."
+  },
+  {
+   "unit": "u2",
+   "front": "Texto C main idea",
+   "back": "Stereotypes decide who we 'should' be; one person can get different labels in different places, and several identities can coexist."
+  },
+  {
+   "unit": "u3",
+   "front": "Lenin Tamayo",
+   "back": "Peruvian singer who mixes K-pop with quechua (Q-pop). Example of a young person reviving an indigenous language."
+  },
+  {
+   "unit": "u3",
+   "front": "Las 4 parejas de tensión lingüística",
+   "back": "protección ↔ elección · reconocimiento ↔ poder · valor cultural ↔ discriminación · corrección ↔ identidad"
+  },
+  {
+   "unit": "u3",
+   "front": "guaraní",
+   "back": "Indigenous language co-official in Paraguay, spoken by most of the population."
+  },
+  {
+   "unit": "u4",
+   "front": "el bienestar",
+   "back": "well-being"
+  },
+  {
+   "unit": "u4",
+   "front": "la alimentación equilibrada",
+   "back": "a balanced diet"
+  },
+  {
+   "unit": "u4",
+   "front": "regular el estrés",
+   "back": "to manage / regulate stress"
+  },
+  {
+   "unit": "u4",
+   "front": "el estado de ánimo",
+   "back": "mood"
+  },
+  {
+   "unit": "u4",
+   "front": "sentirse abrumado/a",
+   "back": "to feel overwhelmed"
+  },
+  {
+   "unit": "u4",
+   "front": "el autocuidado",
+   "back": "self-care"
+  },
+  {
+   "unit": "u4",
+   "front": "Los 3 pilares de un estilo de vida saludable (class reading)",
+   "back": "actividad física · alimentación · equilibrio emocional"
+  },
+  {
+   "unit": "u5",
+   "front": "Subjuntivo: the teacher's 3 tests",
+   "back": "1) two verbs with 'que' between them; 2) different subject for each verb; 3) the first verb shows wish, doubt, emotion or advice."
+  },
+  {
+   "unit": "u5",
+   "front": "How to form the present subjunctive",
+   "back": "yo present, drop -o, swap the vowel: -ar → -e (hable), -er/-ir → -a (coma, viva). tengo → tenga, hago → haga."
+  },
+  {
+   "unit": "u5",
+   "front": "Subjunctive irregulars not from the yo form",
+   "back": "ser → sea · estar → esté · ir → vaya · dar → dé · saber → sepa · haber → haya"
+  },
+  {
+   "unit": "u5",
+   "front": "Negative tú command of hablar / hacer",
+   "back": "no hables / no hagas (no + present subjunctive)"
+  },
+  {
+   "unit": "u5",
+   "front": "Affirmative tú command + pronoun: relajarse",
+   "back": "¡relájate! (accent added because a syllable is added). Negative: no te relajes."
+  },
+  {
+   "unit": "u5",
+   "front": "Reflexive pronoun placement",
+   "back": "Before a conjugated verb (me quiero relajar) OR attached to the infinitive (quiero relajarme). Never both."
+  },
+  {
+   "unit": "u5",
+   "front": "SER vs ESTAR in one line",
+   "back": "SER = permanent identity, traits, origin, job, time (DOCTOR). ESTAR = location, temporary state, emotion, action in progress (PLACE)."
+  },
+  {
+   "unit": "u5",
+   "front": "HABER (hay) vs TENER",
+   "back": "hay = there is/are (existence): hay muchos estudiantes. tener = to have / possess: tengo dos hermanos. Tener que = have to."
+  },
+  {
+   "unit": "u6",
+   "front": "Paper 1 SL format",
+   "back": "1 h 15 min, choose 1 of 3 tasks, each with 3 text-type options; 250–400 words. Criteria: A Language /12, B Message /12, C Conceptual understanding /6."
+  },
+  {
+   "unit": "u6",
+   "front": "Folleto structure (teacher's)",
+   "back": "Título atractivo → Sección 1 introducción → Sección 2 beneficios → Sección 3 información práctica → Llamada a la acción."
+  },
+  {
+   "unit": "u6",
+   "front": "Informe sections",
+   "back": "Para/De/Fecha/Asunto, then 1 Introducción · 2 Resultados · 3 Análisis · 4 Recomendaciones · 5 Conclusión. Formal and impersonal (se)."
+  },
+  {
+   "unit": "u6",
+   "front": "ATRAPO",
+   "back": "Planning tool: Audiencia · Tipo de texto · Registro · Autor · Propósito · Oraciones (structures to use)."
+  },
+  {
+   "unit": "u6",
+   "front": "#1 fix from the practice blog",
+   "back": "Plan first, then 5–6 paragraphs with one idea each, a full stop every 1–2 lines, and reread as the reader."
+  }
+ ],
+ "quiz": [
+  {
+   "unit": "u1",
+   "q": "'Solidario' as an IB learner-profile attribute means…",
+   "choices": [
+    "Lonely",
+    "Caring",
+    "Principled",
+    "Balanced"
+   ],
+   "answer": 1,
+   "explain": "Solidario = caring. 'Solitario' means lonely, a common mix-up."
+  },
+  {
+   "unit": "u1",
+   "q": "Which attribute is 'risk-taker' in Spanish?",
+   "choices": [
+    "Audaz",
+    "Íntegro",
+    "Equilibrado",
+    "Indagador"
+   ],
+   "answer": 0,
+   "explain": "Audaz = bold / risk-taker. Íntegro = principled, indagador = inquirer."
+  },
+  {
+   "unit": "u1",
+   "q": "'Darse cuenta de' means…",
+   "choices": [
+    "To account for",
+    "To count on",
+    "To give up",
+    "To realise"
+   ],
+   "answer": 3,
+   "explain": "Darse cuenta de = to realise. Reflexive: me doy cuenta de que..."
+  },
+  {
+   "unit": "u1",
+   "q": "Which is the correct way to say 'I make a mistake'?",
+   "choices": [
+    "Hago un error",
+    "Tengo un error",
+    "Cometo un error",
+    "Pongo un error"
+   ],
+   "answer": 2,
+   "explain": "Spanish uses cometer un error (or equivocarse), not 'hacer un error'."
+  },
+  {
+   "unit": "u2",
+   "q": "In the A3 social-media post, identity is compared to…",
+   "choices": [
+    "A box",
+    "Water",
+    "A prison",
+    "A mirror"
+   ],
+   "answer": 1,
+   "explain": "Identity is like water: it adapts and escapes containers. The post also calls it a mosaico."
+  },
+  {
+   "unit": "u2",
+   "q": "According to Texto C, stereotypes become harmful when…",
+   "choices": [
+    "We use them to decide how a person must be",
+    "We learn a second language",
+    "We travel abroad",
+    "We share them on social media only"
+   ],
+   "answer": 0,
+   "explain": "They hurt when we stop seeing them as generalisations and use them to decide how someone should be."
+  },
+  {
+   "unit": "u3",
+   "q": "Guaraní is co-official in which country?",
+   "choices": [
+    "Peru",
+    "Mexico",
+    "Spain",
+    "Paraguay"
+   ],
+   "answer": 3,
+   "explain": "Paraguay. Quechua = Andes (Peru/Bolivia), náhuatl = Mexico, catalán = Spain."
+  },
+  {
+   "unit": "u3",
+   "q": "Which word comes into Spanish from náhuatl?",
+   "choices": [
+    "Fútbol",
+    "Almohada",
+    "Chocolate",
+    "Guitarra"
+   ],
+   "answer": 2,
+   "explain": "Chocolate, tomate and aguacate come from náhuatl. Almohada is from Arabic, fútbol from English."
+  },
+  {
+   "unit": "u4",
+   "q": "'La comida basura' means…",
+   "choices": [
+    "Leftovers",
+    "Junk food",
+    "Organic food",
+    "Food waste"
+   ],
+   "answer": 1,
+   "explain": "Comida basura = junk food (literally 'rubbish food')."
+  },
+  {
+   "unit": "u4",
+   "q": "The three pillars of a healthy lifestyle in the class reading are actividad física, alimentación and…",
+   "choices": [
+    "el equilibrio emocional",
+    "el sueño",
+    "la higiene",
+    "el ocio"
+   ],
+   "answer": 0,
+   "explain": "Actividad física, alimentación and equilibrio emocional."
+  },
+  {
+   "unit": "u4",
+   "q": "'Sentirse abrumado' means…",
+   "choices": [
+    "To feel bored",
+    "To feel supported",
+    "To feel at ease",
+    "To feel overwhelmed"
+   ],
+   "answer": 3,
+   "explain": "Abrumado = overwhelmed. Sentirse a gusto = feel at ease; apoyado = supported."
+  },
+  {
+   "unit": "u4",
+   "q": "'Perjudicial' means…",
+   "choices": [
+    "Prejudiced",
+    "Useful",
+    "Harmful",
+    "Prevented"
+   ],
+   "answer": 2,
+   "explain": "Perjudicial = harmful. A false friend: prejudiced is 'con prejuicios'."
+  },
+  {
+   "unit": "u4",
+   "q": "Which word means 'physical inactivity'?",
+   "choices": [
+    "El agotamiento",
+    "El sedentarismo",
+    "El autocuidado",
+    "La dependencia"
+   ],
+   "answer": 1,
+   "explain": "El sedentarismo. Agotamiento = exhaustion, autocuidado = self-care, dependencia = addiction."
+  },
+  {
+   "unit": "u5",
+   "q": "Choose the correct form: 'Es importante que tú ___ ocho horas.' (dormir)",
+   "choices": [
+    "duermas",
+    "duermes",
+    "dormir",
+    "durmamos"
+   ],
+   "answer": 0,
+   "explain": "Es importante que + subjunctive: duerm- + -as = duermas."
+  },
+  {
+   "unit": "u5",
+   "q": "Choose the correct form: 'Creo que la meditación ___ útil.' (ser)",
+   "choices": [
+    "sea",
+    "está",
+    "ser",
+    "es"
+   ],
+   "answer": 3,
+   "explain": "Creo que states a belief as fact, so it takes the indicative: es. No creo que would take sea."
+  },
+  {
+   "unit": "u5",
+   "q": "Choose the correct form: 'Quiero ___ más.' (I want to sleep more)",
+   "choices": [
+    "que duerma",
+    "duerma",
+    "dormir",
+    "durmiendo"
+   ],
+   "answer": 2,
+   "explain": "Same subject in both halves, so use the infinitive, not que + subjunctive."
+  },
+  {
+   "unit": "u5",
+   "q": "Present subjunctive of 'ir' (yo/él):",
+   "choices": [
+    "iba",
+    "vaya",
+    "va",
+    "vaye"
+   ],
+   "answer": 1,
+   "explain": "Ir → vaya. One of the irregulars not formed from the yo form (ser → sea, estar → esté)."
+  },
+  {
+   "unit": "u5",
+   "q": "Negative tú command of 'hacer':",
+   "choices": [
+    "no hagas",
+    "no haz",
+    "no hace",
+    "no haces"
+   ],
+   "answer": 0,
+   "explain": "Negative tú commands use the subjunctive: no hagas."
+  },
+  {
+   "unit": "u5",
+   "q": "Which is the correct affirmative tú command of 'relajarse'?",
+   "choices": [
+    "relajate",
+    "te relaja",
+    "relájese",
+    "relájate"
+   ],
+   "answer": 3,
+   "explain": "Pronoun attached at the end plus an accent: relájate. Relájese is the usted form."
+  },
+  {
+   "unit": "u5",
+   "q": "Which is correct?",
+   "choices": [
+    "Yo levanto me temprano",
+    "Yo levántome temprano",
+    "Yo me levanto temprano",
+    "Me yo levanto temprano"
+   ],
+   "answer": 2,
+   "explain": "With a conjugated verb, the reflexive pronoun goes before it: me levanto."
+  },
+  {
+   "unit": "u5",
+   "q": "Correct the boot verb: 'Nosotros ___ practicar juntos.' (poder)",
+   "choices": [
+    "puedemos",
+    "podemos",
+    "puedamos",
+    "pueden"
+   ],
+   "answer": 1,
+   "explain": "Nosotros sits outside the 'boot', so no stem change: podemos."
+  },
+  {
+   "unit": "u5",
+   "q": "'Ahora ___ cansado después de la clase.' (I'm tired)",
+   "choices": [
+    "estoy",
+    "soy",
+    "hay",
+    "tengo"
+   ],
+   "answer": 0,
+   "explain": "A temporary state uses estar: estoy cansado."
+  },
+  {
+   "unit": "u5",
+   "q": "'Mi profesor ___ una persona muy paciente.'",
+   "choices": [
+    "está",
+    "hay",
+    "tiene",
+    "es"
+   ],
+   "answer": 3,
+   "explain": "A permanent character trait uses ser: es una persona paciente."
+  },
+  {
+   "unit": "u5",
+   "q": "'En mi colegio ___ muchos estudiantes internacionales.'",
+   "choices": [
+    "son",
+    "están",
+    "hay",
+    "tienen"
+   ],
+   "answer": 2,
+   "explain": "Hay (from haber) expresses existence: there are many students."
+  },
+  {
+   "unit": "u5",
+   "q": "'___ hambre' (I'm hungry) uses which verb?",
+   "choices": [
+    "Estoy",
+    "Tengo",
+    "Soy",
+    "Hay"
+   ],
+   "answer": 1,
+   "explain": "Spanish uses tener for hunger, thirst, fear, age: tengo hambre."
+  },
+  {
+   "unit": "u5",
+   "q": "Which sentence is correct?",
+   "choices": [
+    "Vamos a esforzarnos más",
+    "Nos vamos a esforzar nos más",
+    "Vamos a nos esforzar más",
+    "Vamos nos a esforzar más"
+   ],
+   "answer": 0,
+   "explain": "Attach the pronoun to the infinitive (or put it before vamos), never both."
+  },
+  {
+   "unit": "u6",
+   "q": "A text with Para / De / Fecha / Asunto and numbered sections with data is…",
+   "choices": [
+    "un folleto",
+    "un blog",
+    "un diario",
+    "un informe"
+   ],
+   "answer": 3,
+   "explain": "That header block plus data and numbered sections is an informe."
+  },
+  {
+   "unit": "u6",
+   "q": "Which feature belongs to a folleto rather than an informe?",
+   "choices": [
+    "Percentage charts",
+    "Impersonal 'se recomienda'",
+    "A call to action",
+    "Numbered 'Resultados' section"
+   ],
+   "answer": 2,
+   "explain": "Folletos end with a llamada a la acción. Charts and data belong to an informe."
+  },
+  {
+   "unit": "u6",
+   "q": "Which closing suits a formal email to a school director?",
+   "choices": [
+    "Un abrazo",
+    "Atentamente",
+    "Besos",
+    "¡Chao!"
+   ],
+   "answer": 1,
+   "explain": "Formal: Atentamente / Le saluda atentamente. Un abrazo and besos are informal."
+  },
+  {
+   "unit": "u6",
+   "q": "Which connector introduces a CONSEQUENCE?",
+   "choices": [
+    "Por lo tanto",
+    "Sin embargo",
+    "Aunque",
+    "En cambio"
+   ],
+   "answer": 0,
+   "explain": "Por lo tanto = therefore. The other three express contrast."
+  },
+  {
+   "unit": "u6",
+   "q": "A Paper 1 blog had a title, author, image and comments section, but still scored low. The most likely reason?",
+   "choices": [
+    "Wrong text type",
+    "No title",
+    "Too many words",
+    "One long paragraph without punctuation"
+   ],
+   "answer": 3,
+   "explain": "Blog conventions were good; the problem was organisation: a single unpunctuated paragraph."
+  },
+  {
+   "unit": "u6",
+   "q": "In a folleto for teenagers, the safest register is…",
+   "choices": [
+    "usted throughout",
+    "mixing tú and usted",
+    "tú throughout",
+    "impersonal se only"
+   ],
+   "answer": 2,
+   "explain": "Teens are addressed with tú. The key is never switching between tú and usted."
+  },
+  {
+   "unit": "u6",
+   "q": "Paper 1 SL word range is…",
+   "choices": [
+    "150–250",
+    "250–400",
+    "450–600",
+    "400–500"
+   ],
+   "answer": 1,
+   "explain": "SL Paper 1: 250–400 words; aim for about 300–380."
+  }
+ ]
+}

@@ -1,0 +1,3922 @@
+{
+ "subject": "tok",
+ "name": "TOK",
+ "units": [
+  {
+   "id": "core",
+   "name": "Knowledge & the Knower"
+  },
+  {
+   "id": "bias",
+   "name": "Senses, biases, logic & emotion"
+  },
+  {
+   "id": "langtech",
+   "name": "Knowledge & Language / Technology"
+  },
+  {
+   "id": "ns",
+   "name": "Natural sciences & scientific method"
+  },
+  {
+   "id": "assess",
+   "name": "Exhibition & essay"
+  },
+  {
+   "id": "ee",
+   "name": "Extended Essay (Core Seminar)"
+  }
+ ],
+ "prompts": [
+  {
+   "id": "tok-01",
+   "unit": "core",
+   "prompt": "Name an Area of Knowledge or a TOK theme (core or optional)",
+   "answers": [
+    {
+     "text": "Natural sciences",
+     "alias": [
+      "science",
+      "sciences",
+      "natural science"
+     ],
+     "tier": 1,
+     "why": "AOK. The most recent TOK lessons were on the natural sciences."
+    },
+    {
+     "text": "Mathematics",
+     "alias": [
+      "math",
+      "maths"
+     ],
+     "tier": 1,
+     "why": "AOK. Knowledge built by proof from axioms."
+    },
+    {
+     "text": "History",
+     "alias": [],
+     "tier": 1,
+     "why": "AOK. Knowledge about the past from sources and interpretation."
+    },
+    {
+     "text": "The arts",
+     "alias": [
+      "arts",
+      "art"
+     ],
+     "tier": 2,
+     "why": "AOK. Can art give knowledge, or only experience?"
+    },
+    {
+     "text": "Human sciences",
+     "alias": [
+      "human science",
+      "social sciences",
+      "psychology",
+      "economics"
+     ],
+     "tier": 2,
+     "why": "AOK. Psychology, economics etc.: studying people, who can change when studied."
+    },
+    {
+     "text": "Knowledge and the knower",
+     "alias": [
+      "knowers and knowledge",
+      "the knower",
+      "knowledge and the knower theme"
+     ],
+     "tier": 2,
+     "why": "The compulsory core theme for every TOK student."
+    },
+    {
+     "text": "Knowledge and technology",
+     "alias": [
+      "technology"
+     ],
+     "tier": 2,
+     "why": "One of this class's two optional themes."
+    },
+    {
+     "text": "Knowledge and language",
+     "alias": [
+      "language"
+     ],
+     "tier": 2,
+     "why": "This class's other optional theme."
+    },
+    {
+     "text": "Knowledge and politics",
+     "alias": [
+      "politics"
+     ],
+     "tier": 4,
+     "why": "An optional theme this class did not pick."
+    },
+    {
+     "text": "Knowledge and religion",
+     "alias": [
+      "religion"
+     ],
+     "tier": 4,
+     "why": "An optional theme this class did not pick."
+    },
+    {
+     "text": "Knowledge and indigenous societies",
+     "alias": [
+      "indigenous societies",
+      "indigenous knowledge"
+     ],
+     "tier": 5,
+     "why": "The fifth optional theme: the one almost nobody remembers."
+    }
+   ]
+  },
+  {
+   "id": "tok-02",
+   "unit": "core",
+   "prompt": "Name one of the 12 TOK concepts",
+   "answers": [
+    {
+     "text": "Evidence",
+     "alias": [],
+     "tier": 1,
+     "why": "What supports a claim. Exhibition prompt: 'What counts as good evidence for a claim?'"
+    },
+    {
+     "text": "Truth",
+     "alias": [],
+     "tier": 1,
+     "why": "Does knowledge need to be true? Can a false belief ever be knowledge?"
+    },
+    {
+     "text": "Certainty",
+     "alias": [],
+     "tier": 1,
+     "why": "How sure can we be? Prompt: 'To what extent is certainty attainable?'"
+    },
+    {
+     "text": "Perspective",
+     "alias": [
+      "perspectives"
+     ],
+     "tier": 2,
+     "why": "Where a knower stands shapes what they see."
+    },
+    {
+     "text": "Interpretation",
+     "alias": [],
+     "tier": 2,
+     "why": "Same evidence, different meanings, e.g. in history."
+    },
+    {
+     "text": "Power",
+     "alias": [],
+     "tier": 2,
+     "why": "Who decides what counts as knowledge?"
+    },
+    {
+     "text": "Objectivity",
+     "alias": [],
+     "tier": 2,
+     "why": "Can knowledge be free of the knower's bias?"
+    },
+    {
+     "text": "Justification",
+     "alias": [],
+     "tier": 3,
+     "why": "The reasons that turn a belief into knowledge."
+    },
+    {
+     "text": "Explanation",
+     "alias": [],
+     "tier": 3,
+     "why": "Science doesn't just describe; it explains why."
+    },
+    {
+     "text": "Culture",
+     "alias": [],
+     "tier": 3,
+     "why": "Shared values and language shape what we know."
+    },
+    {
+     "text": "Values",
+     "alias": [],
+     "tier": 3,
+     "why": "What we think matters affects what we study and believe."
+    },
+    {
+     "text": "Responsibility",
+     "alias": [],
+     "tier": 4,
+     "why": "Do knowers have duties, e.g. not spreading misinformation?"
+    }
+   ]
+  },
+  {
+   "id": "tok-03",
+   "unit": "core",
+   "prompt": "Name a term from 'Knowledge and the Knower'",
+   "answers": [
+    {
+     "text": "Knowledge claim",
+     "alias": [
+      "claim"
+     ],
+     "tier": 1,
+     "why": "A statement that something is known or true; TOK examines its basis and limits."
+    },
+    {
+     "text": "Knowledge question",
+     "alias": [
+      "kq",
+      "knowledge questions"
+     ],
+     "tier": 1,
+     "why": "Open, contestable, second-order question about knowledge itself."
+    },
+    {
+     "text": "Belief",
+     "alias": [],
+     "tier": 2,
+     "why": "Held as true; may or may not be justified."
+    },
+    {
+     "text": "Opinion",
+     "alias": [],
+     "tier": 2,
+     "why": "A view held without strong justification. Prompt #25: knowledge vs belief vs opinion."
+    },
+    {
+     "text": "Personal knowledge",
+     "alias": [],
+     "tier": 2,
+     "why": "What one knower knows from their own experience."
+    },
+    {
+     "text": "Shared knowledge",
+     "alias": [],
+     "tier": 2,
+     "why": "Knowledge produced and checked by a community, e.g. scientists."
+    },
+    {
+     "text": "Bias",
+     "alias": [],
+     "tier": 2,
+     "why": "A tilt in how a knower sees or judges."
+    },
+    {
+     "text": "Justified true belief",
+     "alias": [
+      "jtb"
+     ],
+     "tier": 3,
+     "why": "Plato's classic definition of knowledge."
+    },
+    {
+     "text": "Counterclaim",
+     "alias": [
+      "counter claim",
+      "counterargument"
+     ],
+     "tier": 3,
+     "why": "An argument against your claim. TOK essays need both."
+    },
+    {
+     "text": "Real-life situation",
+     "alias": [
+      "rls",
+      "real life example"
+     ],
+     "tier": 3,
+     "why": "A specific real example used to ground a TOK argument."
+    },
+    {
+     "text": "Real-world question",
+     "alias": [
+      "rwq",
+      "first order question"
+     ],
+     "tier": 4,
+     "why": "A first-order question about the world, e.g. 'Is this medicine safe?'"
+    },
+    {
+     "text": "Second-order question",
+     "alias": [
+      "second order"
+     ],
+     "tier": 4,
+     "why": "A question about knowledge itself rather than the world."
+    },
+    {
+     "text": "Know-how",
+     "alias": [
+      "procedural knowledge"
+     ],
+     "tier": 4,
+     "why": "Knowing how to do something (riding a bike) vs knowing that."
+    },
+    {
+     "text": "Echo chamber",
+     "alias": [],
+     "tier": 4,
+     "why": "A group where everyone repeats the same beliefs, so they never get challenged."
+    }
+   ]
+  },
+  {
+   "id": "tok-04",
+   "unit": "core",
+   "prompt": "Name something in Plato's Allegory of the Cave",
+   "answers": [
+    {
+     "text": "Shadows",
+     "alias": [
+      "shadow"
+     ],
+     "tier": 1,
+     "why": "What the prisoners take for reality: appearances, not the real thing."
+    },
+    {
+     "text": "Prisoners",
+     "alias": [
+      "prisoner"
+     ],
+     "tier": 1,
+     "why": "Chained since birth, they only ever see the wall."
+    },
+    {
+     "text": "The cave",
+     "alias": [
+      "cave"
+     ],
+     "tier": 1,
+     "why": "The world of the senses and appearances."
+    },
+    {
+     "text": "Fire",
+     "alias": [
+      "the fire"
+     ],
+     "tier": 2,
+     "why": "Behind the prisoners; casts the shadows."
+    },
+    {
+     "text": "Chains",
+     "alias": [
+      "chain",
+      "shackles"
+     ],
+     "tier": 2,
+     "why": "What keeps the prisoners from turning: habit and ignorance."
+    },
+    {
+     "text": "The sun",
+     "alias": [
+      "sun",
+      "sunlight"
+     ],
+     "tier": 2,
+     "why": "Outside the cave: represents the Form of the Good / true knowledge."
+    },
+    {
+     "text": "The wall",
+     "alias": [
+      "wall"
+     ],
+     "tier": 3,
+     "why": "Where the shadows appear."
+    },
+    {
+     "text": "Escaped prisoner",
+     "alias": [
+      "the philosopher",
+      "freed prisoner"
+     ],
+     "tier": 3,
+     "why": "Sees the real world, returns, and is mocked: the philosopher."
+    },
+    {
+     "text": "Puppeteers",
+     "alias": [
+      "objects carried",
+      "puppets",
+      "the carriers"
+     ],
+     "tier": 4,
+     "why": "People carrying objects in front of the fire make the shadows."
+    },
+    {
+     "text": "The Forms",
+     "alias": [
+      "forms",
+      "world of forms"
+     ],
+     "tier": 4,
+     "why": "Plato's perfect ideas that the real objects outside represent."
+    },
+    {
+     "text": "The ascent",
+     "alias": [
+      "ascent",
+      "the climb"
+     ],
+     "tier": 5,
+     "why": "The painful climb out: education is hard and dazzling at first."
+    },
+    {
+     "text": "Being blinded",
+     "alias": [
+      "blinded",
+      "dazzled"
+     ],
+     "tier": 4,
+     "why": "Eyes hurt in the light: new truth is uncomfortable at first."
+    }
+   ]
+  },
+  {
+   "id": "tok-05",
+   "unit": "core",
+   "prompt": "Name a thinker who comes up in TOK so far",
+   "answers": [
+    {
+     "text": "Plato",
+     "alias": [],
+     "tier": 1,
+     "why": "The Allegory of the Cave, lesson 1. Knowledge as justified true belief."
+    },
+    {
+     "text": "Karl Popper",
+     "alias": [
+      "popper"
+     ],
+     "tier": 1,
+     "why": "Falsifiability: science must make claims that could be proven wrong."
+    },
+    {
+     "text": "Thomas Kuhn",
+     "alias": [
+      "kuhn"
+     ],
+     "tier": 2,
+     "why": "Paradigms and paradigm shifts."
+    },
+    {
+     "text": "Socrates",
+     "alias": [],
+     "tier": 2,
+     "why": "'I know that I know nothing': questioning as the road to knowledge."
+    },
+    {
+     "text": "Descartes",
+     "alias": [
+      "rene descartes"
+     ],
+     "tier": 3,
+     "why": "Doubted his senses: 'I think, therefore I am'."
+    },
+    {
+     "text": "Galileo",
+     "alias": [],
+     "tier": 3,
+     "why": "Telescope evidence for heliocentrism: a paradigm shift and a clash with authority."
+    },
+    {
+     "text": "Einstein",
+     "alias": [
+      "albert einstein"
+     ],
+     "tier": 3,
+     "why": "Popper's example of a risky, falsifiable theory (confirmed in the 1919 eclipse)."
+    },
+    {
+     "text": "Aristotle",
+     "alias": [],
+     "tier": 3,
+     "why": "Plato's student; formal logic and the syllogism."
+    },
+    {
+     "text": "David Hume",
+     "alias": [
+      "hume"
+     ],
+     "tier": 4,
+     "why": "The problem of induction: past sunrises don't prove tomorrow's."
+    },
+    {
+     "text": "Daniel Kahneman",
+     "alias": [
+      "kahneman"
+     ],
+     "tier": 4,
+     "why": "Cognitive biases; fast intuitive vs slow logical thinking."
+    },
+    {
+     "text": "Sigmund Freud",
+     "alias": [
+      "freud"
+     ],
+     "tier": 4,
+     "why": "Popper's example of an unfalsifiable theory."
+    },
+    {
+     "text": "Karl Marx",
+     "alias": [
+      "marx"
+     ],
+     "tier": 4,
+     "why": "Popper said Marxist history explained everything, so it risked nothing."
+    },
+    {
+     "text": "Wittgenstein",
+     "alias": [
+      "ludwig wittgenstein"
+     ],
+     "tier": 5,
+     "why": "'The limits of my language mean the limits of my world.'"
+    },
+    {
+     "text": "Francis Bacon",
+     "alias": [
+      "bacon"
+     ],
+     "tier": 5,
+     "why": "Early champion of the experimental, inductive method."
+    }
+   ]
+  },
+  {
+   "id": "tok-06",
+   "unit": "bias",
+   "prompt": "Name a cognitive bias",
+   "answers": [
+    {
+     "text": "Confirmation bias",
+     "alias": [
+      "confirmation"
+     ],
+     "tier": 1,
+     "why": "Noticing and remembering evidence that supports what you already believe."
+    },
+    {
+     "text": "Anchoring",
+     "alias": [
+      "anchoring bias",
+      "anchoring effect"
+     ],
+     "tier": 2,
+     "why": "Over-relying on the first number or fact you hear."
+    },
+    {
+     "text": "Bandwagon effect",
+     "alias": [
+      "bandwagon",
+      "herd mentality"
+     ],
+     "tier": 2,
+     "why": "Believing something because lots of people do."
+    },
+    {
+     "text": "Hindsight bias",
+     "alias": [
+      "hindsight"
+     ],
+     "tier": 3,
+     "why": "'I knew it all along' after the result is known."
+    },
+    {
+     "text": "Availability heuristic",
+     "alias": [
+      "availability bias",
+      "availability"
+     ],
+     "tier": 3,
+     "why": "Judging likelihood by how easily examples come to mind (plane crashes)."
+    },
+    {
+     "text": "Dunning-Kruger effect",
+     "alias": [
+      "dunning kruger"
+     ],
+     "tier": 3,
+     "why": "Beginners overrate their skill because they don't know what they don't know."
+    },
+    {
+     "text": "Halo effect",
+     "alias": [
+      "halo"
+     ],
+     "tier": 3,
+     "why": "One good trait (looks, fame) makes us assume other good traits."
+    },
+    {
+     "text": "In-group bias",
+     "alias": [
+      "ingroup bias",
+      "in group favouritism",
+      "in-group favoritism"
+     ],
+     "tier": 3,
+     "why": "Favouring people in your own group."
+    },
+    {
+     "text": "Negativity bias",
+     "alias": [],
+     "tier": 4,
+     "why": "Bad news sticks more than good news."
+    },
+    {
+     "text": "Sunk cost fallacy",
+     "alias": [
+      "sunk cost"
+     ],
+     "tier": 4,
+     "why": "Carrying on because you've already invested, not because it's worth it."
+    },
+    {
+     "text": "Framing effect",
+     "alias": [
+      "framing"
+     ],
+     "tier": 4,
+     "why": "'90% survive' feels different from '10% die', though they're the same fact."
+    },
+    {
+     "text": "Optimism bias",
+     "alias": [],
+     "tier": 4,
+     "why": "Thinking bad things happen to other people, not you."
+    },
+    {
+     "text": "Self-serving bias",
+     "alias": [
+      "self serving"
+     ],
+     "tier": 4,
+     "why": "Success is my skill; failure is bad luck."
+    },
+    {
+     "text": "Status quo bias",
+     "alias": [],
+     "tier": 5,
+     "why": "Preferring things to stay the same."
+    },
+    {
+     "text": "Belief perseverance",
+     "alias": [
+      "backfire effect"
+     ],
+     "tier": 5,
+     "why": "Keeping a belief even after the evidence for it is debunked."
+    },
+    {
+     "text": "Blind spot bias",
+     "alias": [
+      "bias blind spot"
+     ],
+     "tier": 5,
+     "why": "Seeing bias in others but not in yourself."
+    }
+   ]
+  },
+  {
+   "id": "tok-07",
+   "unit": "bias",
+   "prompt": "Name a bias that distorts how we judge OTHER PEOPLE",
+   "answers": [
+    {
+     "text": "Stereotyping",
+     "alias": [
+      "stereotype",
+      "stereotypes"
+     ],
+     "tier": 1,
+     "why": "Judging a person by a generalisation about their group."
+    },
+    {
+     "text": "In-group bias",
+     "alias": [
+      "ingroup bias",
+      "in group favouritism"
+     ],
+     "tier": 1,
+     "why": "Trusting people from your own group more."
+    },
+    {
+     "text": "Halo effect",
+     "alias": [
+      "halo"
+     ],
+     "tier": 2,
+     "why": "Attractive or famous people are assumed to be smart and good too."
+    },
+    {
+     "text": "Authority bias",
+     "alias": [
+      "appeal to authority"
+     ],
+     "tier": 2,
+     "why": "Believing someone because of their status, not their evidence."
+    },
+    {
+     "text": "Fundamental attribution error",
+     "alias": [
+      "attribution error"
+     ],
+     "tier": 3,
+     "why": "Blaming others' character, not their situation (but excusing yourself)."
+    },
+    {
+     "text": "Horn effect",
+     "alias": [
+      "horns effect"
+     ],
+     "tier": 4,
+     "why": "Reverse halo: one bad trait colours everything."
+    },
+    {
+     "text": "Groupthink",
+     "alias": [],
+     "tier": 3,
+     "why": "A group goes along to avoid conflict, ignoring doubts."
+    },
+    {
+     "text": "Out-group homogeneity",
+     "alias": [
+      "outgroup homogeneity"
+     ],
+     "tier": 5,
+     "why": "'They're all the same', while we see our own group as varied."
+    },
+    {
+     "text": "False consensus effect",
+     "alias": [
+      "false consensus"
+     ],
+     "tier": 4,
+     "why": "Assuming others think like you."
+    },
+    {
+     "text": "Actor-observer bias",
+     "alias": [
+      "actor observer"
+     ],
+     "tier": 5,
+     "why": "My mistakes are circumstance; yours are character."
+    },
+    {
+     "text": "First impression bias",
+     "alias": [
+      "first impressions",
+      "primacy effect"
+     ],
+     "tier": 3,
+     "why": "The first thing we learn about someone sticks."
+    }
+   ]
+  },
+  {
+   "id": "tok-08",
+   "unit": "bias",
+   "prompt": "Name a logical fallacy",
+   "answers": [
+    {
+     "text": "Ad hominem",
+     "alias": [
+      "personal attack"
+     ],
+     "tier": 1,
+     "why": "Attacking the person instead of the argument."
+    },
+    {
+     "text": "Straw man",
+     "alias": [
+      "strawman"
+     ],
+     "tier": 2,
+     "why": "Twisting someone's argument into a weaker one, then knocking it down."
+    },
+    {
+     "text": "Slippery slope",
+     "alias": [],
+     "tier": 2,
+     "why": "Claiming one step will inevitably lead to disaster."
+    },
+    {
+     "text": "False dilemma",
+     "alias": [
+      "false dichotomy",
+      "black and white thinking",
+      "either or"
+     ],
+     "tier": 3,
+     "why": "Pretending there are only two options."
+    },
+    {
+     "text": "Circular reasoning",
+     "alias": [
+      "begging the question",
+      "circular argument"
+     ],
+     "tier": 3,
+     "why": "The conclusion is assumed in the premise."
+    },
+    {
+     "text": "Appeal to authority",
+     "alias": [
+      "argument from authority"
+     ],
+     "tier": 3,
+     "why": "'It's true because an expert/celebrity said so' (outside their field)."
+    },
+    {
+     "text": "Appeal to popularity",
+     "alias": [
+      "bandwagon fallacy",
+      "ad populum"
+     ],
+     "tier": 3,
+     "why": "'Everyone believes it, so it's true.'"
+    },
+    {
+     "text": "Hasty generalisation",
+     "alias": [
+      "hasty generalization",
+      "overgeneralisation"
+     ],
+     "tier": 3,
+     "why": "A big conclusion from too few cases. Also the trap in induction."
+    },
+    {
+     "text": "Appeal to emotion",
+     "alias": [
+      "emotional appeal"
+     ],
+     "tier": 3,
+     "why": "Using feelings instead of reasons. Links to the logic & emotion lesson."
+    },
+    {
+     "text": "Post hoc",
+     "alias": [
+      "post hoc ergo propter hoc",
+      "false cause"
+     ],
+     "tier": 4,
+     "why": "A happened before B, so A caused B. Correlation ≠ causation."
+    },
+    {
+     "text": "Red herring",
+     "alias": [],
+     "tier": 4,
+     "why": "A distraction from the real issue."
+    },
+    {
+     "text": "Gambler's fallacy",
+     "alias": [
+      "gamblers fallacy"
+     ],
+     "tier": 4,
+     "why": "Thinking past random results change future odds."
+    },
+    {
+     "text": "Tu quoque",
+     "alias": [
+      "whataboutism",
+      "you too"
+     ],
+     "tier": 5,
+     "why": "'You do it too', so your criticism doesn't count."
+    },
+    {
+     "text": "No true Scotsman",
+     "alias": [],
+     "tier": 5,
+     "why": "Redefining a group to dodge a counterexample."
+    }
+   ]
+  },
+  {
+   "id": "tok-09",
+   "unit": "bias",
+   "prompt": "Name a human sense or a way we perceive",
+   "answers": [
+    {
+     "text": "Sight",
+     "alias": [
+      "vision",
+      "seeing"
+     ],
+     "tier": 1,
+     "why": "The sense we trust most, yet optical illusions fool it easily."
+    },
+    {
+     "text": "Hearing",
+     "alias": [
+      "sound"
+     ],
+     "tier": 1,
+     "why": "Can be fooled too, e.g. the Yanny/Laurel clip."
+    },
+    {
+     "text": "Touch",
+     "alias": [],
+     "tier": 1,
+     "why": "Our skin senses pressure, texture and more."
+    },
+    {
+     "text": "Taste",
+     "alias": [],
+     "tier": 2,
+     "why": "Strongly affected by smell and expectation."
+    },
+    {
+     "text": "Smell",
+     "alias": [
+      "olfaction"
+     ],
+     "tier": 2,
+     "why": "Closely tied to memory and emotion."
+    },
+    {
+     "text": "Balance",
+     "alias": [
+      "equilibrioception"
+     ],
+     "tier": 3,
+     "why": "Your inner ear tells you which way is up."
+    },
+    {
+     "text": "Proprioception",
+     "alias": [
+      "body position"
+     ],
+     "tier": 4,
+     "why": "Knowing where your limbs are with your eyes closed."
+    },
+    {
+     "text": "Temperature",
+     "alias": [
+      "thermoception"
+     ],
+     "tier": 4,
+     "why": "Sensing hot and cold, which is relative, not absolute."
+    },
+    {
+     "text": "Pain",
+     "alias": [
+      "nociception"
+     ],
+     "tier": 4,
+     "why": "A separate sense from touch."
+    },
+    {
+     "text": "Interoception",
+     "alias": [
+      "hunger",
+      "internal senses"
+     ],
+     "tier": 5,
+     "why": "Sensing your body's insides: hunger, heartbeat, needing the toilet."
+    }
+   ]
+  },
+  {
+   "id": "tok-10",
+   "unit": "bias",
+   "prompt": "Name a famous example of the senses being fooled",
+   "answers": [
+    {
+     "text": "The dress",
+     "alias": [
+      "the dress illusion"
+     ],
+     "tier": 1,
+     "why": "Blue/black or white/gold? Same photo, different brains."
+    },
+    {
+     "text": "Optical illusion",
+     "alias": [
+      "optical illusions",
+      "illusion"
+     ],
+     "tier": 1,
+     "why": "Any image that tricks sight: senses shape, not just record, the world."
+    },
+    {
+     "text": "Yanny or Laurel",
+     "alias": [
+      "yanny laurel"
+     ],
+     "tier": 2,
+     "why": "One audio clip, two words heard. Hearing is interpretation."
+    },
+    {
+     "text": "Duck-rabbit",
+     "alias": [
+      "duck rabbit"
+     ],
+     "tier": 2,
+     "why": "One drawing, two animals: perception depends on expectation."
+    },
+    {
+     "text": "Mirage",
+     "alias": [],
+     "tier": 2,
+     "why": "Hot air bends light so you 'see' water on the road."
+    },
+    {
+     "text": "Müller-Lyer illusion",
+     "alias": [
+      "muller lyer",
+      "arrow illusion"
+     ],
+     "tier": 3,
+     "why": "Two equal lines look different lengths because of the arrow ends."
+    },
+    {
+     "text": "Rubin's vase",
+     "alias": [
+      "rubin vase",
+      "faces or vase"
+     ],
+     "tier": 3,
+     "why": "Vase or two faces? The brain picks figure vs background."
+    },
+    {
+     "text": "Invisible gorilla",
+     "alias": [
+      "selective attention",
+      "gorilla experiment"
+     ],
+     "tier": 3,
+     "why": "People counting passes miss a gorilla walking past."
+    },
+    {
+     "text": "Blind spot",
+     "alias": [],
+     "tier": 3,
+     "why": "Every eye has a spot with no receptors; the brain fills it in."
+    },
+    {
+     "text": "Change blindness",
+     "alias": [],
+     "tier": 4,
+     "why": "Missing big changes in a scene if they happen during a blink or cut."
+    },
+    {
+     "text": "McGurk effect",
+     "alias": [
+      "mcgurk"
+     ],
+     "tier": 4,
+     "why": "What you see a mouth do changes the sound you hear."
+    },
+    {
+     "text": "Ames room",
+     "alias": [],
+     "tier": 4,
+     "why": "A distorted room makes people look giant or tiny."
+    },
+    {
+     "text": "Checker shadow illusion",
+     "alias": [
+      "checker shadow",
+      "adelson"
+     ],
+     "tier": 5,
+     "why": "Two squares are the same grey but look completely different."
+    },
+    {
+     "text": "Rubber hand illusion",
+     "alias": [
+      "rubber hand"
+     ],
+     "tier": 5,
+     "why": "Your brain adopts a fake hand as your own."
+    }
+   ]
+  },
+  {
+   "id": "tok-11",
+   "unit": "bias",
+   "prompt": "Name a 'way of knowing'",
+   "answers": [
+    {
+     "text": "Sense perception",
+     "alias": [
+      "senses",
+      "perception"
+     ],
+     "tier": 1,
+     "why": "Lesson 2: senses shape rather than simply record the world."
+    },
+    {
+     "text": "Reason",
+     "alias": [
+      "logic",
+      "reasoning"
+     ],
+     "tier": 1,
+     "why": "Deduction and induction, the logic lesson."
+    },
+    {
+     "text": "Emotion",
+     "alias": [
+      "emotions"
+     ],
+     "tier": 1,
+     "why": "Can feelings be a source of knowledge, or only a distortion?"
+    },
+    {
+     "text": "Language",
+     "alias": [],
+     "tier": 1,
+     "why": "Shapes and limits what can be known and shared."
+    },
+    {
+     "text": "Imagination",
+     "alias": [],
+     "tier": 2,
+     "why": "Used in science (thought experiments) and the arts."
+    },
+    {
+     "text": "Memory",
+     "alias": [],
+     "tier": 2,
+     "why": "Reconstructs rather than replays the past, so it can mislead."
+    },
+    {
+     "text": "Intuition",
+     "alias": [
+      "gut feeling"
+     ],
+     "tier": 3,
+     "why": "Knowing without conscious reasoning."
+    },
+    {
+     "text": "Faith",
+     "alias": [],
+     "tier": 3,
+     "why": "Belief that doesn't rest on empirical evidence."
+    }
+   ]
+  },
+  {
+   "id": "tok-12",
+   "unit": "bias",
+   "prompt": "Name a term from reasoning and logic",
+   "answers": [
+    {
+     "text": "Deduction",
+     "alias": [
+      "deductive reasoning",
+      "deductive"
+     ],
+     "tier": 1,
+     "why": "General premises → certain conclusion, if the premises are true."
+    },
+    {
+     "text": "Induction",
+     "alias": [
+      "inductive reasoning",
+      "inductive"
+     ],
+     "tier": 1,
+     "why": "Specific cases → probable general conclusion (1,2,3,4,5 → 6?)."
+    },
+    {
+     "text": "Premise",
+     "alias": [
+      "premises"
+     ],
+     "tier": 2,
+     "why": "A statement an argument starts from."
+    },
+    {
+     "text": "Conclusion",
+     "alias": [],
+     "tier": 2,
+     "why": "What the argument claims follows from the premises."
+    },
+    {
+     "text": "Fallacy",
+     "alias": [
+      "logical fallacy"
+     ],
+     "tier": 2,
+     "why": "An error in reasoning that makes an argument look stronger than it is."
+    },
+    {
+     "text": "Argument",
+     "alias": [],
+     "tier": 2,
+     "why": "Premises plus a conclusion."
+    },
+    {
+     "text": "Syllogism",
+     "alias": [],
+     "tier": 3,
+     "why": "All humans are mortal; Socrates is human; so Socrates is mortal."
+    },
+    {
+     "text": "Validity",
+     "alias": [
+      "valid"
+     ],
+     "tier": 3,
+     "why": "The conclusion follows from the premises, even if they're false."
+    },
+    {
+     "text": "Inference",
+     "alias": [],
+     "tier": 3,
+     "why": "Drawing a conclusion from evidence."
+    },
+    {
+     "text": "Soundness",
+     "alias": [
+      "sound"
+     ],
+     "tier": 4,
+     "why": "Valid AND true premises."
+    },
+    {
+     "text": "Abduction",
+     "alias": [
+      "inference to the best explanation",
+      "abductive reasoning"
+     ],
+     "tier": 4,
+     "why": "Reasoning to the best explanation, like a detective."
+    },
+    {
+     "text": "Axiom",
+     "alias": [
+      "axioms"
+     ],
+     "tier": 4,
+     "why": "A starting truth assumed without proof, as in maths."
+    },
+    {
+     "text": "Correlation vs causation",
+     "alias": [
+      "correlation"
+     ],
+     "tier": 3,
+     "why": "Two things happening together doesn't prove one causes the other."
+    }
+   ]
+  },
+  {
+   "id": "tok-13",
+   "unit": "langtech",
+   "prompt": "Name a TOK term about how language shapes knowledge",
+   "answers": [
+    {
+     "text": "Translation",
+     "alias": [
+      "lost in translation"
+     ],
+     "tier": 1,
+     "why": "Meaning can be lost or changed between languages."
+    },
+    {
+     "text": "Connotation",
+     "alias": [
+      "connotations"
+     ],
+     "tier": 2,
+     "why": "The feelings a word carries beyond its literal meaning."
+    },
+    {
+     "text": "Loaded language",
+     "alias": [
+      "loaded words",
+      "emotive language"
+     ],
+     "tier": 2,
+     "why": "Words chosen to push a reaction: 'regime' vs 'government'."
+    },
+    {
+     "text": "Euphemism",
+     "alias": [],
+     "tier": 2,
+     "why": "A soft word for a harsh thing: 'collateral damage'."
+    },
+    {
+     "text": "Jargon",
+     "alias": [],
+     "tier": 2,
+     "why": "Specialist words that include experts and exclude others."
+    },
+    {
+     "text": "Ambiguity",
+     "alias": [
+      "ambiguous"
+     ],
+     "tier": 2,
+     "why": "One phrase, several meanings."
+    },
+    {
+     "text": "Propaganda",
+     "alias": [],
+     "tier": 2,
+     "why": "Language used systematically to shape beliefs for power."
+    },
+    {
+     "text": "Denotation",
+     "alias": [],
+     "tier": 3,
+     "why": "A word's literal dictionary meaning."
+    },
+    {
+     "text": "Framing",
+     "alias": [
+      "frame"
+     ],
+     "tier": 3,
+     "why": "How you word something changes how it's judged."
+    },
+    {
+     "text": "Labels",
+     "alias": [
+      "labelling",
+      "label"
+     ],
+     "tier": 3,
+     "why": "Naming a group shapes how we see it (links to Spanish 'etiquetas')."
+    },
+    {
+     "text": "Metaphor",
+     "alias": [
+      "metaphors"
+     ],
+     "tier": 3,
+     "why": "Understanding one thing through another: 'time is money'."
+    },
+    {
+     "text": "Untranslatable words",
+     "alias": [
+      "untranslatable"
+     ],
+     "tier": 3,
+     "why": "Words with no equivalent elsewhere, so some ideas are harder to express."
+    },
+    {
+     "text": "Sapir-Whorf hypothesis",
+     "alias": [
+      "sapir whorf",
+      "linguistic relativity"
+     ],
+     "tier": 4,
+     "why": "The idea that the language you speak shapes how you think."
+    },
+    {
+     "text": "Doublespeak",
+     "alias": [
+      "newspeak"
+     ],
+     "tier": 5,
+     "why": "Language that deliberately hides meaning (from Orwell's 1984)."
+    }
+   ]
+  },
+  {
+   "id": "tok-14",
+   "unit": "langtech",
+   "prompt": "Name a technology that changes how we gain or share knowledge",
+   "answers": [
+    {
+     "text": "The internet",
+     "alias": [
+      "internet"
+     ],
+     "tier": 1,
+     "why": "Instant access to almost everything, true and false."
+    },
+    {
+     "text": "Artificial intelligence",
+     "alias": [
+      "ai",
+      "chatgpt",
+      "llm",
+      "chatbots"
+     ],
+     "tier": 1,
+     "why": "Produces answers we can't fully check: a 'black box'."
+    },
+    {
+     "text": "Search engines",
+     "alias": [
+      "google",
+      "search engine"
+     ],
+     "tier": 1,
+     "why": "Their ranking decides what we see first."
+    },
+    {
+     "text": "Smartphone",
+     "alias": [
+      "phone",
+      "mobile phone"
+     ],
+     "tier": 1,
+     "why": "Knowledge in your pocket; we remember less ourselves."
+    },
+    {
+     "text": "Social media",
+     "alias": [
+      "instagram",
+      "tiktok"
+     ],
+     "tier": 2,
+     "why": "Algorithms decide what spreads, not truth."
+    },
+    {
+     "text": "Wikipedia",
+     "alias": [],
+     "tier": 2,
+     "why": "Collaborative knowledge: reliable or not?"
+    },
+    {
+     "text": "Microscope",
+     "alias": [],
+     "tier": 2,
+     "why": "Revealed cells and microbes the senses couldn't see."
+    },
+    {
+     "text": "Telescope",
+     "alias": [],
+     "tier": 2,
+     "why": "Galileo's evidence for heliocentrism."
+    },
+    {
+     "text": "Calculator",
+     "alias": [
+      "gdc",
+      "graphing calculator"
+     ],
+     "tier": 2,
+     "why": "Does using a GDC change what you actually know in maths?"
+    },
+    {
+     "text": "Printing press",
+     "alias": [],
+     "tier": 3,
+     "why": "Spread books and ideas widely from the 1400s."
+    },
+    {
+     "text": "Wearable trackers",
+     "alias": [
+      "fitness tracker",
+      "smartwatch",
+      "wearable"
+     ],
+     "tier": 3,
+     "why": "Sleep and step data vs how you actually feel."
+    },
+    {
+     "text": "Online databases",
+     "alias": [
+      "jstor",
+      "database",
+      "google scholar"
+     ],
+     "tier": 3,
+     "why": "Give access to peer-reviewed research, e.g. JSTOR for the EE."
+    },
+    {
+     "text": "GPS",
+     "alias": [
+      "maps app"
+     ],
+     "tier": 3,
+     "why": "We trust the route without knowing the area ourselves."
+    },
+    {
+     "text": "MRI scanner",
+     "alias": [
+      "mri",
+      "brain scans"
+     ],
+     "tier": 4,
+     "why": "Lets science 'see' inside the brain, but images still need interpretation."
+    },
+    {
+     "text": "Writing",
+     "alias": [
+      "the alphabet"
+     ],
+     "tier": 5,
+     "why": "The first knowledge technology: it lets knowledge outlive the knower."
+    }
+   ]
+  },
+  {
+   "id": "tok-15",
+   "unit": "langtech",
+   "prompt": "Name a knowledge problem raised by technology",
+   "answers": [
+    {
+     "text": "Misinformation",
+     "alias": [
+      "fake news",
+      "disinformation"
+     ],
+     "tier": 1,
+     "why": "False claims spread faster than corrections."
+    },
+    {
+     "text": "Deepfakes",
+     "alias": [
+      "deepfake"
+     ],
+     "tier": 2,
+     "why": "AI-made fake video: 'seeing is believing' breaks."
+    },
+    {
+     "text": "Filter bubbles",
+     "alias": [
+      "filter bubble"
+     ],
+     "tier": 2,
+     "why": "Algorithms show you only what you already like."
+    },
+    {
+     "text": "Privacy",
+     "alias": [
+      "surveillance",
+      "data privacy"
+     ],
+     "tier": 2,
+     "why": "Who owns the knowledge collected about you?"
+    },
+    {
+     "text": "Plagiarism",
+     "alias": [],
+     "tier": 2,
+     "why": "Easy copying: whose knowledge is it?"
+    },
+    {
+     "text": "Echo chambers",
+     "alias": [
+      "echo chamber"
+     ],
+     "tier": 3,
+     "why": "Groups online repeat beliefs back to each other."
+    },
+    {
+     "text": "Algorithmic bias",
+     "alias": [
+      "biased algorithms",
+      "algorithm bias"
+     ],
+     "tier": 3,
+     "why": "Systems trained on biased data repeat that bias."
+    },
+    {
+     "text": "AI hallucinations",
+     "alias": [
+      "hallucination",
+      "ai hallucination"
+     ],
+     "tier": 3,
+     "why": "AI states false things confidently."
+    },
+    {
+     "text": "Information overload",
+     "alias": [
+      "too much information"
+     ],
+     "tier": 3,
+     "why": "So much information that judging quality gets harder."
+    },
+    {
+     "text": "Clickbait",
+     "alias": [],
+     "tier": 3,
+     "why": "Headlines built for clicks, not accuracy."
+    },
+    {
+     "text": "Black box problem",
+     "alias": [
+      "black box",
+      "opacity"
+     ],
+     "tier": 4,
+     "why": "We can't see how an algorithm reached its answer."
+    },
+    {
+     "text": "Cognitive offloading",
+     "alias": [
+      "loss of skills",
+      "digital amnesia",
+      "google effect"
+     ],
+     "tier": 4,
+     "why": "We stop remembering what we can look up."
+    },
+    {
+     "text": "Digital divide",
+     "alias": [],
+     "tier": 4,
+     "why": "Unequal access means unequal knowledge."
+    },
+    {
+     "text": "Censorship",
+     "alias": [],
+     "tier": 3,
+     "why": "Platforms or states decide what can be known."
+    }
+   ]
+  },
+  {
+   "id": "tok-16",
+   "unit": "ns",
+   "prompt": "Name a step or part of the scientific method",
+   "answers": [
+    {
+     "text": "Observation",
+     "alias": [],
+     "tier": 1,
+     "why": "Science starts by noticing something."
+    },
+    {
+     "text": "Hypothesis",
+     "alias": [],
+     "tier": 1,
+     "why": "A specific, testable (falsifiable) prediction."
+    },
+    {
+     "text": "Experiment",
+     "alias": [
+      "controlled experiment"
+     ],
+     "tier": 1,
+     "why": "Change only the independent variable; keep controls constant."
+    },
+    {
+     "text": "Conclusion",
+     "alias": [],
+     "tier": 2,
+     "why": "Does the data support or reject the hypothesis?"
+    },
+    {
+     "text": "Data analysis",
+     "alias": [
+      "analysis",
+      "data collection",
+      "results"
+     ],
+     "tier": 2,
+     "why": "Collect and analyse results."
+    },
+    {
+     "text": "Research question",
+     "alias": [
+      "question"
+     ],
+     "tier": 2,
+     "why": "What exactly are you trying to find out?"
+    },
+    {
+     "text": "Prediction",
+     "alias": [],
+     "tier": 3,
+     "why": "What should happen if the hypothesis is true."
+    },
+    {
+     "text": "Background research",
+     "alias": [
+      "research"
+     ],
+     "tier": 3,
+     "why": "What is already known."
+    },
+    {
+     "text": "Peer review",
+     "alias": [],
+     "tier": 3,
+     "why": "Independent experts check the study before publication."
+    },
+    {
+     "text": "Replication",
+     "alias": [
+      "repeat",
+      "reproducibility"
+     ],
+     "tier": 3,
+     "why": "Others repeat it to see if the result holds."
+    },
+    {
+     "text": "Control variables",
+     "alias": [
+      "control variable",
+      "controls"
+     ],
+     "tier": 3,
+     "why": "Kept constant so only the IV explains the change."
+    },
+    {
+     "text": "Publication",
+     "alias": [
+      "publish"
+     ],
+     "tier": 4,
+     "why": "Sharing results so others can check them."
+    },
+    {
+     "text": "Theory",
+     "alias": [],
+     "tier": 4,
+     "why": "A well-tested framework that explains many observations."
+    }
+   ]
+  },
+  {
+   "id": "tok-17",
+   "unit": "ns",
+   "prompt": "Name a feature that separates science from pseudoscience",
+   "answers": [
+    {
+     "text": "Falsifiability",
+     "alias": [
+      "falsifiable"
+     ],
+     "tier": 1,
+     "why": "Popper: a scientific claim must be disprovable in principle."
+    },
+    {
+     "text": "Empirical evidence",
+     "alias": [
+      "evidence",
+      "empirical"
+     ],
+     "tier": 1,
+     "why": "Based on observation and experiment."
+    },
+    {
+     "text": "Peer review",
+     "alias": [],
+     "tier": 2,
+     "why": "Experts check methods before publication."
+    },
+    {
+     "text": "Replication",
+     "alias": [
+      "reproducibility",
+      "replicable"
+     ],
+     "tier": 2,
+     "why": "Results hold up when others repeat the study."
+    },
+    {
+     "text": "Testability",
+     "alias": [
+      "testable"
+     ],
+     "tier": 2,
+     "why": "You can design a test for it."
+    },
+    {
+     "text": "Controlled experiments",
+     "alias": [
+      "controls",
+      "control group"
+     ],
+     "tier": 3,
+     "why": "Isolate one variable to find cause."
+    },
+    {
+     "text": "Willingness to revise",
+     "alias": [
+      "self correcting",
+      "revision",
+      "open to change"
+     ],
+     "tier": 3,
+     "why": "Science changes its mind when evidence changes."
+    },
+    {
+     "text": "Risky predictions",
+     "alias": [
+      "precise predictions",
+      "predictions"
+     ],
+     "tier": 3,
+     "why": "Einstein predicted light bending in 1919; it could have failed."
+    },
+    {
+     "text": "Objectivity",
+     "alias": [],
+     "tier": 3,
+     "why": "Methods designed to reduce personal bias."
+    },
+    {
+     "text": "Causal mechanism",
+     "alias": [
+      "mechanism"
+     ],
+     "tier": 4,
+     "why": "Explains HOW, not just that two things correlate."
+    },
+    {
+     "text": "Scepticism",
+     "alias": [
+      "skepticism",
+      "organised scepticism"
+     ],
+     "tier": 4,
+     "why": "Claims are doubted until well supported."
+    },
+    {
+     "text": "Measurement",
+     "alias": [
+      "quantification"
+     ],
+     "tier": 4,
+     "why": "Precise measurement lets results be compared."
+    }
+   ]
+  },
+  {
+   "id": "tok-18",
+   "unit": "ns",
+   "prompt": "Name an example of pseudoscience or an unfalsifiable claim",
+   "answers": [
+    {
+     "text": "Astrology",
+     "alias": [
+      "horoscopes",
+      "horoscope"
+     ],
+     "tier": 1,
+     "why": "Vague predictions fit anyone, and failures are never accepted."
+    },
+    {
+     "text": "Homeopathy",
+     "alias": [],
+     "tier": 2,
+     "why": "Diluted until no molecule remains; trials show placebo-level effects."
+    },
+    {
+     "text": "Crystal healing",
+     "alias": [
+      "crystals",
+      "chakra energy"
+     ],
+     "tier": 2,
+     "why": "'Chakra energy' isn't defined in testable terms."
+    },
+    {
+     "text": "Palm reading",
+     "alias": [
+      "palmistry"
+     ],
+     "tier": 2,
+     "why": "No mechanism and no successful tests."
+    },
+    {
+     "text": "Numerology",
+     "alias": [],
+     "tier": 3,
+     "why": "Meaning read into numbers after the fact."
+    },
+    {
+     "text": "Flat earth",
+     "alias": [
+      "flat earth theory"
+     ],
+     "tier": 3,
+     "why": "Rejects all contrary evidence as a conspiracy."
+    },
+    {
+     "text": "Freudian psychoanalysis",
+     "alias": [
+      "psychoanalysis",
+      "freud"
+     ],
+     "tier": 4,
+     "why": "Popper: it could explain any behaviour, so it risked nothing."
+    },
+    {
+     "text": "Marxist history",
+     "alias": [
+      "marxism",
+      "marxist theory"
+     ],
+     "tier": 4,
+     "why": "Popper's second example of a theory that absorbs every outcome."
+    },
+    {
+     "text": "Phrenology",
+     "alias": [],
+     "tier": 4,
+     "why": "Reading personality from skull bumps: once popular, now debunked."
+    },
+    {
+     "text": "Intelligent design",
+     "alias": [
+      "creationism"
+     ],
+     "tier": 4,
+     "why": "A designer can explain any observation, so it can't be tested."
+    },
+    {
+     "text": "Conspiracy theories",
+     "alias": [
+      "conspiracy theory"
+     ],
+     "tier": 3,
+     "why": "Counter-evidence is treated as proof of the cover-up."
+    },
+    {
+     "text": "Reflexology",
+     "alias": [],
+     "tier": 5,
+     "why": "Claims foot zones map to organs; no reliable evidence."
+    }
+   ]
+  },
+  {
+   "id": "tok-19",
+   "unit": "ns",
+   "prompt": "Name a scientific idea that was overturned or a famous paradigm shift",
+   "answers": [
+    {
+     "text": "Heliocentrism",
+     "alias": [
+      "heliocentric model",
+      "copernican revolution",
+      "geocentrism"
+     ],
+     "tier": 1,
+     "why": "Earth-centred model replaced by Sun-centred (Copernicus, Galileo)."
+    },
+    {
+     "text": "Relativity",
+     "alias": [
+      "einstein",
+      "general relativity"
+     ],
+     "tier": 2,
+     "why": "Refined Newton's gravity; explained Mercury's orbit."
+    },
+    {
+     "text": "Evolution",
+     "alias": [
+      "natural selection",
+      "darwin"
+     ],
+     "tier": 2,
+     "why": "Replaced the idea that species are fixed and unchanging."
+    },
+    {
+     "text": "Germ theory",
+     "alias": [
+      "miasma"
+     ],
+     "tier": 3,
+     "why": "Germs, not 'bad air' (miasma), cause disease."
+    },
+    {
+     "text": "Plate tectonics",
+     "alias": [
+      "continental drift"
+     ],
+     "tier": 3,
+     "why": "Wegener was mocked for decades, then proved right."
+    },
+    {
+     "text": "Quantum mechanics",
+     "alias": [
+      "quantum theory"
+     ],
+     "tier": 4,
+     "why": "Broke classical physics at tiny scales."
+    },
+    {
+     "text": "Spontaneous generation",
+     "alias": [],
+     "tier": 4,
+     "why": "Life from rotting meat was disproved by Pasteur and Redi."
+    },
+    {
+     "text": "Big Bang theory",
+     "alias": [
+      "big bang",
+      "steady state"
+     ],
+     "tier": 4,
+     "why": "Replaced the steady-state universe."
+    },
+    {
+     "text": "Oxygen theory",
+     "alias": [
+      "phlogiston",
+      "combustion"
+     ],
+     "tier": 5,
+     "why": "Lavoisier's oxygen replaced the imaginary 'phlogiston'."
+    },
+    {
+     "text": "Black swans",
+     "alias": [
+      "all swans are white",
+      "black swan"
+     ],
+     "tier": 3,
+     "why": "One black swan falsified 'all swans are white': Popper's example."
+    },
+    {
+     "text": "Atomic model",
+     "alias": [
+      "plum pudding model",
+      "rutherford"
+     ],
+     "tier": 4,
+     "why": "Rutherford's gold-foil experiment overturned the plum-pudding model."
+    }
+   ]
+  },
+  {
+   "id": "tok-20",
+   "unit": "ns",
+   "prompt": "Name a flaw that can make a scientific study unreliable",
+   "answers": [
+    {
+     "text": "Small sample size",
+     "alias": [
+      "small sample"
+     ],
+     "tier": 1,
+     "why": "Too few subjects, so results may be chance."
+    },
+    {
+     "text": "Confirmation bias",
+     "alias": [],
+     "tier": 1,
+     "why": "Researchers see what they expect."
+    },
+    {
+     "text": "Publication bias",
+     "alias": [
+      "file drawer problem"
+     ],
+     "tier": 2,
+     "why": "Journals prefer exciting positive results; null results vanish."
+    },
+    {
+     "text": "Funding bias",
+     "alias": [
+      "conflict of interest",
+      "sponsorship bias"
+     ],
+     "tier": 2,
+     "why": "Who paid for the study can skew results."
+    },
+    {
+     "text": "P-hacking",
+     "alias": [
+      "p hacking",
+      "data dredging"
+     ],
+     "tier": 3,
+     "why": "Reanalysing data until something is 'significant'."
+    },
+    {
+     "text": "Lack of replication",
+     "alias": [
+      "no replication",
+      "replication crisis"
+     ],
+     "tier": 3,
+     "why": "A finding never independently repeated."
+    },
+    {
+     "text": "No control group",
+     "alias": [
+      "lack of controls",
+      "uncontrolled variables"
+     ],
+     "tier": 3,
+     "why": "Can't tell what caused the effect."
+    },
+    {
+     "text": "Cherry-picking",
+     "alias": [
+      "cherry picking"
+     ],
+     "tier": 3,
+     "why": "Reporting only the data that fits."
+    },
+    {
+     "text": "Selection bias",
+     "alias": [
+      "sampling bias",
+      "biased sample"
+     ],
+     "tier": 3,
+     "why": "The sample doesn't represent the population."
+    },
+    {
+     "text": "Placebo effect",
+     "alias": [
+      "placebo"
+     ],
+     "tier": 4,
+     "why": "People improve just because they expect to."
+    },
+    {
+     "text": "Confounding variables",
+     "alias": [
+      "confounding variable",
+      "confounders"
+     ],
+     "tier": 4,
+     "why": "A hidden third factor causes both things."
+    },
+    {
+     "text": "Observer bias",
+     "alias": [
+      "experimenter bias"
+     ],
+     "tier": 4,
+     "why": "The researcher's expectations affect measurement."
+    },
+    {
+     "text": "Survivorship bias",
+     "alias": [],
+     "tier": 5,
+     "why": "Only studying the cases that 'survived' a filter."
+    },
+    {
+     "text": "Hawthorne effect",
+     "alias": [],
+     "tier": 5,
+     "why": "People behave differently because they know they're being watched."
+    }
+   ]
+  },
+  {
+   "id": "tok-21",
+   "unit": "ns",
+   "prompt": "Name a term from Kuhn's or Popper's philosophy of science",
+   "answers": [
+    {
+     "text": "Paradigm",
+     "alias": [],
+     "tier": 1,
+     "why": "Kuhn: the shared theories and methods of 'normal' science in a field."
+    },
+    {
+     "text": "Falsification",
+     "alias": [
+      "falsifiability"
+     ],
+     "tier": 1,
+     "why": "Popper: science tries to disprove its own theories."
+    },
+    {
+     "text": "Paradigm shift",
+     "alias": [],
+     "tier": 1,
+     "why": "Kuhn: wholesale replacement of one paradigm by another."
+    },
+    {
+     "text": "Normal science",
+     "alias": [],
+     "tier": 2,
+     "why": "Kuhn: routine puzzle-solving inside the paradigm."
+    },
+    {
+     "text": "Anomaly",
+     "alias": [
+      "anomalies"
+     ],
+     "tier": 3,
+     "why": "A result the paradigm can't explain. Enough of them trigger a crisis."
+    },
+    {
+     "text": "Revolutionary science",
+     "alias": [
+      "scientific revolution"
+     ],
+     "tier": 3,
+     "why": "Kuhn: the crisis period when a paradigm breaks down."
+    },
+    {
+     "text": "Problem of induction",
+     "alias": [
+      "induction problem"
+     ],
+     "tier": 3,
+     "why": "No number of confirmations makes a universal claim certain."
+    },
+    {
+     "text": "Crisis",
+     "alias": [],
+     "tier": 4,
+     "why": "Kuhn: when anomalies pile up and confidence collapses."
+    },
+    {
+     "text": "Conjectures and refutations",
+     "alias": [
+      "conjecture"
+     ],
+     "tier": 4,
+     "why": "Popper: science grows by bold guesses and attempts to refute them."
+    },
+    {
+     "text": "Demarcation problem",
+     "alias": [
+      "demarcation"
+     ],
+     "tier": 4,
+     "why": "Where exactly is the line between science and non-science?"
+    },
+    {
+     "text": "Corroboration",
+     "alias": [
+      "corroborated"
+     ],
+     "tier": 5,
+     "why": "Popper: a theory that survives tests is corroborated, never proven."
+    },
+    {
+     "text": "Incommensurability",
+     "alias": [
+      "incommensurable"
+     ],
+     "tier": 5,
+     "why": "Kuhn: rival paradigms can't be judged by one shared standard."
+    }
+   ]
+  },
+  {
+   "id": "tok-22",
+   "unit": "assess",
+   "prompt": "Name a requirement of the TOK Exhibition",
+   "answers": [
+    {
+     "text": "Three objects",
+     "alias": [
+      "3 objects",
+      "objects"
+     ],
+     "tier": 1,
+     "why": "Exactly three objects, each with a distinct contribution."
+    },
+    {
+     "text": "One IA prompt",
+     "alias": [
+      "ia prompt",
+      "prompt",
+      "one prompt"
+     ],
+     "tier": 1,
+     "why": "Choose one of the 35 IA prompts and use its exact wording."
+    },
+    {
+     "text": "Commentary",
+     "alias": [
+      "written commentary"
+     ],
+     "tier": 2,
+     "why": "Explains each object's link to the prompt."
+    },
+    {
+     "text": "950 words",
+     "alias": [
+      "950",
+      "word limit"
+     ],
+     "tier": 2,
+     "why": "The commentary is about 950 words max."
+    },
+    {
+     "text": "Images of objects",
+     "alias": [
+      "images",
+      "photos",
+      "pictures"
+     ],
+     "tier": 3,
+     "why": "Each object shown with an image."
+    },
+    {
+     "text": "Specific objects",
+     "alias": [
+      "specificity",
+      "object specificity"
+     ],
+     "tier": 3,
+     "why": "Real objects with a particular context in time and space (swap test)."
+    },
+    {
+     "text": "Justification",
+     "alias": [
+      "justify each object",
+      "justification for inclusion"
+     ],
+     "tier": 3,
+     "why": "Explain why each object earns its place."
+    },
+    {
+     "text": "Links to the prompt",
+     "alias": [
+      "link to prompt",
+      "links"
+     ],
+     "tier": 3,
+     "why": "Each object must be explicitly connected to the prompt."
+    },
+    {
+     "text": "Real-world context",
+     "alias": [
+      "real world context",
+      "context"
+     ],
+     "tier": 3,
+     "why": "Show how TOK shows up in the world around us."
+    },
+    {
+     "text": "One theme",
+     "alias": [
+      "theme",
+      "core or optional theme"
+     ],
+     "tier": 4,
+     "why": "Based on the core theme or one optional theme."
+    },
+    {
+     "text": "References",
+     "alias": [
+      "citations",
+      "sources"
+     ],
+     "tier": 4,
+     "why": "Cite sources for evidence and images."
+    },
+    {
+     "text": "Distinct contributions",
+     "alias": [
+      "distinct contribution"
+     ],
+     "tier": 4,
+     "why": "Three objects that each add something different."
+    },
+    {
+     "text": "Title with the prompt",
+     "alias": [
+      "title"
+     ],
+     "tier": 5,
+     "why": "The chosen prompt appears as the exhibition's title."
+    }
+   ]
+  },
+  {
+   "id": "tok-23",
+   "unit": "assess",
+   "prompt": "Name a number linked to TOK or EE assessment",
+   "answers": [
+    {
+     "text": "3",
+     "alias": [
+      "three"
+     ],
+     "tier": 1,
+     "why": "3 Exhibition objects, and up to 3 bonus diploma points from TOK + EE."
+    },
+    {
+     "text": "950",
+     "alias": [
+      "nine hundred fifty"
+     ],
+     "tier": 2,
+     "why": "Max words in the Exhibition commentary."
+    },
+    {
+     "text": "35",
+     "alias": [
+      "thirty five"
+     ],
+     "tier": 2,
+     "why": "The number of IA prompts to choose from."
+    },
+    {
+     "text": "1600",
+     "alias": [
+      "1,600",
+      "sixteen hundred"
+     ],
+     "tier": 3,
+     "why": "Max words in the Year 2 TOK essay."
+    },
+    {
+     "text": "6",
+     "alias": [
+      "six"
+     ],
+     "tier": 3,
+     "why": "The number of prescribed essay titles the IB sets each session."
+    },
+    {
+     "text": "10",
+     "alias": [
+      "ten"
+     ],
+     "tier": 3,
+     "why": "The Exhibition is marked out of 10 on one holistic criterion."
+    },
+    {
+     "text": "4000",
+     "alias": [
+      "4,000",
+      "four thousand"
+     ],
+     "tier": 1,
+     "why": "Max words in the Extended Essay."
+    },
+    {
+     "text": "30",
+     "alias": [
+      "thirty"
+     ],
+     "tier": 3,
+     "why": "The EE is marked out of 30 across criteria A–E."
+    },
+    {
+     "text": "5",
+     "alias": [
+      "five"
+     ],
+     "tier": 2,
+     "why": "Five Areas of Knowledge, and five EE criteria."
+    },
+    {
+     "text": "12",
+     "alias": [
+      "twelve"
+     ],
+     "tier": 4,
+     "why": "The number of TOK concepts (evidence, certainty, truth...)."
+    },
+    {
+     "text": "33",
+     "alias": [
+      "33%",
+      "one third"
+     ],
+     "tier": 4,
+     "why": "Percent of the TOK grade from the Exhibition."
+    },
+    {
+     "text": "67",
+     "alias": [
+      "67%",
+      "two thirds"
+     ],
+     "tier": 4,
+     "why": "Percent of the TOK grade from the essay."
+    },
+    {
+     "text": "8",
+     "alias": [
+      "eight"
+     ],
+     "tier": 5,
+     "why": "EE Criterion D (Evaluation) is worth 8 marks, the most of any criterion."
+    }
+   ]
+  },
+  {
+   "id": "tok-24",
+   "unit": "assess",
+   "prompt": "Name a building block of a TOK essay or argument",
+   "answers": [
+    {
+     "text": "Claim",
+     "alias": [
+      "claims"
+     ],
+     "tier": 1,
+     "why": "Your argument's point."
+    },
+    {
+     "text": "Counterclaim",
+     "alias": [
+      "counter claim",
+      "counterargument",
+      "counter argument"
+     ],
+     "tier": 1,
+     "why": "An argument against your claim. A balanced essay needs one."
+    },
+    {
+     "text": "Real-life situation",
+     "alias": [
+      "rls",
+      "real life example",
+      "example"
+     ],
+     "tier": 2,
+     "why": "A specific example that grounds each claim."
+    },
+    {
+     "text": "Thesis",
+     "alias": [
+      "position",
+      "argument"
+     ],
+     "tier": 2,
+     "why": "Your overall position on the title."
+    },
+    {
+     "text": "Introduction",
+     "alias": [],
+     "tier": 2,
+     "why": "Define terms and re-state the question in your own words."
+    },
+    {
+     "text": "Conclusion",
+     "alias": [
+      "balanced conclusion"
+     ],
+     "tier": 2,
+     "why": "A balanced judgement that weighs claim against counterclaim."
+    },
+    {
+     "text": "Definitions",
+     "alias": [
+      "define key terms",
+      "definition"
+     ],
+     "tier": 3,
+     "why": "Define the title's key terms first."
+    },
+    {
+     "text": "Knowledge question",
+     "alias": [
+      "kq"
+     ],
+     "tier": 3,
+     "why": "The second-order question your essay explores."
+    },
+    {
+     "text": "Areas of Knowledge",
+     "alias": [
+      "aok",
+      "aoks"
+     ],
+     "tier": 3,
+     "why": "The essay compares how different AOKs answer the title."
+    },
+    {
+     "text": "Perspectives",
+     "alias": [
+      "perspective"
+     ],
+     "tier": 3,
+     "why": "Different knowers or groups see it differently."
+    },
+    {
+     "text": "Evaluation",
+     "alias": [],
+     "tier": 3,
+     "why": "Weigh how strong each claim is."
+    },
+    {
+     "text": "Implications",
+     "alias": [],
+     "tier": 4,
+     "why": "So what? Why the answer matters for knowers."
+    },
+    {
+     "text": "Mini conclusion",
+     "alias": [
+      "mini conclusions",
+      "link back"
+     ],
+     "tier": 4,
+     "why": "End each paragraph by linking back to the title."
+    }
+   ]
+  },
+  {
+   "id": "tok-25",
+   "unit": "ee",
+   "prompt": "Name something every Extended Essay needs",
+   "answers": [
+    {
+     "text": "Research question",
+     "alias": [
+      "rq"
+     ],
+     "tier": 1,
+     "why": "A focused question answerable in 4,000 words."
+    },
+    {
+     "text": "Bibliography",
+     "alias": [
+      "works cited",
+      "reference list"
+     ],
+     "tier": 1,
+     "why": "Every source listed (the class uses MLA 9)."
+    },
+    {
+     "text": "Supervisor",
+     "alias": [],
+     "tier": 2,
+     "why": "Each student is allocated one; the Master Document is shared with them."
+    },
+    {
+     "text": "Introduction",
+     "alias": [],
+     "tier": 2,
+     "why": "Sets up the RQ, context and method."
+    },
+    {
+     "text": "Conclusion",
+     "alias": [],
+     "tier": 2,
+     "why": "Answers the RQ clearly."
+    },
+    {
+     "text": "Analysis",
+     "alias": [],
+     "tier": 2,
+     "why": "Arguing with the evidence, not just describing it."
+    },
+    {
+     "text": "Citations",
+     "alias": [
+      "in text citations",
+      "referencing"
+     ],
+     "tier": 2,
+     "why": "In-text citations for every borrowed idea."
+    },
+    {
+     "text": "Methodology",
+     "alias": [
+      "method",
+      "methods"
+     ],
+     "tier": 3,
+     "why": "How you researched: part of Criterion A."
+    },
+    {
+     "text": "Evaluation",
+     "alias": [],
+     "tier": 3,
+     "why": "Weigh sources, method and limitations (Criterion D, /8)."
+    },
+    {
+     "text": "Reflection sessions",
+     "alias": [
+      "reflections",
+      "reflection meetings",
+      "rppf"
+     ],
+     "tier": 3,
+     "why": "Formal reflection meetings with the supervisor during the process."
+    },
+    {
+     "text": "4,000-word limit",
+     "alias": [
+      "word limit",
+      "4000 words"
+     ],
+     "tier": 3,
+     "why": "Maximum 4,000 words."
+    },
+    {
+     "text": "Title page",
+     "alias": [
+      "cover page"
+     ],
+     "tier": 4,
+     "why": "Title and RQ on the front page."
+    },
+    {
+     "text": "Table of contents",
+     "alias": [
+      "contents page",
+      "contents"
+     ],
+     "tier": 4,
+     "why": "Helps the examiner navigate."
+    },
+    {
+     "text": "Academic honesty",
+     "alias": [
+      "academic integrity"
+     ],
+     "tier": 4,
+     "why": "No plagiarism; AI use must be acknowledged."
+    }
+   ]
+  },
+  {
+   "id": "tok-26",
+   "unit": "ee",
+   "prompt": "Name a feature of a good EE research question",
+   "answers": [
+    {
+     "text": "Focused",
+     "alias": [
+      "narrow",
+      "narrowed"
+     ],
+     "tier": 1,
+     "why": "Narrow enough to cover in depth in 4,000 words."
+    },
+    {
+     "text": "Specific",
+     "alias": [],
+     "tier": 1,
+     "why": "Names the exact case, text, place or variable."
+    },
+    {
+     "text": "Clear",
+     "alias": [
+      "clearly worded"
+     ],
+     "tier": 2,
+     "why": "Anyone can tell exactly what you're asking."
+    },
+    {
+     "text": "Researchable",
+     "alias": [
+      "sources available",
+      "enough sources"
+     ],
+     "tier": 2,
+     "why": "Enough sources or data exist to answer it."
+    },
+    {
+     "text": "Answerable",
+     "alias": [],
+     "tier": 2,
+     "why": "It can actually be answered within the word limit."
+    },
+    {
+     "text": "Arguable",
+     "alias": [
+      "debatable",
+      "open to debate"
+     ],
+     "tier": 3,
+     "why": "Invites analysis and argument, not a single fact."
+    },
+    {
+     "text": "Not descriptive",
+     "alias": [
+      "analytical",
+      "not just description"
+     ],
+     "tier": 3,
+     "why": "Descriptive essays score low on C and D (the sample got 3/6 and 3/8)."
+    },
+    {
+     "text": "Open-ended",
+     "alias": [
+      "open ended",
+      "not yes or no"
+     ],
+     "tier": 3,
+     "why": "Can't be answered with yes or no."
+    },
+    {
+     "text": "To what extent",
+     "alias": [
+      "to what extent phrasing"
+     ],
+     "tier": 3,
+     "why": "A classic EE stem that forces evaluation."
+    },
+    {
+     "text": "Subject-specific",
+     "alias": [
+      "subject specific",
+      "uses subject concepts"
+     ],
+     "tier": 4,
+     "why": "Uses the chosen subject's own concepts and methods."
+    },
+    {
+     "text": "Original",
+     "alias": [
+      "interesting",
+      "genuine interest"
+     ],
+     "tier": 4,
+     "why": "Something you're curious about, which helps Criterion E (Engagement)."
+    },
+    {
+     "text": "Ethical",
+     "alias": [],
+     "tier": 4,
+     "why": "Research must be safe and ethical."
+    }
+   ]
+  },
+  {
+   "id": "tok-27",
+   "unit": "ee",
+   "prompt": "Name a part of an MLA 9 citation",
+   "answers": [
+    {
+     "text": "Author",
+     "alias": [
+      "author name",
+      "authors"
+     ],
+     "tier": 1,
+     "why": "Last name, First name. Comes first."
+    },
+    {
+     "text": "Title",
+     "alias": [
+      "title of source"
+     ],
+     "tier": 1,
+     "why": "Title of the article or book."
+    },
+    {
+     "text": "Publisher",
+     "alias": [],
+     "tier": 2,
+     "why": "Who published it."
+    },
+    {
+     "text": "Publication date",
+     "alias": [
+      "date",
+      "year"
+     ],
+     "tier": 2,
+     "why": "When it was published."
+    },
+    {
+     "text": "URL",
+     "alias": [
+      "link",
+      "web address"
+     ],
+     "tier": 2,
+     "why": "For online sources."
+    },
+    {
+     "text": "Container",
+     "alias": [
+      "title of container",
+      "journal name",
+      "website name"
+     ],
+     "tier": 3,
+     "why": "The larger work the source sits in: a journal, website or anthology."
+    },
+    {
+     "text": "Page numbers",
+     "alias": [
+      "pages",
+      "pp"
+     ],
+     "tier": 3,
+     "why": "The page range for a journal article or chapter."
+    },
+    {
+     "text": "DOI",
+     "alias": [],
+     "tier": 4,
+     "why": "A permanent digital ID for journal articles, preferred over a URL."
+    },
+    {
+     "text": "Volume and issue",
+     "alias": [
+      "volume",
+      "issue",
+      "number"
+     ],
+     "tier": 4,
+     "why": "For journal articles: vol. 12, no. 3."
+    },
+    {
+     "text": "Access date",
+     "alias": [
+      "accessed",
+      "date accessed"
+     ],
+     "tier": 4,
+     "why": "Optional in MLA 9; useful for pages that change."
+    },
+    {
+     "text": "Edition",
+     "alias": [
+      "version"
+     ],
+     "tier": 4,
+     "why": "e.g. 2nd ed."
+    },
+    {
+     "text": "Other contributors",
+     "alias": [
+      "editor",
+      "translator"
+     ],
+     "tier": 5,
+     "why": "Edited by / translated by."
+    },
+    {
+     "text": "Hanging indent",
+     "alias": [
+      "indentation"
+     ],
+     "tier": 5,
+     "why": "Formatting: second line of each entry is indented."
+    }
+   ]
+  },
+  {
+   "id": "tok-28",
+   "unit": "ee",
+   "prompt": "Name something an annotation in an annotated bibliography should cover",
+   "answers": [
+    {
+     "text": "Summary",
+     "alias": [
+      "summarise",
+      "summary of source"
+     ],
+     "tier": 1,
+     "why": "What the source says, in 1–2 sentences."
+    },
+    {
+     "text": "MLA citation",
+     "alias": [
+      "citation",
+      "mla"
+     ],
+     "tier": 1,
+     "why": "The full MLA 9 citation sits above the annotation."
+    },
+    {
+     "text": "Credibility",
+     "alias": [
+      "why it is credible",
+      "reliability",
+      "credible"
+     ],
+     "tier": 2,
+     "why": "Why the source can be trusted."
+    },
+    {
+     "text": "How you'll use it",
+     "alias": [
+      "how you will use it",
+      "use",
+      "how it will be used",
+      "usefulness"
+     ],
+     "tier": 2,
+     "why": "Its role in your essay."
+    },
+    {
+     "text": "Relevance",
+     "alias": [
+      "relevance to rq"
+     ],
+     "tier": 2,
+     "why": "How it connects to your research question."
+    },
+    {
+     "text": "Author's credentials",
+     "alias": [
+      "author expertise",
+      "credentials",
+      "expertise"
+     ],
+     "tier": 3,
+     "why": "Who wrote it and what qualifies them."
+    },
+    {
+     "text": "Key arguments",
+     "alias": [
+      "main argument",
+      "main points"
+     ],
+     "tier": 3,
+     "why": "The source's main claims."
+    },
+    {
+     "text": "Limitations",
+     "alias": [
+      "weaknesses",
+      "limitation"
+     ],
+     "tier": 3,
+     "why": "What it doesn't cover or where it's weak."
+    },
+    {
+     "text": "Bias",
+     "alias": [
+      "biases",
+      "perspective of source"
+     ],
+     "tier": 3,
+     "why": "Whose viewpoint it represents. The Master Doc asks about biases."
+    },
+    {
+     "text": "Questions it raises",
+     "alias": [
+      "questions",
+      "further questions"
+     ],
+     "tier": 4,
+     "why": "What you still need to find out."
+    },
+    {
+     "text": "Comparison",
+     "alias": [
+      "comparison to other sources"
+     ],
+     "tier": 5,
+     "why": "How it agrees or disagrees with your other sources."
+    }
+   ]
+  },
+  {
+   "id": "tok-29",
+   "unit": "ee",
+   "prompt": "Name a way to check whether a source is credible",
+   "answers": [
+    {
+     "text": "Author expertise",
+     "alias": [
+      "author",
+      "credentials"
+     ],
+     "tier": 1,
+     "why": "Is the writer qualified in this field?"
+    },
+    {
+     "text": "Peer reviewed",
+     "alias": [
+      "peer review",
+      "peer-reviewed"
+     ],
+     "tier": 2,
+     "why": "Checked by experts before publication."
+    },
+    {
+     "text": "Date",
+     "alias": [
+      "currency",
+      "publication date"
+     ],
+     "tier": 2,
+     "why": "Is it recent enough for the topic?"
+    },
+    {
+     "text": "Publisher",
+     "alias": [
+      "reputable publisher"
+     ],
+     "tier": 2,
+     "why": "University press or respected outlet?"
+    },
+    {
+     "text": "Bias",
+     "alias": [
+      "purpose",
+      "agenda"
+     ],
+     "tier": 2,
+     "why": "Is it trying to sell, persuade or inform?"
+    },
+    {
+     "text": "Citations",
+     "alias": [
+      "references",
+      "sources cited"
+     ],
+     "tier": 3,
+     "why": "Does it show where its claims come from?"
+    },
+    {
+     "text": "Accuracy",
+     "alias": [
+      "fact checking"
+     ],
+     "tier": 3,
+     "why": "Can its facts be checked?"
+    },
+    {
+     "text": "Corroboration",
+     "alias": [
+      "cross checking",
+      "lateral reading"
+     ],
+     "tier": 3,
+     "why": "Do other reliable sources agree?"
+    },
+    {
+     "text": "Relevance",
+     "alias": [],
+     "tier": 3,
+     "why": "Does it actually address your question?"
+    },
+    {
+     "text": "Database source",
+     "alias": [
+      "jstor",
+      "google scholar",
+      "academic database"
+     ],
+     "tier": 2,
+     "why": "Found through JSTOR or Google Scholar rather than a random site."
+    },
+    {
+     "text": "CRAAP test",
+     "alias": [
+      "craap"
+     ],
+     "tier": 4,
+     "why": "Currency, Relevance, Authority, Accuracy, Purpose."
+    },
+    {
+     "text": "Domain",
+     "alias": [
+      "url domain",
+      ".edu",
+      ".gov"
+     ],
+     "tier": 4,
+     "why": "A .edu or .gov site is often more reliable than an anonymous blog."
+    },
+    {
+     "text": "Funding",
+     "alias": [
+      "who funded it",
+      "sponsor"
+     ],
+     "tier": 4,
+     "why": "Who paid for the research?"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "unit": "ns",
+   "front": "Falsifiability",
+   "back": "A claim is falsifiable if some possible observation or experiment could, in principle, prove it false. Popper's mark of a genuinely scientific claim."
+  },
+  {
+   "unit": "ns",
+   "front": "Verifiability",
+   "back": "The idea that a claim is meaningful/scientific if it can be confirmed by observation; Popper rejected this as too weak, since confirming evidence is easy to find for almost anything."
+  },
+  {
+   "unit": "ns",
+   "front": "Paradigm (Kuhn)",
+   "back": "The shared set of theories, methods, assumptions and standard examples that define \"normal\" science in a field at a given time."
+  },
+  {
+   "unit": "ns",
+   "front": "Paradigm shift",
+   "back": "A revolutionary, wholesale replacement of one scientific paradigm by another, triggered when accumulated anomalies can no longer be explained by the old paradigm."
+  },
+  {
+   "unit": "ns",
+   "front": "Normal science",
+   "back": "Kuhn's term for routine puzzle-solving research conducted within an accepted paradigm, without questioning its core assumptions."
+  },
+  {
+   "unit": "ns",
+   "front": "Revolutionary science",
+   "back": "Kuhn's term for the crisis period when a paradigm breaks down under unexplained anomalies and is replaced by a new paradigm."
+  },
+  {
+   "unit": "bias",
+   "front": "Induction",
+   "back": "Reasoning from specific observed cases to a general conclusion about unobserved cases; the conclusion is probable, never logically certain."
+  },
+  {
+   "unit": "bias",
+   "front": "Deduction",
+   "back": "Reasoning from general premises to a specific conclusion that must be true if the premises are true."
+  },
+  {
+   "unit": "ns",
+   "front": "Problem of induction",
+   "back": "The philosophical issue that no finite number of confirming observations can logically guarantee a universal or future conclusion (e.g. the sun rising every day doesn't logically prove it will rise tomorrow)."
+  },
+  {
+   "unit": "ns",
+   "front": "Empirical evidence",
+   "back": "Evidence gathered through direct observation or experiment, rather than through pure reasoning alone."
+  },
+  {
+   "unit": "ns",
+   "front": "Peer review",
+   "back": "The process where independent experts in a field scrutinize a study's methods and conclusions before publication, acting as a quality filter."
+  },
+  {
+   "unit": "ns",
+   "front": "Replication",
+   "back": "Independently repeating an experiment to check whether the same result occurs again; a core check on reliability in science."
+  },
+  {
+   "unit": "ns",
+   "front": "Control variable",
+   "back": "A variable deliberately kept constant in an experiment so that only the independent variable can explain any change in the outcome."
+  },
+  {
+   "unit": "bias",
+   "front": "Confirmation bias",
+   "back": "The tendency to notice, seek out, and remember evidence that supports what you already believe, while dismissing contradicting evidence."
+  },
+  {
+   "unit": "ns",
+   "front": "Publication bias",
+   "back": "The tendency for journals to publish exciting positive results more often than null/negative results, skewing the visible scientific record."
+  },
+  {
+   "unit": "ns",
+   "front": "P-hacking",
+   "back": "Reanalyzing or selectively reporting data until a statistically significant result appears, even if it arose by chance."
+  },
+  {
+   "unit": "ns",
+   "front": "Pseudoscience",
+   "back": "A claim or field that presents itself as scientific but lacks features like falsifiability, peer review, replication, or willingness to revise under contrary evidence."
+  },
+  {
+   "unit": "ns",
+   "front": "Occam's razor",
+   "back": "The principle that, among competing explanations that fit the evidence equally well, the simplest one should be preferred."
+  },
+  {
+   "unit": "ns",
+   "front": "Model (in science)",
+   "back": "A simplified representation of a real system, useful for prediction and explanation but never a complete or perfectly accurate copy of reality."
+  },
+  {
+   "unit": "core",
+   "front": "Knowledge question (KQ)",
+   "back": "An open, contestable, second-order question about knowledge itself (how we know, what counts as evidence, who decides) rather than about a specific fact."
+  },
+  {
+   "unit": "core",
+   "front": "Real-world question (RWQ)",
+   "back": "A first-order, specific question about a particular fact, event or situation, e.g. \"Is this medicine safe?\""
+  },
+  {
+   "unit": "core",
+   "front": "Second-order question",
+   "back": "A question about knowledge/knowing itself, as opposed to a first-order question about the world directly."
+  },
+  {
+   "unit": "core",
+   "front": "Area of knowledge (AOK)",
+   "back": "One of the five official domains through which TOK organizes ways of producing knowledge: natural sciences, human sciences, history, the arts, mathematics."
+  },
+  {
+   "unit": "core",
+   "front": "Core theme",
+   "back": "The compulsory TOK theme for every student: Knowledge and the Knower."
+  },
+  {
+   "unit": "core",
+   "front": "Optional theme",
+   "back": "One of the two additional themes a TOK class studies alongside the core theme; this class's optional themes are Knowledge and Technology and Knowledge and Language."
+  },
+  {
+   "unit": "langtech",
+   "front": "Knowledge and Technology",
+   "back": "This class's optional theme examining how tools/technology shape what counts as knowledge and who can access or produce it."
+  },
+  {
+   "unit": "langtech",
+   "front": "Knowledge and Language",
+   "back": "This class's optional theme examining how language shapes, enables, and limits what can be known and communicated."
+  },
+  {
+   "unit": "assess",
+   "front": "TOK Exhibition",
+   "back": "The Year 1 TOK assessment (33% of the TOK grade): 3 specific real objects plus a roughly 950-word commentary answering ONE of 35 prescribed IA prompts."
+  },
+  {
+   "unit": "assess",
+   "front": "TOK Essay",
+   "back": "The Year 2 TOK assessment (67% of the TOK grade), a longer essay written on one of six prescribed titles set by the IB."
+  },
+  {
+   "unit": "assess",
+   "front": "Object specificity",
+   "back": "The exhibition requirement that each object have a particular, real context in time and space (a specific item with a specific history), not a generic stand-in or symbol."
+  },
+  {
+   "unit": "assess",
+   "front": "Swap test",
+   "back": "Exhibition check: if a generic object of the same kind would work just as well, your object isn't doing real work. Replace it or make it more specific."
+  },
+  {
+   "unit": "assess",
+   "front": "Exhibition rubric (Criterion A)",
+   "back": "The single holistic 0-10 criterion used to grade the TOK Exhibition: does it successfully show how TOK manifests in the world around us, via specific objects with distinct, well-justified links to the chosen prompt?"
+  },
+  {
+   "unit": "assess",
+   "front": "Distinct contribution",
+   "back": "The exhibition requirement that each of the three objects add something different to the overall argument, rather than three objects repeating the same point."
+  },
+  {
+   "unit": "core",
+   "front": "Knowledge claim",
+   "back": "A statement asserting that something is known or true, which TOK asks students to examine for its basis, scope and limits."
+  },
+  {
+   "unit": "core",
+   "front": "Personal knowledge vs shared knowledge",
+   "back": "The TOK distinction between what an individual knower believes/knows from their own experience versus knowledge produced and validated by a community (e.g. the scientific community)."
+  },
+  {
+   "unit": "bias",
+   "front": "Ways of knowing (WOKs)",
+   "back": "The processes through which knowers acquire knowledge, e.g. sense perception, reason, emotion, language, imagination, memory, faith, intuition."
+  },
+  {
+   "unit": "ns",
+   "front": "Falsification vs confirmation",
+   "back": "Popper's distinction: genuine science tries to disprove its own theories (falsification); pseudoscience only seeks supporting examples (confirmation)."
+  },
+  {
+   "unit": "core",
+   "front": "Plato's Allegory of the Cave",
+   "back": "Prisoners chained in a cave take shadows on the wall for reality. One escapes, sees the sun, returns, and is mocked. Senses show appearances; reason leads to truth."
+  },
+  {
+   "unit": "core",
+   "front": "Justified true belief",
+   "back": "The classic (Plato) definition of knowledge: you believe it, it is true, and you have good reasons for it."
+  },
+  {
+   "unit": "core",
+   "front": "The knowledge framework",
+   "back": "Four elements for analysing any theme or AOK: scope, perspectives, methods and tools, ethics."
+  },
+  {
+   "unit": "core",
+   "front": "Scope (knowledge framework)",
+   "back": "What the area is about, what problems it tries to solve, and where its limits are."
+  },
+  {
+   "unit": "core",
+   "front": "Methods and tools",
+   "back": "How knowledge is produced in an area: experiments, proofs, sources, instruments, reasoning."
+  },
+  {
+   "unit": "core",
+   "front": "The 12 TOK concepts",
+   "back": "Evidence, certainty, truth, interpretation, power, justification, explanation, objectivity, perspective, culture, values, responsibility."
+  },
+  {
+   "unit": "bias",
+   "front": "Senses lesson key idea",
+   "back": "The senses shape rather than simply record the world: perception is interpretation (optical illusions, the dress)."
+  },
+  {
+   "unit": "bias",
+   "front": "Availability heuristic",
+   "back": "Judging how likely something is by how easily examples come to mind, e.g. fearing plane crashes more than car crashes."
+  },
+  {
+   "unit": "bias",
+   "front": "Anchoring",
+   "back": "Relying too much on the first piece of information (the 'anchor'), e.g. a first price you see."
+  },
+  {
+   "unit": "bias",
+   "front": "Dunning-Kruger effect",
+   "back": "People with little skill overestimate their ability because they can't see what they don't know."
+  },
+  {
+   "unit": "bias",
+   "front": "Hindsight bias",
+   "back": "Believing after an event that you 'knew it all along'."
+  },
+  {
+   "unit": "bias",
+   "front": "Logic vs emotion",
+   "back": "Emotion can distort reasoning (anger, fear) but can also be a source of knowledge, e.g. empathy or moral intuition."
+  },
+  {
+   "unit": "bias",
+   "front": "Induction trap example",
+   "back": "1, 2, 3, 4, 5 → 6? The pattern feels certain, but other rules also fit. Induction gives probability, not certainty."
+  },
+  {
+   "unit": "langtech",
+   "front": "Sapir-Whorf hypothesis",
+   "back": "The idea that the language you speak shapes how you think and what you notice (linguistic relativity)."
+  },
+  {
+   "unit": "langtech",
+   "front": "Loaded language",
+   "back": "Words chosen for their emotional charge to steer judgement: 'freedom fighter' vs 'terrorist'."
+  },
+  {
+   "unit": "langtech",
+   "front": "Filter bubble",
+   "back": "When algorithms show you only content matching your past behaviour, so you rarely meet opposing views."
+  },
+  {
+   "unit": "langtech",
+   "front": "Black box problem",
+   "back": "We can see an AI's output but not how it reached it, so it is hard to justify trusting it."
+  },
+  {
+   "unit": "ns",
+   "front": "Popper's 1919 example",
+   "back": "Einstein's relativity predicted starlight bending around the Sun; the eclipse could have refuted it but didn't, so it was a risky, scientific theory."
+  },
+  {
+   "unit": "assess",
+   "front": "The class TOK essay formula",
+   "back": "Define terms + re-state the question → position → real-life situation + claim → second RLS + counterclaim → balanced conclusion."
+  },
+  {
+   "unit": "assess",
+   "front": "Claim vs counterclaim",
+   "back": "A claim argues for your answer; a counterclaim argues against it. Strong TOK writing weighs both with real-life situations."
+  },
+  {
+   "unit": "assess",
+   "front": "KQ ladder",
+   "back": "Real-world question → knowledge issue → general second-order knowledge question. E.g. 'Is this medicine safe?' → 'How much evidence is enough for scientific consensus?'"
+  },
+  {
+   "unit": "ee",
+   "front": "EE criteria (as taught)",
+   "back": "A Focus & method /6 · B Knowledge & understanding /6 · C Analysis /6 · D Evaluation /8 · E Engagement /4 = /30."
+  },
+  {
+   "unit": "ee",
+   "front": "Why the sample EE scored 20/30",
+   "back": "It was largely descriptive, so C (Analysis) got 3/6 and D (Evaluation) 3/8. A focused RQ and arguing from evidence lift C and D."
+  },
+  {
+   "unit": "ee",
+   "front": "Annotation (3–5 sentences)",
+   "back": "Summary of the source + why it is credible + how you will use it. Goes under the MLA 9 citation."
+  },
+  {
+   "unit": "ee",
+   "front": "MLA 9 core order",
+   "back": "Author. Title of Source. Title of Container, Other contributors, Version, Number, Publisher, Publication date, Location (pages/URL/DOI)."
+  },
+  {
+   "unit": "ee",
+   "front": "JSTOR",
+   "back": "A database of peer-reviewed academic journals and books, used for EE research instead of random websites."
+  },
+  {
+   "unit": "ee",
+   "front": "Mini EE",
+   "back": "A short practice version of the Extended Essay used to rehearse research-question and research skills."
+  },
+  {
+   "unit": "ee",
+   "front": "Extended Essay basics",
+   "back": "Independent research essay, max 4,000 words, marked out of 30, with a supervisor and reflection sessions. Feeds bonus points with TOK."
+  }
+ ],
+ "quiz": [
+  {
+   "unit": "core",
+   "q": "Which is a knowledge question rather than a real-world question?",
+   "choices": [
+    "Is this medicine safe?",
+    "Did India win the toss fairly?",
+    "How much evidence is enough for scientific consensus?",
+    "Is Wikipedia's article on Mars correct?"
+   ],
+   "answer": 2,
+   "explain": "A KQ is second-order, general and about knowledge itself; the others are first-order questions about specific facts."
+  },
+  {
+   "unit": "core",
+   "q": "The compulsory TOK core theme is…",
+   "choices": [
+    "Knowledge and technology",
+    "Knowledge and the knower",
+    "Knowledge and language",
+    "Knowledge and politics"
+   ],
+   "answer": 1,
+   "explain": "Every student studies Knowledge and the knower. This class's optional themes are technology and language."
+  },
+  {
+   "unit": "core",
+   "q": "Which is NOT one of the five Areas of Knowledge?",
+   "choices": [
+    "Religion",
+    "History",
+    "The arts",
+    "Mathematics"
+   ],
+   "answer": 0,
+   "explain": "The AOKs are natural sciences, human sciences, history, the arts and mathematics. Religion is an optional theme."
+  },
+  {
+   "unit": "core",
+   "q": "Which is NOT an element of the knowledge framework?",
+   "choices": [
+    "Scope",
+    "Perspectives",
+    "Methods and tools",
+    "Certainty"
+   ],
+   "answer": 3,
+   "explain": "The four elements are scope, perspectives, methods and tools, and ethics. Certainty is one of the 12 concepts."
+  },
+  {
+   "unit": "core",
+   "q": "In Plato's cave, the shadows on the wall represent…",
+   "choices": [
+    "True knowledge",
+    "The Forms",
+    "Appearances taken for reality",
+    "The philosopher"
+   ],
+   "answer": 2,
+   "explain": "Prisoners mistake shadows (appearances) for reality. The sun outside stands for true knowledge, the Form of the Good."
+  },
+  {
+   "unit": "core",
+   "q": "'Justified true belief' is a definition of…",
+   "choices": [
+    "Opinion",
+    "Knowledge",
+    "Faith",
+    "Bias"
+   ],
+   "answer": 1,
+   "explain": "Plato's classic account: knowledge is a belief that is true and that you have good reasons for."
+  },
+  {
+   "unit": "bias",
+   "q": "You only notice news that supports your view and ignore the rest. This is…",
+   "choices": [
+    "Confirmation bias",
+    "Anchoring",
+    "Hindsight bias",
+    "Halo effect"
+   ],
+   "answer": 0,
+   "explain": "Confirmation bias: seeking and remembering evidence that fits what you already believe."
+  },
+  {
+   "unit": "bias",
+   "q": "After the match you say 'I knew they'd lose.' This is…",
+   "choices": [
+    "Availability heuristic",
+    "Bandwagon effect",
+    "Framing effect",
+    "Hindsight bias"
+   ],
+   "answer": 3,
+   "explain": "Hindsight bias: the result feels predictable only once you know it."
+  },
+  {
+   "unit": "bias",
+   "q": "People fear shark attacks more than car crashes because shark stories are vivid. This is…",
+   "choices": [
+    "Sunk cost fallacy",
+    "Dunning-Kruger effect",
+    "Availability heuristic",
+    "In-group bias"
+   ],
+   "answer": 2,
+   "explain": "Availability heuristic: easy-to-recall examples feel more likely than they are."
+  },
+  {
+   "unit": "bias",
+   "q": "'All humans are mortal; Socrates is human; so Socrates is mortal' is…",
+   "choices": [
+    "Inductive reasoning",
+    "Deductive reasoning",
+    "Abductive reasoning",
+    "A fallacy"
+   ],
+   "answer": 1,
+   "explain": "Deduction: general premises lead to a certain conclusion if the premises are true."
+  },
+  {
+   "unit": "bias",
+   "q": "'Every swan I've seen is white, so all swans are white' is…",
+   "choices": [
+    "Inductive and only probable",
+    "Deductive and certain",
+    "Circular reasoning",
+    "A valid syllogism"
+   ],
+   "answer": 0,
+   "explain": "Induction moves from cases to a general rule; one black swan can overturn it."
+  },
+  {
+   "unit": "bias",
+   "q": "An argument is VALID when…",
+   "choices": [
+    "Its premises are true",
+    "Most people agree with it",
+    "It uses evidence",
+    "Its conclusion follows from its premises"
+   ],
+   "answer": 3,
+   "explain": "Validity is about structure. A valid argument with true premises is also 'sound'."
+  },
+  {
+   "unit": "bias",
+   "q": "Attacking the person instead of their argument is…",
+   "choices": [
+    "Straw man",
+    "Slippery slope",
+    "Ad hominem",
+    "Red herring"
+   ],
+   "answer": 2,
+   "explain": "Ad hominem = 'to the person'. Straw man distorts the argument instead."
+  },
+  {
+   "unit": "bias",
+   "q": "The main claim of the senses lesson was that the senses…",
+   "choices": [
+    "Record the world exactly",
+    "Shape rather than simply record the world",
+    "Are always unreliable",
+    "Matter only in science"
+   ],
+   "answer": 1,
+   "explain": "Perception is interpretation: illusions show the brain builds what we see."
+  },
+  {
+   "unit": "langtech",
+   "q": "The Sapir-Whorf hypothesis claims that…",
+   "choices": [
+    "Language shapes how we think",
+    "All languages share one grammar",
+    "Translation is always exact",
+    "Only written language is knowledge"
+   ],
+   "answer": 0,
+   "explain": "Also called linguistic relativity: the language you speak influences perception and thought."
+  },
+  {
+   "unit": "langtech",
+   "q": "Calling the same group 'freedom fighters' or 'terrorists' is an example of…",
+   "choices": [
+    "Jargon",
+    "Denotation",
+    "Translation",
+    "Loaded language"
+   ],
+   "answer": 3,
+   "explain": "Loaded language uses emotionally charged words to steer judgement."
+  },
+  {
+   "unit": "langtech",
+   "q": "A 'filter bubble' is created by…",
+   "choices": [
+    "Peer review",
+    "Translation software",
+    "Algorithms showing you what you already like",
+    "Printing presses"
+   ],
+   "answer": 2,
+   "explain": "Personalised feeds hide opposing views, so you think everyone agrees with you."
+  },
+  {
+   "unit": "langtech",
+   "q": "The 'black box' problem with AI means…",
+   "choices": [
+    "AI is always wrong",
+    "We can't see how it reached its answer",
+    "AI only works offline",
+    "AI can't use language"
+   ],
+   "answer": 1,
+   "explain": "If we can't inspect the process, it is hard to justify trusting the output."
+  },
+  {
+   "unit": "ns",
+   "q": "Popper's test for whether a claim is scientific is…",
+   "choices": [
+    "Falsifiability",
+    "Verifiability",
+    "Popularity",
+    "Simplicity"
+   ],
+   "answer": 0,
+   "explain": "A scientific claim must be disprovable in principle. Confirming examples are too easy to find."
+  },
+  {
+   "unit": "ns",
+   "q": "Which claim is unfalsifiable?",
+   "choices": [
+    "All swans are white",
+    "This drug lowers blood pressure by 10 mmHg in 6 weeks",
+    "Rising CO2 raises global temperature",
+    "Everything happens for a reason"
+   ],
+   "answer": 3,
+   "explain": "No observation could ever count against 'everything happens for a reason', so it can't be tested."
+  },
+  {
+   "unit": "ns",
+   "q": "For Kuhn, 'normal science' is…",
+   "choices": [
+    "A revolution that replaces a paradigm",
+    "Pseudoscience",
+    "Puzzle-solving inside an accepted paradigm",
+    "Science done without experiments"
+   ],
+   "answer": 2,
+   "explain": "Normal science works within the paradigm until anomalies pile up into a crisis."
+  },
+  {
+   "unit": "ns",
+   "q": "The move from an Earth-centred to a Sun-centred model is a classic example of…",
+   "choices": [
+    "Normal science",
+    "A paradigm shift",
+    "Publication bias",
+    "Deduction"
+   ],
+   "answer": 1,
+   "explain": "Geocentric to heliocentric astronomy is Kuhn's textbook paradigm shift."
+  },
+  {
+   "unit": "ns",
+   "q": "Re-analysing data until a 'significant' result appears is called…",
+   "choices": [
+    "P-hacking",
+    "Peer review",
+    "Replication",
+    "Occam's razor"
+   ],
+   "answer": 0,
+   "explain": "P-hacking produces chance results that look real."
+  },
+  {
+   "unit": "ns",
+   "q": "Why can induction never give 100% certainty?",
+   "choices": [
+    "It uses no evidence",
+    "It relies on emotion",
+    "It is only used in maths",
+    "The next case could always be the exception"
+   ],
+   "answer": 3,
+   "explain": "The problem of induction (Hume): past observations can't guarantee future or unobserved ones."
+  },
+  {
+   "unit": "ns",
+   "q": "Occam's razor says that among explanations that fit the evidence equally well…",
+   "choices": [
+    "Choose the newest",
+    "Choose the most popular",
+    "Choose the simplest",
+    "Reject them all"
+   ],
+   "answer": 2,
+   "explain": "Prefer the simplest explanation that fits the evidence."
+  },
+  {
+   "unit": "assess",
+   "q": "How many objects does a TOK Exhibition need?",
+   "choices": [
+    "Two",
+    "Three",
+    "Five",
+    "Any number"
+   ],
+   "answer": 1,
+   "explain": "Three specific objects, each linked to one IA prompt, with a commentary of about 950 words."
+  },
+  {
+   "unit": "assess",
+   "q": "Exhibition objects should pass the 'swap test', meaning…",
+   "choices": [
+    "Swapping in a generic version would break the argument",
+    "They can be swapped for any similar object",
+    "They must be swapped with a classmate",
+    "They must be bought new"
+   ],
+   "answer": 0,
+   "explain": "A good object is irreplaceable: the argument depends on its specific context."
+  },
+  {
+   "unit": "assess",
+   "q": "The TOK essay is worth what share of the TOK grade?",
+   "choices": [
+    "33%",
+    "50%",
+    "100%",
+    "67%"
+   ],
+   "answer": 3,
+   "explain": "Essay 67%, Exhibition 33%."
+  },
+  {
+   "unit": "assess",
+   "q": "The TOK Exhibition is marked…",
+   "choices": [
+    "Out of 30 across five criteria",
+    "Pass/fail",
+    "Out of 10 on one holistic criterion",
+    "Out of 20 across two criteria"
+   ],
+   "answer": 2,
+   "explain": "One holistic criterion, 0–10: does it show how TOK manifests in the world around us?"
+  },
+  {
+   "unit": "ee",
+   "q": "Which EE criterion carries the most marks?",
+   "choices": [
+    "A Focus and method",
+    "D Evaluation",
+    "B Knowledge and understanding",
+    "E Engagement"
+   ],
+   "answer": 1,
+   "explain": "D is worth 8; A, B and C are 6 each; E is 4. Total 30."
+  },
+  {
+   "unit": "ee",
+   "q": "The sample EE scored low on C and D mainly because it was…",
+   "choices": [
+    "Too descriptive",
+    "Too short",
+    "Missing a bibliography",
+    "Over the word limit"
+   ],
+   "answer": 0,
+   "explain": "Describing instead of analysing and evaluating kept C at 3/6 and D at 3/8."
+  },
+  {
+   "unit": "ee",
+   "q": "In MLA 9, the 'container' is…",
+   "choices": [
+    "The author's university",
+    "The page number",
+    "The file format",
+    "The larger work holding the source, like a journal or website"
+   ],
+   "answer": 3,
+   "explain": "E.g. an article's container is the journal; a web page's is the website."
+  },
+  {
+   "unit": "ee",
+   "q": "A 3–5 sentence annotation should include a summary, why the source is credible, and…",
+   "choices": [
+    "Your grade target",
+    "The author's age",
+    "How you will use it",
+    "A quote of 200 words"
+   ],
+   "answer": 2,
+   "explain": "Summary + credibility + how you'll use it in your essay."
+  },
+  {
+   "unit": "ee",
+   "q": "Which is the strongest EE research question?",
+   "choices": [
+    "What is climate change?",
+    "To what extent did the 2016 demonetisation affect cash use in Mumbai's informal sector?",
+    "How does social media work?",
+    "Is economics interesting?"
+   ],
+   "answer": 1,
+   "explain": "Focused, specific, arguable and answerable in 4,000 words. The others are broad or descriptive."
+  },
+  {
+   "unit": "ee",
+   "q": "JSTOR is best described as…",
+   "choices": [
+    "A database of academic journals and books",
+    "A citation style",
+    "A plagiarism checker",
+    "An AI chatbot"
+   ],
+   "answer": 0,
+   "explain": "It gives access to peer-reviewed scholarship, ideal for EE research."
+  }
+ ]
+}

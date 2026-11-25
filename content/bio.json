@@ -1,0 +1,4359 @@
+{
+ "subject": "bio",
+ "name": "Biology",
+ "units": [
+  {
+   "id": "a11",
+   "name": "A1.1 Water"
+  },
+  {
+   "id": "a12",
+   "name": "A1.2 Nucleic acids"
+  },
+  {
+   "id": "a22",
+   "name": "A2.2 Cell structure & microscopy"
+  },
+  {
+   "id": "a31",
+   "name": "A3.1 Diversity of organisms"
+  },
+  {
+   "id": "a41",
+   "name": "A4.1 Evolution & speciation"
+  },
+  {
+   "id": "a42",
+   "name": "A4.2 Conservation of biodiversity"
+  }
+ ],
+ "prompts": [
+  {
+   "id": "bio-01",
+   "unit": "a11",
+   "prompt": "Name a property of water that makes it important for life",
+   "answers": [
+    {
+     "text": "Cohesion",
+     "alias": [
+      "cohesive"
+     ],
+     "tier": 1,
+     "why": "H-bonds pull water molecules to each other: gives surface tension and unbroken water columns in xylem."
+    },
+    {
+     "text": "Adhesion",
+     "alias": [
+      "adhesive"
+     ],
+     "tier": 1,
+     "why": "Water is attracted to other polar surfaces, like cellulose in plant cell walls, which drives capillary action."
+    },
+    {
+     "text": "Hydrogen bonding",
+     "alias": [
+      "hydrogen bonds",
+      "h bonds",
+      "h bonding"
+     ],
+     "tier": 1,
+     "why": "Weak attractions between δ+ H and δ− O of neighbouring molecules: the cause of most of water's special properties."
+    },
+    {
+     "text": "Polarity",
+     "alias": [
+      "polar",
+      "polar molecule"
+     ],
+     "tier": 2,
+     "why": "Unequal electron sharing makes O δ− and each H δ+, so water molecules attract each other and charged particles."
+    },
+    {
+     "text": "Solvent",
+     "alias": [
+      "solvent properties",
+      "universal solvent",
+      "good solvent"
+     ],
+     "tier": 2,
+     "why": "Dissolves polar and charged substances, so metabolism happens in solution and plasma can transport solutes."
+    },
+    {
+     "text": "Surface tension",
+     "alias": [],
+     "tier": 2,
+     "why": "Cohesion at the surface forms a 'skin' strong enough for a water strider to stand on."
+    },
+    {
+     "text": "Capillary action",
+     "alias": [
+      "capillarity"
+     ],
+     "tier": 2,
+     "why": "Adhesion plus cohesion move water up narrow spaces such as soil pores and plant cell walls."
+    },
+    {
+     "text": "High specific heat capacity",
+     "alias": [
+      "specific heat capacity",
+      "specific heat",
+      "high specific heat"
+     ],
+     "tier": 3,
+     "why": "Lots of energy is needed to change water's temperature, so aquatic habitats stay thermally stable."
+    },
+    {
+     "text": "High thermal conductivity",
+     "alias": [
+      "thermal conductivity"
+     ],
+     "tier": 3,
+     "why": "Water carries heat away from a body fast, which is why the ringed seal needs thick blubber."
+    },
+    {
+     "text": "Buoyancy",
+     "alias": [
+      "buoyant"
+     ],
+     "tier": 3,
+     "why": "Water pushes up on organisms and supports their weight, so aquatic animals need less skeletal support."
+    },
+    {
+     "text": "Viscosity",
+     "alias": [
+      "viscous",
+      "high viscosity"
+     ],
+     "tier": 4,
+     "why": "Water resists movement far more than air, so swimmers like the loon need streamlined bodies."
+    }
+   ]
+  },
+  {
+   "id": "bio-02",
+   "unit": "a11",
+   "prompt": "Name a real-life example or class lab that shows a property of water",
+   "answers": [
+    {
+     "text": "Water strider",
+     "alias": [
+      "pond skater",
+      "water bug"
+     ],
+     "tier": 1,
+     "why": "Its weight is held up by surface tension, caused by cohesion between water molecules."
+    },
+    {
+     "text": "Xylem transport",
+     "alias": [
+      "xylem",
+      "transpiration pull",
+      "water in xylem"
+     ],
+     "tier": 1,
+     "why": "Cohesion lets water be pulled up the xylem as one unbroken column under tension."
+    },
+    {
+     "text": "Capillary tubes",
+     "alias": [],
+     "tier": 2,
+     "why": "Water climbs narrow glass tubes by adhesion to the walls plus cohesion, forming a curved meniscus."
+    },
+    {
+     "text": "Celery dye",
+     "alias": [
+      "celery",
+      "celery dye lab",
+      "coloured celery"
+     ],
+     "tier": 2,
+     "why": "Dyed water rising up a celery stalk shows adhesion and cohesion moving water through xylem."
+    },
+    {
+     "text": "Blood plasma",
+     "alias": [
+      "plasma"
+     ],
+     "tier": 2,
+     "why": "Water as a solvent: glucose, ions and hormones travel dissolved in plasma."
+    },
+    {
+     "text": "Ringed seal",
+     "alias": [
+      "seal"
+     ],
+     "tier": 3,
+     "why": "Water's high thermal conductivity drains body heat, so the seal relies on a thick layer of blubber."
+    },
+    {
+     "text": "Black-throated loon",
+     "alias": [
+      "loon",
+      "black throated loon"
+     ],
+     "tier": 3,
+     "why": "Its streamlined body cuts drag from water's viscosity, and buoyancy supports it on the surface."
+    },
+    {
+     "text": "Penny drops",
+     "alias": [
+      "drops on a penny",
+      "penny lab",
+      "penny drop"
+     ],
+     "tier": 3,
+     "why": "Water piles into a dome on a coin before spilling over: cohesion and surface tension."
+    },
+    {
+     "text": "Floating paperclip",
+     "alias": [
+      "paperclip",
+      "paper clip"
+     ],
+     "tier": 3,
+     "why": "A steel paperclip rests on the surface because of surface tension."
+    },
+    {
+     "text": "Pepper and soap",
+     "alias": [
+      "pepper",
+      "soap and pepper"
+     ],
+     "tier": 4,
+     "why": "Soap breaks the surface tension, so the floating pepper rushes to the edges."
+    },
+    {
+     "text": "Soil water",
+     "alias": [
+      "soil",
+      "water in soil"
+     ],
+     "tier": 4,
+     "why": "Adhesion to soil particles and capillary action hold water and move it towards roots."
+    },
+    {
+     "text": "Evaporation race",
+     "alias": [
+      "water vs methanol",
+      "methanol"
+     ],
+     "tier": 5,
+     "why": "Water evaporates more slowly than methanol because its many hydrogen bonds must be broken first."
+    }
+   ]
+  },
+  {
+   "id": "bio-03",
+   "unit": "a12",
+   "prompt": "Name a part or structural feature of a DNA molecule",
+   "answers": [
+    {
+     "text": "Phosphate group",
+     "alias": [
+      "phosphate"
+     ],
+     "tier": 1,
+     "why": "One of the 3 parts of a nucleotide; phosphates link the sugars together in the backbone."
+    },
+    {
+     "text": "Deoxyribose",
+     "alias": [
+      "deoxyribose sugar"
+     ],
+     "tier": 1,
+     "why": "The pentose (5-carbon) sugar in DNA. Write the full name: 'sugar' alone loses the mark."
+    },
+    {
+     "text": "Nitrogenous base",
+     "alias": [
+      "base",
+      "nitrogen base"
+     ],
+     "tier": 1,
+     "why": "The information-carrying part of a nucleotide: adenine, thymine, guanine or cytosine."
+    },
+    {
+     "text": "Double helix",
+     "alias": [
+      "helix"
+     ],
+     "tier": 1,
+     "why": "Two strands twisted around each other."
+    },
+    {
+     "text": "Nucleotide",
+     "alias": [],
+     "tier": 2,
+     "why": "The monomer of DNA: one phosphate + one deoxyribose + one base."
+    },
+    {
+     "text": "Hydrogen bonds",
+     "alias": [
+      "h bonds"
+     ],
+     "tier": 2,
+     "why": "Hold complementary bases together between the two strands: 2 for A–T, 3 for G–C."
+    },
+    {
+     "text": "Sugar-phosphate backbone",
+     "alias": [
+      "backbone",
+      "sugar phosphate backbone"
+     ],
+     "tier": 2,
+     "why": "Sugars and phosphates joined by strong covalent bonds along each strand."
+    },
+    {
+     "text": "Complementary base pairs",
+     "alias": [
+      "base pairs",
+      "base pair",
+      "complementary base pairing"
+     ],
+     "tier": 2,
+     "why": "A pairs with T and G with C, so one strand can act as a template for the other."
+    },
+    {
+     "text": "Antiparallel strands",
+     "alias": [
+      "antiparallel"
+     ],
+     "tier": 3,
+     "why": "The two strands run in opposite directions (5'→3' and 3'→5')."
+    },
+    {
+     "text": "Covalent bonds",
+     "alias": [
+      "phosphodiester bond",
+      "phosphodiester bonds"
+     ],
+     "tier": 3,
+     "why": "Strong bonds linking each sugar to the next phosphate in the backbone, made by condensation."
+    },
+    {
+     "text": "Purines",
+     "alias": [],
+     "tier": 4,
+     "why": "The double-ring bases, adenine and guanine; each always pairs with a single-ring pyrimidine."
+    },
+    {
+     "text": "Pyrimidines",
+     "alias": [],
+     "tier": 4,
+     "why": "The single-ring bases, cytosine and thymine; purine + pyrimidine keeps the helix the same width."
+    },
+    {
+     "text": "5' and 3' ends",
+     "alias": [
+      "5 prime end",
+      "3 prime end",
+      "5' end",
+      "3' end"
+     ],
+     "tier": 5,
+     "why": "Strand ends named after sugar carbons; one strand runs 5'→3', its partner 3'→5'."
+    }
+   ]
+  },
+  {
+   "id": "bio-04",
+   "unit": "a12",
+   "prompt": "Name a nitrogenous base or a correct base pair",
+   "answers": [
+    {
+     "text": "Adenine",
+     "alias": [],
+     "tier": 1,
+     "why": "A purine; pairs with thymine in DNA (2 hydrogen bonds) or with uracil in RNA."
+    },
+    {
+     "text": "Thymine",
+     "alias": [],
+     "tier": 1,
+     "why": "A pyrimidine found only in DNA; pairs with adenine."
+    },
+    {
+     "text": "Guanine",
+     "alias": [],
+     "tier": 1,
+     "why": "A purine; pairs with cytosine using 3 hydrogen bonds."
+    },
+    {
+     "text": "Cytosine",
+     "alias": [],
+     "tier": 1,
+     "why": "A pyrimidine; pairs with guanine."
+    },
+    {
+     "text": "Uracil",
+     "alias": [],
+     "tier": 2,
+     "why": "A pyrimidine that replaces thymine in RNA."
+    },
+    {
+     "text": "A-T",
+     "alias": [
+      "at",
+      "a t",
+      "adenine thymine",
+      "adenine-thymine"
+     ],
+     "tier": 3,
+     "why": "Adenine–thymine: joined by 2 hydrogen bonds."
+    },
+    {
+     "text": "G-C",
+     "alias": [
+      "gc",
+      "g c",
+      "guanine cytosine",
+      "guanine-cytosine"
+     ],
+     "tier": 3,
+     "why": "Guanine–cytosine: 3 hydrogen bonds, so G–C rich DNA is harder to separate."
+    },
+    {
+     "text": "A-U",
+     "alias": [
+      "au",
+      "a u",
+      "adenine uracil",
+      "adenine-uracil"
+     ],
+     "tier": 4,
+     "why": "Adenine–uracil: the pairing used when RNA is involved."
+    }
+   ]
+  },
+  {
+   "id": "bio-05",
+   "unit": "a12",
+   "prompt": "Name a way RNA differs from DNA",
+   "answers": [
+    {
+     "text": "Ribose",
+     "alias": [
+      "ribose sugar"
+     ],
+     "tier": 1,
+     "why": "RNA's sugar is ribose; DNA has deoxyribose, which is missing one oxygen."
+    },
+    {
+     "text": "Uracil",
+     "alias": [
+      "uracil instead of thymine"
+     ],
+     "tier": 1,
+     "why": "RNA uses uracil in place of thymine."
+    },
+    {
+     "text": "Single-stranded",
+     "alias": [
+      "single strand",
+      "one strand",
+      "single stranded"
+     ],
+     "tier": 1,
+     "why": "RNA is usually one strand; DNA is a double helix of two strands."
+    },
+    {
+     "text": "mRNA",
+     "alias": [
+      "messenger rna"
+     ],
+     "tier": 2,
+     "why": "Messenger RNA carries the copied code from DNA to the ribosome."
+    },
+    {
+     "text": "tRNA",
+     "alias": [
+      "transfer rna"
+     ],
+     "tier": 2,
+     "why": "Transfer RNA brings specific amino acids to the ribosome."
+    },
+    {
+     "text": "rRNA",
+     "alias": [
+      "ribosomal rna"
+     ],
+     "tier": 3,
+     "why": "Ribosomal RNA forms part of the ribosome itself."
+    },
+    {
+     "text": "2' hydroxyl group",
+     "alias": [
+      "2' oh",
+      "oh on carbon 2",
+      "2 hydroxyl",
+      "hydroxyl group"
+     ],
+     "tier": 5,
+     "why": "Ribose has –OH on its 2' carbon; 'deoxy' means DNA's sugar lacks that oxygen."
+    }
+   ]
+  },
+  {
+   "id": "bio-06",
+   "unit": "a22",
+   "prompt": "Name a structure found in a prokaryotic cell",
+   "answers": [
+    {
+     "text": "Cell wall",
+     "alias": [
+      "wall"
+     ],
+     "tier": 1,
+     "why": "Outside the membrane; protects the cell and stops it bursting."
+    },
+    {
+     "text": "Plasma membrane",
+     "alias": [
+      "cell membrane",
+      "membrane"
+     ],
+     "tier": 1,
+     "why": "Controls what enters and leaves; one of the four structures every cell has."
+    },
+    {
+     "text": "Cytoplasm",
+     "alias": [],
+     "tier": 1,
+     "why": "The water-based medium where metabolism happens; one undivided space in prokaryotes."
+    },
+    {
+     "text": "70S ribosomes",
+     "alias": [
+      "70s ribosome",
+      "ribosomes",
+      "ribosome"
+     ],
+     "tier": 1,
+     "why": "Smaller than the 80S ribosomes of eukaryotes; draw them as dots labelled 70S."
+    },
+    {
+     "text": "Naked DNA loop",
+     "alias": [
+      "naked dna",
+      "circular dna",
+      "loop of dna",
+      "dna loop",
+      "naked loop of dna"
+     ],
+     "tier": 2,
+     "why": "One circular chromosome with no histones and no nuclear membrane around it."
+    },
+    {
+     "text": "Nucleoid",
+     "alias": [
+      "nucleoid region"
+     ],
+     "tier": 2,
+     "why": "The region of cytoplasm where the DNA loop sits. It is not a nucleus."
+    },
+    {
+     "text": "Plasmid",
+     "alias": [],
+     "tier": 2,
+     "why": "Small extra loops of DNA, often carrying genes such as antibiotic resistance."
+    },
+    {
+     "text": "Flagellum",
+     "alias": [
+      "flagella"
+     ],
+     "tier": 2,
+     "why": "A long whip-like tail that rotates to move the cell; longer and thicker than pili."
+    },
+    {
+     "text": "Pili",
+     "alias": [
+      "pilus"
+     ],
+     "tier": 3,
+     "why": "Short hair-like projections used to stick to surfaces and to other cells."
+    },
+    {
+     "text": "Capsule",
+     "alias": [
+      "slime capsule",
+      "slime layer"
+     ],
+     "tier": 4,
+     "why": "A sticky layer outside the wall in some bacteria; protects the cell and helps it stick."
+    },
+    {
+     "text": "Genophore",
+     "alias": [],
+     "tier": 5,
+     "why": "Another name for the prokaryote's single circular chromosome."
+    }
+   ]
+  },
+  {
+   "id": "bio-07",
+   "unit": "a22",
+   "prompt": "Name a feature of eukaryotic cells that prokaryotes lack",
+   "answers": [
+    {
+     "text": "Nucleus",
+     "alias": [],
+     "tier": 1,
+     "why": "DNA enclosed in a double membrane with pores; 'eu-karyote' means 'true nucleus'."
+    },
+    {
+     "text": "Mitochondria",
+     "alias": [
+      "mitochondrion"
+     ],
+     "tier": 1,
+     "why": "Double-membrane organelle with a folded inner membrane (cristae); site of aerobic respiration."
+    },
+    {
+     "text": "Membrane-bound organelles",
+     "alias": [
+      "organelles",
+      "membrane bound organelles"
+     ],
+     "tier": 2,
+     "why": "The cytoplasm is divided into separate organelles, each with its own job."
+    },
+    {
+     "text": "80S ribosomes",
+     "alias": [
+      "80s ribosome"
+     ],
+     "tier": 2,
+     "why": "Larger ribosomes than the 70S type found in prokaryotes."
+    },
+    {
+     "text": "Endoplasmic reticulum",
+     "alias": [
+      "er",
+      "rough er",
+      "smooth er",
+      "rough endoplasmic reticulum"
+     ],
+     "tier": 2,
+     "why": "A network of membranes; rough ER, studded with ribosomes, makes proteins for export."
+    },
+    {
+     "text": "Golgi apparatus",
+     "alias": [
+      "golgi",
+      "golgi body"
+     ],
+     "tier": 2,
+     "why": "Stacks of curved sacs that process proteins and package them into vesicles."
+    },
+    {
+     "text": "Chloroplasts",
+     "alias": [],
+     "tier": 2,
+     "why": "Double-membrane organelle with stacks called grana; photosynthesis (plants only)."
+    },
+    {
+     "text": "Histones",
+     "alias": [],
+     "tier": 3,
+     "why": "Proteins that eukaryotic DNA wraps around; prokaryotic DNA is 'naked'."
+    },
+    {
+     "text": "Nuclear pores",
+     "alias": [
+      "nuclear envelope",
+      "double nuclear membrane",
+      "nuclear membrane"
+     ],
+     "tier": 3,
+     "why": "Gaps in the nucleus's double membrane that let substances like mRNA in and out."
+    },
+    {
+     "text": "Lysosomes",
+     "alias": [],
+     "tier": 3,
+     "why": "Vesicles full of digestive enzymes."
+    },
+    {
+     "text": "Vesicles",
+     "alias": [
+      "vacuoles"
+     ],
+     "tier": 3,
+     "why": "Small membrane sacs that move and store substances."
+    },
+    {
+     "text": "Cytoskeleton",
+     "alias": [],
+     "tier": 4,
+     "why": "A network of protein fibres that supports the cell and moves organelles."
+    },
+    {
+     "text": "Compartmentalisation",
+     "alias": [
+      "compartmentalization",
+      "compartments"
+     ],
+     "tier": 4,
+     "why": "Membranes split the cytoplasm so different reactions can happen in separate places."
+    },
+    {
+     "text": "Linear chromosomes",
+     "alias": [
+      "linear dna"
+     ],
+     "tier": 4,
+     "why": "Eukaryotic DNA is in several linear chromosomes; prokaryotes have one circular loop."
+    }
+   ]
+  },
+  {
+   "id": "bio-08",
+   "unit": "a22",
+   "prompt": "Name a feature that helps tell animal, plant and fungal cells apart",
+   "answers": [
+    {
+     "text": "Cell wall",
+     "alias": [],
+     "tier": 1,
+     "why": "Plants and fungi have one; animal cells do not."
+    },
+    {
+     "text": "Chloroplasts",
+     "alias": [],
+     "tier": 1,
+     "why": "Only plant cells have them, for photosynthesis."
+    },
+    {
+     "text": "Large vacuole",
+     "alias": [
+      "large central vacuole",
+      "permanent vacuole",
+      "vacuole",
+      "central vacuole"
+     ],
+     "tier": 1,
+     "why": "Plant (and fungal) cells have a large permanent vacuole; animal vacuoles are small and temporary."
+    },
+    {
+     "text": "Cellulose",
+     "alias": [
+      "cellulose cell wall",
+      "cellulose wall"
+     ],
+     "tier": 2,
+     "why": "Plant cell walls are made of cellulose."
+    },
+    {
+     "text": "Chitin",
+     "alias": [
+      "chitin wall",
+      "chitin cell wall"
+     ],
+     "tier": 2,
+     "why": "Fungal cell walls are made of chitin."
+    },
+    {
+     "text": "Centrioles",
+     "alias": [],
+     "tier": 3,
+     "why": "Present in animal cells, absent from plant cells."
+    },
+    {
+     "text": "Plastids",
+     "alias": [],
+     "tier": 3,
+     "why": "The organelle family that includes chloroplasts; found in plants only."
+    },
+    {
+     "text": "Cilia",
+     "alias": [
+      "flagella",
+      "cilia and flagella"
+     ],
+     "tier": 3,
+     "why": "Some animal cells have them; plant and fungal cells lack them (fungi don't move)."
+    },
+    {
+     "text": "Autotroph",
+     "alias": [
+      "autotrophic",
+      "photosynthesis"
+     ],
+     "tier": 3,
+     "why": "Plants make their own food; animals and fungi cannot."
+    },
+    {
+     "text": "Heterotroph",
+     "alias": [
+      "heterotrophic"
+     ],
+     "tier": 3,
+     "why": "Animals and fungi get their food from other organisms."
+    },
+    {
+     "text": "Absorption",
+     "alias": [
+      "feeding by absorption",
+      "absorptive feeding",
+      "external digestion"
+     ],
+     "tier": 4,
+     "why": "Fungi digest food outside the cell and absorb it, whereas animals ingest food."
+    },
+    {
+     "text": "Hyphae",
+     "alias": [
+      "hypha"
+     ],
+     "tier": 4,
+     "why": "Fungi are built of thread-like hyphae, usually divided by cross-walls called septa."
+    }
+   ]
+  },
+  {
+   "id": "bio-09",
+   "unit": "a22",
+   "prompt": "Name one of the eight processes of life (shown by Paramecium)",
+   "answers": [
+    {
+     "text": "Reproduction",
+     "alias": [],
+     "tier": 1,
+     "why": "Paramecium divides into two identical cells."
+    },
+    {
+     "text": "Growth",
+     "alias": [],
+     "tier": 1,
+     "why": "The cell gets bigger between divisions."
+    },
+    {
+     "text": "Movement",
+     "alias": [
+      "locomotion"
+     ],
+     "tier": 1,
+     "why": "Rows of cilia beat to make Paramecium swim."
+    },
+    {
+     "text": "Nutrition",
+     "alias": [
+      "feeding"
+     ],
+     "tier": 2,
+     "why": "Food is swept into the oral groove and enclosed in a food vacuole."
+    },
+    {
+     "text": "Excretion",
+     "alias": [],
+     "tier": 2,
+     "why": "Waste products of metabolism leave the cell."
+    },
+    {
+     "text": "Metabolism",
+     "alias": [],
+     "tier": 2,
+     "why": "All the chemical reactions in the cell, e.g. breaking down food to release energy."
+    },
+    {
+     "text": "Response to stimuli",
+     "alias": [
+      "response",
+      "sensitivity",
+      "responding to stimuli"
+     ],
+     "tier": 3,
+     "why": "It reverses and changes direction after bumping into an obstacle."
+    },
+    {
+     "text": "Homeostasis",
+     "alias": [],
+     "tier": 3,
+     "why": "The contractile vacuole pumps out excess water to keep conditions inside steady."
+    }
+   ]
+  },
+  {
+   "id": "bio-10",
+   "unit": "a22",
+   "prompt": "Name a microscopy term, technique or microscope part",
+   "answers": [
+    {
+     "text": "Magnification",
+     "alias": [],
+     "tier": 1,
+     "why": "How many times bigger the image is than the real object: image size ÷ actual size."
+    },
+    {
+     "text": "Light microscope",
+     "alias": [
+      "optical microscope",
+      "compound microscope"
+     ],
+     "tier": 1,
+     "why": "Lower resolution, but specimens can be alive and seen in colour."
+    },
+    {
+     "text": "Electron microscope",
+     "alias": [
+      "em"
+     ],
+     "tier": 1,
+     "why": "Much higher resolution; the specimen must be dead, viewed in a vacuum."
+    },
+    {
+     "text": "Resolution",
+     "alias": [],
+     "tier": 2,
+     "why": "The smallest distance at which two points can still be seen as separate."
+    },
+    {
+     "text": "Eyepiece lens",
+     "alias": [
+      "eyepiece",
+      "ocular lens",
+      "ocular"
+     ],
+     "tier": 2,
+     "why": "Total magnification = eyepiece × objective, e.g. ×10 × ×40 = ×400."
+    },
+    {
+     "text": "Objective lens",
+     "alias": [
+      "objective"
+     ],
+     "tier": 2,
+     "why": "The lens nearest the specimen; switch objectives to change magnification."
+    },
+    {
+     "text": "Scale bar",
+     "alias": [],
+     "tier": 2,
+     "why": "A line of known real length on an image; measure it to work out the magnification."
+    },
+    {
+     "text": "TEM",
+     "alias": [
+      "transmission electron microscope"
+     ],
+     "tier": 3,
+     "why": "Electrons pass through thin sections: shows the inside of cells in 2D."
+    },
+    {
+     "text": "SEM",
+     "alias": [
+      "scanning electron microscope"
+     ],
+     "tier": 3,
+     "why": "Electrons bounce off the surface: gives a 3D image of the outside."
+    },
+    {
+     "text": "Fluorescent stains",
+     "alias": [
+      "fluorescence"
+     ],
+     "tier": 3,
+     "why": "Dyes that glow are attached to one chosen part of the cell."
+    },
+    {
+     "text": "Immunofluorescence",
+     "alias": [],
+     "tier": 4,
+     "why": "A glowing dye carried by an antibody that sticks to one specific target."
+    },
+    {
+     "text": "Freeze-fracture",
+     "alias": [
+      "freeze fracture"
+     ],
+     "tier": 4,
+     "why": "A frozen cell is split along a membrane, showing proteins that pass right through it."
+    },
+    {
+     "text": "Cryo-EM",
+     "alias": [
+      "cryogenic electron microscopy",
+      "cryo electron microscopy",
+      "cryoem"
+     ],
+     "tier": 5,
+     "why": "Frozen proteins are imaged with electrons; a computer rebuilds their 3D shape almost atom by atom."
+    }
+   ]
+  },
+  {
+   "id": "bio-11",
+   "unit": "a31",
+   "prompt": "Name a level of the taxonomic hierarchy",
+   "answers": [
+    {
+     "text": "Species",
+     "alias": [],
+     "tier": 1,
+     "why": "The smallest level: the second word of a binomial name."
+    },
+    {
+     "text": "Genus",
+     "alias": [
+      "genera"
+     ],
+     "tier": 1,
+     "why": "The first, capitalised word of a binomial name, e.g. Panthera."
+    },
+    {
+     "text": "Kingdom",
+     "alias": [],
+     "tier": 1,
+     "why": "Second from the top. 'Dear King Philip Came Over For Good Soup.'"
+    },
+    {
+     "text": "Family",
+     "alias": [],
+     "tier": 2,
+     "why": "Between order and genus, e.g. the cat family."
+    },
+    {
+     "text": "Domain",
+     "alias": [],
+     "tier": 2,
+     "why": "The highest level: the 'Dear' of 'Dear King Philip…'"
+    },
+    {
+     "text": "Phylum",
+     "alias": [
+      "phyla"
+     ],
+     "tier": 3,
+     "why": "Between kingdom and class."
+    },
+    {
+     "text": "Class",
+     "alias": [],
+     "tier": 3,
+     "why": "Between phylum and order, e.g. mammals."
+    },
+    {
+     "text": "Order",
+     "alias": [],
+     "tier": 3,
+     "why": "Between class and family, e.g. primates."
+    }
+   ]
+  },
+  {
+   "id": "bio-12",
+   "unit": "a31",
+   "prompt": "Name a term used in karyotyping or reading a karyogram",
+   "answers": [
+    {
+     "text": "Karyogram",
+     "alias": [],
+     "tier": 1,
+     "why": "The picture of chromosomes in homologous pairs, largest to smallest, sex chromosomes last."
+    },
+    {
+     "text": "Karyotype",
+     "alias": [],
+     "tier": 1,
+     "why": "The number and appearance of an organism's chromosomes."
+    },
+    {
+     "text": "Homologous pairs",
+     "alias": [
+      "homologous pair",
+      "homologous chromosomes"
+     ],
+     "tier": 2,
+     "why": "Matching chromosomes, one from each parent; a karyogram is arranged in these pairs."
+    },
+    {
+     "text": "Centromere",
+     "alias": [],
+     "tier": 2,
+     "why": "The pinched point joining the two halves; its position helps identify each chromosome."
+    },
+    {
+     "text": "Sex chromosomes",
+     "alias": [
+      "xx",
+      "xy",
+      "x and y"
+     ],
+     "tier": 2,
+     "why": "XX = female, XY = male; they go last on a karyogram."
+    },
+    {
+     "text": "Trisomy 21",
+     "alias": [
+      "down syndrome",
+      "trisomy"
+     ],
+     "tier": 2,
+     "why": "Three copies of chromosome 21, visible on a karyogram; causes Down syndrome."
+    },
+    {
+     "text": "Metaphase",
+     "alias": [],
+     "tier": 3,
+     "why": "Division is stopped here, when chromosomes are most condensed and easiest to see."
+    },
+    {
+     "text": "Banding pattern",
+     "alias": [
+      "g-bands",
+      "g bands",
+      "bands",
+      "banding"
+     ],
+     "tier": 3,
+     "why": "Stripes from staining, used to match pairs. The bands do NOT represent genes."
+    },
+    {
+     "text": "Chromosome length",
+     "alias": [
+      "length"
+     ],
+     "tier": 3,
+     "why": "One of three identifying features, with banding pattern and centromere position."
+    },
+    {
+     "text": "Metacentric",
+     "alias": [],
+     "tier": 4,
+     "why": "Centromere near the middle. Memory aid: centroMere = Middle."
+    },
+    {
+     "text": "Acrocentric",
+     "alias": [],
+     "tier": 4,
+     "why": "Centromere near one end of the chromosome."
+    },
+    {
+     "text": "Chromosome 2 fusion",
+     "alias": [
+      "chromosome 2",
+      "fusion"
+     ],
+     "tier": 4,
+     "why": "Two ancestral chromosomes fused into human chromosome 2: why humans have 46 and chimps 48."
+    },
+    {
+     "text": "Telomere",
+     "alias": [],
+     "tier": 5,
+     "why": "Telomere DNA (normally at chromosome ends) sits in the middle of chromosome 2: evidence of fusion."
+    }
+   ]
+  },
+  {
+   "id": "bio-13",
+   "unit": "a31",
+   "prompt": "Name a genome fact or a use of whole genome sequencing",
+   "answers": [
+    {
+     "text": "Personalised medicine",
+     "alias": [
+      "personalized medicine",
+      "precision medicine"
+     ],
+     "tier": 1,
+     "why": "Choosing treatments to match a person's own genome."
+    },
+    {
+     "text": "Human Genome Project",
+     "alias": [
+      "hgp"
+     ],
+     "tier": 2,
+     "why": "Took 13 years (1990–2003) and about $3 billion; a genome now costs under $600."
+    },
+    {
+     "text": "Evolutionary relationships",
+     "alias": [
+      "relatedness",
+      "ancestry"
+     ],
+     "tier": 2,
+     "why": "Comparing whole genomes shows how closely species or people are related."
+    },
+    {
+     "text": "Genealogy",
+     "alias": [
+      "family trees",
+      "pedigrees",
+      "family pedigree"
+     ],
+     "tier": 2,
+     "why": "Genomes reveal family history and pedigrees."
+    },
+    {
+     "text": "99.9% identical",
+     "alias": [
+      "99.9%",
+      "99.9"
+     ],
+     "tier": 3,
+     "why": "Any two humans share about 99.9% of their DNA sequence."
+    },
+    {
+     "text": "SNP",
+     "alias": [
+      "single nucleotide polymorphism"
+     ],
+     "tier": 3,
+     "why": "A single-base difference between individuals, found in more than 1% of the population."
+    },
+    {
+     "text": "Pharmacogenomics",
+     "alias": [],
+     "tier": 3,
+     "why": "Studying how a person's genes affect their response to drugs."
+    },
+    {
+     "text": "Epidemiology",
+     "alias": [
+      "public health",
+      "tracking disease",
+      "disease tracking"
+     ],
+     "tier": 3,
+     "why": "Sequencing pathogens tracks how disease outbreaks spread through a population."
+    },
+    {
+     "text": "Hominin origins",
+     "alias": [
+      "human origins",
+      "human evolution"
+     ],
+     "tier": 3,
+     "why": "Genome comparisons trace where humans came from."
+    },
+    {
+     "text": "Human migration",
+     "alias": [
+      "migration patterns"
+     ],
+     "tier": 4,
+     "why": "Genome comparisons map how humans spread across the world."
+    },
+    {
+     "text": "Tumour sequencing",
+     "alias": [
+      "tumor sequencing",
+      "cancer sequencing",
+      "egfr",
+      "alk"
+     ],
+     "tier": 4,
+     "why": "Sequencing a cancer (e.g. EGFR vs ALK mutation) decides which targeted drug to use."
+    },
+    {
+     "text": "Australian lungfish",
+     "alias": [
+      "lungfish"
+     ],
+     "tier": 4,
+     "why": "About 43 billion base pairs vs 3 billion in humans: genome size isn't a measure of complexity."
+    },
+    {
+     "text": "Abacavir",
+     "alias": [
+      "abacavir test",
+      "hla-b*57:01",
+      "hla-b5701"
+     ],
+     "tier": 5,
+     "why": "An HIV drug: testing for the HLA-B*57:01 variant identifies people at risk of a dangerous reaction."
+    },
+    {
+     "text": "BiDil",
+     "alias": [],
+     "tier": 5,
+     "why": "Heart drug approved in 2005 for self-identified Black patients; the catch is that race is not a gene."
+    },
+    {
+     "text": "Paris japonica",
+     "alias": [
+      "japanese flowering plant"
+     ],
+     "tier": 5,
+     "why": "A plant with about 149 billion base pairs, around 50 times the human genome."
+    }
+   ]
+  },
+  {
+   "id": "bio-14",
+   "unit": "a31",
+   "prompt": "Name a binomial (scientific) species name you met in Biology",
+   "answers": [
+    {
+     "text": "Homo sapiens",
+     "alias": [
+      "h sapiens"
+     ],
+     "tier": 1,
+     "why": "Humans. Genus capitalised, species lowercase, italics when typed, underlined by hand."
+    },
+    {
+     "text": "Panthera leo",
+     "alias": [
+      "p leo"
+     ],
+     "tier": 1,
+     "why": "Lion: same genus as the tiger and jaguar, so they are closely related."
+    },
+    {
+     "text": "Panthera tigris",
+     "alias": [
+      "p tigris"
+     ],
+     "tier": 2,
+     "why": "Tiger, in the same genus as the lion."
+    },
+    {
+     "text": "Panthera onca",
+     "alias": [
+      "p onca"
+     ],
+     "tier": 3,
+     "why": "Jaguar, the third Panthera example."
+    },
+    {
+     "text": "Pan troglodytes",
+     "alias": [
+      "p troglodytes"
+     ],
+     "tier": 3,
+     "why": "Common chimpanzee: 48 chromosomes; split from bonobos by the Congo River."
+    },
+    {
+     "text": "Brassica oleracea",
+     "alias": [
+      "b oleracea"
+     ],
+     "tier": 3,
+     "why": "Wild mustard: one species bred into broccoli, cabbage and kale."
+    },
+    {
+     "text": "Pan paniscus",
+     "alias": [
+      "p paniscus"
+     ],
+     "tier": 4,
+     "why": "Bonobo: less aggressive, female-led groups south of the Congo River."
+    },
+    {
+     "text": "Dinornis novaezealandiae",
+     "alias": [
+      "dinornis novaezelandiae",
+      "dinornis"
+     ],
+     "tier": 5,
+     "why": "The North Island giant moa, hunted to extinction after Polynesian settlers arrived."
+    },
+    {
+     "text": "Neomonachus tropicalis",
+     "alias": [
+      "monachus tropicalis",
+      "neomonachus"
+     ],
+     "tier": 5,
+     "why": "The Caribbean monk seal, last seen in 1952 and declared extinct in 2008."
+    }
+   ]
+  },
+  {
+   "id": "bio-15",
+   "unit": "a41",
+   "prompt": "Name an example of selective breeding (artificial selection)",
+   "answers": [
+    {
+     "text": "Broccoli",
+     "alias": [],
+     "tier": 1,
+     "why": "Wild Brassica oleracea selected for enlarged flower buds."
+    },
+    {
+     "text": "Cabbage",
+     "alias": [],
+     "tier": 1,
+     "why": "Brassica oleracea selected for its large terminal leaf bud."
+    },
+    {
+     "text": "Kale",
+     "alias": [],
+     "tier": 2,
+     "why": "Brassica oleracea selected for its leaves: still the same species as broccoli."
+    },
+    {
+     "text": "Maize",
+     "alias": [
+      "corn",
+      "maize from teosinte",
+      "teosinte"
+     ],
+     "tier": 2,
+     "why": "Bred from teosinte, a grass with a few hard kernels, into cobs with hundreds of soft ones."
+    },
+    {
+     "text": "Greyhound",
+     "alias": [],
+     "tier": 2,
+     "why": "Dogs bred for speed."
+    },
+    {
+     "text": "Race horses",
+     "alias": [
+      "racehorse",
+      "race horse",
+      "thoroughbred"
+     ],
+     "tier": 2,
+     "why": "Horses bred for speed: leaner, lighter and taller."
+    },
+    {
+     "text": "Draft horses",
+     "alias": [
+      "draught horse",
+      "draught horses",
+      "work horse",
+      "shire horse"
+     ],
+     "tier": 3,
+     "why": "Horses bred for power and endurance: stockier."
+    },
+    {
+     "text": "Dairy cows",
+     "alias": [
+      "dairy cattle",
+      "milk yield",
+      "milking cows"
+     ],
+     "tier": 3,
+     "why": "Cows bred for high milk yield."
+    },
+    {
+     "text": "Beagle",
+     "alias": [],
+     "tier": 3,
+     "why": "Dogs bred small enough to follow foxes into their holes."
+    },
+    {
+     "text": "Sheepdog",
+     "alias": [
+      "border collie",
+      "sheep dog"
+     ],
+     "tier": 3,
+     "why": "Dogs bred for intelligence to herd sheep."
+    },
+    {
+     "text": "Chihuahua",
+     "alias": [],
+     "tier": 3,
+     "why": "Dogs bred for small size."
+    },
+    {
+     "text": "Belgian Blue",
+     "alias": [
+      "belgian blue cattle"
+     ],
+     "tier": 4,
+     "why": "Cattle with a muscle mutation, selected for extra lean meat."
+    },
+    {
+     "text": "Cauliflower",
+     "alias": [],
+     "tier": 5,
+     "why": "Another Brassica oleracea variety, selected for its dense flower clusters."
+    },
+    {
+     "text": "Brussels sprouts",
+     "alias": [
+      "brussel sprouts"
+     ],
+     "tier": 5,
+     "why": "Brassica oleracea selected for its side (lateral) buds."
+    }
+   ]
+  },
+  {
+   "id": "bio-16",
+   "unit": "a41",
+   "prompt": "Name a bone of the pentadactyl limb",
+   "answers": [
+    {
+     "text": "Humerus",
+     "alias": [],
+     "tier": 1,
+     "why": "The single proximal (upper) bone of the forelimb."
+    },
+    {
+     "text": "Radius",
+     "alias": [],
+     "tier": 1,
+     "why": "One of the two distal forelimb bones, alongside the ulna."
+    },
+    {
+     "text": "Ulna",
+     "alias": [],
+     "tier": 1,
+     "why": "The other distal forearm bone; on the little-finger side in humans."
+    },
+    {
+     "text": "Phalanges",
+     "alias": [
+      "phalanx",
+      "finger bones",
+      "digits"
+     ],
+     "tier": 2,
+     "why": "The digit bones, up to five rows; very long in bat wings, reduced in horses."
+    },
+    {
+     "text": "Carpals",
+     "alias": [
+      "wrist bones"
+     ],
+     "tier": 2,
+     "why": "The group of small wrist bones."
+    },
+    {
+     "text": "Metacarpals",
+     "alias": [
+      "palm bones"
+     ],
+     "tier": 2,
+     "why": "The long palm bones; hugely lengthened in a bat's wing."
+    },
+    {
+     "text": "Femur",
+     "alias": [],
+     "tier": 3,
+     "why": "The hindlimb's version of the humerus: its one proximal bone."
+    },
+    {
+     "text": "Tibia",
+     "alias": [],
+     "tier": 3,
+     "why": "One of the two distal hindlimb bones, with the fibula."
+    },
+    {
+     "text": "Fibula",
+     "alias": [],
+     "tier": 4,
+     "why": "The thinner of the two distal hindlimb bones."
+    },
+    {
+     "text": "Tarsals",
+     "alias": [
+      "ankle bones"
+     ],
+     "tier": 4,
+     "why": "The small ankle bones: the hindlimb's version of the carpals."
+    }
+   ]
+  },
+  {
+   "id": "bio-17",
+   "unit": "a41",
+   "prompt": "Name a piece of evidence that species share a common ancestor",
+   "answers": [
+    {
+     "text": "Pentadactyl limb",
+     "alias": [
+      "pentadactyl"
+     ],
+     "tier": 1,
+     "why": "The same bone pattern in all tetrapods, used for different jobs: divergent evolution."
+    },
+    {
+     "text": "Vestigial structures",
+     "alias": [
+      "vestigial organs",
+      "vestigial"
+     ],
+     "tier": 2,
+     "why": "Reduced, functionless remnants of organs that were useful in an ancestor."
+    },
+    {
+     "text": "Bat wing",
+     "alias": [],
+     "tier": 2,
+     "why": "A pentadactyl limb modified for flight, with very long metacarpals and phalanges."
+    },
+    {
+     "text": "Whale flipper",
+     "alias": [
+      "whale fin",
+      "flipper"
+     ],
+     "tier": 2,
+     "why": "A pentadactyl limb modified for swimming: short humerus, extra phalanges."
+    },
+    {
+     "text": "Human hand",
+     "alias": [
+      "hand"
+     ],
+     "tier": 2,
+     "why": "A pentadactyl limb used for gripping and using tools."
+    },
+    {
+     "text": "Horse hoof",
+     "alias": [
+      "hoof",
+      "horse leg"
+     ],
+     "tier": 3,
+     "why": "A pentadactyl limb with the weight on one enlarged digit, for galloping."
+    },
+    {
+     "text": "Bird wing",
+     "alias": [],
+     "tier": 3,
+     "why": "A pentadactyl limb with reduced, fused digits that support flight feathers."
+    },
+    {
+     "text": "Pharyngeal slits",
+     "alias": [
+      "gill slits",
+      "pharyngeal gill slits"
+     ],
+     "tier": 3,
+     "why": "Non-functioning in every land vertebrate embryo, suggesting an aquatic ancestor."
+    },
+    {
+     "text": "Embryonic tail",
+     "alias": [
+      "embryo tail",
+      "tail in embryos"
+     ],
+     "tier": 3,
+     "why": "Human embryos have a tail, inherited from tailed ancestors."
+    },
+    {
+     "text": "Whale pelvis",
+     "alias": [
+      "whale hip bones",
+      "vestigial pelvis"
+     ],
+     "tier": 3,
+     "why": "Vestigial hip bones with no legs attached: whale ancestors walked on land."
+    },
+    {
+     "text": "Universal genetic code",
+     "alias": [
+      "genetic code",
+      "universal code"
+     ],
+     "tier": 3,
+     "why": "All life reads codons the same way, pointing to one common ancestor (LUCA)."
+    },
+    {
+     "text": "Coccyx",
+     "alias": [
+      "tailbone",
+      "tail bone"
+     ],
+     "tier": 4,
+     "why": "The human tailbone: a vestigial remnant of an ancestor's tail."
+    }
+   ]
+  },
+  {
+   "id": "bio-18",
+   "unit": "a41",
+   "prompt": "Name an example of analogous structures (convergent evolution)",
+   "answers": [
+    {
+     "text": "Dolphin and shark",
+     "alias": [
+      "shark and dolphin",
+      "dolphin",
+      "shark",
+      "streamlined body"
+     ],
+     "tier": 1,
+     "why": "A mammal and a fish with the same streamlined shape for fast swimming: same function, different origin."
+    },
+    {
+     "text": "Duck and platypus",
+     "alias": [
+      "platypus and duck",
+      "duck bill",
+      "platypus bill",
+      "platypus",
+      "duck"
+     ],
+     "tier": 2,
+     "why": "A bird and a monotreme that both evolved flat bills for sifting food from mud and water."
+    },
+    {
+     "text": "Butterfly wing",
+     "alias": [
+      "insect wing",
+      "butterfly"
+     ],
+     "tier": 2,
+     "why": "A thin sheet of chitin with no bones, yet used for flight like bird and bat wings."
+    },
+    {
+     "text": "Bird wing",
+     "alias": [
+      "crow wing",
+      "crow"
+     ],
+     "tier": 2,
+     "why": "Feathers on fused digits; flight evolved separately from insects and bats."
+    },
+    {
+     "text": "Bat wing",
+     "alias": [
+      "bat"
+     ],
+     "tier": 3,
+     "why": "Skin over long fingers. Analogous to bird wings AS wings, but homologous as forelimbs."
+    },
+    {
+     "text": "Carcinization",
+     "alias": [
+      "carcinisation",
+      "crab body shape",
+      "crabs"
+     ],
+     "tier": 5,
+     "why": "Unrelated crustaceans independently evolved a crab-like body (not required, but a valid example)."
+    }
+   ]
+  },
+  {
+   "id": "bio-19",
+   "unit": "a41",
+   "prompt": "Name a key word for an exam answer on natural selection",
+   "answers": [
+    {
+     "text": "Variation",
+     "alias": [],
+     "tier": 1,
+     "why": "Individuals differ, partly because of different alleles; selection needs existing variation."
+    },
+    {
+     "text": "Survival of the fittest",
+     "alias": [
+      "survival",
+      "fittest"
+     ],
+     "tier": 1,
+     "why": "Shorthand for: better-adapted individuals are more likely to survive and reproduce."
+    },
+    {
+     "text": "Adaptation",
+     "alias": [
+      "adapted"
+     ],
+     "tier": 1,
+     "why": "A heritable trait that suits an organism to its environment."
+    },
+    {
+     "text": "Competition",
+     "alias": [
+      "struggle for survival",
+      "struggle for existence"
+     ],
+     "tier": 2,
+     "why": "Food, mates and space are limited, so not all offspring survive."
+    },
+    {
+     "text": "Overproduction",
+     "alias": [
+      "over-production",
+      "more offspring than survive"
+     ],
+     "tier": 2,
+     "why": "More offspring are produced than the environment can support."
+    },
+    {
+     "text": "Selection pressure",
+     "alias": [
+      "selective pressure"
+     ],
+     "tier": 2,
+     "why": "A factor such as predators, disease or food shortage that decides who survives."
+    },
+    {
+     "text": "Reproduction",
+     "alias": [
+      "reproduce"
+     ],
+     "tier": 2,
+     "why": "Survivors reproduce and pass on their favourable alleles."
+    },
+    {
+     "text": "Inheritance",
+     "alias": [
+      "heritable",
+      "inherited",
+      "heredity"
+     ],
+     "tier": 2,
+     "why": "Only traits coded in DNA are passed on; acquired traits are not."
+    },
+    {
+     "text": "Mutation",
+     "alias": [],
+     "tier": 3,
+     "why": "Random changes in DNA create new alleles: the original source of all variation."
+    },
+    {
+     "text": "Allele frequency",
+     "alias": [
+      "allele frequencies",
+      "frequency of alleles",
+      "ratio of alleles"
+     ],
+     "tier": 3,
+     "why": "The final step: the favourable allele becomes more common in the population."
+    },
+    {
+     "text": "Generations",
+     "alias": [
+      "many generations",
+      "over generations",
+      "over time"
+     ],
+     "tier": 3,
+     "why": "Evolution happens across generations, never within one lifetime."
+    },
+    {
+     "text": "Gene pool",
+     "alias": [],
+     "tier": 4,
+     "why": "All the alleles in a population; selection changes its mix over generations."
+    },
+    {
+     "text": "Differential survival",
+     "alias": [
+      "differential reproduction",
+      "non-random survival"
+     ],
+     "tier": 4,
+     "why": "Some variants survive and breed more than others: the non-random part of evolution."
+    }
+   ]
+  },
+  {
+   "id": "bio-20",
+   "unit": "a41",
+   "prompt": "Name a term or example linked to speciation",
+   "answers": [
+    {
+     "text": "Reproductive isolation",
+     "alias": [],
+     "tier": 1,
+     "why": "Populations stop interbreeding, so no alleles pass between them."
+    },
+    {
+     "text": "Geographical isolation",
+     "alias": [
+      "geographic isolation",
+      "geographical barrier",
+      "physical barrier",
+      "barrier"
+     ],
+     "tier": 1,
+     "why": "A physical barrier such as a river, mountain or sea separates two populations."
+    },
+    {
+     "text": "Chimpanzee",
+     "alias": [
+      "chimp",
+      "common chimpanzee"
+     ],
+     "tier": 1,
+     "why": "Split from the bonobo after the Congo River divided their ancestral population."
+    },
+    {
+     "text": "Bonobo",
+     "alias": [],
+     "tier": 2,
+     "why": "Less aggressive, female-dominant apes that evolved south of the Congo River."
+    },
+    {
+     "text": "Congo River",
+     "alias": [
+      "congo"
+     ],
+     "tier": 2,
+     "why": "Became a barrier roughly 1.8 million years ago that these apes cannot swim across."
+    },
+    {
+     "text": "Fertile offspring",
+     "alias": [
+      "fertile",
+      "viable offspring",
+      "fertile viable offspring"
+     ],
+     "tier": 2,
+     "why": "Once populations can no longer produce fertile, viable offspring, they are separate species."
+    },
+    {
+     "text": "Splitting",
+     "alias": [
+      "split",
+      "splitting of a species"
+     ],
+     "tier": 2,
+     "why": "Speciation = splitting of a pre-existing species. Gradual change in one lineage isn't speciation."
+    },
+    {
+     "text": "Differential selection",
+     "alias": [
+      "different selection pressures"
+     ],
+     "tier": 3,
+     "why": "Isolated populations face different selection pressures, so different alleles are favoured."
+    },
+    {
+     "text": "Gene flow",
+     "alias": [
+      "no gene flow"
+     ],
+     "tier": 3,
+     "why": "Alleles moving between populations; stopping it lets the gene pools drift apart."
+    },
+    {
+     "text": "Gorillas",
+     "alias": [
+      "competition with gorillas"
+     ],
+     "tier": 3,
+     "why": "Only chimps shared food and territory with gorillas, which favoured aggressive, male-led groups."
+    },
+    {
+     "text": "Hawaiian tree snails",
+     "alias": [
+      "tree snails",
+      "hawaiian snails"
+     ],
+     "tier": 4,
+     "why": "Snail populations on opposite sides of a volcano diverged into separate species."
+    }
+   ]
+  },
+  {
+   "id": "bio-21",
+   "unit": "a41",
+   "prompt": "Name something used as molecular evidence for evolution",
+   "answers": [
+    {
+     "text": "DNA sequence",
+     "alias": [
+      "base sequence",
+      "dna base sequence",
+      "gene sequence"
+     ],
+     "tier": 1,
+     "why": "Compare the bases: more differences = more time since the species diverged."
+    },
+    {
+     "text": "Amino acid sequence",
+     "alias": [
+      "protein sequence"
+     ],
+     "tier": 1,
+     "why": "Changes most slowly, so it's used to compare distantly related species."
+    },
+    {
+     "text": "Universal genetic code",
+     "alias": [
+      "genetic code"
+     ],
+     "tier": 2,
+     "why": "The same codons give the same amino acids in all life, so sequences can be compared."
+    },
+    {
+     "text": "Mutations accumulate",
+     "alias": [
+      "mutation",
+      "mutations",
+      "mutation rate"
+     ],
+     "tier": 2,
+     "why": "Differences build up at a roughly steady rate, like a molecular clock."
+    },
+    {
+     "text": "Cytochrome c",
+     "alias": [],
+     "tier": 3,
+     "why": "A respiration protein compared across species: identical in humans and chimps, very different in yeast."
+    },
+    {
+     "text": "Haemoglobin",
+     "alias": [
+      "hemoglobin"
+     ],
+     "tier": 3,
+     "why": "Another protein whose amino acid sequence is compared between species."
+    },
+    {
+     "text": "Non-coding DNA",
+     "alias": [
+      "junk dna",
+      "noncoding dna"
+     ],
+     "tier": 3,
+     "why": "Changes fastest (no effect on proteins), so it's best for very closely related species."
+    },
+    {
+     "text": "Codon degeneracy",
+     "alias": [
+      "degeneracy",
+      "redundancy",
+      "degenerate code"
+     ],
+     "tier": 4,
+     "why": "Several codons code for one amino acid, so many base changes don't change the protein."
+    },
+    {
+     "text": "Bioinformatics",
+     "alias": [
+      "clustal",
+      "clustalx",
+      "clustal omega",
+      "sequence alignment"
+     ],
+     "tier": 4,
+     "why": "Software lines up sequences from different species and counts the differences."
+    },
+    {
+     "text": "Silent mutation",
+     "alias": [],
+     "tier": 5,
+     "why": "A base change that doesn't change the amino acid, thanks to codon degeneracy."
+    }
+   ]
+  },
+  {
+   "id": "bio-22",
+   "unit": "a41",
+   "prompt": "Name an acquired characteristic (a change that is NOT evolution)",
+   "answers": [
+    {
+     "text": "Gym muscles",
+     "alias": [
+      "muscles",
+      "bodybuilding",
+      "big muscles"
+     ],
+     "tier": 1,
+     "why": "Built during life, not coded in DNA, so not inherited. If it isn't in the DNA, it isn't evolution."
+    },
+    {
+     "text": "Suntan",
+     "alias": [
+      "tan"
+     ],
+     "tier": 1,
+     "why": "Skin darkened by sunlight isn't passed on to children."
+    },
+    {
+     "text": "Height from nutrition",
+     "alias": [
+      "nutrition",
+      "good nutrition",
+      "height due to nutrition"
+     ],
+     "tier": 2,
+     "why": "Only the genetic part of height can evolve; extra height from good food is not inherited."
+    },
+    {
+     "text": "Scars",
+     "alias": [],
+     "tier": 2,
+     "why": "An injury changes the body, not the DNA in sperm or eggs."
+    },
+    {
+     "text": "Dyed hair",
+     "alias": [
+      "hair dye"
+     ],
+     "tier": 2,
+     "why": "A cosmetic change with no effect on the genes."
+    },
+    {
+     "text": "Pierced ears",
+     "alias": [
+      "ear piercing",
+      "piercings"
+     ],
+     "tier": 2,
+     "why": "A body change made during life; it can't be inherited."
+    },
+    {
+     "text": "Docked tails",
+     "alias": [
+      "cut tails",
+      "tail docking"
+     ],
+     "tier": 3,
+     "why": "Dogs with docked tails still have puppies with full tails."
+    },
+    {
+     "text": "Swimmer's large lungs",
+     "alias": [
+      "large lungs",
+      "bigger lungs",
+      "lung capacity"
+     ],
+     "tier": 3,
+     "why": "Training enlarges the lungs, but the change isn't in the DNA, so it isn't passed on."
+    },
+    {
+     "text": "Learned language",
+     "alias": [
+      "language",
+      "learned skills"
+     ],
+     "tier": 3,
+     "why": "A learned skill: each child has to learn it again."
+    },
+    {
+     "text": "Fertilised plants",
+     "alias": [
+      "fertiliser",
+      "fertilizer",
+      "fertilised soil",
+      "fertilized soil"
+     ],
+     "tier": 4,
+     "why": "Plants grow bigger in fertilised soil, but their seeds don't inherit that size."
+    }
+   ]
+  },
+  {
+   "id": "bio-23",
+   "unit": "a42",
+   "prompt": "Name a level or measure of biodiversity",
+   "answers": [
+    {
+     "text": "Species diversity",
+     "alias": [],
+     "tier": 1,
+     "why": "The range of species in an area; it has two parts, richness and evenness."
+    },
+    {
+     "text": "Genetic diversity",
+     "alias": [
+      "allele diversity"
+     ],
+     "tier": 1,
+     "why": "The variety of alleles within a species, e.g. India's hundreds of rice varieties."
+    },
+    {
+     "text": "Ecosystem diversity",
+     "alias": [
+      "habitat diversity"
+     ],
+     "tier": 2,
+     "why": "The variety of ecosystems in an area, e.g. the Great Barrier Reef's ~3000 reefs over 2300 km."
+    },
+    {
+     "text": "Species richness",
+     "alias": [
+      "richness"
+     ],
+     "tier": 2,
+     "why": "The number of different species: just a count."
+    },
+    {
+     "text": "Species evenness",
+     "alias": [
+      "evenness"
+     ],
+     "tier": 2,
+     "why": "How equal the numbers of each species are (their relative abundance)."
+    },
+    {
+     "text": "Simpson's reciprocal index",
+     "alias": [
+      "simpsons index",
+      "simpson index",
+      "1/d",
+      "reciprocal index",
+      "simpsons diversity index"
+     ],
+     "tier": 3,
+     "why": "1/D = N(N−1) ÷ Σn(n−1); combines richness and evenness, and a higher value = more diverse."
+    },
+    {
+     "text": "Relative abundance",
+     "alias": [
+      "abundance"
+     ],
+     "tier": 4,
+     "why": "The share of all individuals that belong to one species; it is what evenness measures."
+    }
+   ]
+  },
+  {
+   "id": "bio-24",
+   "unit": "a42",
+   "prompt": "Name a cause of the biodiversity crisis",
+   "answers": [
+    {
+     "text": "Deforestation",
+     "alias": [
+      "logging"
+     ],
+     "tier": 1,
+     "why": "Forest cleared for timber or farmland, e.g. dipterocarp forest replaced by oil palm."
+    },
+    {
+     "text": "Over-exploitation",
+     "alias": [
+      "overexploitation",
+      "overhunting",
+      "hunting",
+      "over-hunting"
+     ],
+     "tier": 1,
+     "why": "Taking animals faster than they can reproduce, e.g. the moa and the monk seal."
+    },
+    {
+     "text": "Pollution",
+     "alias": [],
+     "tier": 1,
+     "why": "Fertilisers and microplastics damage habitats and food chains."
+    },
+    {
+     "text": "Climate change",
+     "alias": [
+      "global warming"
+     ],
+     "tier": 1,
+     "why": "Warming and ocean acidification, e.g. coral bleaching on the Great Barrier Reef."
+    },
+    {
+     "text": "Habitat loss",
+     "alias": [
+      "habitat destruction",
+      "loss of habitat"
+     ],
+     "tier": 1,
+     "why": "When a habitat is destroyed, every species living there loses its home at once."
+    },
+    {
+     "text": "Human population growth",
+     "alias": [
+      "population growth",
+      "overpopulation",
+      "human population"
+     ],
+     "tier": 2,
+     "why": "The overarching cause that drives all the others. Hook: POP drives HUD-PPI."
+    },
+    {
+     "text": "Urbanisation",
+     "alias": [
+      "urbanization",
+      "urban sprawl",
+      "city expansion"
+     ],
+     "tier": 2,
+     "why": "Cities spread over habitats, e.g. Mumbai's mangroves."
+    },
+    {
+     "text": "Invasive species",
+     "alias": [
+      "invasive alien species",
+      "alien species",
+      "introduced species"
+     ],
+     "tier": 2,
+     "why": "No natural predators, so they out-compete or eat natives, e.g. Burmese python in Florida."
+    },
+    {
+     "text": "Overfishing",
+     "alias": [
+      "over-fishing"
+     ],
+     "tier": 2,
+     "why": "Removes fish faster than they breed and starves predators that eat them."
+    },
+    {
+     "text": "Agriculture",
+     "alias": [
+      "land clearance",
+      "farming",
+      "land clearance for agriculture"
+     ],
+     "tier": 2,
+     "why": "Clearing land for crops replaces many species with one."
+    },
+    {
+     "text": "Habitat fragmentation",
+     "alias": [
+      "fragmentation"
+     ],
+     "tier": 3,
+     "why": "Habitat split into isolated patches: small populations and no gene flow between them."
+    },
+    {
+     "text": "Poaching",
+     "alias": [
+      "ivory poaching",
+      "ivory"
+     ],
+     "tier": 3,
+     "why": "Illegal killing, e.g. African elephants for their tusks."
+    },
+    {
+     "text": "Microplastics",
+     "alias": [],
+     "tier": 3,
+     "why": "Eaten by marine animals and build up along food chains."
+    },
+    {
+     "text": "Ocean acidification",
+     "alias": [
+      "acidification"
+     ],
+     "tier": 4,
+     "why": "CO2 dissolving in seawater harms corals and shelled animals."
+    },
+    {
+     "text": "Eutrophication",
+     "alias": [
+      "fertiliser runoff",
+      "fertilizer runoff",
+      "algal bloom"
+     ],
+     "tier": 4,
+     "why": "Fertiliser runoff causes algal blooms that use up oxygen and kill fish."
+    },
+    {
+     "text": "Spread of diseases",
+     "alias": [
+      "disease",
+      "pests",
+      "pests and diseases"
+     ],
+     "tier": 4,
+     "why": "Global transport spreads pests, e.g. spruce bark beetle reaching the UK in untreated timber (1982)."
+    }
+   ]
+  },
+  {
+   "id": "bio-25",
+   "unit": "a42",
+   "prompt": "Name a case study of human-caused extinction or ecosystem loss",
+   "answers": [
+    {
+     "text": "North Island giant moa",
+     "alias": [
+      "moa",
+      "giant moa"
+     ],
+     "tier": 1,
+     "why": "Terrestrial megafauna example: overhunted by Polynesian settlers, extinct within ~100 years."
+    },
+    {
+     "text": "Caribbean monk seal",
+     "alias": [
+      "monk seal"
+     ],
+     "tier": 1,
+     "why": "Marine example: killed for oil and food, prey overfished; declared extinct in 2008."
+    },
+    {
+     "text": "Cheetah in India",
+     "alias": [
+      "cheetah",
+      "indian cheetah",
+      "asiatic cheetah"
+     ],
+     "tier": 2,
+     "why": "Local extinction: last shot in 1947, declared extinct in India in 1952; survives in Africa and Iran."
+    },
+    {
+     "text": "Mumbai mangroves",
+     "alias": [
+      "mangroves",
+      "mumbai wetlands"
+     ],
+     "tier": 2,
+     "why": "Local ecosystem loss: land reclamation, housing, roads and sewage."
+    },
+    {
+     "text": "Mixed dipterocarp forest",
+     "alias": [
+      "dipterocarp forest",
+      "dipterocarp"
+     ],
+     "tier": 2,
+     "why": "SE Asian rainforest clear-cut for timber, then turned into oil palm: about 1% lost per year."
+    },
+    {
+     "text": "Tasmanian tiger",
+     "alias": [
+      "thylacine"
+     ],
+     "tier": 3,
+     "why": "Hunted to extinction after Europeans arrived in Tasmania in the 1800s."
+    },
+    {
+     "text": "Great Barrier Reef",
+     "alias": [
+      "coral reef",
+      "coral bleaching"
+     ],
+     "tier": 3,
+     "why": "Indirect loss: warming and acidification make corals expel their zooxanthellae (bleaching)."
+    },
+    {
+     "text": "Haast's eagle",
+     "alias": [
+      "haast eagle"
+     ],
+     "tier": 4,
+     "why": "The moa's only predator; it died out too once its prey was hunted to extinction."
+    }
+   ]
+  },
+  {
+   "id": "bio-26",
+   "unit": "a42",
+   "prompt": "Name a fact about the extinction of the North Island giant moa",
+   "answers": [
+    {
+     "text": "Overhunting",
+     "alias": [
+      "hunting",
+      "hunted",
+      "overhunted"
+     ],
+     "tier": 1,
+     "why": "The main cause: one huge bird fed many people."
+    },
+    {
+     "text": "New Zealand",
+     "alias": [
+      "nz",
+      "north island"
+     ],
+     "tier": 1,
+     "why": "It lived only on New Zealand's North Island."
+    },
+    {
+     "text": "Flightless",
+     "alias": [
+      "flightless bird"
+     ],
+     "tier": 1,
+     "why": "A large bird that couldn't fly, so it was easy to catch."
+    },
+    {
+     "text": "Polynesian settlers",
+     "alias": [
+      "polynesians",
+      "maori",
+      "polynesian",
+      "maori ancestors"
+     ],
+     "tier": 2,
+     "why": "The first humans to reach New Zealand, around 1200–1300 CE."
+    },
+    {
+     "text": "Haast's eagle",
+     "alias": [
+      "haast eagle"
+     ],
+     "tier": 2,
+     "why": "Its only predator before humans, so it had no fear of hunters on the ground."
+    },
+    {
+     "text": "Habitat destruction",
+     "alias": [
+      "forest burning",
+      "burning forests",
+      "deforestation"
+     ],
+     "tier": 3,
+     "why": "Settlers burned forest: a smaller cause than hunting."
+    },
+    {
+     "text": "1300 CE",
+     "alias": [
+      "1200-1300 ce",
+      "1300",
+      "1200",
+      "around 1300",
+      "13th century"
+     ],
+     "tier": 3,
+     "why": "Settlers arrived around 1200–1300 CE, so extinction has been happening for centuries."
+    },
+    {
+     "text": "Within 100 years",
+     "alias": [
+      "100 years",
+      "about 100 years",
+      "one century"
+     ],
+     "tier": 3,
+     "why": "Extinct within about a century of humans arriving."
+    },
+    {
+     "text": "Herbivore",
+     "alias": [
+      "herbivorous",
+      "plant eater"
+     ],
+     "tier": 3,
+     "why": "It ate plants."
+    },
+    {
+     "text": "Wingless",
+     "alias": [
+      "no wings"
+     ],
+     "tier": 3,
+     "why": "Not just flightless: it had no wings at all."
+    },
+    {
+     "text": "3 metres tall",
+     "alias": [
+      "3 m",
+      "3 m tall",
+      "3 meters",
+      "3m",
+      "up to 3 m"
+     ],
+     "tier": 4,
+     "why": "Up to 3 m tall: one of the tallest birds ever."
+    },
+    {
+     "text": "Terrestrial megafauna",
+     "alias": [
+      "megafauna"
+     ],
+     "tier": 4,
+     "why": "The syllabus category: large land animals, slow to breed and easy targets."
+    },
+    {
+     "text": "Females larger",
+     "alias": [
+      "females bigger",
+      "larger females"
+     ],
+     "tier": 5,
+     "why": "Females were bigger than males."
+    }
+   ]
+  },
+  {
+   "id": "bio-27",
+   "unit": "a42",
+   "prompt": "Name a fact about the extinction of the Caribbean monk seal",
+   "answers": [
+    {
+     "text": "Hunted for oil",
+     "alias": [
+      "oil",
+      "seal oil",
+      "lamp oil"
+     ],
+     "tier": 1,
+     "why": "Killed mainly for oil to burn in lamps: hunting for a product to trade."
+    },
+    {
+     "text": "Hunted for food",
+     "alias": [
+      "food",
+      "meat"
+     ],
+     "tier": 2,
+     "why": "Also killed for food."
+    },
+    {
+     "text": "Docile",
+     "alias": [
+      "tame",
+      "no fear of humans",
+      "unafraid"
+     ],
+     "tier": 2,
+     "why": "It showed little fear of people, so it was easy to kill."
+    },
+    {
+     "text": "European colonists",
+     "alias": [
+      "europeans",
+      "colonists",
+      "settlers"
+     ],
+     "tier": 2,
+     "why": "Its decline began when Europeans arrived in the Caribbean."
+    },
+    {
+     "text": "Marine species",
+     "alias": [
+      "marine",
+      "marine mammal"
+     ],
+     "tier": 2,
+     "why": "The syllabus's marine example of anthropogenic extinction."
+    },
+    {
+     "text": "Blubber",
+     "alias": [],
+     "tier": 3,
+     "why": "Its blubber was another product colonists took."
+    },
+    {
+     "text": "Overfishing",
+     "alias": [
+      "prey overfished",
+      "overfished",
+      "food source overfished"
+     ],
+     "tier": 3,
+     "why": "An indirect cause: overfishing removed the seal's food."
+    },
+    {
+     "text": "1952",
+     "alias": [
+      "last seen 1952",
+      "last sighting 1952"
+     ],
+     "tier": 3,
+     "why": "The last confirmed sighting."
+    },
+    {
+     "text": "2008",
+     "alias": [
+      "declared extinct 2008"
+     ],
+     "tier": 3,
+     "why": "The year it was officially declared extinct."
+    },
+    {
+     "text": "Gulf of Mexico",
+     "alias": [],
+     "tier": 3,
+     "why": "Its range: the Caribbean and the Gulf of Mexico."
+    },
+    {
+     "text": "250 000 seals",
+     "alias": [
+      "250000",
+      "250,000",
+      "250 000",
+      "quarter of a million"
+     ],
+     "tier": 4,
+     "why": "Roughly the population before Europeans arrived."
+    },
+    {
+     "text": "13 colonies",
+     "alias": [
+      "13",
+      "thirteen colonies"
+     ],
+     "tier": 5,
+     "why": "The seals lived in about 13 breeding colonies."
+    },
+    {
+     "text": "Scientific specimens",
+     "alias": [
+      "museum specimens",
+      "specimens"
+     ],
+     "tier": 5,
+     "why": "Some of the last seals were killed for museum collections."
+    }
+   ]
+  },
+  {
+   "id": "bio-28",
+   "unit": "a42",
+   "prompt": "Name a fact about the loss of mixed dipterocarp forest",
+   "answers": [
+    {
+     "text": "Oil palm",
+     "alias": [
+      "palm oil",
+      "oil palm plantations",
+      "palm oil plantations"
+     ],
+     "tier": 1,
+     "why": "Cleared land is often turned into oil palm plantations."
+    },
+    {
+     "text": "Timber",
+     "alias": [
+      "hardwood",
+      "hardwood timber",
+      "logging"
+     ],
+     "tier": 1,
+     "why": "Dipterocarps are valuable hardwood trees, cut down for timber."
+    },
+    {
+     "text": "Southeast Asia",
+     "alias": [
+      "south east asia",
+      "south-east asia",
+      "se asia"
+     ],
+     "tier": 1,
+     "why": "Where these forests grow: Borneo, Sumatra, Malaysia."
+    },
+    {
+     "text": "Clear-cutting",
+     "alias": [
+      "clear cutting",
+      "clearcutting",
+      "clear-felling"
+     ],
+     "tier": 2,
+     "why": "Every tree is removed because it's the cheapest way to log."
+    },
+    {
+     "text": "Borneo",
+     "alias": [],
+     "tier": 2,
+     "why": "The island where the losses endanger orangutans."
+    },
+    {
+     "text": "Orangutans",
+     "alias": [
+      "orang-utan"
+     ],
+     "tier": 2,
+     "why": "Endangered as their forest home disappears."
+    },
+    {
+     "text": "Agriculture",
+     "alias": [
+      "farmland",
+      "land conversion"
+     ],
+     "tier": 2,
+     "why": "After logging, the land is converted to farming."
+    },
+    {
+     "text": "1% per year",
+     "alias": [
+      "1%",
+      "1 percent",
+      "one percent",
+      "1% a year"
+     ],
+     "tier": 3,
+     "why": "Southeast Asia is losing about 1% of its rainforest every year."
+    },
+    {
+     "text": "Keystone species",
+     "alias": [
+      "keystone",
+      "keystone group"
+     ],
+     "tier": 3,
+     "why": "Dipterocarps give habitat, fruit, pollen and nectar to huge numbers of other species."
+    },
+    {
+     "text": "Monoculture",
+     "alias": [
+      "plantation"
+     ],
+     "tier": 3,
+     "why": "One crop replaces hundreds of species, so richness and evenness collapse."
+    },
+    {
+     "text": "Over 500 species",
+     "alias": [
+      "500 species",
+      "500",
+      "500+"
+     ],
+     "tier": 4,
+     "why": "The dipterocarp family has more than 500 tree species."
+    },
+    {
+     "text": "Indigenous peoples",
+     "alias": [
+      "indigenous people",
+      "food sovereignty",
+      "water security"
+     ],
+     "tier": 4,
+     "why": "Forest peoples lose their water security and control over their own food."
+    }
+   ]
+  },
+  {
+   "id": "bio-29",
+   "unit": "a42",
+   "prompt": "Name a fact about the loss of Mumbai's mangroves",
+   "answers": [
+    {
+     "text": "Land reclamation",
+     "alias": [
+      "reclamation"
+     ],
+     "tier": 1,
+     "why": "From the 1700s, filling in creeks and wetlands joined Mumbai's islands into one."
+    },
+    {
+     "text": "Housing",
+     "alias": [
+      "urbanisation",
+      "urbanization",
+      "buildings",
+      "construction"
+     ],
+     "tier": 1,
+     "why": "Mangroves are still cleared to build homes for a city of millions (a direct cause)."
+    },
+    {
+     "text": "Seven islands",
+     "alias": [
+      "7 islands"
+     ],
+     "tier": 2,
+     "why": "Mumbai was once seven islands separated by creeks, mangroves and mudflats."
+    },
+    {
+     "text": "Roads",
+     "alias": [
+      "infrastructure"
+     ],
+     "tier": 2,
+     "why": "Mangroves are cleared for roads: a direct cause."
+    },
+    {
+     "text": "Sewage",
+     "alias": [
+      "sewage dumping",
+      "waste dumping",
+      "waste",
+      "pollution"
+     ],
+     "tier": 2,
+     "why": "Dumped waste and sewage damage mangroves: an indirect cause."
+    },
+    {
+     "text": "Storm surge protection",
+     "alias": [
+      "storm surges",
+      "flood protection",
+      "coastal protection",
+      "flooding"
+     ],
+     "tier": 2,
+     "why": "Mangroves protect the coast from storm surges and floods, so losing them puts the city at risk."
+    },
+    {
+     "text": "Ports",
+     "alias": [
+      "port"
+     ],
+     "tier": 3,
+     "why": "Port building clears mangroves too."
+    },
+    {
+     "text": "Fish nursery",
+     "alias": [
+      "nursery grounds",
+      "fish breeding grounds",
+      "nursery"
+     ],
+     "tier": 3,
+     "why": "Young fish and crabs shelter among mangrove roots."
+    },
+    {
+     "text": "Salt pans",
+     "alias": [],
+     "tier": 4,
+     "why": "Land converted into salt pans: another direct cause."
+    },
+    {
+     "text": "Changed tidal flow",
+     "alias": [
+      "tidal flow",
+      "tides"
+     ],
+     "tier": 4,
+     "why": "Building changes how tides reach the mangroves: an indirect cause."
+    },
+    {
+     "text": "1700s",
+     "alias": [
+      "18th century",
+      "1700"
+     ],
+     "tier": 4,
+     "why": "When reclamation to join the islands began."
+    },
+    {
+     "text": "Creeks and mudflats",
+     "alias": [
+      "mudflats",
+      "creeks"
+     ],
+     "tier": 4,
+     "why": "Part of the original wetland ecosystem that was filled in."
+    }
+   ]
+  },
+  {
+   "id": "bio-30",
+   "unit": "a42",
+   "prompt": "Name an in situ conservation method or example",
+   "answers": [
+    {
+     "text": "National park",
+     "alias": [],
+     "tier": 1,
+     "why": "Protects species inside their natural habitat."
+    },
+    {
+     "text": "Nature reserve",
+     "alias": [
+      "reserve",
+      "wildlife sanctuary",
+      "sanctuary"
+     ],
+     "tier": 1,
+     "why": "A protected area where the habitat and everything in it is kept safe."
+    },
+    {
+     "text": "Rewilding",
+     "alias": [],
+     "tier": 2,
+     "why": "Actively or passively restoring a damaged ecosystem until it sustains itself."
+    },
+    {
+     "text": "Anti-hunting laws",
+     "alias": [
+      "legislation",
+      "laws",
+      "hunting ban",
+      "hunting laws"
+     ],
+     "tier": 2,
+     "why": "Laws, plus funding to enforce them, stop people killing protected species."
+    },
+    {
+     "text": "Rangers",
+     "alias": [
+      "policing",
+      "anti-poaching patrols",
+      "patrols"
+     ],
+     "tier": 3,
+     "why": "Funded policing that enforces the no-hunting rules."
+    },
+    {
+     "text": "Removing invasive species",
+     "alias": [
+      "invasive species removal",
+      "removing invasives"
+     ],
+     "tier": 3,
+     "why": "Taking out alien species so native species can recover."
+    },
+    {
+     "text": "Ecological monitoring",
+     "alias": [
+      "monitoring"
+     ],
+     "tier": 3,
+     "why": "Tracking populations over time to see if protection is working."
+    },
+    {
+     "text": "Education",
+     "alias": [
+      "public education",
+      "awareness"
+     ],
+     "tier": 3,
+     "why": "Teaching local people why the species and habitat matter."
+    },
+    {
+     "text": "Habitat restoration",
+     "alias": [
+      "restoration",
+      "replanting native trees"
+     ],
+     "tier": 3,
+     "why": "Repairing damaged habitat on site, e.g. replanting native species."
+    },
+    {
+     "text": "Reclamation",
+     "alias": [
+      "restoring quarries"
+     ],
+     "tier": 4,
+     "why": "Restoring land people used (e.g. a quarry) to its previous ecosystem."
+    },
+    {
+     "text": "Kuno National Park",
+     "alias": [
+      "kuno"
+     ],
+     "tier": 4,
+     "why": "Where cheetahs from Namibia and South Africa have been released since 2022."
+    },
+    {
+     "text": "Yellowstone wolves",
+     "alias": [
+      "yellowstone",
+      "wolf reintroduction",
+      "reintroduction of wolves"
+     ],
+     "tier": 4,
+     "why": "Wolves brought back in 1995 cut elk overgrazing, so riverside trees recovered."
+    },
+    {
+     "text": "Sanjay Gandhi National Park",
+     "alias": [
+      "sgnp",
+      "sanjay gandhi"
+     ],
+     "tier": 4,
+     "why": "Mumbai's own protected forest: in situ conservation in the city."
+    }
+   ]
+  },
+  {
+   "id": "bio-31",
+   "unit": "a42",
+   "prompt": "Name an ex situ conservation method or example",
+   "answers": [
+    {
+     "text": "Zoo",
+     "alias": [],
+     "tier": 1,
+     "why": "Keeps animals outside their natural habitat, often to breed critically endangered species."
+    },
+    {
+     "text": "Captive breeding",
+     "alias": [
+      "breeding in captivity",
+      "captive breeding programme"
+     ],
+     "tier": 1,
+     "why": "Breeding endangered animals in zoos to build numbers, then reintroducing them."
+    },
+    {
+     "text": "Seed bank",
+     "alias": [],
+     "tier": 2,
+     "why": "Dried, frozen seeds from many populations store a huge range of alleles."
+    },
+    {
+     "text": "Botanic garden",
+     "alias": [
+      "botanical garden"
+     ],
+     "tier": 2,
+     "why": "Grows endangered plants away from their natural habitat."
+    },
+    {
+     "text": "Aquarium",
+     "alias": [
+      "aquaria"
+     ],
+     "tier": 2,
+     "why": "Keeps and breeds aquatic species outside the wild."
+    },
+    {
+     "text": "Tissue bank",
+     "alias": [],
+     "tier": 3,
+     "why": "Stores frozen tissue samples as a genetic backup."
+    },
+    {
+     "text": "Sperm bank",
+     "alias": [
+      "frozen sperm",
+      "sperm and egg bank"
+     ],
+     "tier": 3,
+     "why": "Frozen gametes can be used for artificial breeding later."
+    },
+    {
+     "text": "IVF",
+     "alias": [
+      "in vitro fertilisation",
+      "in vitro fertilization"
+     ],
+     "tier": 3,
+     "why": "An artificial method that boosts breeding success in captivity."
+    },
+    {
+     "text": "Germ plasm",
+     "alias": [
+      "germplasm"
+     ],
+     "tier": 4,
+     "why": "Living genetic material (seeds, tissue, sperm, eggs) stored to preserve genetic diversity."
+    },
+    {
+     "text": "Embryo transfer",
+     "alias": [],
+     "tier": 4,
+     "why": "An embryo is placed in a surrogate mother to increase breeding success."
+    },
+    {
+     "text": "Svalbard Global Seed Vault",
+     "alias": [
+      "svalbard",
+      "seed vault"
+     ],
+     "tier": 4,
+     "why": "Norway's vault holding over a million seed samples from almost every country."
+    },
+    {
+     "text": "Arabian oryx",
+     "alias": [
+      "oryx"
+     ],
+     "tier": 4,
+     "why": "Extinct in the wild by 1972; zoo-bred animals were released in Oman from 1982."
+    },
+    {
+     "text": "California condor",
+     "alias": [
+      "condor"
+     ],
+     "tier": 4,
+     "why": "Down to 27 birds in 1987, all taken into captivity; over 500 today."
+    },
+    {
+     "text": "Millennium Seed Bank",
+     "alias": [
+      "kew"
+     ],
+     "tier": 5,
+     "why": "Kew's seed bank in the UK, storing wild plant species."
+    },
+    {
+     "text": "Studbook",
+     "alias": [
+      "breeding records"
+     ],
+     "tier": 5,
+     "why": "Records zoos use to pick breeding pairs that mix alleles and avoid inbreeding."
+    }
+   ]
+  },
+  {
+   "id": "bio-32",
+   "unit": "a42",
+   "prompt": "Name a term or species linked to EDGE of Existence",
+   "answers": [
+    {
+     "text": "Evolutionarily distinct",
+     "alias": [
+      "evolutionary distinctness",
+      "ed"
+     ],
+     "tier": 1,
+     "why": "The 'ED' half: few close relatives, a long unique branch of the tree of life."
+    },
+    {
+     "text": "Globally endangered",
+     "alias": [
+      "global endangerment",
+      "ge"
+     ],
+     "tier": 1,
+     "why": "The 'GE' half: how close the species is to extinction."
+    },
+    {
+     "text": "IUCN Red List",
+     "alias": [
+      "red list",
+      "iucn"
+     ],
+     "tier": 2,
+     "why": "Where the GE score comes from."
+    },
+    {
+     "text": "Critically endangered",
+     "alias": [],
+     "tier": 2,
+     "why": "The highest threat category: GE score 4."
+    },
+    {
+     "text": "Endangered",
+     "alias": [],
+     "tier": 3,
+     "why": "GE score 3."
+    },
+    {
+     "text": "Vulnerable",
+     "alias": [],
+     "tier": 3,
+     "why": "GE score 2: the lowest category that still gets onto EDGE lists."
+    },
+    {
+     "text": "Tree of life",
+     "alias": [
+      "phylogenetic tree",
+      "evolutionary tree"
+     ],
+     "tier": 3,
+     "why": "ED is measured from an evolutionary tree where branch length = time."
+    },
+    {
+     "text": "Near threatened",
+     "alias": [],
+     "tier": 4,
+     "why": "GE score 1: not threatened enough for the EDGE lists."
+    },
+    {
+     "text": "Least concern",
+     "alias": [],
+     "tier": 4,
+     "why": "GE score 0."
+    },
+    {
+     "text": "Branch length",
+     "alias": [
+      "unique branch length"
+     ],
+     "tier": 4,
+     "why": "A species' ED score = its own branch plus its share of branches it shares with relatives."
+    },
+    {
+     "text": "Yangtze giant softshell turtle",
+     "alias": [
+      "yangtze turtle",
+      "softshell turtle",
+      "yangtze giant softshell"
+     ],
+     "tier": 4,
+     "why": "Critically endangered and very distinct: a top EDGE priority."
+    },
+    {
+     "text": "Axolotl",
+     "alias": [],
+     "tier": 4,
+     "why": "Critically endangered but has close salamander relatives, so its ED is lower."
+    },
+    {
+     "text": "Shoebill",
+     "alias": [],
+     "tier": 5,
+     "why": "The only species in its family (high ED) but only Vulnerable, so it is debated."
+    },
+    {
+     "text": "Zoological Society of London",
+     "alias": [
+      "zsl"
+     ],
+     "tier": 5,
+     "why": "The organisation that runs the EDGE of Existence programme."
+    }
+   ]
+  },
+  {
+   "id": "bio-33",
+   "unit": "a42",
+   "prompt": "Name a source or type of evidence for the biodiversity crisis",
+   "answers": [
+    {
+     "text": "Repeated surveys",
+     "alias": [
+      "surveys",
+      "biodiversity surveys",
+      "repeat surveys"
+     ],
+     "tier": 1,
+     "why": "One survey is a snapshot; repeats with the same method in the same place show change."
+    },
+    {
+     "text": "IPBES",
+     "alias": [],
+     "tier": 2,
+     "why": "The intergovernmental biodiversity panel whose reports review peer-reviewed research."
+    },
+    {
+     "text": "Citizen science",
+     "alias": [],
+     "tier": 2,
+     "why": "Members of the public collecting data, e.g. bird counts: huge scale at low cost."
+    },
+    {
+     "text": "Population decline",
+     "alias": [
+      "falling populations",
+      "declining populations"
+     ],
+     "tier": 2,
+     "why": "Monitored wildlife populations are shrinking fast."
+    },
+    {
+     "text": "Extinction rates",
+     "alias": [
+      "rising extinction rate"
+     ],
+     "tier": 2,
+     "why": "Species are going extinct faster than the natural background rate."
+    },
+    {
+     "text": "73% decline",
+     "alias": [
+      "73%",
+      "73 percent",
+      "73"
+     ],
+     "tier": 3,
+     "why": "The estimated average fall in monitored wildlife populations over the last 50 years."
+    },
+    {
+     "text": "Peer-reviewed research",
+     "alias": [
+      "peer review",
+      "peer reviewed",
+      "published research"
+     ],
+     "tier": 3,
+     "why": "Evidence is verifiable when it's published with methods others can check."
+    },
+    {
+     "text": "IUCN Red List",
+     "alias": [
+      "red list"
+     ],
+     "tier": 3,
+     "why": "Tracks how threatened each species is over time."
+    },
+    {
+     "text": "Living Planet Index",
+     "alias": [
+      "lpi",
+      "wwf living planet index"
+     ],
+     "tier": 4,
+     "why": "The WWF index behind the 73% decline figure."
+    },
+    {
+     "text": "1 million species threatened",
+     "alias": [
+      "1 million",
+      "one million species",
+      "million species threatened"
+     ],
+     "tier": 4,
+     "why": "IPBES 2019 estimate of species threatened with extinction."
+    },
+    {
+     "text": "eBird",
+     "alias": [],
+     "tier": 4,
+     "why": "A citizen-science bird-logging app: a source of very large datasets."
+    },
+    {
+     "text": "iNaturalist",
+     "alias": [],
+     "tier": 4,
+     "why": "A citizen-science app where the public photograph and record species."
+    }
+   ]
+  },
+  {
+   "id": "bio-34",
+   "unit": "a42",
+   "prompt": "Name a benefit or concern of using citizen science data",
+   "answers": [
+    {
+     "text": "Low cost",
+     "alias": [
+      "cheap",
+      "free labour",
+      "cheaper"
+     ],
+     "tier": 1,
+     "why": "Benefit: volunteers aren't paid."
+    },
+    {
+     "text": "Large scale",
+     "alias": [
+      "many observers",
+      "more data",
+      "large amounts of data"
+     ],
+     "tier": 1,
+     "why": "Benefit: thousands of observers collect far more data than scientists alone."
+    },
+    {
+     "text": "Misidentification",
+     "alias": [
+      "wrong identification",
+      "misidentified species"
+     ],
+     "tier": 1,
+     "why": "Concern: amateurs can confuse similar species."
+    },
+    {
+     "text": "Public awareness",
+     "alias": [
+      "awareness",
+      "engagement"
+     ],
+     "tier": 2,
+     "why": "Benefit: people who take part care more about conservation."
+    },
+    {
+     "text": "Biased sampling",
+     "alias": [
+      "non-random sampling",
+      "sampling bias",
+      "bias"
+     ],
+     "tier": 2,
+     "why": "Concern: records cluster where people go, so sampling isn't random."
+    },
+    {
+     "text": "Wide coverage",
+     "alias": [
+      "many locations",
+      "wide area",
+      "covers many places"
+     ],
+     "tier": 2,
+     "why": "Benefit: data come from far more places than a research team could visit."
+    },
+    {
+     "text": "Long time series",
+     "alias": [
+      "many years",
+      "long-term data"
+     ],
+     "tier": 3,
+     "why": "Benefit: volunteers can keep recording for years, showing change over time."
+    },
+    {
+     "text": "Uneven effort",
+     "alias": [
+      "observer skill",
+      "varying skill",
+      "variable effort"
+     ],
+     "tier": 3,
+     "why": "Concern: one person looks for 5 minutes, another for 2 hours."
+    },
+    {
+     "text": "Non-standard methods",
+     "alias": [
+      "unstandardised methods",
+      "non standardised methods",
+      "inconsistent methods"
+     ],
+     "tier": 3,
+     "why": "Concern: records collected in different ways are hard to compare."
+    },
+    {
+     "text": "Records near roads",
+     "alias": [
+      "near towns",
+      "near roads"
+     ],
+     "tier": 4,
+     "why": "Concern: more sightings near towns and roads than in remote areas."
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "unit": "a11",
+   "front": "Water as the medium for life",
+   "back": "The first cells originated in water, and water is still the medium in which most life processes (metabolism, transport) happen."
+  },
+  {
+   "unit": "a11",
+   "front": "Polarity of water",
+   "back": "Unequal sharing of electrons in the O–H covalent bonds gives oxygen a partial negative charge (δ−) and each hydrogen a partial positive charge (δ+)."
+  },
+  {
+   "unit": "a11",
+   "front": "Hydrogen bond vs covalent bond",
+   "back": "Covalent bonds hold atoms together WITHIN a molecule and are strong; hydrogen bonds form BETWEEN molecules and are weak, but there are so many they matter."
+  },
+  {
+   "unit": "a11",
+   "front": "Cohesion vs adhesion",
+   "back": "Cohesion = water molecules attracted to EACH OTHER (surface tension, xylem columns). Adhesion = water attracted to a DIFFERENT polar surface (cellulose, glass)."
+  },
+  {
+   "unit": "a11",
+   "front": "Capillary action",
+   "back": "Water moving up a narrow tube, through soil or through plant cell walls: adhesion to the surface plus cohesion pulling the rest of the water along."
+  },
+  {
+   "unit": "a11",
+   "front": "Hydrophilic vs hydrophobic",
+   "back": "Hydrophilic = 'water-loving': polar or charged, dissolves in water (glucose, ions, amino acids). Hydrophobic = non-polar, doesn't dissolve (lipids)."
+  },
+  {
+   "unit": "a11",
+   "front": "Specific heat capacity vs thermal conductivity",
+   "back": "Specific heat capacity = how much energy it takes to CHANGE temperature. Thermal conductivity = how fast heat MOVES through it. Water is high in both compared with air."
+  },
+  {
+   "unit": "a11",
+   "front": "Black-throated loon vs ringed seal",
+   "back": "Loon: streamlined body to cut drag from water's high viscosity; buoyancy supports it. Seal: thick blubber to insulate against water's high thermal conductivity."
+  },
+  {
+   "unit": "a12",
+   "front": "Nucleotide",
+   "back": "The monomer of DNA and RNA: one phosphate group + one pentose sugar + one nitrogenous base."
+  },
+  {
+   "unit": "a12",
+   "front": "Purines vs pyrimidines",
+   "back": "Purines = double-ring bases: adenine and guanine. Pyrimidines = single-ring bases: cytosine, thymine and uracil."
+  },
+  {
+   "unit": "a12",
+   "front": "Complementary base pairing",
+   "back": "A pairs with T (2 hydrogen bonds) or with U in RNA; G pairs with C (3 hydrogen bonds). Lets one strand act as a template for the other."
+  },
+  {
+   "unit": "a12",
+   "front": "Sugar-phosphate backbone",
+   "back": "The chain of sugars and phosphates joined by covalent (phosphodiester) bonds, formed by condensation reactions, running along each strand."
+  },
+  {
+   "unit": "a12",
+   "front": "Antiparallel",
+   "back": "The two strands of the double helix run in opposite directions: one 5'→3', the other 3'→5'."
+  },
+  {
+   "unit": "a12",
+   "front": "Three differences between DNA and RNA",
+   "back": "Strands: DNA double, RNA single. Sugar: deoxyribose vs ribose. Bases: thymine in DNA, uracil in RNA."
+  },
+  {
+   "unit": "a12",
+   "front": "mRNA, tRNA, rRNA",
+   "back": "mRNA carries the code from DNA to the ribosome; tRNA brings amino acids; rRNA forms part of the ribosome."
+  },
+  {
+   "unit": "a12",
+   "front": "4^n coding capacity",
+   "back": "With 4 possible bases at each position, a sequence of n bases has 4^n possible combinations (e.g. 3 bases → 64), so DNA can store almost limitless information."
+  },
+  {
+   "unit": "a12",
+   "front": "Universal genetic code",
+   "back": "Nearly all organisms use the same codon-to-amino-acid code: evidence that all life shares one common ancestor (LUCA)."
+  },
+  {
+   "unit": "a22",
+   "front": "Cell theory (3 points)",
+   "back": "1) The cell is the smallest unit of life. 2) All living organisms are made of cells. 3) Cells only come from pre-existing cells."
+  },
+  {
+   "unit": "a22",
+   "front": "Four structures found in every cell",
+   "back": "Plasma membrane (controls entry and exit), DNA (instructions), ribosomes (make proteins), cytoplasm (water-based medium for metabolism)."
+  },
+  {
+   "unit": "a22",
+   "front": "Prokaryotic cell",
+   "back": "Small (1–10 µm), no nucleus, no membrane-bound organelles: cell wall, plasma membrane, cytoplasm, 70S ribosomes, naked loop of DNA in a nucleoid; maybe plasmids, pili, flagella."
+  },
+  {
+   "unit": "a22",
+   "front": "Eukaryotic cell",
+   "back": "Larger (about 10–100 µm), compartmentalised: nucleus with double membrane and pores, 80S ribosomes, DNA with histones, mitochondria, ER, Golgi, vesicles, cytoskeleton."
+  },
+  {
+   "unit": "a22",
+   "front": "Magnification formula",
+   "back": "Magnification = image size ÷ actual size. Convert both to the same unit first (1 mm = 1000 µm). Magnification has no unit: write ×."
+  },
+  {
+   "unit": "a22",
+   "front": "Total magnification of a light microscope",
+   "back": "Eyepiece magnification × objective magnification, e.g. ×10 × ×40 = ×400."
+  },
+  {
+   "unit": "a22",
+   "front": "Magnification vs resolution",
+   "back": "Magnification = how much bigger the image is. Resolution = the smallest distance at which two points can still be seen as separate (how much detail)."
+  },
+  {
+   "unit": "a22",
+   "front": "Light vs electron microscope",
+   "back": "Light: lower resolution, specimens can be alive and in colour. Electron (TEM/SEM): much higher resolution, specimens dead, in a vacuum, black and white."
+  },
+  {
+   "unit": "a22",
+   "front": "Animal vs plant vs fungal cells",
+   "back": "Walls: none / cellulose / chitin. Chloroplasts: plants only. Vacuole: small and temporary in animals, large and permanent in plants and fungi. Centrioles: animals, not plants."
+  },
+  {
+   "unit": "a22",
+   "front": "Atypical cells (4 examples)",
+   "back": "Skeletal muscle fibre and aseptate fungal hyphae have many nuclei; red blood cells and phloem sieve tube elements have no nucleus."
+  },
+  {
+   "unit": "a22",
+   "front": "Eight processes of life",
+   "back": "Metabolism, reproduction, homeostasis, growth, response to stimuli, excretion, nutrition, movement — all shown by single-celled Paramecium."
+  },
+  {
+   "unit": "a31",
+   "front": "Morphological species concept",
+   "back": "A species is a group with the same distinguishing physical features (Linnaeus's original idea). Weakness: looks mislead — e.g. males and females, or dog breeds."
+  },
+  {
+   "unit": "a31",
+   "front": "Biological species concept",
+   "back": "A group of organisms that can interbreed to produce fertile, viable offspring. Horse × donkey → mule, which is sterile, so horses and donkeys are separate species."
+  },
+  {
+   "unit": "a31",
+   "front": "Limits of the biological species concept",
+   "back": "Can't be used for asexual organisms (bacteria), fossils, populations that never meet, or ring species."
+  },
+  {
+   "unit": "a31",
+   "front": "Binomial nomenclature rules",
+   "back": "Genus (capital) + species (lowercase), in italics when typed or underlined by hand, e.g. Panthera leo; shorten later to P. leo."
+  },
+  {
+   "unit": "a31",
+   "front": "Taxonomic hierarchy",
+   "back": "Domain, Kingdom, Phylum, Class, Order, Family, Genus, Species. Mnemonic: 'Dear King Philip Came Over For Good Soup'."
+  },
+  {
+   "unit": "a31",
+   "front": "Discrete vs continuous variation",
+   "back": "Discrete: separate categories with nothing in between (blood groups). Continuous: any value in a range (height, mass)."
+  },
+  {
+   "unit": "a31",
+   "front": "How a karyogram is made",
+   "back": "Cells stimulated to divide, stopped at metaphase, stained (G-bands), photographed, arranged in homologous pairs from largest to smallest, sex chromosomes last."
+  },
+  {
+   "unit": "a31",
+   "front": "Evidence for chromosome 2 fusion",
+   "back": "Humans have 46 chromosomes, chimps 48. Human chromosome 2 matches chimp chromosomes 12 + 13 in length and banding, has telomere DNA in the middle and a leftover centromere."
+  },
+  {
+   "unit": "a31",
+   "front": "SNP",
+   "back": "Single-nucleotide polymorphism: a position where one base differs between individuals, found in more than 1% of a population. Any two humans are ~99.9% identical."
+  },
+  {
+   "unit": "a31",
+   "front": "Genome size vs complexity",
+   "back": "Genome size doesn't measure complexity: the Australian lungfish has ~43 billion base pairs and Paris japonica ~149 billion, vs ~3 billion in humans."
+  },
+  {
+   "unit": "a31",
+   "front": "Whole genome sequencing",
+   "back": "Reading an organism's entire genome at once. The Human Genome Project took 13 years and ~$3 billion; by 2020 a genome cost under $600. Used in personalised medicine."
+  },
+  {
+   "unit": "a41",
+   "front": "Evolution (definition)",
+   "back": "Change in the heritable characteristics of a population over time — or the change in the ratio (frequency) of alleles in a population over time."
+  },
+  {
+   "unit": "a41",
+   "front": "Heritable vs acquired characteristics",
+   "back": "Heritable: coded in DNA, passed on (eye colour). Acquired: gained during life, not passed on (gym muscles, suntan). Only heritable change is evolution."
+  },
+  {
+   "unit": "a41",
+   "front": "Lamarck vs Darwin",
+   "back": "Lamarck: traits acquired by use and disuse are inherited. Darwin: heritable variation already exists, and individuals with favourable variants survive and reproduce more."
+  },
+  {
+   "unit": "a41",
+   "front": "Why is evolution called a 'theory'?",
+   "back": "It explains and predicts a huge range of observations and is unlikely ever to be falsified, but it can't be formally proven: a 'pragmatic truth'."
+  },
+  {
+   "unit": "a41",
+   "front": "Natural selection in 6 steps",
+   "back": "Variation → overproduction → competition (selection pressures) → better-adapted individuals survive → they reproduce and pass on alleles → allele frequency changes."
+  },
+  {
+   "unit": "a41",
+   "front": "Allele frequency",
+   "back": "Copies of one allele ÷ total copies of that gene in the population. Count gene copies (2 per individual), not individuals."
+  },
+  {
+   "unit": "a41",
+   "front": "Selective breeding",
+   "back": "Artificial selection: humans breed individuals with desired traits, so the trait becomes more common each generation. Shows heritable change can happen fast."
+  },
+  {
+   "unit": "a41",
+   "front": "Brassica oleracea varieties",
+   "back": "One species bred for different parts: broccoli (flower buds), cabbage (terminal leaf bud), kale (leaves). Still one species, so this is evolution, not speciation."
+  },
+  {
+   "unit": "a41",
+   "front": "Homologous structures",
+   "back": "Structures in different species that are similar because of common ancestry, even if their functions differ. Produced by divergent evolution."
+  },
+  {
+   "unit": "a41",
+   "front": "Pentadactyl limb bones",
+   "back": "One proximal bone (humerus/femur) → two distal bones (radius + ulna / tibia + fibula) → wrist/ankle bones (carpals/tarsals) → metacarpals → phalanges."
+  },
+  {
+   "unit": "a41",
+   "front": "Pentadactyl limb: same bones, different jobs",
+   "back": "Human hand = tools; bat wing = flight; whale flipper = swimming; horse hoof = galloping; bird wing = flight."
+  },
+  {
+   "unit": "a41",
+   "front": "Analogous structures",
+   "back": "Same function, different evolutionary origin, produced by convergent evolution under similar selection pressures, e.g. dolphin vs shark body; duck vs platypus bill."
+  },
+  {
+   "unit": "a41",
+   "front": "Vestigial structures and embryos",
+   "back": "Vestigial: reduced, functionless remnants, e.g. whale pelvis (land ancestors). Embryos: all land vertebrates have non-functional pharyngeal slits and a tail."
+  },
+  {
+   "unit": "a41",
+   "front": "Molecular evidence for evolution",
+   "back": "Mutations build up over time, so fewer differences in DNA or amino acid sequences = more recent common ancestor = more closely related."
+  },
+  {
+   "unit": "a41",
+   "front": "Rate of sequence change",
+   "back": "Non-coding DNA fastest > gene sequences > amino acid sequences slowest (codon degeneracy). Amino acids for distant taxa, DNA for close relatives."
+  },
+  {
+   "unit": "a41",
+   "front": "Speciation",
+   "back": "The splitting of a pre-existing species into two or more. Needs reproductive isolation + differential selection. Gradual change in one lineage is not speciation."
+  },
+  {
+   "unit": "a41",
+   "front": "Bonobos and chimpanzees",
+   "back": "The Congo River (~1.8 million years ago) isolated the ancestors. Chimps competed with gorillas (more aggressive, male-led); bonobos didn't (less aggressive, female-led)."
+  },
+  {
+   "unit": "a41",
+   "front": "Gene flow",
+   "back": "Alleles moving between populations by migration and interbreeding. It keeps populations similar; a barrier stops it, so gene pools diverge."
+  },
+  {
+   "unit": "a42",
+   "front": "Biodiversity",
+   "back": "The variety of life in all its forms, levels and combinations: ecosystem, species and genetic diversity. More biodiversity = a more stable ecosystem."
+  },
+  {
+   "unit": "a42",
+   "front": "Species richness vs evenness",
+   "back": "Richness = the number of different species. Evenness = how equal their numbers are (relative abundance). Same richness can mean very different evenness."
+  },
+  {
+   "unit": "a42",
+   "front": "Simpson's reciprocal index",
+   "back": "1/D = N(N−1) ÷ Σn(n−1), with n = individuals of each species and N = total. Use n(n−1), not n². Higher = more diverse; maximum ≈ number of species."
+  },
+  {
+   "unit": "a42",
+   "front": "Interpreting Simpson's index",
+   "back": "High: many niches, even numbers, stable site. Low (close to 1): a few species dominate, often a disturbed site. Same richness but different index = evenness differs."
+  },
+  {
+   "unit": "a42",
+   "front": "How many species exist?",
+   "back": "About 1.2 million described, and perhaps ~7.5 million more undiscovered. Fossils suggest more species are alive now than ever before, because speciation outpaced extinction."
+  },
+  {
+   "unit": "a42",
+   "front": "Lumpers vs splitters",
+   "back": "Lumpers group by similarities (fewer species); splitters focus on differences (more species), e.g. giraffes: 1 species traditionally vs 4 in a 2016 genetic study."
+  },
+  {
+   "unit": "a42",
+   "front": "Anthropogenic extinction",
+   "back": "Extinction caused by human activity. There have been five mass extinctions; humans are causing a sixth. Only human causes are on the syllabus."
+  },
+  {
+   "unit": "a42",
+   "front": "North Island giant moa",
+   "back": "Flightless herbivore up to 3 m tall in New Zealand; only predator Haast's eagle. Polynesian settlers (~1200–1300 CE) overhunted it to extinction within ~100 years."
+  },
+  {
+   "unit": "a42",
+   "front": "Caribbean monk seal",
+   "back": "~250 000 seals in 13 colonies. Docile, so European colonists killed it for oil, blubber and food; prey overfished. Last seen 1952, declared extinct 2008."
+  },
+  {
+   "unit": "a42",
+   "front": "Cheetah in India",
+   "back": "Hunted for sport and bounties, captured to hunt blackbuck, grassland and prey lost. Last shot 1947, declared extinct in India 1952: a local extinction."
+  },
+  {
+   "unit": "a42",
+   "front": "Direct vs indirect ecosystem loss",
+   "back": "Direct: humans physically remove it (deforestation, filling wetlands). Indirect: a side-effect from a distance (climate change, pollution, changed tidal flow)."
+  },
+  {
+   "unit": "a42",
+   "front": "Mixed dipterocarp forest",
+   "back": "SE Asian rainforest of 500+ hardwood species (a keystone group). Clear-cut for timber then oil palm: ~1% lost per year; orangutans in Borneo endangered."
+  },
+  {
+   "unit": "a42",
+   "front": "Mumbai mangroves",
+   "back": "Seven islands joined by land reclamation from the 1700s; mangroves cleared for housing, roads, ports and salt pans, and damaged by sewage. They protect from storm surges."
+  },
+  {
+   "unit": "a42",
+   "front": "Evidence for a biodiversity crisis",
+   "back": "IPBES reports and repeated surveys: monitored wildlife populations fell by an average of 73% in 50 years. Evidence must be peer-reviewed and verifiable."
+  },
+  {
+   "unit": "a42",
+   "front": "Why repeat biodiversity surveys?",
+   "back": "One survey is a snapshot and can't show change. Repeat in the same place with the same method, across many habitats, to show change in richness and evenness."
+  },
+  {
+   "unit": "a42",
+   "front": "Citizen science: pros and cons",
+   "back": "Pros: huge scale, low cost, public awareness. Cons: misidentification, uneven effort, non-random records near roads and towns, non-standard methods."
+  },
+  {
+   "unit": "a42",
+   "front": "Causes of the biodiversity crisis",
+   "back": "Human population growth (overarching) drives over-exploitation, urbanisation, deforestation and land clearance, pollution, invasive species and diseases, and climate change."
+  },
+  {
+   "unit": "a42",
+   "front": "Invasive species",
+   "back": "An alien species introduced to a new environment that harms the existing food chains, e.g. Burmese python in the Florida Everglades."
+  },
+  {
+   "unit": "a42",
+   "front": "In situ conservation",
+   "back": "Protecting species in their natural habitat: national parks, reserves, anti-hunting laws, monitoring, removing invasives, rewilding. Keeps natural behaviour and the whole habitat."
+  },
+  {
+   "unit": "a42",
+   "front": "Ex situ conservation",
+   "back": "Protecting species outside their habitat: zoos and captive breeding, botanic gardens, seed and tissue banks. Pros: control, IVF. Cons: habitat not protected, inbreeding."
+  },
+  {
+   "unit": "a42",
+   "front": "Rewilding vs reclamation",
+   "back": "Rewilding: restoring a damaged ecosystem until it sustains itself (e.g. Yellowstone wolves). Reclamation: restoring land humans used, such as quarries. Both are in situ."
+  },
+  {
+   "unit": "a42",
+   "front": "EDGE of Existence",
+   "back": "Prioritises species that are both Evolutionarily Distinct and Globally Endangered (IUCN Red List). It informs stakeholders but doesn't decide."
+  },
+  {
+   "unit": "a42",
+   "front": "Why no single conservation approach?",
+   "back": "Species have different needs: ex situ rescues critically endangered species and in situ gives them a home to return to, e.g. Arabian oryx, California condor."
+  }
+ ],
+ "quiz": [
+  {
+   "unit": "a11",
+   "q": "Which bonds hold neighbouring water molecules to each other?",
+   "choices": [
+    "Covalent bonds",
+    "Hydrogen bonds",
+    "Ionic bonds",
+    "Peptide bonds"
+   ],
+   "answer": 1,
+   "explain": "Covalent bonds are inside each molecule; weak hydrogen bonds form between the δ+ H of one molecule and the δ− O of another."
+  },
+  {
+   "unit": "a11",
+   "q": "A water strider can stand on a pond mainly because of…",
+   "choices": [
+    "adhesion to its legs",
+    "water's buoyancy",
+    "high specific heat capacity",
+    "surface tension from cohesion"
+   ],
+   "answer": 3,
+   "explain": "Cohesion between surface molecules creates surface tension strong enough to hold the insect's weight."
+  },
+  {
+   "unit": "a11",
+   "q": "A ringed seal's thick blubber is an adaptation mainly to water's high…",
+   "choices": [
+    "thermal conductivity",
+    "viscosity",
+    "buoyancy",
+    "solvent power"
+   ],
+   "answer": 0,
+   "explain": "Water conducts heat away from the body far faster than air, so the seal needs insulation."
+  },
+  {
+   "unit": "a12",
+   "q": "A DNA sample is 30% adenine. What percentage is guanine?",
+   "choices": [
+    "30%",
+    "70%",
+    "20%",
+    "40%"
+   ],
+   "answer": 2,
+   "explain": "A = T = 30%, so A + T = 60%. G + C = 40%, and G = C, so G = 20%."
+  },
+  {
+   "unit": "a12",
+   "q": "How many different sequences can be made from a chain of 3 nucleotides?",
+   "choices": [
+    "12",
+    "64",
+    "81",
+    "9"
+   ],
+   "answer": 1,
+   "explain": "4 possible bases at each position: 4^3 = 4 × 4 × 4 = 64."
+  },
+  {
+   "unit": "a12",
+   "q": "Which base is a pyrimidine found only in RNA?",
+   "choices": [
+    "Adenine",
+    "Thymine",
+    "Guanine",
+    "Uracil"
+   ],
+   "answer": 3,
+   "explain": "Uracil is single-ringed (a pyrimidine) and replaces thymine in RNA."
+  },
+  {
+   "unit": "a12",
+   "q": "The near-universal genetic code is evidence that…",
+   "choices": [
+    "all life shares a common ancestor",
+    "acquired traits are inherited",
+    "life arose many separate times",
+    "RNA came before DNA"
+   ],
+   "answer": 0,
+   "explain": "If every organism reads codons the same way, the simplest explanation is one common ancestor (LUCA)."
+  },
+  {
+   "unit": "a22",
+   "q": "A mitochondrion is 45 mm long in a micrograph. Its real length is 3 µm. What is the magnification?",
+   "choices": [
+    "×15",
+    "×150",
+    "×15 000",
+    "×1500"
+   ],
+   "answer": 2,
+   "explain": "Convert: 45 mm = 45 000 µm. Magnification = image ÷ actual = 45 000 ÷ 3 = ×15 000."
+  },
+  {
+   "unit": "a22",
+   "q": "A chloroplast measures 60 mm in a micrograph at ×12 000. What is its actual length?",
+   "choices": [
+    "5 µm",
+    "0.5 µm",
+    "50 µm",
+    "720 µm"
+   ],
+   "answer": 0,
+   "explain": "60 mm = 60 000 µm. Actual = image ÷ magnification = 60 000 ÷ 12 000 = 5 µm."
+  },
+  {
+   "unit": "a22",
+   "q": "A scale bar labelled 5 µm is 20 mm long on the image. What is the magnification?",
+   "choices": [
+    "×4",
+    "×400",
+    "×100",
+    "×4000"
+   ],
+   "answer": 3,
+   "explain": "20 mm = 20 000 µm. Magnification = 20 000 ÷ 5 = ×4000."
+  },
+  {
+   "unit": "a22",
+   "q": "A microscope has a ×10 eyepiece and a ×40 objective. What is the total magnification?",
+   "choices": [
+    "×50",
+    "×400",
+    "×4",
+    "×4000"
+   ],
+   "answer": 1,
+   "explain": "Total magnification = eyepiece × objective = 10 × 40 = ×400 (multiply, don't add)."
+  },
+  {
+   "unit": "a22",
+   "q": "Which structure is found in a prokaryotic cell?",
+   "choices": [
+    "80S ribosomes",
+    "A nucleus",
+    "70S ribosomes",
+    "Mitochondria"
+   ],
+   "answer": 2,
+   "explain": "Prokaryotes have smaller 70S ribosomes and no membrane-bound organelles or nucleus."
+  },
+  {
+   "unit": "a22",
+   "q": "Fungal cell walls are made of…",
+   "choices": [
+    "chitin",
+    "cellulose",
+    "starch",
+    "protein"
+   ],
+   "answer": 0,
+   "explain": "Plants have cellulose walls; fungi have chitin walls; animal cells have no wall."
+  },
+  {
+   "unit": "a22",
+   "q": "Which is an example of a cell with MANY nuclei?",
+   "choices": [
+    "Red blood cell",
+    "Phloem sieve tube element",
+    "Paramecium",
+    "Skeletal muscle fibre"
+   ],
+   "answer": 3,
+   "explain": "Skeletal muscle fibres and aseptate hyphae are multinucleate; red blood cells and sieve tubes have no nucleus."
+  },
+  {
+   "unit": "a31",
+   "q": "A horse and a donkey produce a mule, which is sterile. What does this show?",
+   "choices": [
+    "Horses and donkeys are one species",
+    "Horses and donkeys are separate species",
+    "Mules are a new species",
+    "The morphological concept is always correct"
+   ],
+   "answer": 1,
+   "explain": "The biological species concept needs FERTILE offspring. A sterile hybrid means the parents are different species."
+  },
+  {
+   "unit": "a31",
+   "q": "Which is the correct way to write the lion's scientific name (typed)?",
+   "choices": [
+    "Panthera Leo",
+    "panthera leo",
+    "Panthera leo, in italics",
+    "Leo panthera, in italics"
+   ],
+   "answer": 2,
+   "explain": "Genus capitalised, species lowercase, in italics when typed (underlined when handwritten)."
+  },
+  {
+   "unit": "a31",
+   "q": "In a karyogram, chromosomes are arranged…",
+   "choices": [
+    "in homologous pairs, largest to smallest, sex chromosomes last",
+    "by the number of genes they carry",
+    "in the order they appear in the cell",
+    "smallest to largest, sex chromosomes first"
+   ],
+   "answer": 0,
+   "explain": "Pairs are matched by length, banding pattern and centromere position, ordered largest to smallest."
+  },
+  {
+   "unit": "a31",
+   "q": "Humans have 46 chromosomes and chimpanzees 48 because…",
+   "choices": [
+    "chimps gained two chromosomes from a virus",
+    "humans lost a chromosome pair by mutation",
+    "chimps are polyploid",
+    "two ancestral chromosomes fused to form human chromosome 2"
+   ],
+   "answer": 3,
+   "explain": "Chromosome 2 matches chimp chromosomes 12 and 13, and has telomere DNA in its middle where they joined."
+  },
+  {
+   "unit": "a31",
+   "q": "The Australian lungfish has about 43 billion base pairs; humans have about 3 billion. This shows that…",
+   "choices": [
+    "lungfish are more complex than humans",
+    "genome size is not a measure of complexity",
+    "humans have lost most of their genes",
+    "fish evolved after humans"
+   ],
+   "answer": 1,
+   "explain": "Genome size does not track complexity; only the prokaryote < eukaryote pattern holds."
+  },
+  {
+   "unit": "a41",
+   "q": "Which of these is NOT an example of evolution?",
+   "choices": [
+    "A bacterial population becoming mostly antibiotic-resistant",
+    "Lactase persistence becoming common in a herding population",
+    "A man's muscles growing after years of weight training",
+    "Maize cobs getting larger over centuries of seed selection"
+   ],
+   "answer": 2,
+   "explain": "Muscle from training is acquired, not coded in DNA, so it isn't inherited. Evolution is heritable change in a population."
+  },
+  {
+   "unit": "a41",
+   "q": "Which statement is Darwinian rather than Lamarckian?",
+   "choices": [
+    "Giraffes stretched their necks and passed the longer necks on",
+    "Giraffes grew longer necks because they needed them",
+    "Giraffes born with longer necks survived and reproduced more",
+    "Giraffe necks lengthened through use during their lives"
+   ],
+   "answer": 2,
+   "explain": "Darwin: selection acts on variation that already exists. 'Needed it' and 'use and disuse' are Lamarck's ideas."
+  },
+  {
+   "unit": "a41",
+   "q": "Which pair are homologous structures?",
+   "choices": [
+    "Bat wing and whale flipper",
+    "Butterfly wing and bird wing",
+    "Shark fin and dolphin flipper",
+    "Duck bill and platypus bill"
+   ],
+   "answer": 0,
+   "explain": "Bat wings and whale flippers are both pentadactyl limbs from a common ancestor. The others are analogous."
+  },
+  {
+   "unit": "a41",
+   "q": "Analogous structures are the result of…",
+   "choices": [
+    "divergent evolution from a common ancestor",
+    "selective breeding",
+    "vestigial reduction",
+    "convergent evolution under similar selection pressures"
+   ],
+   "answer": 3,
+   "explain": "Unrelated species in similar habitats face the same pressures, so similar structures evolve independently."
+  },
+  {
+   "unit": "a41",
+   "q": "Species X differs from Y by 2 amino acids in a protein, and from Z by 18. What can be concluded?",
+   "choices": [
+    "Z evolved from Y",
+    "X and Y share a more recent common ancestor than X and Z",
+    "X and Z are the same species",
+    "Y and Z are the most closely related"
+   ],
+   "answer": 1,
+   "explain": "Fewer differences = fewer mutations since they diverged = a more recent common ancestor."
+  },
+  {
+   "unit": "a41",
+   "q": "Which type of sequence changes FASTEST, making it best for comparing very closely related species?",
+   "choices": [
+    "Amino acid sequences",
+    "Coding gene sequences",
+    "Non-coding DNA",
+    "Protein shapes"
+   ],
+   "answer": 2,
+   "explain": "Mutations in non-coding DNA don't affect proteins, so they aren't removed by selection and build up fastest."
+  },
+  {
+   "unit": "a41",
+   "q": "A single species changes gradually over 2 million years without splitting. This is…",
+   "choices": [
+    "evolution but not speciation",
+    "speciation",
+    "extinction",
+    "convergent evolution"
+   ],
+   "answer": 0,
+   "explain": "Speciation needs a pre-existing species to SPLIT. One lineage changing gradually keeps the species count at one."
+  },
+  {
+   "unit": "a41",
+   "q": "What separated the ancestors of bonobos and chimpanzees?",
+   "choices": [
+    "A mountain range",
+    "A volcano",
+    "Competition with gorillas",
+    "The Congo River"
+   ],
+   "answer": 3,
+   "explain": "The river was the barrier (reproductive isolation). Gorillas were the different selection pressure on one side."
+  },
+  {
+   "unit": "a41",
+   "q": "100 flowers carry 150 red alleles and 50 white alleles of a colour gene. What is the frequency of the red allele?",
+   "choices": [
+    "1.5",
+    "0.75",
+    "0.50",
+    "0.25"
+   ],
+   "answer": 1,
+   "explain": "100 flowers × 2 copies = 200 gene copies. Red = 150 ÷ 200 = 0.75. Don't divide by the number of flowers."
+  },
+  {
+   "unit": "a41",
+   "q": "Broccoli was bred from wild Brassica oleracea by selecting for enlarged…",
+   "choices": [
+    "leaves",
+    "roots",
+    "flower buds",
+    "terminal leaf buds"
+   ],
+   "answer": 2,
+   "explain": "Broccoli = flower buds, cabbage = terminal leaf bud, kale = leaves. All one species."
+  },
+  {
+   "unit": "a42",
+   "q": "Calculate Simpson's reciprocal index (1/D) for a community with species counts 10, 10 and 10.",
+   "choices": [
+    "3.22",
+    "0.31",
+    "3.00",
+    "30.0"
+   ],
+   "answer": 0,
+   "explain": "Σn(n−1) = 3 × 90 = 270. N(N−1) = 30 × 29 = 870. 1/D = 870 ÷ 270 = 3.22. (0.31 = forgot to flip; 3.00 = used n².)"
+  },
+  {
+   "unit": "a42",
+   "q": "Calculate Simpson's reciprocal index for species counts 6, 3 and 1.",
+   "choices": [
+    "2.17",
+    "0.40",
+    "2.50",
+    "3.00"
+   ],
+   "answer": 2,
+   "explain": "Σn(n−1) = 30 + 6 + 0 = 36. N(N−1) = 10 × 9 = 90. 1/D = 90 ÷ 36 = 2.50. (2.17 comes from wrongly using n².)"
+  },
+  {
+   "unit": "a42",
+   "q": "A mangrove survey finds 20, 18, 15, 12 and 10 individuals of five species. What is 1/D?",
+   "choices": [
+    "0.20",
+    "4.72",
+    "1.84",
+    "4.96"
+   ],
+   "answer": 3,
+   "explain": "Σn(n−1) = 380 + 306 + 210 + 132 + 90 = 1118. N(N−1) = 75 × 74 = 5550. 1/D = 5550 ÷ 1118 = 4.96."
+  },
+  {
+   "unit": "a42",
+   "q": "Two communities have the same species richness, but P has a higher Simpson's reciprocal index than Q. So P has…",
+   "choices": [
+    "more species",
+    "greater species evenness",
+    "fewer individuals",
+    "lower genetic diversity"
+   ],
+   "answer": 1,
+   "explain": "With richness equal, the only thing left that can raise the index is evenness."
+  },
+  {
+   "unit": "a42",
+   "q": "Which is an example of ex situ conservation?",
+   "choices": [
+    "Rewilding a disused quarry",
+    "Creating a national park",
+    "Removing invasive species from a reserve",
+    "Storing seeds in a seed bank"
+   ],
+   "answer": 3,
+   "explain": "A seed bank keeps genetic material outside the natural habitat. The other three are in situ."
+  },
+  {
+   "unit": "a42",
+   "q": "EDGE of Existence prioritises species that are…",
+   "choices": [
+    "keystone species",
+    "evolutionarily distinct and globally endangered",
+    "culturally significant",
+    "common but declining"
+   ],
+   "answer": 1,
+   "explain": "A high EDGE score needs BOTH: few close relatives (ED) and a high IUCN threat level (GE)."
+  },
+  {
+   "unit": "a42",
+   "q": "What is the overarching cause of the current biodiversity crisis?",
+   "choices": [
+    "Human population growth",
+    "Volcanic eruptions",
+    "Natural climate cycles",
+    "Asteroid impacts"
+   ],
+   "answer": 0,
+   "explain": "Population growth drives hunting, urbanisation, deforestation, pollution and invasive species. Natural causes aren't on this syllabus point."
+  },
+  {
+   "unit": "a42",
+   "q": "Why is the cheetah in India described as a local extinction?",
+   "choices": [
+    "It was never really in India",
+    "It was lost from India but survives in Africa and Iran",
+    "Only cubs were lost",
+    "It is extinct everywhere on Earth"
+   ],
+   "answer": 1,
+   "explain": "Last shot in 1947, declared extinct in India in 1952: lost from an area, not from Earth. Cheetahs released in Kuno since 2022."
+  },
+  {
+   "unit": "a42",
+   "q": "The Caribbean monk seal was killed by European colonists mainly for…",
+   "choices": [
+    "its fur",
+    "sport",
+    "oil for lamps",
+    "its tusks"
+   ],
+   "answer": 2,
+   "explain": "Docile seals were killed for oil, blubber and food, and overfishing removed their prey. Declared extinct in 2008."
+  },
+  {
+   "unit": "a42",
+   "q": "Why must biodiversity surveys be repeated, using the same method, to give evidence of a crisis?",
+   "choices": [
+    "One survey is a snapshot and cannot show change over time",
+    "Repeats always give higher values",
+    "The first survey is always wrong",
+    "Citizen scientists insist on it"
+   ],
+   "answer": 0,
+   "explain": "Change needs at least two time points, and the same method means any difference is real, not caused by the method."
+  },
+  {
+   "unit": "a42",
+   "q": "After clear-cutting, mixed dipterocarp forest in Southeast Asia is most often replaced by…",
+   "choices": [
+    "mangroves",
+    "grassland for cheetahs",
+    "rice terraces",
+    "oil palm plantations"
+   ],
+   "answer": 3,
+   "explain": "Clear-cut for hardwood timber, then converted to oil palm: about 1% of the rainforest is lost per year."
+  }
+ ]
+}

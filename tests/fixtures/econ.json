@@ -1,0 +1,21 @@
+{"subject":"econ","name":"Economics","units":[{"id":"u3","name":"Elasticities"},{"id":"u2","name":"Supply & demand"}],
+"prompts":[
+{"id":"econ-01","unit":"u3","prompt":"Name a determinant of price elasticity of demand","answers":[
+{"text":"Number of substitutes","alias":["substitutes","availability of substitutes"],"tier":1,"why":"More close substitutes means buyers switch easily, so demand is more elastic."},
+{"text":"Necessity","alias":["necessities","necessity vs luxury"],"tier":1,"why":"Necessities have inelastic demand; people buy them whatever the price."},
+{"text":"Proportion of income","alias":["share of income","percentage of income"],"tier":3,"why":"The bigger the share of income a good takes, the more elastic its demand."},
+{"text":"Time","alias":["time period","time to adjust"],"tier":2,"why":"Demand gets more elastic over time as buyers find alternatives."},
+{"text":"Addiction","alias":["habit forming","habit"],"tier":2,"why":"Addictive goods (cigarettes) have inelastic demand."},
+{"text":"Definition of the market","alias":["breadth of market","how broadly defined"],"tier":4,"why":"Narrowly defined goods (one brand) are more elastic than broad ones (all food)."},
+{"text":"Durability","alias":["durable goods"],"tier":5,"why":"Purchases of durables can be postponed, so demand is more price elastic."}]},
+{"id":"econ-02","unit":"u2","prompt":"Name a determinant of supply","answers":[
+{"text":"Subsidies","alias":["subsidy"],"tier":2,"why":"S in STORES: a subsidy lowers costs, supply shifts right."},
+{"text":"Taxes","alias":["indirect tax","tax"],"tier":1,"why":"S in STORES: an indirect tax raises costs, supply shifts left."},
+{"text":"Technology","alias":["tech"],"tier":1,"why":"T in STORES: better technology lowers costs."},
+{"text":"Other related goods","alias":["joint supply","competitive supply"],"tier":4,"why":"O in STORES: joint supply (beef/leather) or competitive supply."},
+{"text":"Resource costs","alias":["cost of inputs","costs of production","input prices"],"tier":1,"why":"R in STORES: dearer inputs shift supply left."},
+{"text":"Expectations","alias":["producer expectations"],"tier":3,"why":"E in STORES: expected price rises can cut supply now."},
+{"text":"Number of firms","alias":["size of market","number of producers"],"tier":2,"why":"S in STORES: more firms, more supply."}]}],
+"cards":[{"unit":"u3","front":"PED formula","back":"%Δ quantity demanded ÷ %Δ price"},{"unit":"u2","front":"Law of supply","back":"As price rises, quantity supplied rises, ceteris paribus."}],
+"quiz":[{"unit":"u3","q":"PED = −0.4 means demand is…","choices":["Price elastic","Price inelastic","Unit elastic","Perfectly elastic"],"answer":1,"explain":"|PED| < 1, so quantity changes proportionally less than price."},
+{"unit":"u3","q":"Price rises 10%, Qd falls 20%. PED?","choices":["−0.5","−2","−20","−10"],"answer":1,"explain":"−20% ÷ 10% = −2, elastic."}]}

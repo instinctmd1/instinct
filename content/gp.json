@@ -1,0 +1,4136 @@
+{
+  "subject": "gp",
+  "name": "Global Politics",
+  "units": [
+    {
+      "id": "core",
+      "name": "Key concepts & power"
+    },
+    {
+      "id": "actors",
+      "name": "Actors & stakeholders"
+    },
+    {
+      "id": "dharavi",
+      "name": "Case Study 1: Dharavi"
+    },
+    {
+      "id": "myanmar",
+      "name": "Case Study 2: Myanmar conflict"
+    },
+    {
+      "id": "external",
+      "name": "Myanmar: outside actors & ASEAN"
+    },
+    {
+      "id": "peace",
+      "name": "Peace & conflict"
+    },
+    {
+      "id": "papers",
+      "name": "Paper 1 & Paper 2 skills"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "gp-01",
+      "unit": "core",
+      "prompt": "Name a type or label of power",
+      "answers": [
+        {
+          "text": "Hard power",
+          "alias": [
+            "coercive power",
+            "coercion",
+            "hard"
+          ],
+          "tier": 1,
+          "why": "Force, threats or pressure: air strikes, sanctions, closing borders."
+        },
+        {
+          "text": "Soft power",
+          "alias": [
+            "soft"
+          ],
+          "tier": 1,
+          "why": "Attraction and persuasion (values, culture, aid). Joseph Nye's term."
+        },
+        {
+          "text": "Smart power",
+          "alias": [
+            "smart"
+          ],
+          "tier": 2,
+          "why": "A deliberate mix of hard and soft. China in Myanmar: brokers ceasefires AND closes borders."
+        },
+        {
+          "text": "Structural power",
+          "alias": [
+            "structural"
+          ],
+          "tier": 2,
+          "why": "Power from your position in a system: a veto, a seat quota, the right to set eligibility rules."
+        },
+        {
+          "text": "Economic power",
+          "alias": [
+            "economic"
+          ],
+          "tier": 2,
+          "why": "Power from money, trade and resources: China as largest trade partner, Adani's capital."
+        },
+        {
+          "text": "Political power",
+          "alias": [
+            "political"
+          ],
+          "tier": 3,
+          "why": "Power from offices, laws and institutions: the presidency, the UN seat."
+        },
+        {
+          "text": "Relational power",
+          "alias": [
+            "relational"
+          ],
+          "tier": 3,
+          "why": "Power from relationships and numbers: alliances, movements, the CDM walking out together."
+        },
+        {
+          "text": "Power over",
+          "alias": [],
+          "tier": 3,
+          "why": "Making others do what they wouldn't choose: the military deciding which aid convoys pass."
+        },
+        {
+          "text": "Power with",
+          "alias": [],
+          "tier": 4,
+          "why": "Power that exists only when people act together. Usually how stakeholders become actors."
+        },
+        {
+          "text": "Power to",
+          "alias": [],
+          "tier": 4,
+          "why": "The capacity to achieve something yourself: the Arakan Army can tax and run Rakhine."
+        },
+        {
+          "text": "Social power",
+          "alias": [
+            "social"
+          ],
+          "tier": 4,
+          "why": "Power from networks and numbers: resistance in nearly every township."
+        },
+        {
+          "text": "Cultural power",
+          "alias": [
+            "cultural"
+          ],
+          "tier": 5,
+          "why": "Power from identity, symbols and names: 'Tatmadaw' as an honourable title vs 'Sit-tat'."
+        }
+      ]
+    },
+    {
+      "id": "gp-02",
+      "unit": "core",
+      "prompt": "Name a source of power an actor can draw on",
+      "answers": [
+        {
+          "text": "Money",
+          "alias": [
+            "wealth",
+            "capital",
+            "finance"
+          ],
+          "tier": 1,
+          "why": "The Purse: capital, aid, taxes. The 'M' in the Force/Money/Recognition/People actor test."
+        },
+        {
+          "text": "Weapons",
+          "alias": [
+            "force",
+            "guns",
+            "military force",
+            "army",
+            "violence"
+          ],
+          "tier": 1,
+          "why": "Coercive force: the 'F' in F/M/R/P. The military's air force can bomb where it can't hold ground."
+        },
+        {
+          "text": "Law",
+          "alias": [
+            "legal authority",
+            "laws",
+            "the law"
+          ],
+          "tier": 2,
+          "why": "Legal authority: the right to write the rules (e.g. Dharavi's eligibility cutoffs)."
+        },
+        {
+          "text": "Votes",
+          "alias": [
+            "elections",
+            "voting"
+          ],
+          "tier": 2,
+          "why": "Electoral power: parties court concentrated voting blocs."
+        },
+        {
+          "text": "People",
+          "alias": [
+            "popular support",
+            "numbers",
+            "support"
+          ],
+          "tier": 2,
+          "why": "The 'P' in F/M/R/P: popular support and numbers. The NUG is strong here, weak on force."
+        },
+        {
+          "text": "Recognition",
+          "alias": [
+            "international recognition"
+          ],
+          "tier": 3,
+          "why": "The 'R' in F/M/R/P: others treating you as rightful. The NUG's UN seat; the AA has none."
+        },
+        {
+          "text": "Information",
+          "alias": [
+            "media",
+            "knowledge",
+            "data"
+          ],
+          "tier": 3,
+          "why": "Knowing or controlling what others know: surveys, data, media framing."
+        },
+        {
+          "text": "Withholding labour",
+          "alias": [
+            "strikes",
+            "disruption",
+            "ability to disrupt",
+            "strike"
+          ],
+          "tier": 3,
+          "why": "Ability to disrupt: CDM doctors and civil servants refusing to work after the coup."
+        },
+        {
+          "text": "Moral standing",
+          "alias": [
+            "moral authority",
+            "reputation"
+          ],
+          "tier": 4,
+          "why": "Authority from being seen as principled: a source of soft power."
+        },
+        {
+          "text": "Connection to power-holder",
+          "alias": [
+            "connections",
+            "connection to a power holder",
+            "political connections"
+          ],
+          "tier": 5,
+          "why": "Being close to someone with power: e.g. a militia allied with the military."
+        }
+      ]
+    },
+    {
+      "id": "gp-03",
+      "unit": "core",
+      "prompt": "Name a source of legitimacy",
+      "answers": [
+        {
+          "text": "Free and fair elections",
+          "alias": [
+            "elections",
+            "election",
+            "fair elections",
+            "voting"
+          ],
+          "tier": 1,
+          "why": "People choose rulers in a real contest: the NLD's 2015 and 2020 landslides."
+        },
+        {
+          "text": "Consent",
+          "alias": [
+            "popular consent"
+          ],
+          "tier": 1,
+          "why": "The ruled agree to be ruled. The CDM walkouts were consent being withdrawn."
+        },
+        {
+          "text": "Performance",
+          "alias": [
+            "output",
+            "delivering services",
+            "services"
+          ],
+          "tier": 2,
+          "why": "Delivering services, jobs, safety. Weak for the military: 16.2M need aid."
+        },
+        {
+          "text": "International recognition",
+          "alias": [
+            "recognition",
+            "external recognition"
+          ],
+          "tier": 2,
+          "why": "Other states treat you as rightful: Xi congratulating the new president."
+        },
+        {
+          "text": "Representation",
+          "alias": [],
+          "tier": 3,
+          "why": "Groups feel the rulers speak for them. Border-state minorities often don't."
+        },
+        {
+          "text": "Order and stability",
+          "alias": [
+            "order",
+            "stability",
+            "security"
+          ],
+          "tier": 3,
+          "why": "Keeping the peace. Neighbouring states value whoever controls the border."
+        },
+        {
+          "text": "Legal process",
+          "alias": [
+            "procedure",
+            "procedural",
+            "constitution",
+            "legality"
+          ],
+          "tier": 3,
+          "why": "Procedural legitimacy: the right authority followed the right process (Dharavi's tender)."
+        },
+        {
+          "text": "History and tradition",
+          "alias": [
+            "tradition",
+            "history",
+            "traditional"
+          ],
+          "tier": 4,
+          "why": "A claim from the past: the military as 'protector of the nation'; Suu Kyi as Aung San's daughter."
+        },
+        {
+          "text": "Ideology",
+          "alias": [],
+          "tier": 4,
+          "why": "Ideas that justify rule: democracy for the NUG, national unity for the military."
+        },
+        {
+          "text": "Charisma",
+          "alias": [
+            "charismatic",
+            "charismatic authority"
+          ],
+          "tier": 5,
+          "why": "Weber's charismatic authority: a leader's personal appeal."
+        }
+      ]
+    },
+    {
+      "id": "gp-04",
+      "unit": "core",
+      "prompt": "Name a type of legitimacy or a way legitimacy is gained or lost",
+      "answers": [
+        {
+          "text": "Self-legitimation",
+          "alias": [
+            "self legitimation",
+            "self-legitimisation"
+          ],
+          "tier": 1,
+          "why": "An actor making itself look rightful: an election it controls, the name Tatmadaw."
+        },
+        {
+          "text": "Top-down recognition",
+          "alias": [
+            "top down recognition",
+            "top-down"
+          ],
+          "tier": 2,
+          "why": "Legitimacy handed down by states, IGOs or courts: China's congratulations; courts upholding Dharavi's tender."
+        },
+        {
+          "text": "Procedural legitimacy",
+          "alias": [
+            "procedural"
+          ],
+          "tier": 2,
+          "why": "Accepted because the right authority followed the right process. Legal is not the same as accepted."
+        },
+        {
+          "text": "Performance legitimacy",
+          "alias": [
+            "performance"
+          ],
+          "tier": 2,
+          "why": "Earned by delivering results. The AA gains some by actually governing Rakhine."
+        },
+        {
+          "text": "Delegitimation",
+          "alias": [
+            "de-legitimation",
+            "delegitimisation"
+          ],
+          "tier": 3,
+          "why": "Rivals stripping legitimacy away: sanctions, lawsuits, calling the army 'Sit-tat'."
+        },
+        {
+          "text": "Organic recognition",
+          "alias": [
+            "organic",
+            "bottom-up recognition",
+            "recognition from below"
+          ],
+          "tier": 3,
+          "why": "Legitimacy from below: people accepting a ruler on their own, like the 2020 NLD vote."
+        },
+        {
+          "text": "Legal-rational",
+          "alias": [
+            "legal rational",
+            "rational-legal"
+          ],
+          "tier": 3,
+          "why": "Weber: authority from laws and rules. The junta claimed the coup was constitutional."
+        },
+        {
+          "text": "Traditional",
+          "alias": [
+            "traditional legitimacy"
+          ],
+          "tier": 4,
+          "why": "Weber: legitimacy because 'it has always been done this way'."
+        },
+        {
+          "text": "Charismatic",
+          "alias": [
+            "charismatic legitimacy"
+          ],
+          "tier": 4,
+          "why": "Weber: legitimacy from a leader's personal appeal."
+        },
+        {
+          "text": "Input legitimacy",
+          "alias": [
+            "input"
+          ],
+          "tier": 4,
+          "why": "Based on whether affected people were consulted or consented before a decision."
+        },
+        {
+          "text": "Output legitimacy",
+          "alias": [
+            "output"
+          ],
+          "tier": 4,
+          "why": "Based on whether a decision delivers good results, consulted or not."
+        },
+        {
+          "text": "International legitimacy",
+          "alias": [
+            "external legitimacy"
+          ],
+          "tier": 5,
+          "why": "Acceptance by other states and IGOs: UN seat, ASEAN summit bans. Always ask: from whom?"
+        }
+      ]
+    },
+    {
+      "id": "gp-05",
+      "unit": "core",
+      "prompt": "Name a term used to describe or split up sovereignty",
+      "answers": [
+        {
+          "text": "Internal sovereignty",
+          "alias": [
+            "internal"
+          ],
+          "tier": 1,
+          "why": "'Who runs the country': supreme authority inside a territory."
+        },
+        {
+          "text": "External sovereignty",
+          "alias": [
+            "external"
+          ],
+          "tier": 1,
+          "why": "'Do outsiders acknowledge that you run the country?'"
+        },
+        {
+          "text": "De jure",
+          "alias": [
+            "de jure sovereignty",
+            "dejure"
+          ],
+          "tier": 1,
+          "why": "'On paper' sovereignty: law and formal recognition. Latin 'by law'."
+        },
+        {
+          "text": "De facto",
+          "alias": [
+            "de facto sovereignty",
+            "defacto"
+          ],
+          "tier": 1,
+          "why": "The 'reality' of sovereignty: who actually controls the ground. Latin 'in fact'."
+        },
+        {
+          "text": "Bundle of claims",
+          "alias": [
+            "a bundle of claims"
+          ],
+          "tier": 2,
+          "why": "Sovereignty is not all-or-nothing: different actors hold different parts."
+        },
+        {
+          "text": "Non-interference",
+          "alias": [
+            "non interference",
+            "noninterference"
+          ],
+          "tier": 2,
+          "why": "Stay out of other states' internal affairs: UN Charter Art. 2(7) and ASEAN's rule."
+        },
+        {
+          "text": "Monopoly on legitimate force",
+          "alias": [
+            "monopoly of force",
+            "monopoly on force",
+            "monopoly on violence"
+          ],
+          "tier": 3,
+          "why": "Weber (1919): only the state is accepted as having the right to use force. Rival armies break it."
+        },
+        {
+          "text": "Territorial integrity",
+          "alias": [],
+          "tier": 3,
+          "why": "A state's right to keep its borders intact (UN Charter Art. 2(4))."
+        },
+        {
+          "text": "Sovereign equality",
+          "alias": [],
+          "tier": 3,
+          "why": "UN Charter Art. 2(1): all member states are equal."
+        },
+        {
+          "text": "Popular sovereignty",
+          "alias": [],
+          "tier": 4,
+          "why": "Authority belongs to the people via elections: the NUG's claim from the 2020 landslide."
+        },
+        {
+          "text": "Westphalian sovereignty",
+          "alias": [
+            "westphalian",
+            "westphalia"
+          ],
+          "tier": 4,
+          "why": "From the Peace of Westphalia (1648): each state runs its own territory without interference."
+        },
+        {
+          "text": "Responsibility to protect",
+          "alias": [
+            "r2p",
+            "sovereignty as responsibility"
+          ],
+          "tier": 5,
+          "why": "R2P (2005): sovereignty is a responsibility as well as a right."
+        }
+      ]
+    },
+    {
+      "id": "gp-06",
+      "unit": "core",
+      "prompt": "Name a thinker, law or document behind GP's key concepts",
+      "answers": [
+        {
+          "text": "UN Charter",
+          "alias": [
+            "united nations charter",
+            "charter"
+          ],
+          "tier": 1,
+          "why": "Founding UN treaty. Art. 2(1) sovereign equality, 2(4) territorial integrity, 2(7) non-interference."
+        },
+        {
+          "text": "Max Weber",
+          "alias": [
+            "weber"
+          ],
+          "tier": 2,
+          "why": "1919: the state claims a monopoly on the LEGITIMATE use of force; also legal-rational/traditional/charismatic."
+        },
+        {
+          "text": "Article 2(7)",
+          "alias": [
+            "art 2 7",
+            "article 2 7",
+            "2(7)"
+          ],
+          "tier": 3,
+          "why": "UN Charter non-interference in domestic matters. The junta uses it as a shield against criticism."
+        },
+        {
+          "text": "Peace of Westphalia",
+          "alias": [
+            "westphalia",
+            "treaty of westphalia"
+          ],
+          "tier": 3,
+          "why": "1648 treaties: origin of the idea that each ruler runs their own territory."
+        },
+        {
+          "text": "Joseph Nye",
+          "alias": [
+            "nye"
+          ],
+          "tier": 3,
+          "why": "Coined 'soft power' (1990)."
+        },
+        {
+          "text": "R2P",
+          "alias": [
+            "responsibility to protect",
+            "2005 world summit"
+          ],
+          "tier": 3,
+          "why": "Responsibility to Protect, agreed at the 2005 World Summit. No UN-authorised action in Myanmar."
+        },
+        {
+          "text": "Galtung",
+          "alias": [
+            "johan galtung"
+          ],
+          "tier": 4,
+          "why": "Johan Galtung: positive vs negative peace; conflict triangle; structural violence."
+        },
+        {
+          "text": "ASEAN Charter",
+          "alias": [
+            "2007 charter"
+          ],
+          "tier": 4,
+          "why": "2007: non-interference and consensus, but ALSO democracy and human rights. Myanmar challenges this."
+        },
+        {
+          "text": "Montevideo Convention",
+          "alias": [
+            "montevideo"
+          ],
+          "tier": 5,
+          "why": "1933: four tests of a state (territory, population, government, capacity for relations)."
+        },
+        {
+          "text": "Krasner",
+          "alias": [
+            "stephen krasner"
+          ],
+          "tier": 5,
+          "why": "Stephen Krasner, 'Sovereignty: Organized Hypocrisy' (1999): four kinds of sovereignty."
+        }
+      ]
+    },
+    {
+      "id": "gp-07",
+      "unit": "core",
+      "prompt": "Name an analysis tool or rule taught in this course",
+      "answers": [
+        {
+          "text": "Says who?",
+          "alias": [
+            "says who"
+          ],
+          "tier": 1,
+          "why": "Legitimacy tool: who claims the right, do the affected agree, and what happens when they don't?"
+        },
+        {
+          "text": "Follow the decision",
+          "alias": [],
+          "tier": 1,
+          "why": "Power tool: who made it, who benefits, who didn't get a say?"
+        },
+        {
+          "text": "Sovereignty grid",
+          "alias": [
+            "four boxes",
+            "the grid",
+            "sovereignty boxes"
+          ],
+          "tier": 2,
+          "why": "Internal/external x de jure/de facto. In Myanmar no actor fills all four boxes."
+        },
+        {
+          "text": "F/M/R/P",
+          "alias": [
+            "fmrp",
+            "force money recognition people"
+          ],
+          "tier": 2,
+          "why": "Actor test: Force, Money, Recognition, People, rated Strong / some / Little."
+        },
+        {
+          "text": "Concept Ledger",
+          "alias": [
+            "ledger"
+          ],
+          "tier": 3,
+          "why": "Four boxes (power, sovereignty, legitimacy, interdependence) filled with dated evidence per case."
+        },
+        {
+          "text": "Power table",
+          "alias": [
+            "power table not a sympathy list"
+          ],
+          "tier": 3,
+          "why": "'A power table, not a sympathy list': interest, power type + source, legitimacy claim."
+        },
+        {
+          "text": "D/J/L coding",
+          "alias": [
+            "djl",
+            "djl coding"
+          ],
+          "tier": 4,
+          "why": "Mark a source while reading: D = de facto implied, J = de jure implied, L = legitimacy rejected."
+        },
+        {
+          "text": "Sentence machine",
+          "alias": [
+            "name label because so what"
+          ],
+          "tier": 5,
+          "why": "Name it, label it (concept), because, so what. Turns description into analysis."
+        }
+      ]
+    },
+    {
+      "id": "gp-08",
+      "unit": "core",
+      "prompt": "Name a kind of interdependence or an interdependence term",
+      "answers": [
+        {
+          "text": "Economic",
+          "alias": [
+            "economic interdependence",
+            "trade"
+          ],
+          "tier": 1,
+          "why": "Trade and resources: China is Myanmar's largest trading partner; pipelines; rare earths."
+        },
+        {
+          "text": "Security",
+          "alias": [
+            "security interdependence"
+          ],
+          "tier": 2,
+          "why": "Safety and defence: refugees, scam compounds, fighting spilling over borders."
+        },
+        {
+          "text": "Global governance",
+          "alias": [],
+          "tier": 2,
+          "why": "Rules and institutions managing shared problems without a world government."
+        },
+        {
+          "text": "Asymmetric",
+          "alias": [
+            "asymmetric interdependence",
+            "unequal",
+            "unequal interdependence"
+          ],
+          "tier": 2,
+          "why": "Unequal reliance: Myanmar needs China far more than China needs Myanmar, giving China leverage."
+        },
+        {
+          "text": "Vulnerability",
+          "alias": [],
+          "tier": 3,
+          "why": "How costly it is to adjust once affected. Unequal interdependence creates vulnerability."
+        },
+        {
+          "text": "Sustainability",
+          "alias": [
+            "environmental",
+            "sustainability interdependence"
+          ],
+          "tier": 3,
+          "why": "Environment and disasters ignore borders: the 28 Mar 2025 earthquake needed outside aid."
+        },
+        {
+          "text": "International law",
+          "alias": [],
+          "tier": 3,
+          "why": "Rules binding states via treaties, custom and courts."
+        },
+        {
+          "text": "Sensitivity",
+          "alias": [],
+          "tier": 4,
+          "why": "How quickly and how much an actor is affected by a change in the relationship."
+        },
+        {
+          "text": "Regional organisation",
+          "alias": [
+            "regional organization",
+            "regional organisations"
+          ],
+          "tier": 4,
+          "why": "IGOs for one region, e.g. ASEAN, managing shared problems."
+        },
+        {
+          "text": "Symmetric",
+          "alias": [
+            "symmetric interdependence"
+          ],
+          "tier": 5,
+          "why": "Both sides roughly equally reliant and vulnerable. Rare in practice."
+        }
+      ]
+    },
+    {
+      "id": "gp-09",
+      "unit": "actors",
+      "prompt": "Name a type of actor on the IB list",
+      "answers": [
+        {
+          "text": "States",
+          "alias": [
+            "state",
+            "countries",
+            "country"
+          ],
+          "tier": 1,
+          "why": "Countries: India, China, Thailand."
+        },
+        {
+          "text": "NGOs",
+          "alias": [
+            "ngo",
+            "non-governmental organisation"
+          ],
+          "tier": 1,
+          "why": "Non-governmental, non-profit groups: humanitarian or human-rights organisations."
+        },
+        {
+          "text": "IGOs",
+          "alias": [
+            "igo",
+            "intergovernmental organisation",
+            "intergovernmental organization"
+          ],
+          "tier": 2,
+          "why": "Members are states: the UN, ASEAN."
+        },
+        {
+          "text": "Companies",
+          "alias": [
+            "company",
+            "corporations",
+            "multinationals",
+            "mncs",
+            "businesses"
+          ],
+          "tier": 2,
+          "why": "Businesses: the Adani group in Dharavi."
+        },
+        {
+          "text": "Political parties",
+          "alias": [
+            "parties",
+            "political party"
+          ],
+          "tier": 2,
+          "why": "Compete for office: the NLD, the USDP."
+        },
+        {
+          "text": "Media",
+          "alias": [
+            "the media",
+            "press"
+          ],
+          "tier": 2,
+          "why": "Shape what people know. The name a source uses (Tatmadaw / Sit-tat) shows its side."
+        },
+        {
+          "text": "Resistance movements",
+          "alias": [
+            "resistance movement",
+            "armed groups",
+            "rebels"
+          ],
+          "tier": 3,
+          "why": "Resist a government, often with weapons: the PDFs and EAOs."
+        },
+        {
+          "text": "Social movements",
+          "alias": [
+            "social movement"
+          ],
+          "tier": 3,
+          "why": "Loosely organised citizens pushing for change: the Civil Disobedience Movement."
+        },
+        {
+          "text": "Leaders",
+          "alias": [
+            "leader",
+            "individuals"
+          ],
+          "tier": 3,
+          "why": "Individuals whose decisions matter: Min Aung Hlaing."
+        },
+        {
+          "text": "Subnational governments",
+          "alias": [
+            "subnational government",
+            "state government",
+            "local government"
+          ],
+          "tier": 4,
+          "why": "State or city governments inside a country: the Maharashtra government."
+        },
+        {
+          "text": "Interest groups",
+          "alias": [
+            "interest group",
+            "pressure groups"
+          ],
+          "tier": 4,
+          "why": "Press for one interest: Dharavi residents' associations."
+        },
+        {
+          "text": "Civil society",
+          "alias": [
+            "organised civil society",
+            "civil society organisations"
+          ],
+          "tier": 4,
+          "why": "Citizens organising outside government and business: associations, unions, networks."
+        }
+      ]
+    },
+    {
+      "id": "gp-10",
+      "unit": "actors",
+      "prompt": "Name a stakeholder (affected, little means to act) in Myanmar's conflict",
+      "answers": [
+        {
+          "text": "Displaced civilians",
+          "alias": [
+            "idps",
+            "internally displaced",
+            "displaced people",
+            "civilians"
+          ],
+          "tier": 1,
+          "why": "3.8 million displaced inside Myanmar (June 2026). Affected, but they can grant or withhold legitimacy."
+        },
+        {
+          "text": "Refugees",
+          "alias": [
+            "refugee"
+          ],
+          "tier": 2,
+          "why": "1.6 million have fled abroad, e.g. into Mizoram and Manipur in India."
+        },
+        {
+          "text": "Sagaing villagers",
+          "alias": [
+            "villagers",
+            "sagaing"
+          ],
+          "tier": 2,
+          "why": "PDFs hold the ground but the military holds roads and sky, so aid doesn't arrive."
+        },
+        {
+          "text": "Young conscripts",
+          "alias": [
+            "conscripts",
+            "young people",
+            "youth"
+          ],
+          "tier": 3,
+          "why": "Young people facing conscription; some conscripts desert."
+        },
+        {
+          "text": "Children",
+          "alias": [
+            "kids"
+          ],
+          "tier": 3,
+          "why": "4.9 million children are among the 16.2 million needing aid."
+        },
+        {
+          "text": "Rohingya",
+          "alias": [],
+          "tier": 3,
+          "why": "About 1.3 million; the Rohingya are Unit 3 of the course."
+        },
+        {
+          "text": "Scam compound victims",
+          "alias": [
+            "trapped indians",
+            "scam victims",
+            "indians in scam compounds"
+          ],
+          "tier": 4,
+          "why": "People trafficked to compounds near Myawaddy; 1,500+ from 28 countries fled after the KK Park raid."
+        },
+        {
+          "text": "Voters with no vote",
+          "alias": [
+            "chin and rakhine voters",
+            "disenfranchised voters"
+          ],
+          "tier": 4,
+          "why": "65+ townships (most of Chin and Rakhine) could not vote in 2025-26."
+        },
+        {
+          "text": "Ethnic minorities",
+          "alias": [
+            "minorities"
+          ],
+          "tier": 4,
+          "why": "Often feel unrepresented by the centre; many back their own armed groups."
+        }
+      ]
+    },
+    {
+      "id": "gp-11",
+      "unit": "dharavi",
+      "prompt": "Name an actor in the Dharavi redevelopment",
+      "answers": [
+        {
+          "text": "Adani Group",
+          "alias": [
+            "adani"
+          ],
+          "tier": 1,
+          "why": "Owns 80% of NMDPL, the developer. Legal authority delegated by the state."
+        },
+        {
+          "text": "Maharashtra government",
+          "alias": [
+            "state government",
+            "maharashtra"
+          ],
+          "tier": 1,
+          "why": "Elected state government (20% of NMDPL); wrote the rules. A subnational government."
+        },
+        {
+          "text": "NMDPL",
+          "alias": [
+            "navbharat mega developers",
+            "adani navbharat"
+          ],
+          "tier": 2,
+          "why": "Navbharat Mega Developers Pvt Ltd: the Adani (80%) + state (20%) joint venture."
+        },
+        {
+          "text": "DRP",
+          "alias": [
+            "dharavi redevelopment project",
+            "drp authority"
+          ],
+          "tier": 2,
+          "why": "Dharavi Redevelopment Project authority: runs the project, sets eligibility (structural power)."
+        },
+        {
+          "text": "Courts",
+          "alias": [
+            "court",
+            "high court",
+            "judiciary"
+          ],
+          "tier": 2,
+          "why": "Upheld the tender after a legal challenge: top-down, procedural legitimacy."
+        },
+        {
+          "text": "Dharavi Bachao Andolan",
+          "alias": [
+            "dba",
+            "save dharavi movement"
+          ],
+          "tier": 3,
+          "why": "Main resident movement resisting the plan, demanding rehab inside Dharavi."
+        },
+        {
+          "text": "SRA",
+          "alias": [
+            "slum rehabilitation authority"
+          ],
+          "tier": 3,
+          "why": "Slum Rehabilitation Authority: the state's arm in the project."
+        },
+        {
+          "text": "Residents' associations",
+          "alias": [
+            "resident associations",
+            "residents associations"
+          ],
+          "tier": 3,
+          "why": "Went to court: stakeholders who became actors."
+        },
+        {
+          "text": "DBWA",
+          "alias": [
+            "dharavi businessmen welfare association"
+          ],
+          "tier": 4,
+          "why": "Dharavi Businessmen Welfare Association: business owners against the upper-floor exclusion."
+        },
+        {
+          "text": "Opposition politicians",
+          "alias": [
+            "opposition parties",
+            "opposition"
+          ],
+          "tier": 4,
+          "why": "Amplify resistance, often for votes."
+        },
+        {
+          "text": "Central government",
+          "alias": [
+            "indian railways",
+            "railways",
+            "union government"
+          ],
+          "tier": 5,
+          "why": "Railway land transfer for the first rehab phase (Matunga) links in the centre."
+        }
+      ]
+    },
+    {
+      "id": "gp-12",
+      "unit": "dharavi",
+      "prompt": "Name a stakeholder in the Dharavi redevelopment",
+      "answers": [
+        {
+          "text": "Residents",
+          "alias": [
+            "dharavi residents",
+            "slum dwellers"
+          ],
+          "tier": 1,
+          "why": "Over-broad on its own: say WHICH residents (pre-2000? upper floor? renters?)."
+        },
+        {
+          "text": "Upper-floor tenants",
+          "alias": [
+            "upper floor residents",
+            "upper-floor residents",
+            "upper floor tenants"
+          ],
+          "tier": 2,
+          "why": "Largely ineligible for free in-situ flats: the cut that creates the conflict."
+        },
+        {
+          "text": "Renters",
+          "alias": [
+            "tenants",
+            "renters and tenants"
+          ],
+          "tier": 2,
+          "why": "Rent rather than own: often no flat and no say."
+        },
+        {
+          "text": "Informal workers",
+          "alias": [
+            "workers",
+            "informal economy workers"
+          ],
+          "tier": 2,
+          "why": "~3 lakh workers (The Wire); work depends on living where they work."
+        },
+        {
+          "text": "Small businesses",
+          "alias": [
+            "smes",
+            "small business owners",
+            "workshops"
+          ],
+          "tier": 3,
+          "why": "~15,000 SMEs (The Wire); upper-floor units excluded even if pre-2000."
+        },
+        {
+          "text": "Post-2000 residents",
+          "alias": [
+            "post 2000 residents",
+            "residents without pre-2000 papers"
+          ],
+          "tier": 3,
+          "why": "Settled after 1 Jan 2000: only paid (Sashulk) or rental housing."
+        },
+        {
+          "text": "Dhobis",
+          "alias": [
+            "dhobi",
+            "laundry workers",
+            "washermen"
+          ],
+          "tier": 3,
+          "why": "Laundry workers like Lakshmi in the article: home and work in one place."
+        },
+        {
+          "text": "Leather workers",
+          "alias": [
+            "leather"
+          ],
+          "tier": 4,
+          "why": "Leather goods: part of Dharavi's ~$1 billion a year informal economy."
+        },
+        {
+          "text": "Potters",
+          "alias": [
+            "pottery workers",
+            "pottery"
+          ],
+          "tier": 4,
+          "why": "Pottery is one of Dharavi's home-based industries."
+        },
+        {
+          "text": "Recyclers",
+          "alias": [
+            "recycling workers",
+            "scrap workers",
+            "ragpickers"
+          ],
+          "tier": 4,
+          "why": "Recycling/scrap work depends on the location."
+        },
+        {
+          "text": "Children and elderly",
+          "alias": [
+            "children",
+            "elderly",
+            "children & elderly"
+          ],
+          "tier": 5,
+          "why": "A row of the climate vulnerability table: least means to act."
+        }
+      ]
+    },
+    {
+      "id": "gp-13",
+      "unit": "dharavi",
+      "prompt": "Name a number or fact from the Dharavi redevelopment plan",
+      "answers": [
+        {
+          "text": "80%",
+          "alias": [
+            "80 percent",
+            "eighty percent"
+          ],
+          "tier": 1,
+          "why": "Adani Group's share of NMDPL (Maharashtra government holds 20%)."
+        },
+        {
+          "text": "1 Jan 2000",
+          "alias": [
+            "2000",
+            "january 2000",
+            "1 january 2000"
+          ],
+          "tier": 2,
+          "why": "The cutoff: ground-floor residents settled by then get a free in-situ flat."
+        },
+        {
+          "text": "20%",
+          "alias": [
+            "20 percent",
+            "twenty percent"
+          ],
+          "tier": 2,
+          "why": "The Maharashtra government's share of NMDPL (via the DRP/SRA)."
+        },
+        {
+          "text": "$1 billion",
+          "alias": [
+            "1 billion",
+            "one billion"
+          ],
+          "tier": 3,
+          "why": "Rough yearly value of Dharavi's informal economy."
+        },
+        {
+          "text": "350 sq ft",
+          "alias": [
+            "350",
+            "350 square feet"
+          ],
+          "tier": 3,
+          "why": "Size of each rehabilitation tenement."
+        },
+        {
+          "text": "11,000",
+          "alias": [
+            "11000 tenements",
+            "eleven thousand"
+          ],
+          "tier": 4,
+          "why": "Rehab tenements in the first construction phase."
+        },
+        {
+          "text": "Matunga",
+          "alias": [
+            "matunga railway land",
+            "sector 6"
+          ],
+          "tier": 4,
+          "why": "First-phase site: Matunga railway land, Sector 6."
+        },
+        {
+          "text": "2032",
+          "alias": [],
+          "tier": 4,
+          "why": "Rough full-completion target. First handover targeted Dec 2026."
+        },
+        {
+          "text": "12 Aug 2025",
+          "alias": [
+            "august 2025",
+            "12 august 2025"
+          ],
+          "tier": 5,
+          "why": "Door-to-door eligibility survey ended."
+        },
+        {
+          "text": "95,790 crore",
+          "alias": [
+            "95790",
+            "rs 95790 crore"
+          ],
+          "tier": 5,
+          "why": "Approximate project cost in rupees."
+        }
+      ]
+    },
+    {
+      "id": "gp-14",
+      "unit": "dharavi",
+      "prompt": "Name a row of the Dharavi climate vulnerability + power table",
+      "answers": [
+        {
+          "text": "Homes",
+          "alias": [
+            "housing",
+            "home"
+          ],
+          "tier": 1,
+          "why": "Housing exposed to flooding and heat; who can act vs who can only ask?"
+        },
+        {
+          "text": "Workshops",
+          "alias": [
+            "workplaces",
+            "workshop"
+          ],
+          "tier": 2,
+          "why": "Home-based work: climate risk hits income too."
+        },
+        {
+          "text": "Health",
+          "alias": [],
+          "tier": 2,
+          "why": "Heat and flooding create health risk."
+        },
+        {
+          "text": "Income",
+          "alias": [
+            "livelihoods",
+            "jobs"
+          ],
+          "tier": 3,
+          "why": "Livelihoods tied to living and working in one place."
+        },
+        {
+          "text": "Public services",
+          "alias": [
+            "services"
+          ],
+          "tier": 3,
+          "why": "Water, drainage, sanitation: who provides them decides who is safe."
+        },
+        {
+          "text": "Documents",
+          "alias": [
+            "papers",
+            "documentation"
+          ],
+          "tier": 4,
+          "why": "Papers prove eligibility; losing them to a flood means losing a claim to a flat."
+        },
+        {
+          "text": "Mobility",
+          "alias": [
+            "transport"
+          ],
+          "tier": 4,
+          "why": "Can people move or commute when the area floods?"
+        },
+        {
+          "text": "Children and elderly",
+          "alias": [
+            "children",
+            "elderly"
+          ],
+          "tier": 5,
+          "why": "Most vulnerable, least means to act."
+        }
+      ]
+    },
+    {
+      "id": "gp-15",
+      "unit": "dharavi",
+      "prompt": "Name a place or case compared with Dharavi's redevelopment",
+      "answers": [
+        {
+          "text": "Myanmar",
+          "alias": [],
+          "tier": 1,
+          "why": "'Same move?' lesson: same KIND of legitimacy gap (rule-writers benefit), very different degree."
+        },
+        {
+          "text": "Rio de Janeiro",
+          "alias": [
+            "rio"
+          ],
+          "tier": 2,
+          "why": "Vila Autódromo beside the 2016 Olympic Park: families pressured out; 20 holdouts."
+        },
+        {
+          "text": "Nairobi",
+          "alias": [],
+          "tier": 2,
+          "why": "Part of Kibera demolished for a highway in 2018; at least 10,000 homeless."
+        },
+        {
+          "text": "Jakarta",
+          "alias": [],
+          "tier": 3,
+          "why": "Kampung Pulo riverbank eviction (2015): no land certificate, no compensation."
+        },
+        {
+          "text": "Kibera",
+          "alias": [],
+          "tier": 3,
+          "why": "Nairobi settlement: 2,000 households enumerated, no compensation paid."
+        },
+        {
+          "text": "Vila Autódromo",
+          "alias": [
+            "vila autodromo"
+          ],
+          "tier": 4,
+          "why": "Rio favela; slogan 'Not everyone has a price'. Olympics brought expulsions."
+        },
+        {
+          "text": "Kampung Pulo",
+          "alias": [],
+          "tier": 4,
+          "why": "Jakarta: 920 families moved to low-cost flats; 527 plots without certificates."
+        },
+        {
+          "text": "Worli Koliwada",
+          "alias": [
+            "mumbai coastal road",
+            "coastal road",
+            "worli"
+          ],
+          "tier": 5,
+          "why": "Coastal Road vs fisherfolk: a worked power-table example from another Mumbai case."
+        }
+      ]
+    },
+    {
+      "id": "gp-16",
+      "unit": "dharavi",
+      "prompt": "Name a source (or source type) from the Dharavi Source Comparison",
+      "answers": [
+        {
+          "text": "Government",
+          "alias": [
+            "government source",
+            "drp website",
+            "eligibility criteria page"
+          ],
+          "tier": 1,
+          "why": "DRP eligibility page: reliable for the rules, not for whether they're fair."
+        },
+        {
+          "text": "Developer",
+          "alias": [
+            "adani website",
+            "developer website"
+          ],
+          "tier": 1,
+          "why": "Adani's site: reliable for branding, almost no data."
+        },
+        {
+          "text": "Media",
+          "alias": [
+            "news",
+            "journalism"
+          ],
+          "tier": 2,
+          "why": "Investigative journalism: real cases, but an editorial angle."
+        },
+        {
+          "text": "Civil society",
+          "alias": [
+            "advocacy group"
+          ],
+          "tier": 2,
+          "why": "An advocacy group's own figures: shows resistance exists, not a neutral count."
+        },
+        {
+          "text": "NGO",
+          "alias": [
+            "academic",
+            "ngo source"
+          ],
+          "tier": 3,
+          "why": "Data-driven advocacy for informal workers; rarely engages the other side."
+        },
+        {
+          "text": "The Wire",
+          "alias": [
+            "wire"
+          ],
+          "tier": 3,
+          "why": "NGO op-ed: livelihoods, not just housing, are at stake."
+        },
+        {
+          "text": "Scroll.in",
+          "alias": [
+            "scroll"
+          ],
+          "tier": 3,
+          "why": "Business-owner resistance (DBWA) to the upper-floor exclusion."
+        },
+        {
+          "text": "Frontline",
+          "alias": [],
+          "tier": 4,
+          "why": "Current-affairs magazine: 'Who Gains as Adani Reshapes Mumbai?'"
+        },
+        {
+          "text": "Pulitzer Center",
+          "alias": [
+            "pulitzer"
+          ],
+          "tier": 4,
+          "why": "'How Dharavi's Redevelopment Plan Fails To Understand Dharavi': the core reading."
+        },
+        {
+          "text": "ThePrint",
+          "alias": [
+            "the print"
+          ],
+          "tier": 5,
+          "why": "Reported the first eligibility list: one of the unit's essential sources."
+        }
+      ]
+    },
+    {
+      "id": "gp-17",
+      "unit": "myanmar",
+      "prompt": "Name an armed group in Myanmar's civil conflict (other than the military)",
+      "answers": [
+        {
+          "text": "PDFs",
+          "alias": [
+            "pdf",
+            "people's defence forces",
+            "peoples defence force"
+          ],
+          "tier": 1,
+          "why": "People's Defence Forces, from May 2021: many young Bamar ex-protesters, loosely tied to the NUG."
+        },
+        {
+          "text": "Arakan Army",
+          "alias": [
+            "aa",
+            "arakan"
+          ],
+          "tier": 1,
+          "why": "Controls >90% of Rakhine and the whole Bangladesh border: control without recognition."
+        },
+        {
+          "text": "Three Brotherhood Alliance",
+          "alias": [
+            "brotherhood alliance",
+            "brotherhood",
+            "three brotherhood"
+          ],
+          "tier": 2,
+          "why": "MNDAA + TNLA + AA: launched Operation 1027 on 27 Oct 2023."
+        },
+        {
+          "text": "MNDAA",
+          "alias": [
+            "kokang"
+          ],
+          "tier": 2,
+          "why": "Kokang group: took Lashio 2024, handed it back Apr 2025 under Chinese pressure."
+        },
+        {
+          "text": "TNLA",
+          "alias": [
+            "ta'ang national liberation army"
+          ],
+          "tier": 3,
+          "why": "Ta'ang group: China-brokered ceasefire Oct 2025, returned Mogok and Mongmit."
+        },
+        {
+          "text": "KIA",
+          "alias": [
+            "kachin independence army",
+            "kachin"
+          ],
+          "tier": 3,
+          "why": "Kachin Independence Army: rare-earth mines, but needs China for food, fuel, medicine."
+        },
+        {
+          "text": "EAOs",
+          "alias": [
+            "eao",
+            "ethnic armed organisations",
+            "ethnic armed groups"
+          ],
+          "tier": 3,
+          "why": "Ethnic armed organisations: usually seek self-rule and ask 'who should rule us?'"
+        },
+        {
+          "text": "KNA",
+          "alias": [
+            "karen national army"
+          ],
+          "tier": 5,
+          "why": "Militia near Myawaddy ALLIED with the military; protects scam areas. Not every armed group fights the state."
+        }
+      ]
+    },
+    {
+      "id": "gp-18",
+      "unit": "myanmar",
+      "prompt": "Name a political actor in Myanmar (person, party or government)",
+      "answers": [
+        {
+          "text": "Min Aung Hlaing",
+          "alias": [
+            "mah",
+            "hlaing",
+            "min aung"
+          ],
+          "tier": 1,
+          "why": "Led the 1 Feb 2021 coup; president since 3 Apr 2026 (429 of 584 votes)."
+        },
+        {
+          "text": "Aung San Suu Kyi",
+          "alias": [
+            "suu kyi",
+            "assk"
+          ],
+          "tier": 1,
+          "why": "NLD leader; 27-year sentence; moved to house arrest 30 Apr 2026, age 81."
+        },
+        {
+          "text": "NLD",
+          "alias": [
+            "national league for democracy"
+          ],
+          "tier": 1,
+          "why": "National League for Democracy: won 2015 and 2020; barred from the 2025-26 vote."
+        },
+        {
+          "text": "NUG",
+          "alias": [
+            "national unity government"
+          ],
+          "tier": 2,
+          "why": "National Unity Government: formed 2021 by ousted MPs; claims to be the rightful government."
+        },
+        {
+          "text": "USDP",
+          "alias": [
+            "union solidarity and development party"
+          ],
+          "tier": 2,
+          "why": "Military-backed party: with appointed officers, more than 4/5 of parliament."
+        },
+        {
+          "text": "Tatmadaw",
+          "alias": [
+            "military",
+            "junta",
+            "sit-tat",
+            "army"
+          ],
+          "tier": 2,
+          "why": "The military's honourable name; opponents say 'Sit-tat'. The name shows the source's side."
+        },
+        {
+          "text": "Kyaw Moe Tun",
+          "alias": [
+            "kmt"
+          ],
+          "tier": 3,
+          "why": "UN ambassador appointed 2020, before the coup; keeps the seat because the UN keeps deferring."
+        },
+        {
+          "text": "SAC",
+          "alias": [
+            "state administration council"
+          ],
+          "tier": 4,
+          "why": "State Administration Council: the military's ruling council after the coup."
+        },
+        {
+          "text": "Ye Win Oo",
+          "alias": [
+            "gen ye win oo"
+          ],
+          "tier": 5,
+          "why": "General who now commands the army; chosen by Min Aung Hlaing."
+        }
+      ]
+    },
+    {
+      "id": "gp-19",
+      "unit": "myanmar",
+      "prompt": "Name an event in Myanmar's conflict since 2020",
+      "answers": [
+        {
+          "text": "The coup",
+          "alias": [
+            "coup",
+            "2021 coup",
+            "military coup"
+          ],
+          "tier": 1,
+          "why": "1 Feb 2021: military seized power the day the new parliament was due to meet."
+        },
+        {
+          "text": "Operation 1027",
+          "alias": [
+            "1027",
+            "op 1027"
+          ],
+          "tier": 1,
+          "why": "27 Oct 2023: Three Brotherhood Alliance offensive; biggest junta losses."
+        },
+        {
+          "text": "2020 election",
+          "alias": [
+            "nov 2020 election"
+          ],
+          "tier": 2,
+          "why": "Nov 2020 NLD landslide; military claimed fraud, observers disagreed."
+        },
+        {
+          "text": "Civil Disobedience Movement",
+          "alias": [
+            "cdm",
+            "civil disobedience"
+          ],
+          "tier": 2,
+          "why": "2021 walkouts by doctors, teachers, civil servants: consent visibly withdrawn."
+        },
+        {
+          "text": "2025-26 election",
+          "alias": [
+            "2025 election",
+            "2026 election",
+            "sham election"
+          ],
+          "tier": 2,
+          "why": "Dec 2025-Jan 2026, three phases; NLD + 83 parties barred; 65+ townships no vote."
+        },
+        {
+          "text": "Presidency",
+          "alias": [
+            "presidential election",
+            "hlaing becomes president"
+          ],
+          "tier": 2,
+          "why": "3 Apr 2026: parliament made Min Aung Hlaing president, 429 of 584 votes."
+        },
+        {
+          "text": "Earthquake",
+          "alias": [
+            "2025 earthquake"
+          ],
+          "tier": 3,
+          "why": "7.7 quake on 28 Mar 2025; aid became a power struggle."
+        },
+        {
+          "text": "Five-Point Consensus",
+          "alias": [
+            "5 point consensus",
+            "5pc"
+          ],
+          "tier": 3,
+          "why": "ASEAN's Jakarta plan, 24 Apr 2021. Never carried out."
+        },
+        {
+          "text": "Lashio handback",
+          "alias": [
+            "lashio",
+            "lashio returned"
+          ],
+          "tier": 3,
+          "why": "Apr 2025: MNDAA returned Lashio under Chinese pressure."
+        },
+        {
+          "text": "House arrest",
+          "alias": [
+            "suu kyi house arrest"
+          ],
+          "tier": 3,
+          "why": "30 Apr 2026: Suu Kyi moved to house arrest, read as a legitimacy bid."
+        },
+        {
+          "text": "Red Cross convoy",
+          "alias": [
+            "convoy",
+            "chinese red cross convoy"
+          ],
+          "tier": 4,
+          "why": "Night of 1 Apr 2025: warning shots turned back a Chinese Red Cross convoy on the Nawnghkio road."
+        },
+        {
+          "text": "KK Park raid",
+          "alias": [
+            "kk park"
+          ],
+          "tier": 4,
+          "why": "Mid-Oct 2025 raid on a scam compound near Myawaddy; 1,500+ fled to Mae Sot."
+        },
+        {
+          "text": "TNLA ceasefire",
+          "alias": [
+            "oct 2025 ceasefire"
+          ],
+          "tier": 4,
+          "why": "Oct 2025, China-brokered: Mogok and Mongmit handed back."
+        },
+        {
+          "text": "India visit",
+          "alias": [
+            "delhi visit",
+            "modi visit"
+          ],
+          "tier": 4,
+          "why": "30 May-3 Jun 2026: Min Aung Hlaing's first overseas trip as president."
+        },
+        {
+          "text": "Cabinet sworn in",
+          "alias": [
+            "cabinet",
+            "new cabinet"
+          ],
+          "tier": 5,
+          "why": "10 Apr 2026: 28 of 30 members were generals, USDP or ex-junta."
+        }
+      ]
+    },
+    {
+      "id": "gp-20",
+      "unit": "myanmar",
+      "prompt": "Name a number worth quoting about Myanmar",
+      "answers": [
+        {
+          "text": "3.8 million",
+          "alias": [
+            "3.8m",
+            "3800000"
+          ],
+          "tier": 1,
+          "why": "Internally displaced people (June 2026)."
+        },
+        {
+          "text": "429 of 584",
+          "alias": [
+            "429",
+            "584",
+            "429/584"
+          ],
+          "tier": 2,
+          "why": "Votes that made Min Aung Hlaing president on 3 Apr 2026."
+        },
+        {
+          "text": "16.2 million",
+          "alias": [
+            "16.2m"
+          ],
+          "tier": 2,
+          "why": "People needing humanitarian aid."
+        },
+        {
+          "text": "90%",
+          "alias": [
+            "90 percent",
+            "over 90%"
+          ],
+          "tier": 2,
+          "why": "Arakan Army holds >90% of Rakhine; also the pro-military bloc's share of seats."
+        },
+        {
+          "text": "100,000",
+          "alias": [
+            "100000",
+            "100k"
+          ],
+          "tier": 2,
+          "why": "More than 100,000 dead since the coup."
+        },
+        {
+          "text": "28 of 30",
+          "alias": [
+            "28/30",
+            "28"
+          ],
+          "tier": 3,
+          "why": "Cabinet members (10 Apr 2026) who were generals, USDP or ex-junta."
+        },
+        {
+          "text": "1.6 million",
+          "alias": [
+            "1.6m"
+          ],
+          "tier": 3,
+          "why": "People who fled abroad."
+        },
+        {
+          "text": "330 townships",
+          "alias": [
+            "330"
+          ],
+          "tier": 3,
+          "why": "Resistance in nearly all of Myanmar's ~330 townships."
+        },
+        {
+          "text": "83 parties",
+          "alias": [
+            "83"
+          ],
+          "tier": 3,
+          "why": "Disbanded parties barred alongside the NLD from the 2025-26 vote."
+        },
+        {
+          "text": "65 townships",
+          "alias": [
+            "65",
+            "65+ townships"
+          ],
+          "tier": 4,
+          "why": "65+ townships (most of Chin and Rakhine) had no vote."
+        },
+        {
+          "text": "4.9 million",
+          "alias": [
+            "4.9m"
+          ],
+          "tier": 4,
+          "why": "Children among those needing aid."
+        },
+        {
+          "text": "27 years",
+          "alias": [
+            "27 year sentence",
+            "27"
+          ],
+          "tier": 4,
+          "why": "Aung San Suu Kyi's prison sentence."
+        },
+        {
+          "text": "21-33%",
+          "alias": [
+            "21 to 33 percent",
+            "a third"
+          ],
+          "tier": 5,
+          "why": "Estimated share of territory under firm junta control (estimates vary)."
+        },
+        {
+          "text": "1,643 km",
+          "alias": [
+            "1643",
+            "1643 km"
+          ],
+          "tier": 5,
+          "why": "India-Myanmar border length (India's figure)."
+        },
+        {
+          "text": "467",
+          "alias": [
+            "467 indians"
+          ],
+          "tier": 5,
+          "why": "Indians flown home by the Indian Air Force from Mae Sot, Nov 2025."
+        }
+      ]
+    },
+    {
+      "id": "gp-21",
+      "unit": "myanmar",
+      "prompt": "Name evidence that Myanmar's military lacks legitimacy",
+      "answers": [
+        {
+          "text": "CDM",
+          "alias": [
+            "civil disobedience movement",
+            "strikes",
+            "walkouts"
+          ],
+          "tier": 1,
+          "why": "Civil Disobedience Movement: deliberate, costly withholding of consent."
+        },
+        {
+          "text": "NLD barred",
+          "alias": [
+            "opposition barred",
+            "nld banned",
+            "83 parties barred"
+          ],
+          "tier": 1,
+          "why": "A military-appointed commission barred the NLD and 83 other parties: self-legitimation."
+        },
+        {
+          "text": "Armed resistance",
+          "alias": [
+            "resistance",
+            "pdfs"
+          ],
+          "tier": 2,
+          "why": "Resistance in nearly all ~330 townships: power without legitimacy 'has to keep forcing'."
+        },
+        {
+          "text": "No UN seat",
+          "alias": [
+            "un seat",
+            "kyaw moe tun"
+          ],
+          "tier": 2,
+          "why": "Kyaw Moe Tun keeps the seat; the Credentials Committee defers."
+        },
+        {
+          "text": "ASEAN summit ban",
+          "alias": [
+            "summit ban",
+            "asean exclusion",
+            "barred from summits"
+          ],
+          "tier": 2,
+          "why": "Leader barred from summits since Oct 2021, incl. Manila Nov 2026."
+        },
+        {
+          "text": "Pots and pans protests",
+          "alias": [
+            "pots and pans",
+            "protests"
+          ],
+          "tier": 3,
+          "why": "Nightly noise protests after the coup: visible rejection."
+        },
+        {
+          "text": "65+ townships no vote",
+          "alias": [
+            "no vote",
+            "townships"
+          ],
+          "tier": 3,
+          "why": "The state couldn't hold the vote where it lacked control."
+        },
+        {
+          "text": "Western sanctions",
+          "alias": [
+            "sanctions"
+          ],
+          "tier": 3,
+          "why": "Delegitimation by outside states."
+        },
+        {
+          "text": "Conscript desertion",
+          "alias": [
+            "desertion",
+            "deserters"
+          ],
+          "tier": 3,
+          "why": "Conscripts deserting: obeying out of fear is not consent."
+        },
+        {
+          "text": "NUG formed",
+          "alias": [
+            "nug",
+            "parallel government"
+          ],
+          "tier": 4,
+          "why": "Ousted MPs set up a rival government claiming the 2020 mandate."
+        },
+        {
+          "text": "Timor-Leste case",
+          "alias": [
+            "timor-leste",
+            "war crimes case"
+          ],
+          "tier": 4,
+          "why": "Started war-crimes proceedings against Min Aung Hlaing."
+        },
+        {
+          "text": "Sit-tat",
+          "alias": [
+            "sit tat"
+          ],
+          "tier": 5,
+          "why": "Opponents refuse the honourable name Tatmadaw: 'even the army's name is an argument'."
+        }
+      ]
+    },
+    {
+      "id": "gp-22",
+      "unit": "myanmar",
+      "prompt": "Name evidence that Myanmar's military government holds some sovereignty",
+      "answers": [
+        {
+          "text": "The presidency",
+          "alias": [
+            "presidency",
+            "president",
+            "429 votes"
+          ],
+          "tier": 1,
+          "why": "Internal de jure: president 3 Apr 2026, 429 of 584 votes."
+        },
+        {
+          "text": "Air force",
+          "alias": [
+            "air power",
+            "airstrikes",
+            "air strikes"
+          ],
+          "tier": 1,
+          "why": "Internal de facto: can bomb almost anywhere, even where it can't hold ground."
+        },
+        {
+          "text": "2008 constitution",
+          "alias": [
+            "constitution"
+          ],
+          "tier": 2,
+          "why": "Internal de jure: the army's quarter of seats is a veto on constitutional change."
+        },
+        {
+          "text": "Controls the cities",
+          "alias": [
+            "cities",
+            "capital",
+            "naypyitaw",
+            "mandalay"
+          ],
+          "tier": 2,
+          "why": "Holds the capital and major cities like Mandalay (internal de facto, partial)."
+        },
+        {
+          "text": "Xi's congratulations",
+          "alias": [
+            "china congratulated",
+            "xi jinping"
+          ],
+          "tier": 2,
+          "why": "External de facto: China congratulated the new president."
+        },
+        {
+          "text": "India visit",
+          "alias": [
+            "india",
+            "modi"
+          ],
+          "tier": 2,
+          "why": "External de facto: hosted 30 May-3 Jun 2026, engagement without endorsement."
+        },
+        {
+          "text": "Quarter of seats",
+          "alias": [
+            "25% of seats",
+            "25 percent of seats"
+          ],
+          "tier": 3,
+          "why": "Constitutional seat quota = veto: structural power."
+        },
+        {
+          "text": "Blocking aid convoys",
+          "alias": [
+            "aid gate",
+            "convoy",
+            "controls aid"
+          ],
+          "tier": 3,
+          "why": "'De jure sovereignty works as a gate on aid': the Red Cross convoy turned back."
+        },
+        {
+          "text": "28 of 30 cabinet",
+          "alias": [
+            "cabinet"
+          ],
+          "tier": 4,
+          "why": "Military-linked cabinet: controls the machinery of government."
+        },
+        {
+          "text": "ASEAN envoy meets FM",
+          "alias": [
+            "foreign minister",
+            "envoy"
+          ],
+          "tier": 4,
+          "why": "ASEAN's envoy still negotiates with the military's foreign minister."
+        },
+        {
+          "text": "Conscription",
+          "alias": [],
+          "tier": 4,
+          "why": "The state can still draft people: coercive reach."
+        }
+      ]
+    },
+    {
+      "id": "gp-23",
+      "unit": "external",
+      "prompt": "Name a way China shapes Myanmar's conflict",
+      "answers": [
+        {
+          "text": "Closing border crossings",
+          "alias": [
+            "border closures",
+            "closing borders",
+            "closed the border"
+          ],
+          "tier": 1,
+          "why": "Economic hard power on armed groups next to its border."
+        },
+        {
+          "text": "Brokering ceasefires",
+          "alias": [
+            "ceasefires",
+            "mediation",
+            "ceasefire deals"
+          ],
+          "tier": 1,
+          "why": "Arranged the northern ceasefires, e.g. TNLA in Oct 2025."
+        },
+        {
+          "text": "Trade",
+          "alias": [
+            "largest trade partner",
+            "trading partner"
+          ],
+          "tier": 2,
+          "why": "Myanmar's largest trading partner: unequal interdependence."
+        },
+        {
+          "text": "Lashio handback",
+          "alias": [
+            "lashio"
+          ],
+          "tier": 2,
+          "why": "Pressured the MNDAA to return Lashio in Apr 2025."
+        },
+        {
+          "text": "Congratulating the president",
+          "alias": [
+            "congratulations",
+            "xi congratulated"
+          ],
+          "tier": 2,
+          "why": "Xi congratulated Min Aung Hlaing: top-down recognition."
+        },
+        {
+          "text": "Cutting fuel and power",
+          "alias": [
+            "cut fuel",
+            "cut power",
+            "cut internet"
+          ],
+          "tier": 3,
+          "why": "Cut fuel, power and internet to MNDAA areas."
+        },
+        {
+          "text": "Pipelines",
+          "alias": [
+            "pipeline",
+            "oil and gas pipelines"
+          ],
+          "tier": 3,
+          "why": "China is 'worried about its border trade and pipelines'."
+        },
+        {
+          "text": "Holding MNDAA leader",
+          "alias": [
+            "detained mndaa leader"
+          ],
+          "tier": 4,
+          "why": "Held the MNDAA's leader in China: pressure on a non-state actor."
+        },
+        {
+          "text": "Rare earths",
+          "alias": [
+            "rare earth mines",
+            "rare-earths"
+          ],
+          "tier": 4,
+          "why": "Needs rare earths from KIA-held mines; softened pressure on the KIA."
+        },
+        {
+          "text": "UN veto shield",
+          "alias": [
+            "veto",
+            "security council veto"
+          ],
+          "tier": 5,
+          "why": "With Russia, has shielded the military at the Security Council."
+        }
+      ]
+    },
+    {
+      "id": "gp-24",
+      "unit": "external",
+      "prompt": "Name a point of, or fact about, ASEAN's Five-Point Consensus",
+      "answers": [
+        {
+          "text": "End to violence",
+          "alias": [
+            "cessation of violence",
+            "stop violence",
+            "ceasefire"
+          ],
+          "tier": 1,
+          "why": "Point 1: immediate cessation of violence, 'utmost restraint'."
+        },
+        {
+          "text": "Never carried out",
+          "alias": [
+            "not implemented",
+            "failed",
+            "ignored"
+          ],
+          "tier": 1,
+          "why": "The plan 'has never been carried out': not a treaty, nothing binds Myanmar."
+        },
+        {
+          "text": "Dialogue",
+          "alias": [
+            "constructive dialogue",
+            "talks"
+          ],
+          "tier": 2,
+          "why": "Point 2: constructive dialogue among all parties."
+        },
+        {
+          "text": "Special envoy",
+          "alias": [
+            "envoy",
+            "asean envoy"
+          ],
+          "tier": 2,
+          "why": "Point 3: an envoy of the ASEAN Chair to mediate."
+        },
+        {
+          "text": "Humanitarian aid",
+          "alias": [
+            "aid",
+            "humanitarian assistance"
+          ],
+          "tier": 2,
+          "why": "Point 4: humanitarian assistance through the AHA Centre."
+        },
+        {
+          "text": "Envoy visit",
+          "alias": [
+            "visit to myanmar",
+            "meet all parties"
+          ],
+          "tier": 3,
+          "why": "Point 5: the envoy visits Myanmar and meets all parties."
+        },
+        {
+          "text": "Jakarta",
+          "alias": [],
+          "tier": 3,
+          "why": "Emergency meeting in Jakarta, three months after the coup."
+        },
+        {
+          "text": "24 April 2021",
+          "alias": [
+            "april 2021",
+            "24 apr 2021"
+          ],
+          "tier": 3,
+          "why": "The date it was agreed."
+        },
+        {
+          "text": "NUG not invited",
+          "alias": [
+            "nug excluded"
+          ],
+          "tier": 4,
+          "why": "Min Aung Hlaing attended; the NUG was left out."
+        },
+        {
+          "text": "AHA Centre",
+          "alias": [
+            "aha"
+          ],
+          "tier": 5,
+          "why": "ASEAN's humanitarian coordination centre named in point 4."
+        },
+        {
+          "text": "'Just a statement'",
+          "alias": [
+            "statement",
+            "just a statement"
+          ],
+          "tier": 5,
+          "why": "Jul 2026: Myanmar argued it was a 'statement' released without consensus."
+        }
+      ]
+    },
+    {
+      "id": "gp-25",
+      "unit": "external",
+      "prompt": "Name an ASEAN member state",
+      "answers": [
+        {
+          "text": "Myanmar",
+          "alias": [
+            "burma"
+          ],
+          "tier": 1,
+          "why": "Joined 1997; still a member, but its leader is barred from summits."
+        },
+        {
+          "text": "Thailand",
+          "alias": [],
+          "tier": 1,
+          "why": "Long border; Mae Sot faces Myawaddy. Favours 'calibrated engagement'."
+        },
+        {
+          "text": "Indonesia",
+          "alias": [],
+          "tier": 1,
+          "why": "Hosted the Jakarta meeting that agreed the Five-Point Consensus."
+        },
+        {
+          "text": "Singapore",
+          "alias": [],
+          "tier": 2,
+          "why": "Founding-era member."
+        },
+        {
+          "text": "Malaysia",
+          "alias": [],
+          "tier": 2,
+          "why": "Member state."
+        },
+        {
+          "text": "Philippines",
+          "alias": [
+            "the philippines"
+          ],
+          "tier": 2,
+          "why": "Hosted the Manila summit, Nov 2026, from which Myanmar's leader was barred."
+        },
+        {
+          "text": "Vietnam",
+          "alias": [
+            "viet nam"
+          ],
+          "tier": 2,
+          "why": "Member state."
+        },
+        {
+          "text": "Cambodia",
+          "alias": [],
+          "tier": 3,
+          "why": "Member state."
+        },
+        {
+          "text": "Laos",
+          "alias": [
+            "lao pdr"
+          ],
+          "tier": 3,
+          "why": "Member state."
+        },
+        {
+          "text": "Brunei",
+          "alias": [
+            "brunei darussalam"
+          ],
+          "tier": 4,
+          "why": "Member state."
+        },
+        {
+          "text": "Timor-Leste",
+          "alias": [
+            "east timor",
+            "timor leste"
+          ],
+          "tier": 4,
+          "why": "11th member (Oct 2025); has started war-crimes proceedings against Min Aung Hlaing."
+        }
+      ]
+    },
+    {
+      "id": "gp-26",
+      "unit": "external",
+      "prompt": "Name an outside actor that has engaged with or pressured Myanmar",
+      "answers": [
+        {
+          "text": "China",
+          "alias": [
+            "prc"
+          ],
+          "tier": 1,
+          "why": "Largest trade partner; brokers ceasefires, closes borders: smart power."
+        },
+        {
+          "text": "India",
+          "alias": [],
+          "tier": 1,
+          "why": "1,643 km border; hosted the president 30 May-3 Jun 2026."
+        },
+        {
+          "text": "ASEAN",
+          "alias": [],
+          "tier": 1,
+          "why": "Bars the leader from summits; Five-Point Consensus never carried out."
+        },
+        {
+          "text": "United Nations",
+          "alias": [
+            "un"
+          ],
+          "tier": 2,
+          "why": "Credentials Committee defers, so Kyaw Moe Tun keeps the seat."
+        },
+        {
+          "text": "Thailand",
+          "alias": [],
+          "tier": 2,
+          "why": "Neighbour across from Myawaddy; deals with whoever holds the other bank."
+        },
+        {
+          "text": "Western governments",
+          "alias": [
+            "the west",
+            "eu",
+            "european union",
+            "usa",
+            "us"
+          ],
+          "tier": 3,
+          "why": "EU and the West keep sanctions and withhold legitimacy."
+        },
+        {
+          "text": "Timor-Leste",
+          "alias": [
+            "east timor"
+          ],
+          "tier": 3,
+          "why": "Started war-crimes proceedings against Min Aung Hlaing."
+        },
+        {
+          "text": "Russia",
+          "alias": [],
+          "tier": 4,
+          "why": "Engages the junta; with China, shields it at the Security Council."
+        },
+        {
+          "text": "The Gambia",
+          "alias": [
+            "gambia"
+          ],
+          "tier": 4,
+          "why": "Took Myanmar to the ICJ over the Rohingya (2019)."
+        },
+        {
+          "text": "Bangladesh",
+          "alias": [],
+          "tier": 5,
+          "why": "Its whole border with Myanmar is held by the Arakan Army."
+        }
+      ]
+    },
+    {
+      "id": "gp-27",
+      "unit": "external",
+      "prompt": "Name something that crosses Myanmar's borders and creates interdependence",
+      "answers": [
+        {
+          "text": "Refugees",
+          "alias": [
+            "refugee"
+          ],
+          "tier": 1,
+          "why": "1.6 million fled abroad, e.g. into Mizoram and Manipur."
+        },
+        {
+          "text": "Trade",
+          "alias": [
+            "border trade"
+          ],
+          "tier": 1,
+          "why": "Border trade with China; the MNDAA negotiated border-trade taxes."
+        },
+        {
+          "text": "Aid",
+          "alias": [
+            "humanitarian aid",
+            "relief"
+          ],
+          "tier": 2,
+          "why": "Earthquake relief needed a way in; who approves convoys holds power."
+        },
+        {
+          "text": "Pipelines",
+          "alias": [
+            "oil and gas"
+          ],
+          "tier": 2,
+          "why": "Chinese oil and gas pipelines run across Myanmar."
+        },
+        {
+          "text": "Scam compounds",
+          "alias": [
+            "scams",
+            "cyber scams",
+            "scam centres"
+          ],
+          "tier": 2,
+          "why": "Victims from 28 countries; India flew 467 home in Nov 2025."
+        },
+        {
+          "text": "Rare earths",
+          "alias": [
+            "rare earth"
+          ],
+          "tier": 3,
+          "why": "KIA-held mines China needs."
+        },
+        {
+          "text": "Fuel",
+          "alias": [
+            "oil"
+          ],
+          "tier": 3,
+          "why": "China cut fuel to pressure the MNDAA; the KIA needs Chinese fuel."
+        },
+        {
+          "text": "Food and medicine",
+          "alias": [
+            "food",
+            "medicine"
+          ],
+          "tier": 4,
+          "why": "The KIA relies on China for food, fuel and medicine."
+        },
+        {
+          "text": "Electricity and internet",
+          "alias": [
+            "electricity",
+            "internet",
+            "power supply"
+          ],
+          "tier": 4,
+          "why": "China and Thailand cut power/internet to pressure groups."
+        },
+        {
+          "text": "Fighting",
+          "alias": [
+            "violence",
+            "conflict spillover",
+            "spillover"
+          ],
+          "tier": 5,
+          "why": "'Why does a civil war inside one country never stay there?'"
+        }
+      ]
+    },
+    {
+      "id": "gp-28",
+      "unit": "peace",
+      "prompt": "Name a peace and conflict term",
+      "answers": [
+        {
+          "text": "Negative peace",
+          "alias": [],
+          "tier": 1,
+          "why": "Absence of direct violence (no war). Galtung."
+        },
+        {
+          "text": "Positive peace",
+          "alias": [],
+          "tier": 1,
+          "why": "Presence of something: justice, fair institutions. 'Peace is the presence of something.'"
+        },
+        {
+          "text": "Structural violence",
+          "alias": [],
+          "tier": 2,
+          "why": "Harm built into systems and rules, not a single attacker."
+        },
+        {
+          "text": "Direct violence",
+          "alias": [
+            "physical violence"
+          ],
+          "tier": 2,
+          "why": "Physical violence by an identifiable actor: air strikes."
+        },
+        {
+          "text": "Ceasefire",
+          "alias": [],
+          "tier": 2,
+          "why": "Agreement to stop fighting: China brokered TNLA's in Oct 2025."
+        },
+        {
+          "text": "Intra-state conflict",
+          "alias": [
+            "civil war",
+            "intrastate conflict"
+          ],
+          "tier": 3,
+          "why": "Conflict within one state: Myanmar's civil war."
+        },
+        {
+          "text": "Non-violence",
+          "alias": [
+            "nonviolence",
+            "non-violent protest"
+          ],
+          "tier": 3,
+          "why": "Resistance without weapons: the CDM, pots and pans."
+        },
+        {
+          "text": "Cultural violence",
+          "alias": [],
+          "tier": 4,
+          "why": "Ideas or symbols that make violence seem acceptable."
+        },
+        {
+          "text": "Latent conflict",
+          "alias": [
+            "latent"
+          ],
+          "tier": 4,
+          "why": "Contested interests not yet openly fought over. Conflict is not the same as violence."
+        },
+        {
+          "text": "Overt conflict",
+          "alias": [
+            "manifest conflict",
+            "overt"
+          ],
+          "tier": 4,
+          "why": "Open, visible conflict."
+        },
+        {
+          "text": "Conflict triangle",
+          "alias": [
+            "galtung's triangle",
+            "galtung triangle"
+          ],
+          "tier": 4,
+          "why": "Galtung: attitudes, behaviour, contradiction."
+        },
+        {
+          "text": "Greed vs grievance",
+          "alias": [
+            "greed and grievance",
+            "greed",
+            "grievance"
+          ],
+          "tier": 5,
+          "why": "Debate: do groups fight for profit or over injustice?"
+        },
+        {
+          "text": "Positions-interests-needs",
+          "alias": [
+            "pin"
+          ],
+          "tier": 5,
+          "why": "PIN: what parties say, what they want, what they must have."
+        },
+        {
+          "text": "Conflict cycle",
+          "alias": [
+            "cycle of conflict"
+          ],
+          "tier": 5,
+          "why": "Conflicts move through stages: escalation, stalemate, de-escalation."
+        }
+      ]
+    },
+    {
+      "id": "gp-29",
+      "unit": "peace",
+      "prompt": "Name a tool or approach for managing a conflict",
+      "answers": [
+        {
+          "text": "Peacekeeping",
+          "alias": [],
+          "tier": 1,
+          "why": "Monitors or troops hold an agreement in place: 'a teacher standing between the kids at recess'."
+        },
+        {
+          "text": "Peacemaking",
+          "alias": [],
+          "tier": 1,
+          "why": "Getting sides to stop fighting via talks and ceasefires: 'a teacher convinces two kids to stop'."
+        },
+        {
+          "text": "Peacebuilding",
+          "alias": [],
+          "tier": 2,
+          "why": "Long-term work on causes: fair institutions, justice, reconciliation. 'Genuinely fixing it'."
+        },
+        {
+          "text": "Sanctions",
+          "alias": [],
+          "tier": 2,
+          "why": "Penalties on trade, travel or finance. Western sanctions on Myanmar."
+        },
+        {
+          "text": "Mediation",
+          "alias": [
+            "mediator"
+          ],
+          "tier": 2,
+          "why": "A third party helps the sides negotiate."
+        },
+        {
+          "text": "Ceasefire",
+          "alias": [],
+          "tier": 2,
+          "why": "Agreed halt to fighting."
+        },
+        {
+          "text": "Negotiation",
+          "alias": [
+            "peace talks",
+            "talks"
+          ],
+          "tier": 3,
+          "why": "Direct bargaining between parties: MNDAA's Naypyitaw talks, Sep 2026."
+        },
+        {
+          "text": "Special envoy",
+          "alias": [
+            "envoy"
+          ],
+          "tier": 3,
+          "why": "ASEAN's envoy to mediate (Five-Point Consensus point 3)."
+        },
+        {
+          "text": "Humanitarian aid",
+          "alias": [
+            "aid"
+          ],
+          "tier": 3,
+          "why": "Relief for civilians; under IHL consent can't be refused for arbitrary reasons."
+        },
+        {
+          "text": "Weapon embargo",
+          "alias": [
+            "arms embargo"
+          ],
+          "tier": 4,
+          "why": "Banning arms supplies to a party."
+        },
+        {
+          "text": "International courts",
+          "alias": [
+            "icj",
+            "icc",
+            "courts"
+          ],
+          "tier": 4,
+          "why": "ICJ (The Gambia v. Myanmar), ICC: justice as peacebuilding."
+        },
+        {
+          "text": "Election observers",
+          "alias": [
+            "observers"
+          ],
+          "tier": 4,
+          "why": "Third parties checking a vote is fair."
+        },
+        {
+          "text": "Financial freezes",
+          "alias": [
+            "asset freeze",
+            "asset freezes"
+          ],
+          "tier": 5,
+          "why": "Freezing assets of leaders or groups."
+        },
+        {
+          "text": "R2P",
+          "alias": [
+            "responsibility to protect"
+          ],
+          "tier": 5,
+          "why": "Responsibility to Protect: action through the Security Council as a last resort."
+        }
+      ]
+    },
+    {
+      "id": "gp-30",
+      "unit": "papers",
+      "prompt": "Name a part of a top-band Paper 2 essay",
+      "answers": [
+        {
+          "text": "Thesis",
+          "alias": [
+            "thesis statement"
+          ],
+          "tier": 1,
+          "why": "Takes a side and answers the prompt, with a degree word and a reason."
+        },
+        {
+          "text": "Introduction",
+          "alias": [
+            "intro"
+          ],
+          "tier": 1,
+          "why": "Direct answer, define all key terms, thesis, roadmap."
+        },
+        {
+          "text": "Counterargument",
+          "alias": [
+            "counterclaim",
+            "counterpoint",
+            "counter argument"
+          ],
+          "tier": 1,
+          "why": "The strongest opposite view with its own claim + evidence + link."
+        },
+        {
+          "text": "Evidence",
+          "alias": [
+            "examples"
+          ],
+          "tier": 2,
+          "why": "Named and dated: '3 Apr 2026, 429 of 584 votes'."
+        },
+        {
+          "text": "Overall judgment",
+          "alias": [
+            "judgment",
+            "judgement",
+            "overall judgement"
+          ],
+          "tier": 2,
+          "why": "Weigh both sides, say how far, name the deciding factor. The most important section."
+        },
+        {
+          "text": "Conclusion",
+          "alias": [],
+          "tier": 2,
+          "why": "2-3 sentences, no new information."
+        },
+        {
+          "text": "Claim",
+          "alias": [
+            "topic sentence"
+          ],
+          "tier": 2,
+          "why": "Every paragraph opens with a claim, never a date."
+        },
+        {
+          "text": "Definitions",
+          "alias": [
+            "definition",
+            "define key terms"
+          ],
+          "tier": 3,
+          "why": "Define every key term; sovereignty and legitimacy separately."
+        },
+        {
+          "text": "Link",
+          "alias": [
+            "link sentence"
+          ],
+          "tier": 3,
+          "why": "'This supports the thesis because...' after every piece of evidence."
+        },
+        {
+          "text": "Evaluation",
+          "alias": [
+            "limitation",
+            "evaluate"
+          ],
+          "tier": 3,
+          "why": "Say how strong each point is and where it breaks. The jump from 5 to 7 is 'evaluated'."
+        },
+        {
+          "text": "Degree word",
+          "alias": [
+            "extent"
+          ],
+          "tier": 4,
+          "why": "'Largely', 'only on paper', 'partly': with a reason it separates 4-6 from 7-9 marks."
+        },
+        {
+          "text": "Roadmap",
+          "alias": [],
+          "tier": 4,
+          "why": "'First, this essay examines..., then...'"
+        },
+        {
+          "text": "Implications",
+          "alias": [
+            "implication",
+            "beyond the case"
+          ],
+          "tier": 5,
+          "why": "Zoom out beyond the case: a top-band (13-15) requirement."
+        }
+      ]
+    },
+    {
+      "id": "gp-31",
+      "unit": "papers",
+      "prompt": "Name something you judge when evaluating a Paper 1 source",
+      "answers": [
+        {
+          "text": "Origin",
+          "alias": [
+            "author",
+            "who wrote it"
+          ],
+          "tier": 1,
+          "why": "Who made it, when, what type: tells you what the author could know."
+        },
+        {
+          "text": "Purpose",
+          "alias": [
+            "aim",
+            "motive"
+          ],
+          "tier": 1,
+          "why": "Why it was made: inform, persuade, win recognition, criticise."
+        },
+        {
+          "text": "Perspective",
+          "alias": [
+            "viewpoint",
+            "point of view"
+          ],
+          "tier": 2,
+          "why": "The viewpoint, shown by vocabulary (Tatmadaw vs Sit-tat), quotes, emphasis."
+        },
+        {
+          "text": "Limitation",
+          "alias": [
+            "limitations"
+          ],
+          "tier": 2,
+          "why": "Useful for X but not for Y. Not 'biased so useless'."
+        },
+        {
+          "text": "Value",
+          "alias": [
+            "values",
+            "usefulness"
+          ],
+          "tier": 2,
+          "why": "What the source is reliable for."
+        },
+        {
+          "text": "Main claim",
+          "alias": [
+            "claim"
+          ],
+          "tier": 3,
+          "why": "The argument the source makes."
+        },
+        {
+          "text": "Content",
+          "alias": [],
+          "tier": 3,
+          "why": "The 'C' in OPCVL: what it actually says or shows."
+        },
+        {
+          "text": "Evidence",
+          "alias": [],
+          "tier": 3,
+          "why": "What it uses to support the claim (data? slogans?)."
+        },
+        {
+          "text": "Stakeholder supported",
+          "alias": [
+            "stakeholder",
+            "who it supports"
+          ],
+          "tier": 4,
+          "why": "Which stakeholder does the source support or challenge?"
+        },
+        {
+          "text": "Vocabulary",
+          "alias": [
+            "word choice",
+            "language"
+          ],
+          "tier": 4,
+          "why": "Word choice ('junta', 'regime', 'terrorists') reveals perspective."
+        },
+        {
+          "text": "Omissions",
+          "alias": [
+            "what it leaves out",
+            "omission"
+          ],
+          "tier": 5,
+          "why": "What it leaves out, e.g. ignoring the 65+ townships that couldn't vote."
+        }
+      ]
+    },
+    {
+      "id": "gp-32",
+      "unit": "papers",
+      "prompt": "Name a command term used in GP exam questions",
+      "answers": [
+        {
+          "text": "Discuss",
+          "alias": [],
+          "tier": 1,
+          "why": "A considered, balanced review with a range of arguments and a clear conclusion."
+        },
+        {
+          "text": "Evaluate",
+          "alias": [],
+          "tier": 1,
+          "why": "Weigh strengths and limitations, then judge."
+        },
+        {
+          "text": "To what extent",
+          "alias": [],
+          "tier": 1,
+          "why": "Weigh the merits; give a clear opinion with evidence."
+        },
+        {
+          "text": "Explain",
+          "alias": [],
+          "tier": 2,
+          "why": "Paper 1 Q2 (4 marks): explain a term or claim in a source."
+        },
+        {
+          "text": "Compare",
+          "alias": [],
+          "tier": 2,
+          "why": "Paper 1 Q3: similarities between two sources, both in every sentence."
+        },
+        {
+          "text": "Identify",
+          "alias": [],
+          "tier": 2,
+          "why": "Paper 1 Q1 (3 marks): pick out and name from the source."
+        },
+        {
+          "text": "Contrast",
+          "alias": [],
+          "tier": 3,
+          "why": "Differences between two sources, point by point."
+        },
+        {
+          "text": "Examine",
+          "alias": [],
+          "tier": 3,
+          "why": "Uncover the assumptions and interrelationships of an argument."
+        },
+        {
+          "text": "Outline",
+          "alias": [],
+          "tier": 3,
+          "why": "A brief account, one sentence per point."
+        },
+        {
+          "text": "Describe",
+          "alias": [],
+          "tier": 4,
+          "why": "A fuller account of what the source shows."
+        },
+        {
+          "text": "Justify",
+          "alias": [],
+          "tier": 4,
+          "why": "Give valid reasons or evidence for an answer."
+        }
+      ]
+    },
+    {
+      "id": "gp-33",
+      "unit": "papers",
+      "prompt": "Name a word or phrase to avoid in a GP essay",
+      "answers": [
+        {
+          "text": "Deserves",
+          "alias": [
+            "deserving",
+            "deserve"
+          ],
+          "tier": 1,
+          "why": "Banned: it's a sympathy word. Use 'Says who?' instead."
+        },
+        {
+          "text": "Throughout history",
+          "alias": [],
+          "tier": 2,
+          "why": "Banned opener: loose background, not analysis."
+        },
+        {
+          "text": "In this essay",
+          "alias": [
+            "in this essay i will",
+            "in this essay i will discuss"
+          ],
+          "tier": 2,
+          "why": "'In this essay I will discuss...' is banned: start with a direct answer instead."
+        },
+        {
+          "text": "It depends",
+          "alias": [],
+          "tier": 2,
+          "why": "Banned unless you say on what."
+        },
+        {
+          "text": "Evil",
+          "alias": [
+            "bad",
+            "the military is evil"
+          ],
+          "tier": 2,
+          "why": "'The military is evil/bad' is moral labelling, not analysis."
+        },
+        {
+          "text": "In conclusion",
+          "alias": [],
+          "tier": 3,
+          "why": "Banned in the aid exit ticket."
+        },
+        {
+          "text": "Very important concept",
+          "alias": [
+            "is a very important concept"
+          ],
+          "tier": 3,
+          "why": "'X is a very important concept' adds nothing."
+        },
+        {
+          "text": "Has power",
+          "alias": [
+            "is powerful"
+          ],
+          "tier": 3,
+          "why": "Not an answer: give the TYPE and SOURCE of power."
+        },
+        {
+          "text": "Needy",
+          "alias": [],
+          "tier": 4,
+          "why": "Banned in the power table: sympathy list, not power table."
+        },
+        {
+          "text": "Innocent",
+          "alias": [],
+          "tier": 4,
+          "why": "Banned in the power table: character judgment."
+        },
+        {
+          "text": "Corrupt",
+          "alias": [],
+          "tier": 4,
+          "why": "Banned in the power table: label, not evidence."
+        },
+        {
+          "text": "Legal = legitimate",
+          "alias": [
+            "legal means legitimate"
+          ],
+          "tier": 5,
+          "why": "The central trap: 'Legal' is not the same as 'accepted'."
+        }
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "unit": "core",
+      "front": "Power",
+      "back": "The ability to make something happen your way, or to stop it. Tool: 'Follow the decision': who made it, who benefits, who didn't get a say?"
+    },
+    {
+      "unit": "core",
+      "front": "Hard power",
+      "back": "Coercive power: force, threats, sanctions, legal compulsion. Myanmar: air strikes, conscription, China closing border crossings."
+    },
+    {
+      "unit": "core",
+      "front": "Soft power",
+      "back": "Power through attraction and persuasion (culture, values, reputation, aid). Joseph Nye's term (1990). The NUG's main strength abroad."
+    },
+    {
+      "unit": "core",
+      "front": "Structural power",
+      "back": "Power from your position in a system: a UN Security Council veto, the army's quarter of seats, the right to set Dharavi's eligibility rules."
+    },
+    {
+      "unit": "core",
+      "front": "Power over / to / with",
+      "back": "Over: making others do what they wouldn't choose. To: capacity to achieve something yourself. With: power from acting together."
+    },
+    {
+      "unit": "core",
+      "front": "Sources of power",
+      "back": "The lever behind a power claim: law, money, votes, weapons/force, information, ability to withhold labour or disrupt, moral standing, connection to a power-holder."
+    },
+    {
+      "unit": "core",
+      "front": "Sovereignty",
+      "back": "'The final say over a territory + others agreeing you have it.' A bundle of claims, not all-or-nothing."
+    },
+    {
+      "unit": "core",
+      "front": "Internal sovereignty",
+      "back": "'Who runs the country': supreme authority inside a territory, making and enforcing the rules."
+    },
+    {
+      "unit": "core",
+      "front": "External sovereignty",
+      "back": "'Do outsiders acknowledge that you run the country?' Recognition by other states as independent and equal."
+    },
+    {
+      "unit": "core",
+      "front": "De jure vs de facto",
+      "back": "De jure = 'on paper' (law, formal recognition). De facto = the 'reality' (who actually controls the ground)."
+    },
+    {
+      "unit": "core",
+      "front": "Four boxes of sovereignty",
+      "back": "Internal de jure, internal de facto, external de jure, external de facto. In Myanmar no single actor fills all four."
+    },
+    {
+      "unit": "core",
+      "front": "Weber (1919)",
+      "back": "The state claims a monopoly on the LEGITIMATE use of force. This separates a state from whichever armed group has the most guns."
+    },
+    {
+      "unit": "core",
+      "front": "UN Charter Art. 2(1), 2(4), 2(7)",
+      "back": "2(1) sovereign equality of states; 2(4) territorial integrity; 2(7) non-interference in domestic matters: the basis of external sovereignty."
+    },
+    {
+      "unit": "core",
+      "front": "Legitimacy",
+      "back": "Whether the people being ruled accept the rule as rightful. Not the same as legal, and never translate it as 'good'."
+    },
+    {
+      "unit": "core",
+      "front": "Sovereignty vs legitimacy",
+      "back": "'Sovereignty asks who sits on the throne. Legitimacy asks if the people being ruled accept the rule as rightful.'"
+    },
+    {
+      "unit": "core",
+      "front": "The central trap",
+      "back": "'Legal' is not the same as 'accepted'. Legal and recognised is not the same as legitimate."
+    },
+    {
+      "unit": "core",
+      "front": "Sources of legitimacy",
+      "back": "Free and fair elections, consent, representation, performance, order and stability, international recognition, history/tradition, ideology, legal process."
+    },
+    {
+      "unit": "core",
+      "front": "Weber's three types of authority",
+      "back": "Legal-rational (laws and rules), traditional ('always done this way'), charismatic (a leader's personal appeal)."
+    },
+    {
+      "unit": "core",
+      "front": "Input vs output legitimacy",
+      "back": "Input: were affected people consulted or did they consent? Output: does the decision deliver good results, consulted or not?"
+    },
+    {
+      "unit": "core",
+      "front": "Four legitimation processes",
+      "back": "Top-down recognition, self-legitimation, organic recognition from below, (de)legitimation by rivals."
+    },
+    {
+      "unit": "core",
+      "front": "State vs government legitimacy",
+      "back": "State = the country as a unit; government = who runs it now. A coup hits government legitimacy; EAOs asking 'who should rule us?' challenge the state's."
+    },
+    {
+      "unit": "core",
+      "front": "Interdependence",
+      "back": "Mutual reliance between actors, so what happens to one affects the others. Often unequal, which creates vulnerability."
+    },
+    {
+      "unit": "core",
+      "front": "Asymmetric interdependence",
+      "back": "One side depends more than the other; the less-dependent side gains leverage. KIA has rare earths China needs but relies on China for food, fuel, medicine."
+    },
+    {
+      "unit": "core",
+      "front": "Sensitivity vs vulnerability",
+      "back": "Sensitivity: how fast and how much you're affected by a change. Vulnerability: how costly it is to adjust once affected."
+    },
+    {
+      "unit": "core",
+      "front": "R2P",
+      "back": "Responsibility to Protect (2005 World Summit): sovereignty is a responsibility. A norm, not enforceable; no UN-authorised action in Myanmar."
+    },
+    {
+      "unit": "actors",
+      "front": "Actor",
+      "back": "Has the agency and means to act and shape the outcome. Test: Force, Money, Recognition, People. 'Actor isn't a rank.'"
+    },
+    {
+      "unit": "actors",
+      "front": "Stakeholder",
+      "back": "Affected by an issue or decision; may lack means to act, but can always grant or withhold legitimacy."
+    },
+    {
+      "unit": "actors",
+      "front": "Stakeholder to actor",
+      "back": "Stakeholders become actors by gaining means to act: protesters became the PDFs, ousted MPs became the NUG, Dharavi residents' associations went to court."
+    },
+    {
+      "unit": "actors",
+      "front": "F/M/R/P",
+      "back": "Actor test from the Myanmar cards: Force, Money, Recognition, People, each rated Strong / some / Little, plus 'what could stop them?'"
+    },
+    {
+      "unit": "actors",
+      "front": "Power table, not a sympathy list",
+      "back": "Describe actors by interest (outcome wanted), power (type + source) and legitimacy claim. Banned: deserving, needy, innocent, corrupt."
+    },
+    {
+      "unit": "actors",
+      "front": "IB actor types",
+      "back": "States, subnational governments, IGOs, NGOs and civil society, companies, social movements, resistance movements, political parties, interest groups, leaders, media."
+    },
+    {
+      "unit": "dharavi",
+      "front": "NMDPL",
+      "back": "Navbharat Mega Developers Pvt Ltd, the joint venture executing Dharavi's redevelopment: Adani Group 80%, Maharashtra government 20%."
+    },
+    {
+      "unit": "dharavi",
+      "front": "Dharavi eligibility cutoff",
+      "back": "Ground-floor residents settled on or before 1 Jan 2000 qualify for a free in-situ flat."
+    },
+    {
+      "unit": "dharavi",
+      "front": "Dharavi later settlers",
+      "back": "2 Jan 2000 to 1 Jan 2011: only paid ('Sashulk') housing, ground-floor residential only. 2 Jan 2011 to 15 Nov 2022: rental unit only, no ownership."
+    },
+    {
+      "unit": "dharavi",
+      "front": "Dharavi first phase",
+      "back": "11,000 rehab tenements of 350 sq ft on Matunga railway land (Sector 6); first handover targeted Dec 2026; completion around 2032."
+    },
+    {
+      "unit": "dharavi",
+      "front": "Dharavi Bachao Andolan",
+      "back": "Main resident movement resisting the plan, campaigning to rehabilitate all residents inside Dharavi."
+    },
+    {
+      "unit": "dharavi",
+      "front": "Consent statement",
+      "back": "The DRP's CEO said in 2025 that resident consent is not legally required: legal power paired with disputed legitimacy."
+    },
+    {
+      "unit": "dharavi",
+      "front": "Dharavi informal economy",
+      "back": "About $1 billion a year: leather, pottery, recycling/scrap, garments, mostly home-based. Relocation breaks the live-work unit."
+    },
+    {
+      "unit": "dharavi",
+      "front": "Legal but not accepted (Dharavi)",
+      "back": "Delegated authority from an elected state government + courts upholding the tender = procedural legitimacy; residents without pre-2000 papers never consented."
+    },
+    {
+      "unit": "dharavi",
+      "front": "'Same move?' Dharavi vs Myanmar",
+      "back": "In both, the actor that wrote the rules benefits. 'The degree of legitimacy is different, but the kind of legitimacy is the same.'"
+    },
+    {
+      "unit": "dharavi",
+      "front": "Climate vulnerability + power table",
+      "back": "Rows: homes, workshops, health, documents, income, mobility, children & elderly, public services. Columns: climate risk, Mumbai Climate Action Plan sector, who can act vs who can only ask."
+    },
+    {
+      "unit": "dharavi",
+      "front": "Dharavi global comparisons",
+      "back": "Rio: Vila Autódromo and the 2016 Olympics. Nairobi: Kibera demolitions for a highway (2018). Jakarta: Kampung Pulo eviction (2015)."
+    },
+    {
+      "unit": "myanmar",
+      "front": "1 Feb 2021",
+      "back": "Military coup led by Min Aung Hlaing, the day the new parliament was due to meet, after the NLD's Nov 2020 landslide. Observers rejected the fraud claim."
+    },
+    {
+      "unit": "myanmar",
+      "front": "Civil Disobedience Movement (CDM)",
+      "back": "2021 walkouts by doctors, teachers and civil servants: deliberate, visible, costly withholding of legitimacy. Obeying out of fear is not consent."
+    },
+    {
+      "unit": "myanmar",
+      "front": "NUG and PDFs",
+      "back": "NUG: formed Apr 2021 by ousted MPs, claims to be the rightful government. PDFs: armed groups from May 2021, many young Bamar; NUG can't fully control them."
+    },
+    {
+      "unit": "myanmar",
+      "front": "Operation 1027",
+      "back": "27 Oct 2023 offensive by the Three Brotherhood Alliance (MNDAA, TNLA, Arakan Army). The military then lost two regional command HQs in Aug and Dec 2024."
+    },
+    {
+      "unit": "myanmar",
+      "front": "Arakan Army",
+      "back": "Controls >90% of Rakhine and the whole Bangladesh border (Dec 2024), collects taxes, not part of the NUG: control without recognition."
+    },
+    {
+      "unit": "myanmar",
+      "front": "MNDAA and Lashio",
+      "back": "Took Lashio in 2024; China cut fuel, power and internet and held its leader, so it handed Lashio back in Apr 2025. Joined Naypyitaw peace talks Sep 2026."
+    },
+    {
+      "unit": "myanmar",
+      "front": "2025-26 election",
+      "back": "Dec 2025-Jan 2026, three phases. A military-appointed commission barred the NLD + 83 other parties; 65+ townships (most of Chin and Rakhine) had no vote."
+    },
+    {
+      "unit": "myanmar",
+      "front": "3 Apr 2026",
+      "back": "Parliament elected Min Aung Hlaing president, 429 of 584 votes. Internal de jure sovereignty grew; legitimacy is a separate question."
+    },
+    {
+      "unit": "myanmar",
+      "front": "28 of 30",
+      "back": "Cabinet sworn in 10 Apr 2026: 28 of 30 were current or former generals, USDP lawmakers or ex-junta members."
+    },
+    {
+      "unit": "myanmar",
+      "front": "2008 Constitution",
+      "back": "Military-drafted, approved in a referendum days after a disaster. The army's quarter of seats works as a veto on constitutional change."
+    },
+    {
+      "unit": "myanmar",
+      "front": "Kyaw Moe Tun",
+      "back": "Myanmar's UN ambassador, appointed in 2020 before the coup. Keeps the seat because the UN Credentials Committee defers every year: NUG's external de jure sovereignty."
+    },
+    {
+      "unit": "myanmar",
+      "front": "Aid as a gate",
+      "back": "Night of 1 Apr 2025, after the 28 Mar quake: soldiers fired warning shots at a TNLA-escorted Chinese Red Cross convoy on the Nawnghkio road. 'De jure sovereignty works as a gate on aid.'"
+    },
+    {
+      "unit": "myanmar",
+      "front": "Myanmar human cost",
+      "back": "100,000+ dead; 3.8 million internally displaced (June 2026); 1.6 million fled abroad; 16.2 million need aid, incl. 4.9 million children."
+    },
+    {
+      "unit": "myanmar",
+      "front": "Suu Kyi house arrest",
+      "back": "30 Apr 2026: Aung San Suu Kyi (81, serving 27 years) moved to house arrest, read as a bid to boost the new government's legitimacy abroad."
+    },
+    {
+      "unit": "myanmar",
+      "front": "KK Park and the KNA",
+      "back": "Mid-Oct 2025 army raid on a scam compound near Myawaddy, protected by the KNA, 'a militia allied with the military'. 1,500+ from 28 countries fled to Mae Sot."
+    },
+    {
+      "unit": "external",
+      "front": "China's interests in Myanmar",
+      "back": "Stable border, border trade and pipelines, rare earths. Largest trading partner. Brokers ceasefires, closes crossings, congratulated the president. 'Influence is not authority.'"
+    },
+    {
+      "unit": "external",
+      "front": "India and Myanmar",
+      "back": "1,643 km border; refugees in Mizoram and Manipur; 467 Indians flown home Nov 2025. Hosted Min Aung Hlaing 30 May-3 Jun 2026: engagement without endorsement."
+    },
+    {
+      "unit": "external",
+      "front": "Neighbours' rule",
+      "back": "'China, India and Thailand have borders to protect, so they talk to whoever controls the other side of them. Every one of those choices is a decision about legitimacy.'"
+    },
+    {
+      "unit": "external",
+      "front": "ASEAN basics",
+      "back": "Founded 1967 (Bangkok Declaration); Myanmar joined 1997; Timor-Leste became the 11th member in Oct 2025. An IGO of states."
+    },
+    {
+      "unit": "external",
+      "front": "ASEAN Charter (2007)",
+      "back": "Non-interference and decisions by consensus, but also democracy and human rights. 'ASEAN has committed to both... Myanmar is challenging this.'"
+    },
+    {
+      "unit": "external",
+      "front": "Five-Point Consensus",
+      "back": "Jakarta, 24 Apr 2021: end violence, dialogue among all parties, special envoy, humanitarian aid via AHA Centre, envoy visit. Hlaing attended; NUG not invited. Never carried out."
+    },
+    {
+      "unit": "external",
+      "front": "ASEAN's response",
+      "back": "Barred Myanmar's leader from summits since Oct 2021 (incl. Manila, Nov 2026); still meets the foreign minister; offers the seat back if violence stops."
+    },
+    {
+      "unit": "external",
+      "front": "ASEAN's limits",
+      "back": "'ASEAN can't send troops, can't take Myanmar to court, and can't act unless every member agrees, including Myanmar.'"
+    },
+    {
+      "unit": "external",
+      "front": "UN Credentials Committee",
+      "back": "Nine UN member states that check which delegates represent each state. On Myanmar it defers every year, so the old ambassador keeps the seat."
+    },
+    {
+      "unit": "peace",
+      "front": "Peacemaking",
+      "back": "Getting sides to stop fighting through talks, mediation, ceasefires. 'A teacher convinces two kids to stop fighting.'"
+    },
+    {
+      "unit": "peace",
+      "front": "Peacekeeping",
+      "back": "Monitors or troops holding an agreement in place; usually needs all sides' consent. 'A teacher standing between the kids during recess.'"
+    },
+    {
+      "unit": "peace",
+      "front": "Peacebuilding",
+      "back": "Long-term work on the causes: fair institutions, justice, reconciliation. 'Working with the kids to understand why they are fighting, and genuinely fixing it.'"
+    },
+    {
+      "unit": "peace",
+      "front": "Negative vs positive peace",
+      "back": "Negative peace = absence of direct violence. Positive peace = presence of justice and fair structures. Peace is the presence of something."
+    },
+    {
+      "unit": "peace",
+      "front": "Conflict vs violence",
+      "back": "Conflict means contested interests; it need not be violent. Latent conflict is hidden; overt conflict is open."
+    },
+    {
+      "unit": "peace",
+      "front": "Direct / structural / cultural violence",
+      "back": "Direct: physical harm by an actor. Structural: harm built into systems and rules. Cultural: ideas that make violence seem acceptable."
+    },
+    {
+      "unit": "peace",
+      "front": "IHL on aid",
+      "back": "International humanitarian law: consent to relief cannot be refused for arbitrary reasons. A different body of law from R2P."
+    },
+    {
+      "unit": "papers",
+      "front": "Paper 1 format",
+      "back": "25 marks, 1 h 15, four sources (at least one non-text), four questions: Q1 3 marks, Q2 4, Q3 6, Q4 12."
+    },
+    {
+      "unit": "papers",
+      "front": "Paper 1 Q4 rules",
+      "back": "Evaluate the sources AND synthesise them with your own knowledge. Only sources or only own knowledge caps you at 8; you need at least three sources for 12."
+    },
+    {
+      "unit": "papers",
+      "front": "Source evaluation questions",
+      "back": "Origin, purpose, main claim, evidence, perspective, limitation(s), and which stakeholder the source supports or challenges."
+    },
+    {
+      "unit": "papers",
+      "front": "Paper 2 format",
+      "back": "Two essays, 15 marks each: one from Section A (a thematic study, e.g. peace & conflict) and one from Section B (integrating). Same for SL and HL."
+    },
+    {
+      "unit": "papers",
+      "front": "Paper 2 essay structure",
+      "back": "Intro (direct answer, define all terms, thesis with a degree, roadmap), central argument, counterargument, overall judgment, conclusion with no new information."
+    },
+    {
+      "unit": "papers",
+      "front": "Six-part P2 scaffold",
+      "back": "Claim, Define, Evidence (with legitimacy claims and their basis), Counterpoint, Analysis, Overall Judgment (the most important section)."
+    },
+    {
+      "unit": "papers",
+      "front": "P2 13-15 markband",
+      "back": "Claims justified AND evaluated; perspectives explored AND evaluated; implications considered; examples well developed."
+    }
+  ],
+  "quiz": [
+    {
+      "unit": "core",
+      "q": "Min Aung Hlaing became president on 3 Apr 2026. Which grew?",
+      "choices": [
+        "His legitimacy",
+        "His external de jure sovereignty",
+        "His internal de jure sovereignty",
+        "His popular sovereignty"
+      ],
+      "answer": 2,
+      "explain": "A parliament vote gives legal ('on paper') authority inside the country. Whether people accept it as rightful is a separate question."
+    },
+    {
+      "unit": "core",
+      "q": "The Arakan Army controls >90% of Rakhine but no state recognises it. It has strong...",
+      "choices": [
+        "Internal de facto sovereignty",
+        "External de jure sovereignty",
+        "Internal de jure sovereignty",
+        "International legitimacy"
+      ],
+      "answer": 0,
+      "explain": "Control on the ground = internal de facto. 'Control without recognition = the Arakan Army.'"
+    },
+    {
+      "unit": "core",
+      "q": "Why does Kyaw Moe Tun still hold Myanmar's UN seat?",
+      "choices": [
+        "The UN formally recognised the NUG",
+        "The Security Council voted for him",
+        "ASEAN appointed him",
+        "The Credentials Committee keeps deferring the decision"
+      ],
+      "answer": 3,
+      "explain": "Deferral is a refusal to decide, so the existing ambassador (appointed 2020) stays. It gives the NUG some external de jure sovereignty."
+    },
+    {
+      "unit": "core",
+      "q": "Which question is about legitimacy rather than sovereignty?",
+      "choices": [
+        "Who holds the UN seat?",
+        "Do the people being ruled accept the rule as rightful?",
+        "Who controls the Bangladesh border?",
+        "Who does the constitution name as leader?"
+      ],
+      "answer": 1,
+      "explain": "'Who holds the seat?' is sovereignty. 'Who is right?', meaning do the ruled accept it, is legitimacy."
+    },
+    {
+      "unit": "core",
+      "q": "'Region Y' has strong control by its rulers but no country recognises them. This is...",
+      "choices": [
+        "Strong internal de facto, no external de jure",
+        "Strong external de jure, weak internal de facto",
+        "Full sovereignty",
+        "Strong legitimacy"
+      ],
+      "answer": 0,
+      "explain": "Control = internal de facto; no formal recognition = no external de jure."
+    },
+    {
+      "unit": "core",
+      "q": "A government wins a genuinely fair election, but armed gangs control half the country. It has...",
+      "choices": [
+        "Weak legitimacy, strong internal de facto",
+        "No sovereignty at all",
+        "Strong legitimacy, weak internal de facto",
+        "Strong external de facto only"
+      ],
+      "answer": 2,
+      "explain": "A fair vote is a strong source of legitimacy, but losing control of territory weakens de facto sovereignty."
+    },
+    {
+      "unit": "core",
+      "q": "China closes border crossings to squeeze the MNDAA while also hosting peace talks. Best label?",
+      "choices": [
+        "Soft power",
+        "Smart power",
+        "Structural power",
+        "Power with"
+      ],
+      "answer": 1,
+      "explain": "Smart power is a deliberate mix of hard (economic pressure) and soft (persuasion, mediation) power."
+    },
+    {
+      "unit": "core",
+      "q": "The army's quarter of parliamentary seats works as a veto on constitutional change. This is...",
+      "choices": [
+        "Structural power",
+        "Relational power",
+        "Soft power",
+        "Power with"
+      ],
+      "answer": 0,
+      "explain": "Power that comes from a position in the system (a seat quota, a veto) is structural."
+    },
+    {
+      "unit": "core",
+      "q": "Which is the best example of 'power with'?",
+      "choices": [
+        "Air strikes on Sagaing",
+        "China congratulating the president",
+        "Doctors and civil servants walking out together in the CDM",
+        "The DRP setting the 2000 cutoff"
+      ],
+      "answer": 2,
+      "explain": "Power with exists only because people act together. It's usually how stakeholders become actors."
+    },
+    {
+      "unit": "core",
+      "q": "The KIA controls rare-earth mines China needs, but relies on China for food, fuel and medicine. This shows...",
+      "choices": [
+        "Symmetric interdependence",
+        "Asymmetric (unequal) interdependence",
+        "Sovereign equality",
+        "Organic recognition"
+      ],
+      "answer": 1,
+      "explain": "Both depend on each other, but not equally. Unequal interdependence creates vulnerability and gives China leverage."
+    },
+    {
+      "unit": "core",
+      "q": "Max Weber (1919) said a state is defined by its monopoly on...",
+      "choices": [
+        "Trade",
+        "Elections",
+        "Recognition",
+        "The legitimate use of force"
+      ],
+      "answer": 3,
+      "explain": "The key word is LEGITIMATE. It separates a state from the armed group with the most guns."
+    },
+    {
+      "unit": "core",
+      "q": "Which UN Charter article sets out non-interference in domestic matters?",
+      "choices": [
+        "Art. 2(1)",
+        "Art. 2(4)",
+        "Art. 2(7)",
+        "Art. 51"
+      ],
+      "answer": 2,
+      "explain": "2(7) is non-interference; 2(1) is sovereign equality; 2(4) protects territorial integrity."
+    },
+    {
+      "unit": "core",
+      "q": "The 2025-26 election barred the NLD and 83 other parties. Which legitimation process is this?",
+      "choices": [
+        "Self-legitimation",
+        "Organic recognition",
+        "Delegitimation by rivals",
+        "Top-down recognition"
+      ],
+      "answer": 0,
+      "explain": "An actor holding a vote it controls to look rightful is self-legitimation. It gave legal form, not consent."
+    },
+    {
+      "unit": "core",
+      "q": "Which statement is the 'central trap' of the unit?",
+      "choices": [
+        "Sovereignty is a bundle of claims",
+        "Legal and recognised means legitimate",
+        "Influence is not authority",
+        "Conflict is not the same as violence"
+      ],
+      "answer": 1,
+      "explain": "That one is the trap, because it's false. 'Legal' is not the same as 'accepted'."
+    },
+    {
+      "unit": "actors",
+      "q": "Using the course definitions, what makes someone an ACTOR rather than only a stakeholder?",
+      "choices": [
+        "Being badly affected",
+        "Being a state",
+        "Having the means to act on the outcome",
+        "Being sympathetic"
+      ],
+      "answer": 2,
+      "explain": "Actors have agency and means (force, money, recognition, people). Stakeholders are affected and can grant or withhold legitimacy."
+    },
+    {
+      "unit": "actors",
+      "q": "Which is the clearest example of stakeholders becoming actors in Myanmar?",
+      "choices": [
+        "Protesters forming the PDFs after soldiers fired on them",
+        "China congratulating the president",
+        "The UN deferring the seat",
+        "Conscripts being drafted"
+      ],
+      "answer": 0,
+      "explain": "Peaceful protesters gained means to act by arming and organising: stakeholders turned actors."
+    },
+    {
+      "unit": "dharavi",
+      "q": "Who owns 80% of NMDPL, the Dharavi developer?",
+      "choices": [
+        "Maharashtra government",
+        "Slum Rehabilitation Authority",
+        "Dharavi Bachao Andolan",
+        "Adani Group"
+      ],
+      "answer": 3,
+      "explain": "Adani Group 80%, Maharashtra government 20%: legal authority delegated by the state to a private company."
+    },
+    {
+      "unit": "dharavi",
+      "q": "Who qualifies for a free in-situ flat in Dharavi?",
+      "choices": [
+        "Anyone surveyed by 2025",
+        "Ground-floor residents settled by 1 Jan 2000",
+        "Upper-floor tenants before 2011",
+        "All renters"
+      ],
+      "answer": 1,
+      "explain": "The 1 Jan 2000 ground-floor cutoff is the rule that creates the conflict with upper-floor and later residents."
+    },
+    {
+      "unit": "dharavi",
+      "q": "Courts upheld the Dharavi tender. What does that give the project?",
+      "choices": [
+        "Residents' consent",
+        "Organic recognition",
+        "Procedural, top-down legitimacy",
+        "Sovereignty"
+      ],
+      "answer": 2,
+      "explain": "A court ruling is top-down, procedural legitimacy. It doesn't show that residents accept the decision."
+    },
+    {
+      "unit": "dharavi",
+      "q": "The developer's site has slogans but no displacement figures. In Paper 1 it is most reliable for...",
+      "choices": [
+        "Its own branding and self-image",
+        "How many residents are ineligible",
+        "Whether residents consented",
+        "The project's true cost"
+      ],
+      "answer": 0,
+      "explain": "A promotional source shows what the developer wants believed, not its downsides."
+    },
+    {
+      "unit": "myanmar",
+      "q": "Which groups made up the Three Brotherhood Alliance behind Operation 1027?",
+      "choices": [
+        "NUG, PDFs, KIA",
+        "MNDAA, TNLA, Arakan Army",
+        "KIA, KNA, USDP",
+        "NLD, NUG, PDFs"
+      ],
+      "answer": 1,
+      "explain": "MNDAA + TNLA + AA launched Operation 1027 on 27 Oct 2023."
+    },
+    {
+      "unit": "myanmar",
+      "q": "How many people are internally displaced in Myanmar (June 2026)?",
+      "choices": [
+        "1.6 million",
+        "16.2 million",
+        "100,000",
+        "3.8 million"
+      ],
+      "answer": 3,
+      "explain": "3.8M displaced inside Myanmar; 1.6M fled abroad; 16.2M need aid."
+    },
+    {
+      "unit": "myanmar",
+      "q": "In Apr 2025, why did the MNDAA hand Lashio back?",
+      "choices": [
+        "It lost a battle to the PDFs",
+        "Chinese pressure: fuel, power and internet cut, leader held",
+        "ASEAN ordered it",
+        "A UN peacekeeping mission"
+      ],
+      "answer": 1,
+      "explain": "China's economic hard power over a group next to its border. 'Influence is not authority', but it still decides outcomes."
+    },
+    {
+      "unit": "myanmar",
+      "q": "Soldiers turned back a Chinese Red Cross convoy on the Nawnghkio road (1 Apr 2025). The lesson?",
+      "choices": [
+        "De jure sovereignty works as a gate on aid",
+        "China controls northern Shan",
+        "Aid is always soft power",
+        "The TNLA has external de jure sovereignty"
+      ],
+      "answer": 0,
+      "explain": "The legal right to approve convoys let the military decide who gets help: hard power through a legal rule."
+    },
+    {
+      "unit": "myanmar",
+      "q": "What share of the 10 Apr 2026 cabinet were generals, USDP or ex-junta?",
+      "choices": [
+        "10 of 30",
+        "15 of 30",
+        "28 of 30",
+        "All 30"
+      ],
+      "answer": 2,
+      "explain": "28 of 30. A 'civilian' government run by the same people raises the question of whether anything changed but the title."
+    },
+    {
+      "unit": "myanmar",
+      "q": "Why does a source calling the army 'Sit-tat' matter in Paper 1?",
+      "choices": [
+        "It is the official legal name",
+        "It shows the source rejects the military's legitimacy",
+        "It proves the source is neutral",
+        "It means the source is from China"
+      ],
+      "answer": 1,
+      "explain": "'Even the army's name is an argument.' Tatmadaw is honourable; Sit-tat signals opposition: a perspective clue."
+    },
+    {
+      "unit": "external",
+      "q": "Where and when was ASEAN's Five-Point Consensus agreed?",
+      "choices": [
+        "Bangkok, 1967",
+        "Manila, Nov 2026",
+        "Naypyitaw, Feb 2021",
+        "Jakarta, 24 Apr 2021"
+      ],
+      "answer": 3,
+      "explain": "Jakarta, 24 Apr 2021. Min Aung Hlaing attended; the NUG was not invited. It has never been carried out."
+    },
+    {
+      "unit": "external",
+      "q": "Which is NOT one of the Five-Point Consensus points?",
+      "choices": [
+        "A special envoy",
+        "Suspending Myanmar's ASEAN membership",
+        "Humanitarian aid via the AHA Centre",
+        "Dialogue among all parties"
+      ],
+      "answer": 1,
+      "explain": "The five: end violence, dialogue, envoy, aid, envoy visit. ASEAN can't expel members; it only bars the leader from summits."
+    },
+    {
+      "unit": "external",
+      "q": "Why can't ASEAN force Myanmar to carry out the Five-Point Consensus?",
+      "choices": [
+        "ASEAN has no members near Myanmar",
+        "The UN forbids it",
+        "Non-interference and the consensus rule, which Myanmar itself can block",
+        "Myanmar left ASEAN in 2021"
+      ],
+      "answer": 2,
+      "explain": "'ASEAN can't act unless every member agrees, including Myanmar.' And the plan was a declaration, not a treaty."
+    },
+    {
+      "unit": "external",
+      "q": "ASEAN keeps Myanmar's leader out of summits but its envoy meets the foreign minister. This shows ASEAN treats the military as...",
+      "choices": [
+        "Sovereign but not fully legitimate",
+        "Legitimate but not sovereign",
+        "Neither sovereign nor legitimate",
+        "Fully legitimate"
+      ],
+      "answer": 0,
+      "explain": "Non-interference and talks = treating it as sovereign; summit bans over unfair elections = withholding legitimacy. They're separate."
+    },
+    {
+      "unit": "external",
+      "q": "India hosted Min Aung Hlaing (30 May-3 Jun 2026) mainly because of...",
+      "choices": [
+        "A formal endorsement of the election",
+        "ASEAN membership",
+        "A UN resolution",
+        "Interdependence: a 1,643 km border, refugees, citizens in scam compounds"
+      ],
+      "answer": 3,
+      "explain": "Neighbours deal with whoever controls the other side. Engagement is not endorsement."
+    },
+    {
+      "unit": "peace",
+      "q": "ASEAN's Five-Point Consensus is best described as an attempt at...",
+      "choices": [
+        "Peacekeeping",
+        "Peacebuilding",
+        "Peacemaking",
+        "Military intervention"
+      ],
+      "answer": 2,
+      "explain": "Dialogue, an envoy and a ceasefire demand are peacemaking. It delivered none of the three approaches."
+    },
+    {
+      "unit": "peace",
+      "q": "'A teacher standing between the kids during recess' describes...",
+      "choices": [
+        "Peacekeeping",
+        "Peacemaking",
+        "Peacebuilding",
+        "Mediation"
+      ],
+      "answer": 0,
+      "explain": "Peacekeeping holds an agreement in place with monitors or troops, usually with all sides' consent."
+    },
+    {
+      "unit": "peace",
+      "q": "Positive peace means...",
+      "choices": [
+        "No fighting right now",
+        "A signed ceasefire",
+        "A UN peacekeeping force",
+        "The presence of justice and fair structures, not just no war"
+      ],
+      "answer": 3,
+      "explain": "Negative peace = absence of violence. Positive peace = presence of something."
+    },
+    {
+      "unit": "papers",
+      "q": "Paper 1 Q4 is worth...",
+      "choices": [
+        "6 marks",
+        "12 marks",
+        "8 marks",
+        "15 marks"
+      ],
+      "answer": 1,
+      "explain": "Split is 3/4/6/12 out of 25. Q4 is about half the paper, so start it by minute 33."
+    },
+    {
+      "unit": "papers",
+      "q": "In Paper 1 Q4, what happens if you use only the sources and no own knowledge?",
+      "choices": [
+        "Nothing, it's fine",
+        "You lose 1 mark",
+        "You are capped at 8",
+        "You get zero"
+      ],
+      "answer": 2,
+      "explain": "Q4 needs sources AND own knowledge synthesised. Only one of them caps you at 8, and 12 needs at least three sources."
+    },
+    {
+      "unit": "papers",
+      "q": "What separates the P2 13-15 band from 10-12?",
+      "choices": [
+        "Longer essays",
+        "More dates",
+        "Using theory names",
+        "Claims and perspectives evaluated, not just justified and explored"
+      ],
+      "answer": 3,
+      "explain": "The jump from a 5 to a 7 is the word 'evaluated': say how strong each point is and where it breaks."
+    },
+    {
+      "unit": "papers",
+      "q": "Which is the best way to open a Paper 2 intro?",
+      "choices": [
+        "A direct answer to the prompt",
+        "'Throughout history...'",
+        "'In this essay I will discuss...'",
+        "A timeline from 2020"
+      ],
+      "answer": 0,
+      "explain": "Direct answer, define all key terms, thesis with a degree word, roadmap. The others are banned or descriptive."
+    }
+  ]
+}

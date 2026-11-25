@@ -1,0 +1,4597 @@
+{
+ "subject": "eng",
+ "name": "English",
+ "units": [
+  {
+   "id": "u1",
+   "name": "TRF: plot & characters"
+  },
+  {
+   "id": "u2",
+   "name": "TRF: settings & symbols"
+  },
+  {
+   "id": "u3",
+   "name": "TRF: themes"
+  },
+  {
+   "id": "u4",
+   "name": "TRF: narrative choices"
+  },
+  {
+   "id": "u5",
+   "name": "Devices & Paper 1 text types"
+  },
+  {
+   "id": "u6",
+   "name": "Essay writing & IB assessment"
+  }
+ ],
+ "prompts": [
+  {
+   "id": "eng-01",
+   "unit": "u1",
+   "prompt": "Name a character in The Reluctant Fundamentalist",
+   "answers": [
+    {
+     "text": "Changez",
+     "alias": [],
+     "tier": 1,
+     "why": "The narrator: a Pakistani Princeton graduate who worked at Underwood Samson and now tells his story in Lahore."
+    },
+    {
+     "text": "Erica",
+     "alias": [],
+     "tier": 1,
+     "why": "Changez's love interest, met on the Greece trip; she can't let go of her dead boyfriend Chris."
+    },
+    {
+     "text": "Jim",
+     "alias": [],
+     "tier": 1,
+     "why": "Senior man at Underwood Samson who hires and mentors Changez; says he grew up 'dirt poor'."
+    },
+    {
+     "text": "The American",
+     "alias": [
+      "american",
+      "the stranger",
+      "stranger",
+      "the listener"
+     ],
+     "tier": 1,
+     "why": "The silent listener at the Lahore café. He never speaks a line; we only hear Changez's replies."
+    },
+    {
+     "text": "Chris",
+     "alias": [],
+     "tier": 2,
+     "why": "Erica's childhood best friend and boyfriend who died of lung cancer. His memory haunts her."
+    },
+    {
+     "text": "Wainwright",
+     "alias": [],
+     "tier": 2,
+     "why": "Changez's closest friend among the trainees; his father is from Barbados. He ranks second."
+    },
+    {
+     "text": "Juan-Bautista",
+     "alias": [
+      "juan bautista",
+      "juan"
+     ],
+     "tier": 3,
+     "why": "Head of the Valparaíso publishing firm who tells Changez the janissary story."
+    },
+    {
+     "text": "The waiter",
+     "alias": [
+      "waiter"
+     ],
+     "tier": 3,
+     "why": "The café waiter who keeps appearing; the American fears him. At the end he follows them."
+    },
+    {
+     "text": "Erica's mother",
+     "alias": [
+      "ericas mother",
+      "erica's mom"
+     ],
+     "tier": 3,
+     "why": "Warns Changez that Erica is fragile and needs a steady friend."
+    },
+    {
+     "text": "Erica's father",
+     "alias": [
+      "ericas father",
+      "erica's dad"
+     ],
+     "tier": 3,
+     "why": "A businessman who talks down to Changez about Pakistan at dinner: polite prejudice before 9/11."
+    },
+    {
+     "text": "Sherman",
+     "alias": [],
+     "tier": 4,
+     "why": "Underwood Samson vice president who tells recruits the firm is a meritocracy that ranks them."
+    },
+    {
+     "text": "Chuck",
+     "alias": [],
+     "tier": 4,
+     "why": "Princeton friend who invites Changez on the Greece trip with rich classmates."
+    },
+    {
+     "text": "Jeepney driver",
+     "alias": [
+      "jeepney man"
+     ],
+     "tier": 4,
+     "why": "In Manila he glares at Changez's limousine; Changez feels closer to him than to his colleagues."
+    },
+    {
+     "text": "Mike",
+     "alias": [],
+     "tier": 5,
+     "why": "The rival suitor on the Greece trip whom Erica turns down."
+    },
+    {
+     "text": "Changez's mother",
+     "alias": [
+      "changez's mom",
+      "changezs mother"
+     ],
+     "tier": 5,
+     "why": "Tells him to shave before he flies back to New York; he keeps the beard."
+    }
+   ]
+  },
+  {
+   "id": "eng-02",
+   "unit": "u1",
+   "prompt": "Name a place Changez lives in, works in or visits",
+   "answers": [
+    {
+     "text": "Lahore",
+     "alias": [],
+     "tier": 1,
+     "why": "His home city and the frame setting: he tells the whole story there in one evening."
+    },
+    {
+     "text": "New York",
+     "alias": [
+      "new york city",
+      "nyc",
+      "manhattan"
+     ],
+     "tier": 1,
+     "why": "Where he works for Underwood Samson; he feels like a New Yorker before he ever feels American."
+    },
+    {
+     "text": "Princeton",
+     "alias": [],
+     "tier": 1,
+     "why": "His university; the elite start of his American Dream."
+    },
+    {
+     "text": "Manila",
+     "alias": [
+      "philippines",
+      "the philippines"
+     ],
+     "tier": 2,
+     "why": "Philippines assignment where he acts American and sees 9/11 on TV."
+    },
+    {
+     "text": "Valparaíso",
+     "alias": [
+      "valparaiso",
+      "chile"
+     ],
+     "tier": 2,
+     "why": "Chile job valuing a publishing firm; the janissary talk makes him walk away."
+    },
+    {
+     "text": "Old Anarkali",
+     "alias": [
+      "anarkali",
+      "old anarkali market"
+     ],
+     "tier": 2,
+     "why": "The Lahore market where Changez meets the American at a café."
+    },
+    {
+     "text": "Greece",
+     "alias": [],
+     "tier": 3,
+     "why": "Post-graduation trip with rich classmates where he meets Erica."
+    },
+    {
+     "text": "New Jersey",
+     "alias": [],
+     "tier": 3,
+     "why": "Where he helps downsize a cable company and later faces a slur in a parking lot."
+    },
+    {
+     "text": "Upper East Side",
+     "alias": [],
+     "tier": 4,
+     "why": "Erica's family's wealthy flat; it reminds Changez of the home he grew up in."
+    },
+    {
+     "text": "Rhodes",
+     "alias": [],
+     "tier": 4,
+     "why": "Greek island where Changez and Erica swim and talk; their closest easy moment."
+    },
+    {
+     "text": "Santorini",
+     "alias": [],
+     "tier": 5,
+     "why": "A Greek stop where Erica turns away suitors who 'come on too strong'."
+    },
+    {
+     "text": "Piraeus",
+     "alias": [],
+     "tier": 5,
+     "why": "Greek port on the trip with Chuck's group."
+    }
+   ]
+  },
+  {
+   "id": "eng-03",
+   "unit": "u1",
+   "prompt": "Name a significant moment in Changez's past (the flashback story)",
+   "answers": [
+    {
+     "text": "9/11 smile",
+     "alias": [
+      "the smile",
+      "smiling at 9/11",
+      "smiles at 9/11"
+     ],
+     "tier": 1,
+     "why": "In Manila he watches the towers fall on TV and smiles: the novel's most debated moment."
+    },
+    {
+     "text": "Airport strip search",
+     "alias": [
+      "airport search",
+      "strip search",
+      "strip searched"
+     ],
+     "tier": 1,
+     "why": "Flying back after 9/11 he is stripped to his underwear: his look cancels his American status."
+    },
+    {
+     "text": "Growing the beard",
+     "alias": [
+      "beard",
+      "the beard"
+     ],
+     "tier": 1,
+     "why": "He keeps a beard from his Lahore visit; colleagues stare. A visible refusal to blend in."
+    },
+    {
+     "text": "Jim's interview",
+     "alias": [
+      "job interview",
+      "interview with jim",
+      "interview"
+     ],
+     "tier": 2,
+     "why": "Jim hires him on the spot at Princeton after a valuation puzzle."
+    },
+    {
+     "text": "Greece trip",
+     "alias": [
+      "greece"
+     ],
+     "tier": 2,
+     "why": "Where he meets Erica and first feels his outsider status among rich classmates."
+    },
+    {
+     "text": "Janissary talk",
+     "alias": [
+      "janissary story",
+      "janissaries",
+      "janissary"
+     ],
+     "tier": 2,
+     "why": "Juan-Bautista compares him to janissaries; he realises he serves an empire."
+    },
+    {
+     "text": "Erica's disappearance",
+     "alias": [
+      "erica disappears",
+      "erica vanishes"
+     ],
+     "tier": 2,
+     "why": "She vanishes from the clinic; her clothes are found by the Hudson. Never resolved."
+    },
+    {
+     "text": "Dinner with Erica's parents",
+     "alias": [
+      "meeting erica's parents"
+     ],
+     "tier": 3,
+     "why": "Her father lectures him about Pakistan: polite prejudice before 9/11."
+    },
+    {
+     "text": "Ranked first",
+     "alias": [
+      "ranked number one",
+      "top of the rankings"
+     ],
+     "tier": 3,
+     "why": "He tops the trainee rankings at Underwood Samson; peak of the American Dream."
+    },
+    {
+     "text": "New Jersey downsizing",
+     "alias": [
+      "downsizing"
+     ],
+     "tier": 3,
+     "why": "He helps cut jobs at a cable company; Wainwright tells him to focus on the fundamentals."
+    },
+    {
+     "text": "Lahore homecoming",
+     "alias": [
+      "return to lahore",
+      "visit to lahore",
+      "lahore visit"
+     ],
+     "tier": 3,
+     "why": "He sees his family home through 'American eyes', then feels ashamed of that."
+    },
+    {
+     "text": "Erica at the clinic",
+     "alias": [
+      "clinic",
+      "clinic visit"
+     ],
+     "tier": 4,
+     "why": "She is thin and distant and speaks of him in the past tense; their relationship ends."
+    },
+    {
+     "text": "Afghanistan bombing on TV",
+     "alias": [
+      "afghanistan footage",
+      "afghanistan bombing"
+     ],
+     "tier": 4,
+     "why": "Footage of the US bombing Afghanistan upsets him; his loyalties start to tilt."
+    },
+    {
+     "text": "Being let go",
+     "alias": [
+      "fired",
+      "dismissal",
+      "being fired"
+     ],
+     "tier": 4,
+     "why": "After abandoning the Chile job he is dismissed and escorted out of Underwood Samson."
+    },
+    {
+     "text": "Leaving his jacket",
+     "alias": [
+      "jacket at the airport",
+      "jacket left at airport"
+     ],
+     "tier": 5,
+     "why": "He leaves his jacket at the airport as an offering to Erica; it sets off a security alert."
+    }
+   ]
+  },
+  {
+   "id": "eng-04",
+   "unit": "u1",
+   "prompt": "Name a moment in the Lahore café frame that builds suspense",
+   "answers": [
+    {
+     "text": "Hand in the jacket",
+     "alias": [
+      "jacket",
+      "reaching into his jacket",
+      "hand in jacket"
+     ],
+     "tier": 1,
+     "why": "The American keeps reaching into his jacket; the last page pays this off."
+    },
+    {
+     "text": "Glint of metal",
+     "alias": [],
+     "tier": 2,
+     "why": "The ending: Changez sees metal as the American reaches in. Gun or card holder? Never said."
+    },
+    {
+     "text": "Blackout",
+     "alias": [
+      "power cut",
+      "power cuts out"
+     ],
+     "tier": 2,
+     "why": "The power cuts out; the American jumps up and reaches for his jacket."
+    },
+    {
+     "text": "Bats",
+     "alias": [
+      "the bats"
+     ],
+     "tier": 2,
+     "why": "Bats gather at dusk; the American calls them creepy and flinches."
+    },
+    {
+     "text": "Waiter following them",
+     "alias": [
+      "waiter",
+      "the waiter"
+     ],
+     "tier": 3,
+     "why": "On the walk to the hotel the waiter follows close behind. Threat or escort?"
+    },
+    {
+     "text": "Walk to the hotel",
+     "alias": [
+      "walk to hotel"
+     ],
+     "tier": 3,
+     "why": "Changez walks the American back in the dark: an escort or a trap."
+    },
+    {
+     "text": "Swapping teacups",
+     "alias": [
+      "switching cups",
+      "swapped cups",
+      "cup swap"
+     ],
+     "tier": 3,
+     "why": "The American wants the cups switched: he fears being drugged or poisoned."
+    },
+    {
+     "text": "Back to the wall",
+     "alias": [
+      "sitting with his back to the wall"
+     ],
+     "tier": 4,
+     "why": "The American sits with his back to the wall, like someone trained to watch for threats."
+    },
+    {
+     "text": "Market gates locked",
+     "alias": [
+      "gates locking",
+      "locked gates"
+     ],
+     "tier": 4,
+     "why": "In the afternoon the market gates are locked so vehicles can't leave: a trapped feeling."
+    },
+    {
+     "text": "Chanted menu",
+     "alias": [
+      "waiter praying",
+      "menu chant"
+     ],
+     "tier": 4,
+     "why": "The waiter reads the menu in Urdu; the American thinks he's praying. Fear shapes perception."
+    },
+    {
+     "text": "Changez's scar",
+     "alias": [
+      "scar",
+      "the scar"
+     ],
+     "tier": 5,
+     "why": "Changez explains it came from candle wax in a blackout, not militant training."
+    },
+    {
+     "text": "Bulge under the jacket",
+     "alias": [
+      "the bulge",
+      "hidden wallet"
+     ],
+     "tier": 5,
+     "why": "Changez notices a bulge, then says it's probably a hidden wallet."
+    }
+   ]
+  },
+  {
+   "id": "eng-05",
+   "unit": "u1",
+   "prompt": "Name a fact about Erica",
+   "answers": [
+    {
+     "text": "Aspiring novelist",
+     "alias": [
+      "novelist",
+      "writer",
+      "wants to be a novelist"
+     ],
+     "tier": 1,
+     "why": "She wants to be a novelist and finishes a manuscript."
+    },
+    {
+     "text": "Grieving Chris",
+     "alias": [
+      "grieves chris",
+      "misses chris"
+     ],
+     "tier": 1,
+     "why": "She can't move on from Chris, who died of lung cancer."
+    },
+    {
+     "text": "Met in Greece",
+     "alias": [
+      "greece",
+      "met on the greece trip"
+     ],
+     "tier": 2,
+     "why": "Changez meets her on the post-graduation Greece trip."
+    },
+    {
+     "text": "Goes to a clinic",
+     "alias": [
+      "clinic",
+      "mental health clinic"
+     ],
+     "tier": 2,
+     "why": "She ends up in a clinic outside New York; Changez visits her there."
+    },
+    {
+     "text": "Disappears",
+     "alias": [
+      "vanishes",
+      "disappearance"
+     ],
+     "tier": 2,
+     "why": "In ch.11 she has vanished from the clinic and is never found."
+    },
+    {
+     "text": "Wealthy family",
+     "alias": [
+      "rich family",
+      "wealthy"
+     ],
+     "tier": 3,
+     "why": "Her family lives in an Upper East Side flat: old-money America."
+    },
+    {
+     "text": "Chris's relics",
+     "alias": [
+      "keeps chris's things",
+      "chris's shirt"
+     ],
+     "tier": 4,
+     "why": "She keeps Chris's drawing and shirt: she lives in the past."
+    },
+    {
+     "text": "Literary agent",
+     "alias": [
+      "agent",
+      "finds an agent"
+     ],
+     "tier": 4,
+     "why": "After 9/11 she finds a literary agent, but later stops answering her calls."
+    },
+    {
+     "text": "Mao T-shirt",
+     "alias": [
+      "mao shirt"
+     ],
+     "tier": 4,
+     "why": "What she wears when Changez first meets her in Greece."
+    },
+    {
+     "text": "Tae kwon do",
+     "alias": [
+      "taekwondo"
+     ],
+     "tier": 4,
+     "why": "She practises tae kwon do: athletic and confident at first."
+    },
+    {
+     "text": "Island manuscript",
+     "alias": [
+      "manuscript",
+      "island story"
+     ],
+     "tier": 5,
+     "why": "Her manuscript is a simple story of a girl alone on an island, not the memoir he expected."
+    },
+    {
+     "text": "Clothes by the Hudson",
+     "alias": [
+      "hudson"
+     ],
+     "tier": 5,
+     "why": "Her clothes are found on rocks above the Hudson; suicide is suggested, not stated."
+    }
+   ]
+  },
+  {
+   "id": "eng-06",
+   "unit": "u1",
+   "prompt": "Name a fact about Changez",
+   "answers": [
+    {
+     "text": "Pakistani",
+     "alias": [
+      "from pakistan",
+      "from lahore"
+     ],
+     "tier": 1,
+     "why": "He is from Lahore; his nationality decides how America sees him after 9/11."
+    },
+    {
+     "text": "Princeton graduate",
+     "alias": [
+      "princeton"
+     ],
+     "tier": 1,
+     "why": "Class of 2001 with strong grades: the meritocracy's success story."
+    },
+    {
+     "text": "Valuation analyst",
+     "alias": [
+      "analyst",
+      "works at underwood samson"
+     ],
+     "tier": 1,
+     "why": "He works for Underwood Samson valuing companies."
+    },
+    {
+     "text": "Only narrator",
+     "alias": [
+      "narrator",
+      "sole narrator"
+     ],
+     "tier": 2,
+     "why": "Every word of the novel is his; the American never speaks."
+    },
+    {
+     "text": "Ranked first",
+     "alias": [
+      "top trainee",
+      "number one trainee"
+     ],
+     "tier": 2,
+     "why": "Tops the trainee rankings, ahead of Wainwright."
+    },
+    {
+     "text": "University lecturer",
+     "alias": [
+      "lecturer",
+      "professor"
+     ],
+     "tier": 2,
+     "why": "Back in Lahore he teaches and urges students to disengage from the US."
+    },
+    {
+     "text": "Family in decline",
+     "alias": [
+      "declining family",
+      "family decline"
+     ],
+     "tier": 3,
+     "why": "His Lahore family was once upper class but has declined over generations."
+    },
+    {
+     "text": "Worked through college",
+     "alias": [
+      "hid his jobs",
+      "had jobs at princeton"
+     ],
+     "tier": 4,
+     "why": "He hid his jobs from richer classmates at Princeton."
+    },
+    {
+     "text": "Political critic",
+     "alias": [
+      "activist",
+      "tv critic",
+      "critic of america"
+     ],
+     "tier": 4,
+     "why": "He goes on TV to criticise Pakistan's cooperation with the US."
+    },
+    {
+     "text": "Name suggests change",
+     "alias": [
+      "name means change"
+     ],
+     "tier": 4,
+     "why": "A common reading: 'Changez' hints at change, his transformation across the novel."
+    },
+    {
+     "text": "Poet in his family",
+     "alias": [
+      "poet relative"
+     ],
+     "tier": 5,
+     "why": "Mentioning a family poet wins Juan-Bautista's respect in Valparaíso."
+    }
+   ]
+  },
+  {
+   "id": "eng-07",
+   "unit": "u1",
+   "prompt": "Name a fact about Jim",
+   "answers": [
+    {
+     "text": "Recruits Changez",
+     "alias": [
+      "hired changez",
+      "interviewer",
+      "hires changez"
+     ],
+     "tier": 1,
+     "why": "He interviews Changez at Princeton and hires him on the spot."
+    },
+    {
+     "text": "Mentor",
+     "alias": [],
+     "tier": 1,
+     "why": "He mentors Changez and sees himself in him."
+    },
+    {
+     "text": "Grew up dirt poor",
+     "alias": [
+      "dirt poor",
+      "poor background"
+     ],
+     "tier": 2,
+     "why": "He tells Changez he came from a poor background: the self-made American."
+    },
+    {
+     "text": "Senior at the firm",
+     "alias": [
+      "boss",
+      "senior banker"
+     ],
+     "tier": 2,
+     "why": "A powerful figure at Underwood Samson who hands out assignments."
+    },
+    {
+     "text": "Calls them watchful",
+     "alias": [
+      "watchful"
+     ],
+     "tier": 3,
+     "why": "At a summer party he says both are 'watchful' because both felt out of place."
+    },
+    {
+     "text": "Sends him to Chile",
+     "alias": [
+      "valparaiso",
+      "chile",
+      "sends him to valparaiso"
+     ],
+     "tier": 3,
+     "why": "He gives Changez the Valparaíso job, which ends his career."
+    },
+    {
+     "text": "Feels betrayed",
+     "alias": [
+      "betrayed",
+      "betrayal"
+     ],
+     "tier": 3,
+     "why": "When Changez stops working in Chile, Jim says he has betrayed his trust."
+    },
+    {
+     "text": "Your Pakistani side",
+     "alias": [
+      "pakistani side"
+     ],
+     "tier": 4,
+     "why": "In his car he guesses Changez's trouble is 'your Pakistani side'."
+    },
+    {
+     "text": "Eye for people",
+     "alias": [],
+     "tier": 4,
+     "why": "He says he has an eye for people when he hires Changez."
+    },
+    {
+     "text": "Visits Manila",
+     "alias": [
+      "manila"
+     ],
+     "tier": 4,
+     "why": "He visits in Manila and warns Changez not to overwork."
+    },
+    {
+     "text": "Brushed off in Chile",
+     "alias": [
+      "dismissed by juan-bautista"
+     ],
+     "tier": 5,
+     "why": "Juan-Bautista dismisses Jim's business talk but warms to Changez."
+    }
+   ]
+  },
+  {
+   "id": "eng-08",
+   "unit": "u1",
+   "prompt": "Name a character who mirrors or contrasts with Changez",
+   "answers": [
+    {
+     "text": "Jim",
+     "alias": [],
+     "tier": 1,
+     "why": "A poor outsider who 'made it' in America: what Changez could become."
+    },
+    {
+     "text": "Wainwright",
+     "alias": [],
+     "tier": 1,
+     "why": "Fellow minority trainee who stays relaxed and keeps his identity: a foil."
+    },
+    {
+     "text": "The American",
+     "alias": [],
+     "tier": 2,
+     "why": "Sits across the table: each suspects the other. A mirror of mutual mistrust."
+    },
+    {
+     "text": "Chris",
+     "alias": [],
+     "tier": 2,
+     "why": "The dead rival Changez can never replace; he even asks Erica to pretend he's Chris."
+    },
+    {
+     "text": "Juan-Bautista",
+     "alias": [],
+     "tier": 3,
+     "why": "Lover of books in a declining city; he holds up a mirror (janissaries) to Changez."
+    },
+    {
+     "text": "Jeepney driver",
+     "alias": [
+      "jeepney"
+     ],
+     "tier": 3,
+     "why": "A poor Filipino whose glare shows Changez which side of power he's on."
+    },
+    {
+     "text": "Janissaries",
+     "alias": [
+      "janissary"
+     ],
+     "tier": 4,
+     "why": "Historical mirror: boys trained to serve an empire against their own people."
+    },
+    {
+     "text": "Erica",
+     "alias": [],
+     "tier": 4,
+     "why": "Both are lost between past and present; her nostalgia mirrors his search for home."
+    }
+   ]
+  },
+  {
+   "id": "eng-09",
+   "unit": "u2",
+   "prompt": "Name a symbol in The Reluctant Fundamentalist",
+   "answers": [
+    {
+     "text": "The beard",
+     "alias": [
+      "beard"
+     ],
+     "tier": 1,
+     "why": "Identity and protest to Changez; a threat to Americans. Same object, two meanings."
+    },
+    {
+     "text": "Erica",
+     "alias": [
+      "erica as america"
+     ],
+     "tier": 1,
+     "why": "Often read as 'Am-Erica': her grief and nostalgia mirror post-9/11 America."
+    },
+    {
+     "text": "Underwood Samson",
+     "alias": [
+      "us",
+      "u.s.",
+      "underwood samson initials"
+     ],
+     "tier": 2,
+     "why": "Its initials are U.S.: the firm stands for America and its economic power."
+    },
+    {
+     "text": "Chris",
+     "alias": [],
+     "tier": 2,
+     "why": "An idealised, lost past that Erica (and America) can't let go of."
+    },
+    {
+     "text": "Janissaries",
+     "alias": [
+      "janissary"
+     ],
+     "tier": 2,
+     "why": "Servants of an empire against their own people: what Changez fears he's become."
+    },
+    {
+     "text": "American flags",
+     "alias": [
+      "flags",
+      "the flags"
+     ],
+     "tier": 2,
+     "why": "After 9/11 flags fill New York: patriotism turning inward and aggressive."
+    },
+    {
+     "text": "The title",
+     "alias": [
+      "title"
+     ],
+     "tier": 3,
+     "why": "Fundamentals of finance vs religious fundamentalism: a central metaphor."
+    },
+    {
+     "text": "Twin Towers",
+     "alias": [
+      "world trade center",
+      "the towers"
+     ],
+     "tier": 3,
+     "why": "Symbols of American power; Changez smiles at the 'symbolism' of them falling."
+    },
+    {
+     "text": "Bats",
+     "alias": [
+      "the bats"
+     ],
+     "tier": 4,
+     "why": "Predators gathering at dusk in the frame: menace and foreshadowing."
+    },
+    {
+     "text": "Pakistani clothes",
+     "alias": [
+      "kurta"
+     ],
+     "tier": 4,
+     "why": "Worn to Erica's flat: Changez confident in his identity in an American home."
+    },
+    {
+     "text": "Erica's manuscript",
+     "alias": [
+      "manuscript"
+     ],
+     "tier": 4,
+     "why": "A girl alone on an island: Erica choosing her own path, not needing a saviour."
+    },
+    {
+     "text": "Tea",
+     "alias": [],
+     "tier": 4,
+     "why": "Shared through the frame: hospitality on the surface, suspicion underneath."
+    },
+    {
+     "text": "Jasmine",
+     "alias": [
+      "jasmine flowers"
+     ],
+     "tier": 5,
+     "why": "Changez buys it for his grandmother's grave: links love, death and memory."
+    },
+    {
+     "text": "Business card holder",
+     "alias": [
+      "card holder",
+      "business cards"
+     ],
+     "tier": 5,
+     "why": "What Changez hopes is in the American's jacket: innocence or threat?"
+    }
+   ]
+  },
+  {
+   "id": "eng-10",
+   "unit": "u2",
+   "prompt": "Name something the beard could represent",
+   "answers": [
+    {
+     "text": "Identity",
+     "alias": [
+      "his identity"
+     ],
+     "tier": 1,
+     "why": "Changez calls it a symbol of his identity: he stops hiding where he's from."
+    },
+    {
+     "text": "Protest",
+     "alias": [
+      "rebellion",
+      "defiance"
+     ],
+     "tier": 2,
+     "why": "A quiet protest against America's post-9/11 treatment of people like him."
+    },
+    {
+     "text": "Threat",
+     "alias": [
+      "danger"
+     ],
+     "tier": 2,
+     "why": "To colleagues and the American it reads as danger: stereotyping in action."
+    },
+    {
+     "text": "Heritage",
+     "alias": [
+      "roots",
+      "pakistani heritage"
+     ],
+     "tier": 3,
+     "why": "In Lahore a beard is ordinary; it ties him to his family and culture."
+    },
+    {
+     "text": "Refusal to blend in",
+     "alias": [
+      "not blending in",
+      "refusing to assimilate"
+     ],
+     "tier": 3,
+     "why": "He keeps it despite stares and a warning to shave: no more performing."
+    },
+    {
+     "text": "Religious fundamentalism",
+     "alias": [
+      "fundamentalism",
+      "extremism"
+     ],
+     "tier": 3,
+     "why": "What Americans assume it means: the title's trap for the reader."
+    },
+    {
+     "text": "Transformation",
+     "alias": [
+      "change",
+      "turning point"
+     ],
+     "tier": 4,
+     "why": "Marks the turn from assimilated analyst to political voice."
+    },
+    {
+     "text": "Solidarity with Pakistan",
+     "alias": [
+      "loyalty to pakistan",
+      "solidarity"
+     ],
+     "tier": 4,
+     "why": "Grown while war with India threatened: loyalty to home."
+    },
+    {
+     "text": "Stereotyping",
+     "alias": [
+      "stereotypes",
+      "stereotype"
+     ],
+     "tier": 4,
+     "why": "Shows how one visible feature makes people judge a whole person."
+    }
+   ]
+  },
+  {
+   "id": "eng-11",
+   "unit": "u2",
+   "prompt": "Name something Erica represents or is linked to",
+   "answers": [
+    {
+     "text": "America",
+     "alias": [
+      "am-erica",
+      "the us",
+      "usa"
+     ],
+     "tier": 1,
+     "why": "Read as 'Am-Erica': loving her is like loving the US, and both turn inward."
+    },
+    {
+     "text": "Nostalgia",
+     "alias": [],
+     "tier": 1,
+     "why": "She retreats into the past with Chris, like America after 9/11."
+    },
+    {
+     "text": "Grief",
+     "alias": [
+      "loss",
+      "mourning"
+     ],
+     "tier": 2,
+     "why": "She never recovers from Chris's death."
+    },
+    {
+     "text": "American Dream",
+     "alias": [
+      "the american dream"
+     ],
+     "tier": 3,
+     "why": "Glamorous and close, but Changez can never fully have her."
+    },
+    {
+     "text": "Privilege",
+     "alias": [
+      "wealth",
+      "old money"
+     ],
+     "tier": 3,
+     "why": "Her old-money family shows the elite world Changez is let into."
+    },
+    {
+     "text": "The past",
+     "alias": [
+      "living in the past"
+     ],
+     "tier": 3,
+     "why": "She can't live in the present; 'home' for her is Chris."
+    },
+    {
+     "text": "Unreachable belonging",
+     "alias": [
+      "belonging",
+      "acceptance"
+     ],
+     "tier": 4,
+     "why": "Changez can only be close to her by pretending to be someone else."
+    },
+    {
+     "text": "Fragility",
+     "alias": [
+      "fragile america",
+      "mental illness"
+     ],
+     "tier": 4,
+     "why": "Her breakdown mirrors a wounded, fragile nation."
+    },
+    {
+     "text": "Self-absorption",
+     "alias": [
+      "turning inward",
+      "inward-looking"
+     ],
+     "tier": 5,
+     "why": "She turns inward and away from others, as America did after 9/11."
+    }
+   ]
+  },
+  {
+   "id": "eng-12",
+   "unit": "u2",
+   "prompt": "Name a meaning or reading of the novel's title",
+   "answers": [
+    {
+     "text": "Financial fundamentals",
+     "alias": [
+      "fundamentals",
+      "focus on the fundamentals",
+      "finance"
+     ],
+     "tier": 1,
+     "why": "Underwood Samson's creed: 'Focus on the fundamentals.' Changez is first a finance fundamentalist."
+    },
+    {
+     "text": "Religious fundamentalism",
+     "alias": [
+      "islamic fundamentalism",
+      "religious extremism"
+     ],
+     "tier": 1,
+     "why": "What a Western reader assumes the title means: the trap Hamid sets."
+    },
+    {
+     "text": "Pun",
+     "alias": [
+      "wordplay",
+      "double meaning"
+     ],
+     "tier": 2,
+     "why": "'Fundamental' plays on finance and religion at once."
+    },
+    {
+     "text": "Irony",
+     "alias": [],
+     "tier": 2,
+     "why": "The man who lived by capitalist fundamentals gets branded a fundamentalist."
+    },
+    {
+     "text": "Oxymoron",
+     "alias": [],
+     "tier": 3,
+     "why": "'Reluctant' and 'fundamentalist' clash: zeal with hesitation."
+    },
+    {
+     "text": "Market fundamentalism",
+     "alias": [
+      "capitalist fundamentalism",
+      "corporate fundamentalism"
+     ],
+     "tier": 3,
+     "why": "Blind faith in profit is its own kind of fundamentalism."
+    },
+    {
+     "text": "Reader's assumptions",
+     "alias": [
+      "assumptions",
+      "reader prejudice"
+     ],
+     "tier": 3,
+     "why": "It tests what the reader expects a Muslim narrator to be."
+    },
+    {
+     "text": "Central metaphor",
+     "alias": [
+      "metaphor"
+     ],
+     "tier": 4,
+     "why": "The class calls the title a central metaphor for the whole novel."
+    },
+    {
+     "text": "Reluctance",
+     "alias": [
+      "hesitation",
+      "reluctant"
+     ],
+     "tier": 4,
+     "why": "'Reluctant' suggests doubt: Changez never fully commits to any creed."
+    },
+    {
+     "text": "American fundamentalism",
+     "alias": [
+      "patriotic fundamentalism"
+     ],
+     "tier": 5,
+     "why": "Post-9/11 patriotism can be read as America's own fundamentalism."
+    }
+   ]
+  },
+  {
+   "id": "eng-13",
+   "unit": "u2",
+   "prompt": "Name a fact about Underwood Samson",
+   "answers": [
+    {
+     "text": "Valuation firm",
+     "alias": [
+      "valuation",
+      "valuation company"
+     ],
+     "tier": 1,
+     "why": "It values companies, often deciding which jobs get cut."
+    },
+    {
+     "text": "Initials U.S.",
+     "alias": [
+      "us",
+      "u.s.",
+      "united states"
+     ],
+     "tier": 1,
+     "why": "Underwood Samson = U.S.: the firm stands for America."
+    },
+    {
+     "text": "Focus on the fundamentals",
+     "alias": [
+      "fundamentals"
+     ],
+     "tier": 2,
+     "why": "The firm's creed, said by Wainwright in ch.7: the title's pun."
+    },
+    {
+     "text": "Meritocracy",
+     "alias": [
+      "a meritocracy"
+     ],
+     "tier": 2,
+     "why": "Sherman sells it as a meritocracy; the novel tests that promise."
+    },
+    {
+     "text": "Ranks its trainees",
+     "alias": [
+      "ranking",
+      "rankings"
+     ],
+     "tier": 3,
+     "why": "Recruits are ranked and the weakest cut."
+    },
+    {
+     "text": "Changez ranked first",
+     "alias": [
+      "ranked first"
+     ],
+     "tier": 3,
+     "why": "He tops the trainees, with Wainwright second."
+    },
+    {
+     "text": "Manila project",
+     "alias": [
+      "manila",
+      "philippines"
+     ],
+     "tier": 3,
+     "why": "Values a music company run by a famous musician."
+    },
+    {
+     "text": "New Jersey downsizing",
+     "alias": [
+      "downsizing",
+      "new jersey",
+      "cable company"
+     ],
+     "tier": 4,
+     "why": "A declining cable company; workers sabotage the team."
+    },
+    {
+     "text": "Valparaíso publisher",
+     "alias": [
+      "valparaiso",
+      "chile",
+      "publishing company"
+     ],
+     "tier": 4,
+     "why": "Last job: valuing a publishing firm in Chile."
+    },
+    {
+     "text": "Sherman",
+     "alias": [
+      "vice president",
+      "vp"
+     ],
+     "tier": 4,
+     "why": "The vice president who explains the ranking system."
+    },
+    {
+     "text": "Expense account",
+     "alias": [
+      "expense card",
+      "expense account card"
+     ],
+     "tier": 5,
+     "why": "His firm card fails at the Punjab deli, so Wainwright pays."
+    }
+   ]
+  },
+  {
+   "id": "eng-14",
+   "unit": "u2",
+   "prompt": "Name a historical event or context behind the novel",
+   "answers": [
+    {
+     "text": "9/11",
+     "alias": [
+      "september 11",
+      "september 11th",
+      "twin towers attack",
+      "9-11"
+     ],
+     "tier": 1,
+     "why": "The 2001 attacks split the novel into before and after for Changez."
+    },
+    {
+     "text": "Islamophobia",
+     "alias": [
+      "anti-muslim attacks",
+      "anti-muslim prejudice"
+     ],
+     "tier": 2,
+     "why": "After 9/11 Changez hears of attacks on Muslims and mosques."
+    },
+    {
+     "text": "Afghanistan bombing",
+     "alias": [
+      "war in afghanistan",
+      "us bombing of afghanistan",
+      "afghanistan"
+     ],
+     "tier": 2,
+     "why": "US strikes on Afghanistan upset Changez and tilt his loyalties."
+    },
+    {
+     "text": "War on Terror",
+     "alias": [],
+     "tier": 3,
+     "why": "The US response to 9/11 that frames the whole novel."
+    },
+    {
+     "text": "India-Pakistan tension",
+     "alias": [
+      "india pakistan war",
+      "threat of war with india",
+      "india-pakistan standoff"
+     ],
+     "tier": 3,
+     "why": "Threat of war in late 2001 makes him fly home and grow the beard."
+    },
+    {
+     "text": "Ottoman janissaries",
+     "alias": [
+      "janissaries",
+      "ottoman empire"
+     ],
+     "tier": 3,
+     "why": "Christian boys taken by the Ottomans to fight their own people."
+    },
+    {
+     "text": "Indian Parliament attack",
+     "alias": [
+      "parliament attack"
+     ],
+     "tier": 4,
+     "why": "The Dec 2001 attack that raised the threat of India-Pakistan war."
+    },
+    {
+     "text": "British colonialism",
+     "alias": [
+      "colonialism",
+      "cricket"
+     ],
+     "tier": 5,
+     "why": "Cricket and English accents as colonial leftovers in ch.3."
+    },
+    {
+     "text": "Pakistan-US alliance",
+     "alias": [
+      "pakistan us cooperation"
+     ],
+     "tier": 5,
+     "why": "Changez criticises Pakistan's cooperation with the US on TV."
+    }
+   ]
+  },
+  {
+   "id": "eng-15",
+   "unit": "u3",
+   "prompt": "Name a theme of The Reluctant Fundamentalist",
+   "answers": [
+    {
+     "text": "Identity and belonging",
+     "alias": [
+      "identity",
+      "belonging",
+      "identity & belonging"
+     ],
+     "tier": 1,
+     "why": "Who is Changez: Pakistani, New Yorker, or neither? The class's top theme."
+    },
+    {
+     "text": "East vs West",
+     "alias": [
+      "east versus west",
+      "east and west"
+     ],
+     "tier": 1,
+     "why": "Lahore against New York; Changez caught between the two."
+    },
+    {
+     "text": "American Dream",
+     "alias": [
+      "the american dream"
+     ],
+     "tier": 1,
+     "why": "Princeton to top analyst, then dismissed: the dream's promise and its limits."
+    },
+    {
+     "text": "Power and privilege",
+     "alias": [
+      "power",
+      "privilege",
+      "power and inequality"
+     ],
+     "tier": 2,
+     "why": "Who has power: the firm, America, the elite. And who pays."
+    },
+    {
+     "text": "9/11 and aftermath",
+     "alias": [
+      "9/11",
+      "aftermath of 9/11"
+     ],
+     "tier": 2,
+     "why": "A historical event reshapes a private life."
+    },
+    {
+     "text": "Appearance vs reality",
+     "alias": [
+      "appearance versus reality",
+      "appearances vs reality"
+     ],
+     "tier": 2,
+     "why": "Is Changez a threat? Is the American? Nothing is what it seems."
+    },
+    {
+     "text": "Prejudice and discrimination",
+     "alias": [
+      "prejudice",
+      "discrimination",
+      "racism"
+     ],
+     "tier": 2,
+     "why": "Airport search, slurs, stares at the beard."
+    },
+    {
+     "text": "Nationalism and patriotism",
+     "alias": [
+      "nationalism",
+      "patriotism"
+     ],
+     "tier": 3,
+     "why": "Flags everywhere after 9/11; Changez's growing loyalty to Pakistan."
+    },
+    {
+     "text": "Cultural conflict",
+     "alias": [],
+     "tier": 3,
+     "why": "Clashes between Pakistani and American values and assumptions."
+    },
+    {
+     "text": "Fear and suspicion",
+     "alias": [
+      "fear",
+      "suspicion"
+     ],
+     "tier": 3,
+     "why": "The café frame: each man suspects the other."
+    },
+    {
+     "text": "Love and relationships",
+     "alias": [
+      "love",
+      "relationships"
+     ],
+     "tier": 3,
+     "why": "Changez and Erica: love that asks him to erase himself."
+    },
+    {
+     "text": "Transformation",
+     "alias": [
+      "change"
+     ],
+     "tier": 3,
+     "why": "Changez changes from assimilated analyst to critic of America."
+    },
+    {
+     "text": "Nostalgia",
+     "alias": [],
+     "tier": 4,
+     "why": "Erica for Chris, America for its pre-9/11 self, Changez for his family's past."
+    },
+    {
+     "text": "Grief and loss",
+     "alias": [
+      "grief",
+      "loss"
+     ],
+     "tier": 4,
+     "why": "Chris's death, Erica's disappearance, the loss of a career and a dream."
+    },
+    {
+     "text": "Capitalism",
+     "alias": [
+      "capitalism and exploitation"
+     ],
+     "tier": 4,
+     "why": "'Focus on the fundamentals': profit over people."
+    },
+    {
+     "text": "Empire",
+     "alias": [
+      "imperialism"
+     ],
+     "tier": 5,
+     "why": "The janissary analogy casts the US as an empire with recruits."
+    }
+   ]
+  },
+  {
+   "id": "eng-16",
+   "unit": "u3",
+   "prompt": "Name a moment that develops identity and belonging",
+   "answers": [
+    {
+     "text": "The beard",
+     "alias": [
+      "beard"
+     ],
+     "tier": 1,
+     "why": "He keeps it in New York: claiming his identity instead of hiding it."
+    },
+    {
+     "text": "Acting American in Manila",
+     "alias": [
+      "play-acting",
+      "manila",
+      "acting american"
+     ],
+     "tier": 2,
+     "why": "He says he's from New York and admits he was 'play-acting'."
+    },
+    {
+     "text": "Janissary realisation",
+     "alias": [
+      "janissary",
+      "janissaries"
+     ],
+     "tier": 2,
+     "why": "He sees himself fighting for an empire against his own kind."
+    },
+    {
+     "text": "Lahore homecoming",
+     "alias": [
+      "american eyes",
+      "return to lahore"
+     ],
+     "tier": 2,
+     "why": "He sees his home through 'American eyes', then feels ashamed."
+    },
+    {
+     "text": "New Yorker, not American",
+     "alias": [
+      "new yorker",
+      "immediately a new yorker"
+     ],
+     "tier": 3,
+     "why": "He feels at once a New Yorker but never American: belonging to a city, not a nation."
+    },
+    {
+     "text": "Jeepney driver's glare",
+     "alias": [
+      "jeepney driver",
+      "jeepney"
+     ],
+     "tier": 3,
+     "why": "Changez feels closer to the driver than to his colleagues."
+    },
+    {
+     "text": "Pretending to be Chris",
+     "alias": [
+      "pretend i am him",
+      "pretend to be chris"
+     ],
+     "tier": 3,
+     "why": "To be close to Erica he has her imagine he is Chris: erasing himself."
+    },
+    {
+     "text": "First day at work",
+     "alias": [
+      "first day",
+      "first day at underwood samson"
+     ],
+     "tier": 3,
+     "why": "Looking down on Manhattan, he briefly doesn't feel Pakistani."
+    },
+    {
+     "text": "Pakistani clothes at Erica's",
+     "alias": [
+      "pakistani clothes"
+     ],
+     "tier": 4,
+     "why": "He wears them to her family's flat, confident in who he is."
+    },
+    {
+     "text": "Punjab deli",
+     "alias": [
+      "deli",
+      "pakistani deli"
+     ],
+     "tier": 4,
+     "why": "Urdu-speaking cabbies and a Pakistani deli make New York feel like home."
+    },
+    {
+     "text": "Advice to shave",
+     "alias": [
+      "don't forget to shave",
+      "shave"
+     ],
+     "tier": 5,
+     "why": "His mother says not to forget to shave: the class example of symbolism for identity."
+    }
+   ]
+  },
+  {
+   "id": "eng-17",
+   "unit": "u3",
+   "prompt": "Name a moment showing prejudice or othering after 9/11",
+   "answers": [
+    {
+     "text": "Airport strip search",
+     "alias": [
+      "airport search",
+      "strip search",
+      "airport"
+     ],
+     "tier": 1,
+     "why": "Stripped to his underwear; his skin and name now make him a suspect."
+    },
+    {
+     "text": "Parking-lot slur",
+     "alias": [
+      "slur",
+      "parking lot",
+      "called an arab"
+     ],
+     "tier": 2,
+     "why": "A man curses him as an Arab in New Jersey; his anger nearly turns violent."
+    },
+    {
+     "text": "Stares at the beard",
+     "alias": [
+      "stares",
+      "whispers",
+      "beard at work"
+     ],
+     "tier": 2,
+     "why": "Colleagues whisper and stare once he keeps the beard."
+    },
+    {
+     "text": "Flags everywhere",
+     "alias": [
+      "flags"
+     ],
+     "tier": 3,
+     "why": "A wall of flags tells outsiders they don't belong."
+    },
+    {
+     "text": "Attacks on Muslims",
+     "alias": [
+      "rumours",
+      "mosques raided"
+     ],
+     "tier": 3,
+     "why": "Rumours of Pakistani cabbies beaten and mosques raided; he denies it at first."
+    },
+    {
+     "text": "Wainwright's warning",
+     "alias": [
+      "warning to shave",
+      "skin deep"
+     ],
+     "tier": 4,
+     "why": "Wainwright warns him to shave: the firm's tolerance is only skin deep."
+    },
+    {
+     "text": "Your Pakistani side",
+     "alias": [
+      "pakistani side",
+      "jim's car ride"
+     ],
+     "tier": 4,
+     "why": "Jim reads Changez's distress as ethnic, so Changez hides it."
+    },
+    {
+     "text": "Jacket security alert",
+     "alias": [
+      "jacket",
+      "security alert"
+     ],
+     "tier": 4,
+     "why": "His jacket left for Erica is treated as a threat: mourning misread."
+    },
+    {
+     "text": "American hears prayer",
+     "alias": [
+      "menu chant",
+      "waiter praying"
+     ],
+     "tier": 5,
+     "why": "In the frame, the American thinks the waiter's menu is a prayer: fear makes him misread."
+    }
+   ]
+  },
+  {
+   "id": "eng-18",
+   "unit": "u3",
+   "prompt": "Name a moment linked to the American Dream (its rise or fall)",
+   "answers": [
+    {
+     "text": "Jim's interview",
+     "alias": [
+      "interview",
+      "job interview"
+     ],
+     "tier": 1,
+     "why": "Hired on the spot: merit seems to be all that matters."
+    },
+    {
+     "text": "Princeton",
+     "alias": [
+      "princeton degree"
+     ],
+     "tier": 2,
+     "why": "The elite gateway; he worked through college and graduated strongly."
+    },
+    {
+     "text": "Ranked first",
+     "alias": [
+      "top of the rankings"
+     ],
+     "tier": 2,
+     "why": "Top of the trainees: the dream at its peak."
+    },
+    {
+     "text": "Being let go",
+     "alias": [
+      "fired",
+      "dismissal",
+      "being fired"
+     ],
+     "tier": 2,
+     "why": "Dismissed and escorted out: the dream ends."
+    },
+    {
+     "text": "Meritocracy speech",
+     "alias": [
+      "sherman's speech",
+      "meritocracy"
+     ],
+     "tier": 3,
+     "why": "Sherman promises ranking on merit alone; the novel tests the promise."
+    },
+    {
+     "text": "First-class flight",
+     "alias": [
+      "first class"
+     ],
+     "tier": 3,
+     "why": "Flying first class to Manila: how far the firm has lifted him."
+    },
+    {
+     "text": "Quitting the Chile job",
+     "alias": [
+      "abandoning the assignment",
+      "walking off the chile job",
+      "leaving valparaiso"
+     ],
+     "tier": 3,
+     "why": "He refuses to keep working in Valparaíso: rejecting the dream."
+    },
+    {
+     "text": "Thank you God",
+     "alias": [
+      "thank you god!"
+     ],
+     "tier": 4,
+     "why": "His shout of thanks at Princeton after getting the job: pure hope."
+    },
+    {
+     "text": "Jim was dirt poor",
+     "alias": [
+      "dirt poor"
+     ],
+     "tier": 4,
+     "why": "Jim's rags-to-riches story is the dream Changez is sold."
+    },
+    {
+     "text": "Lecturer in Lahore",
+     "alias": [
+      "lecturer"
+     ],
+     "tier": 4,
+     "why": "He ends up teaching students to disengage from America."
+    },
+    {
+     "text": "Hiding his jobs",
+     "alias": [
+      "worked through college"
+     ],
+     "tier": 5,
+     "why": "At Princeton he hid that he worked, to look like the rich kids."
+    }
+   ]
+  },
+  {
+   "id": "eng-19",
+   "unit": "u3",
+   "prompt": "Name an example of power, privilege or inequality in the novel",
+   "answers": [
+    {
+     "text": "Limousine vs jeepney",
+     "alias": [
+      "jeepney",
+      "limousine"
+     ],
+     "tier": 1,
+     "why": "In Manila he rides in a limo while a jeepney driver glares: class gap."
+    },
+    {
+     "text": "New Jersey downsizing",
+     "alias": [
+      "downsizing",
+      "layoffs"
+     ],
+     "tier": 1,
+     "why": "Changez helps decide who loses their job: corporate power."
+    },
+    {
+     "text": "Janissaries",
+     "alias": [
+      "janissary"
+     ],
+     "tier": 2,
+     "why": "Recruits serving an empire's power against their own people."
+    },
+    {
+     "text": "Rich classmates in Greece",
+     "alias": [
+      "greece trip",
+      "rich classmates"
+     ],
+     "tier": 3,
+     "why": "Their careless spending and rudeness irritate the scholarship-minded Changez."
+    },
+    {
+     "text": "Afghanistan bombing",
+     "alias": [
+      "afghanistan"
+     ],
+     "tier": 3,
+     "why": "American military power shown on TV."
+    },
+    {
+     "text": "Erica's old money",
+     "alias": [
+      "upper east side",
+      "erica's wealth"
+     ],
+     "tier": 3,
+     "why": "Her Upper East Side family: inherited American privilege."
+    },
+    {
+     "text": "Changez's family decline",
+     "alias": [
+      "family decline",
+      "declining family"
+     ],
+     "tier": 4,
+     "why": "Once upper class in Lahore, now fading: lost privilege."
+    },
+    {
+     "text": "First-class travel",
+     "alias": [
+      "first class"
+     ],
+     "tier": 4,
+     "why": "The firm's perks show the privilege he's bought into."
+    },
+    {
+     "text": "Valuing companies",
+     "alias": [
+      "valuation",
+      "deciding who keeps jobs"
+     ],
+     "tier": 4,
+     "why": "Underwood Samson decides firms' futures from a spreadsheet."
+    },
+    {
+     "text": "Cricket",
+     "alias": [
+      "colonial leftovers"
+     ],
+     "tier": 5,
+     "why": "Talked about as a colonial leftover: older empire power."
+    }
+   ]
+  },
+  {
+   "id": "eng-20",
+   "unit": "u3",
+   "prompt": "Name an example of appearance vs reality in the novel",
+   "answers": [
+    {
+     "text": "Glint of metal",
+     "alias": [
+      "the ending",
+      "business card holder"
+     ],
+     "tier": 1,
+     "why": "Gun or business-card holder? The ending never says."
+    },
+    {
+     "text": "The 9/11 smile",
+     "alias": [
+      "smile",
+      "9/11 smile"
+     ],
+     "tier": 1,
+     "why": "The model employee smiles: hidden feelings even from himself."
+    },
+    {
+     "text": "The meritocracy",
+     "alias": [
+      "meritocracy"
+     ],
+     "tier": 2,
+     "why": "Sold as merit-based, yet tolerance is skin deep."
+    },
+    {
+     "text": "Acting American",
+     "alias": [
+      "play-acting",
+      "manila"
+     ],
+     "tier": 2,
+     "why": "In Manila he performs Americanness for status."
+    },
+    {
+     "text": "The beard",
+     "alias": [
+      "beard"
+     ],
+     "tier": 2,
+     "why": "A beard reads as threat to Americans; for Changez it's identity."
+    },
+    {
+     "text": "The title",
+     "alias": [
+      "title"
+     ],
+     "tier": 3,
+     "why": "Sounds religious; first refers to finance."
+    },
+    {
+     "text": "Erica's breakdown",
+     "alias": [
+      "erica"
+     ],
+     "tier": 3,
+     "why": "Bright on the surface, cracked underneath."
+    },
+    {
+     "text": "Pretending to be Chris",
+     "alias": [
+      "pretend i am him"
+     ],
+     "tier": 4,
+     "why": "Love that only works by pretending to be someone else."
+    },
+    {
+     "text": "The scar",
+     "alias": [
+      "scar",
+      "changez's scar"
+     ],
+     "tier": 4,
+     "why": "Looks like militant training; Changez says it's candle wax."
+    },
+    {
+     "text": "Chanted menu",
+     "alias": [
+      "menu",
+      "waiter praying"
+     ],
+     "tier": 4,
+     "why": "Sounds like prayer to the American; it's just the menu."
+    },
+    {
+     "text": "Jack Daniels offer",
+     "alias": [
+      "jack daniels",
+      "only sodas"
+     ],
+     "tier": 5,
+     "why": "Changez offers whisky, then admits only sodas are served."
+    }
+   ]
+  },
+  {
+   "id": "eng-21",
+   "unit": "u3",
+   "prompt": "Name a moment linked to nostalgia",
+   "answers": [
+    {
+     "text": "Erica and Chris",
+     "alias": [
+      "chris",
+      "erica's longing for chris"
+     ],
+     "tier": 1,
+     "why": "She longs for her dead boyfriend; 'home' for her is Chris."
+    },
+    {
+     "text": "Post-9/11 flags",
+     "alias": [
+      "flags"
+     ],
+     "tier": 2,
+     "why": "America looks back to a past self; Changez links it to Erica."
+    },
+    {
+     "text": "Erica's mother's warning",
+     "alias": [
+      "mother's warning"
+     ],
+     "tier": 3,
+     "why": "She tells Changez Erica is fragile; Erica is sinking into the past."
+    },
+    {
+     "text": "Family decline",
+     "alias": [
+      "changez's family decline"
+     ],
+     "tier": 3,
+     "why": "Changez misses his family's former status."
+    },
+    {
+     "text": "Thinking of Erica",
+     "alias": [
+      "letters to erica",
+      "daydreams about erica"
+     ],
+     "tier": 3,
+     "why": "Back in Lahore he still daydreams about her and writes letters."
+    },
+    {
+     "text": "Erica at the clinic",
+     "alias": [
+      "clinic"
+     ],
+     "tier": 3,
+     "why": "She speaks of their time in the past tense."
+    },
+    {
+     "text": "Chris's relics",
+     "alias": [
+      "relics",
+      "drawing",
+      "chris's shirt"
+     ],
+     "tier": 4,
+     "why": "She keeps his drawing and shirt in her flat."
+    },
+    {
+     "text": "Valparaíso ruins",
+     "alias": [
+      "ruins",
+      "the ruins"
+     ],
+     "tier": 4,
+     "why": "The ruins prove the building was beautiful: decline with dignity."
+    },
+    {
+     "text": "Erica's manuscript",
+     "alias": [
+      "manuscript"
+     ],
+     "tier": 4,
+     "why": "Her writing turns grief into art (her oyster-and-pearl image)."
+    },
+    {
+     "text": "Jasmine on the grave",
+     "alias": [
+      "jasmine",
+      "grandmother's grave"
+     ],
+     "tier": 5,
+     "why": "He buys jasmine for his grandmother's grave: memory and loss."
+    }
+   ]
+  },
+  {
+   "id": "eng-22",
+   "unit": "u3",
+   "prompt": "Name a global issue TRF could explore in an Individual Oral",
+   "answers": [
+    {
+     "text": "Islamophobia",
+     "alias": [],
+     "tier": 1,
+     "why": "Post-9/11 fear of Muslims: the airport, the slur, the beard."
+    },
+    {
+     "text": "Stereotyping",
+     "alias": [
+      "stereotypes",
+      "prejudice"
+     ],
+     "tier": 1,
+     "why": "Judging people by looks: the beard, the American, the waiter."
+    },
+    {
+     "text": "Racial profiling",
+     "alias": [
+      "profiling"
+     ],
+     "tier": 2,
+     "why": "Being searched because of how you look."
+    },
+    {
+     "text": "Immigrant identity",
+     "alias": [
+      "immigration",
+      "migrant identity"
+     ],
+     "tier": 2,
+     "why": "Being split between a new country and home."
+    },
+    {
+     "text": "Cultural assimilation",
+     "alias": [
+      "assimilation"
+     ],
+     "tier": 2,
+     "why": "Changing yourself to fit in (Manila 'play-acting')."
+    },
+    {
+     "text": "Othering",
+     "alias": [],
+     "tier": 3,
+     "why": "Treating someone as an outsider who doesn't belong."
+    },
+    {
+     "text": "Nationalism",
+     "alias": [
+      "patriotism"
+     ],
+     "tier": 3,
+     "why": "Flags and war talk on both sides."
+    },
+    {
+     "text": "Surveillance",
+     "alias": [],
+     "tier": 3,
+     "why": "Who watches whom: airport security, the American, the waiter."
+    },
+    {
+     "text": "Corporate exploitation",
+     "alias": [
+      "capitalism",
+      "exploitation"
+     ],
+     "tier": 4,
+     "why": "Valuation firms deciding people's jobs from afar."
+    },
+    {
+     "text": "Myth of meritocracy",
+     "alias": [
+      "meritocracy"
+     ],
+     "tier": 4,
+     "why": "Merit opens doors only until your identity becomes a problem."
+    },
+    {
+     "text": "Mental health",
+     "alias": [
+      "grief and mental health"
+     ],
+     "tier": 4,
+     "why": "Erica's grief and breakdown."
+    },
+    {
+     "text": "Imperialism",
+     "alias": [
+      "empire",
+      "neo-colonialism"
+     ],
+     "tier": 5,
+     "why": "The janissary analogy: serving a powerful empire's interests."
+    }
+   ]
+  },
+  {
+   "id": "eng-23",
+   "unit": "u4",
+   "prompt": "Name a narrative technique Hamid uses in the novel",
+   "answers": [
+    {
+     "text": "Dramatic monologue",
+     "alias": [
+      "monologue"
+     ],
+     "tier": 1,
+     "why": "One speaker, a silent listener, a whole novel: Changez talks, the American never does."
+    },
+    {
+     "text": "First-person narration",
+     "alias": [
+      "first person"
+     ],
+     "tier": 1,
+     "why": "Told by 'I': we only see America through Changez's eyes."
+    },
+    {
+     "text": "Unreliable narrator",
+     "alias": [
+      "unreliable narration"
+     ],
+     "tier": 1,
+     "why": "Changez admits he may misremember or exaggerate, and he controls what we hear."
+    },
+    {
+     "text": "Second-person address",
+     "alias": [
+      "second person",
+      "you address",
+      "direct address",
+      "second-person narration"
+     ],
+     "tier": 2,
+     "why": "Changez speaks to 'you', the American and the reader at once."
+    },
+    {
+     "text": "Frame narrative",
+     "alias": [
+      "frame story",
+      "framing"
+     ],
+     "tier": 2,
+     "why": "The Lahore evening frames the New York story inside it."
+    },
+    {
+     "text": "Flashback",
+     "alias": [],
+     "tier": 2,
+     "why": "Each café scene cuts back to Princeton, Manila, New York, Chile."
+    },
+    {
+     "text": "Ambiguous ending",
+     "alias": [
+      "open ending",
+      "ambiguity"
+     ],
+     "tier": 3,
+     "why": "Gun or card holder: Hamid refuses to tell us."
+    },
+    {
+     "text": "Foreshadowing",
+     "alias": [],
+     "tier": 3,
+     "why": "Bats, blackouts and the hand in the jacket prepare the ending."
+    },
+    {
+     "text": "Retrospective narration",
+     "alias": [
+      "retrospective"
+     ],
+     "tier": 3,
+     "why": "Changez tells the past already knowing how it ends."
+    },
+    {
+     "text": "Silent listener",
+     "alias": [
+      "silent american"
+     ],
+     "tier": 3,
+     "why": "We only infer the American's words from Changez's replies."
+    },
+    {
+     "text": "Allegory",
+     "alias": [],
+     "tier": 4,
+     "why": "Characters stand for bigger things: Erica for America, the firm for U.S. power."
+    },
+    {
+     "text": "Single-evening structure",
+     "alias": [
+      "one evening",
+      "one-night structure"
+     ],
+     "tier": 4,
+     "why": "The frame runs from afternoon to night, getting more menacing."
+    },
+    {
+     "text": "Present vs past tense",
+     "alias": [
+      "tense shifts"
+     ],
+     "tier": 4,
+     "why": "Present-tense café, past-tense flashback: two timelines."
+    },
+    {
+     "text": "Time compression",
+     "alias": [
+      "compressed time"
+     ],
+     "tier": 5,
+     "why": "One chapter (5) covers Manila, 9/11 and the airport return."
+    }
+   ]
+  },
+  {
+   "id": "eng-24",
+   "unit": "u4",
+   "prompt": "Name an effect of the dramatic monologue and the second-person 'you'",
+   "answers": [
+    {
+     "text": "Reader becomes the American",
+     "alias": [
+      "reader is the american",
+      "reader as the american",
+      "reader sits in the american's seat"
+     ],
+     "tier": 1,
+     "why": "'You' pulls the reader into the American's chair."
+    },
+    {
+     "text": "Changez controls the story",
+     "alias": [
+      "narrative control",
+      "controls the narrative"
+     ],
+     "tier": 1,
+     "why": "Only his version exists, so we can't check it."
+    },
+    {
+     "text": "Suspense",
+     "alias": [
+      "tension",
+      "builds suspense"
+     ],
+     "tier": 2,
+     "why": "We never know what the American thinks or plans."
+    },
+    {
+     "text": "Ambiguity",
+     "alias": [
+      "creates ambiguity"
+     ],
+     "tier": 2,
+     "why": "With no second voice the ending can't be settled."
+    },
+    {
+     "text": "Silences the American",
+     "alias": [
+      "american never speaks"
+     ],
+     "tier": 2,
+     "why": "The usually dominant American voice gets no lines at all."
+    },
+    {
+     "text": "Exposes reader's assumptions",
+     "alias": [
+      "tests reader prejudice",
+      "reader assumptions"
+     ],
+     "tier": 3,
+     "why": "Our own fears decide who we think the threat is."
+    },
+    {
+     "text": "Intimacy",
+     "alias": [
+      "closeness"
+     ],
+     "tier": 3,
+     "why": "It feels like a private conversation, drawing us close."
+    },
+    {
+     "text": "Distrust of narrator",
+     "alias": [
+      "we can't trust him",
+      "unreliability"
+     ],
+     "tier": 3,
+     "why": "Polite but possibly manipulative: we can't relax."
+    },
+    {
+     "text": "Reverses power",
+     "alias": [
+      "power reversal",
+      "reverses the gaze"
+     ],
+     "tier": 4,
+     "why": "The Pakistani host holds the floor; the Western gaze is turned around."
+    },
+    {
+     "text": "Reader complicity",
+     "alias": [
+      "complicity",
+      "complicit reader"
+     ],
+     "tier": 4,
+     "why": "By judging Changez we become part of the suspicion."
+    },
+    {
+     "text": "Implied dialogue",
+     "alias": [
+      "inferred responses",
+      "answering his own questions"
+     ],
+     "tier": 5,
+     "why": "Changez answers questions we never hear, so we fill the gaps."
+    }
+   ]
+  },
+  {
+   "id": "eng-25",
+   "unit": "u5",
+   "prompt": "Name a literary device",
+   "answers": [
+    {
+     "text": "Metaphor",
+     "alias": [],
+     "tier": 1,
+     "why": "Saying one thing is another, e.g. Changez as a 'janissary'."
+    },
+    {
+     "text": "Simile",
+     "alias": [],
+     "tier": 1,
+     "why": "Comparison with like/as: the American like an animal unsure if it's predator or prey."
+    },
+    {
+     "text": "Symbolism",
+     "alias": [],
+     "tier": 1,
+     "why": "An object standing for an idea: the beard, the flags."
+    },
+    {
+     "text": "Imagery",
+     "alias": [],
+     "tier": 1,
+     "why": "Sensory description: market lights at dusk, jasmine smell."
+    },
+    {
+     "text": "Foreshadowing",
+     "alias": [],
+     "tier": 2,
+     "why": "Hints of what's coming: the hand in the jacket."
+    },
+    {
+     "text": "Juxtaposition",
+     "alias": [],
+     "tier": 2,
+     "why": "Placing opposites side by side: limousine vs jeepney."
+    },
+    {
+     "text": "Irony",
+     "alias": [],
+     "tier": 2,
+     "why": "The opposite of what's expected: 'fundamentals' creates a 'fundamentalist'."
+    },
+    {
+     "text": "Personification",
+     "alias": [],
+     "tier": 2,
+     "why": "Human traits for non-human things: America brought 'to her knees'."
+    },
+    {
+     "text": "Allusion",
+     "alias": [],
+     "tier": 3,
+     "why": "Reference to history or another text: the Ottoman janissaries."
+    },
+    {
+     "text": "Motif",
+     "alias": [],
+     "tier": 3,
+     "why": "A repeated image or idea: nostalgia, the beard, 'fundamentals'."
+    },
+    {
+     "text": "Anaphora",
+     "alias": [],
+     "tier": 3,
+     "why": "Repeating words at the start of clauses, like 'This was...' about his home."
+    },
+    {
+     "text": "Pathetic fallacy",
+     "alias": [],
+     "tier": 3,
+     "why": "Setting mirrors mood: the café darkens as tension rises."
+    },
+    {
+     "text": "Oxymoron",
+     "alias": [],
+     "tier": 4,
+     "why": "Two opposite words together: 'reluctant fundamentalist'."
+    },
+    {
+     "text": "Extended metaphor",
+     "alias": [],
+     "tier": 4,
+     "why": "A metaphor kept going: Erica's oyster-and-pearl image for writing grief."
+    },
+    {
+     "text": "Antithesis",
+     "alias": [],
+     "tier": 5,
+     "why": "Opposing ideas in balanced structure."
+    },
+    {
+     "text": "Polysyndeton",
+     "alias": [],
+     "tier": 5,
+     "why": "Many 'and's in a row for a piling-up effect."
+    }
+   ]
+  },
+  {
+   "id": "eng-26",
+   "unit": "u5",
+   "prompt": "Name a language or style feature you can analyse in any text",
+   "answers": [
+    {
+     "text": "Diction",
+     "alias": [
+      "word choice"
+     ],
+     "tier": 1,
+     "why": "Word choice and its connotations, e.g. 'raped' in the father's remark."
+    },
+    {
+     "text": "Tone",
+     "alias": [],
+     "tier": 1,
+     "why": "The writer's attitude: Changez is courteous with a menacing edge."
+    },
+    {
+     "text": "Repetition",
+     "alias": [],
+     "tier": 1,
+     "why": "Repeating a word or idea for emphasis."
+    },
+    {
+     "text": "Syntax",
+     "alias": [
+      "sentence structure"
+     ],
+     "tier": 2,
+     "why": "Sentence structure and order."
+    },
+    {
+     "text": "Short sentence",
+     "alias": [
+      "short sentences"
+     ],
+     "tier": 2,
+     "why": "'And then I smiled.' A short sentence lands like a confession."
+    },
+    {
+     "text": "Rhetorical question",
+     "alias": [
+      "rhetorical questions"
+     ],
+     "tier": 2,
+     "why": "Asked for effect, not an answer."
+    },
+    {
+     "text": "Mood",
+     "alias": [],
+     "tier": 2,
+     "why": "The feeling created for the reader."
+    },
+    {
+     "text": "Register",
+     "alias": [],
+     "tier": 3,
+     "why": "How formal the language is: Changez's courtly 'sir'."
+    },
+    {
+     "text": "Connotation",
+     "alias": [
+      "connotations"
+     ],
+     "tier": 3,
+     "why": "Implied meaning: 'fundamentalist' suggests extremism."
+    },
+    {
+     "text": "Italics",
+     "alias": [],
+     "tier": 3,
+     "why": "Emphasis on a word, e.g. how *immediately* he felt a New Yorker."
+    },
+    {
+     "text": "Dialogue",
+     "alias": [],
+     "tier": 3,
+     "why": "Characters' speech can reveal prejudice better than description."
+    },
+    {
+     "text": "Hyperbole",
+     "alias": [
+      "exaggeration"
+     ],
+     "tier": 3,
+     "why": "Exaggeration: Pakistan's 'big, carnivorous meals'."
+    },
+    {
+     "text": "Euphemism",
+     "alias": [],
+     "tier": 4,
+     "why": "A soft word for a harsh thing: 'downsizing' for layoffs."
+    },
+    {
+     "text": "Understatement",
+     "alias": [],
+     "tier": 4,
+     "why": "Playing something down for effect."
+    },
+    {
+     "text": "Colloquialism",
+     "alias": [
+      "colloquial language",
+      "slang"
+     ],
+     "tier": 4,
+     "why": "Casual everyday language."
+    }
+   ]
+  },
+  {
+   "id": "eng-27",
+   "unit": "u5",
+   "prompt": "Name a non-literary text type that could appear on Paper 1",
+   "answers": [
+    {
+     "text": "Advertisement",
+     "alias": [
+      "ad",
+      "advert",
+      "advertising"
+     ],
+     "tier": 1,
+     "why": "Persuades you to buy or act: slogan, image, logo, call to action."
+    },
+    {
+     "text": "Blog",
+     "alias": [
+      "blog post"
+     ],
+     "tier": 1,
+     "why": "Personal online writing: first person, informal tone, links."
+    },
+    {
+     "text": "Infographic",
+     "alias": [],
+     "tier": 2,
+     "why": "Data made visual: charts, icons, statistics."
+    },
+    {
+     "text": "Speech",
+     "alias": [],
+     "tier": 2,
+     "why": "Spoken persuasion: rhetorical questions, rule of three, inclusive 'we'."
+    },
+    {
+     "text": "Opinion column",
+     "alias": [
+      "opinion piece",
+      "op-ed",
+      "editorial"
+     ],
+     "tier": 2,
+     "why": "Argues a view in a newspaper or site."
+    },
+    {
+     "text": "News article",
+     "alias": [
+      "newspaper article"
+     ],
+     "tier": 2,
+     "why": "Reports events: headline, lead, quotes, neutral tone."
+    },
+    {
+     "text": "Poster",
+     "alias": [],
+     "tier": 2,
+     "why": "Visual text: image, slogan, layout."
+    },
+    {
+     "text": "Social media post",
+     "alias": [
+      "tweet",
+      "instagram post"
+     ],
+     "tier": 3,
+     "why": "Short, visual, hashtags, direct address."
+    },
+    {
+     "text": "Cartoon",
+     "alias": [
+      "political cartoon",
+      "comic strip"
+     ],
+     "tier": 3,
+     "why": "Image and caption, often satire."
+    },
+    {
+     "text": "Letter",
+     "alias": [
+      "open letter"
+     ],
+     "tier": 3,
+     "why": "Addressed to someone; open letters argue publicly."
+    },
+    {
+     "text": "Interview",
+     "alias": [],
+     "tier": 3,
+     "why": "Question-answer format revealing a person."
+    },
+    {
+     "text": "Website",
+     "alias": [
+      "web page",
+      "homepage"
+     ],
+     "tier": 3,
+     "why": "Homepage layout, menus, images, links."
+    },
+    {
+     "text": "Brochure",
+     "alias": [
+      "travel brochure",
+      "leaflet",
+      "pamphlet"
+     ],
+     "tier": 3,
+     "why": "Informs and persuades, often travel or charity."
+    },
+    {
+     "text": "Review",
+     "alias": [
+      "film review",
+      "book review"
+     ],
+     "tier": 4,
+     "why": "Judges a film, book or product."
+    },
+    {
+     "text": "Photograph",
+     "alias": [
+      "photo"
+     ],
+     "tier": 4,
+     "why": "A single image can be the text: framing, angle, focus."
+    },
+    {
+     "text": "Memoir extract",
+     "alias": [
+      "memoir",
+      "autobiography"
+     ],
+     "tier": 4,
+     "why": "Non-fiction life writing."
+    }
+   ]
+  },
+  {
+   "id": "eng-28",
+   "unit": "u5",
+   "prompt": "Name a feature of an advertisement you could analyse",
+   "answers": [
+    {
+     "text": "Slogan",
+     "alias": [
+      "tagline"
+     ],
+     "tier": 1,
+     "why": "Catchy memorable phrase."
+    },
+    {
+     "text": "Logo",
+     "alias": [],
+     "tier": 1,
+     "why": "The brand's symbol: recognition and trust."
+    },
+    {
+     "text": "Image",
+     "alias": [
+      "picture",
+      "visual",
+      "main image"
+     ],
+     "tier": 1,
+     "why": "The main visual and what it suggests."
+    },
+    {
+     "text": "Colour",
+     "alias": [
+      "color",
+      "colour scheme"
+     ],
+     "tier": 2,
+     "why": "Colours carry connotations: red for urgency, green for nature."
+    },
+    {
+     "text": "Headline",
+     "alias": [],
+     "tier": 2,
+     "why": "Biggest text: grabs attention first."
+    },
+    {
+     "text": "Target audience",
+     "alias": [
+      "audience"
+     ],
+     "tier": 2,
+     "why": "Who the ad is aimed at shapes every choice."
+    },
+    {
+     "text": "Call to action",
+     "alias": [
+      "cta"
+     ],
+     "tier": 3,
+     "why": "Tells you what to do next: 'Buy now'."
+    },
+    {
+     "text": "Typography",
+     "alias": [
+      "font",
+      "typeface"
+     ],
+     "tier": 3,
+     "why": "Font style and size create tone."
+    },
+    {
+     "text": "Layout",
+     "alias": [
+      "composition"
+     ],
+     "tier": 3,
+     "why": "Where things sit guides the eye."
+    },
+    {
+     "text": "Celebrity endorsement",
+     "alias": [
+      "endorsement",
+      "celebrity"
+     ],
+     "tier": 3,
+     "why": "A famous face borrows trust."
+    },
+    {
+     "text": "Imperatives",
+     "alias": [
+      "imperative verbs",
+      "commands"
+     ],
+     "tier": 3,
+     "why": "Command verbs push action."
+    },
+    {
+     "text": "Body copy",
+     "alias": [
+      "copy",
+      "body text"
+     ],
+     "tier": 4,
+     "why": "The smaller main text with details."
+    },
+    {
+     "text": "Testimonial",
+     "alias": [
+      "review quote"
+     ],
+     "tier": 4,
+     "why": "A customer's words as proof."
+    },
+    {
+     "text": "Rule of three",
+     "alias": [
+      "tricolon",
+      "triad"
+     ],
+     "tier": 4,
+     "why": "Three-part lists feel complete and memorable."
+    },
+    {
+     "text": "Vectors",
+     "alias": [
+      "gaze",
+      "eye line"
+     ],
+     "tier": 5,
+     "why": "Lines or gazes in an image that lead your eye."
+    }
+   ]
+  },
+  {
+   "id": "eng-29",
+   "unit": "u5",
+   "prompt": "Name a feature of a blog post",
+   "answers": [
+    {
+     "text": "First person",
+     "alias": [
+      "first-person"
+     ],
+     "tier": 1,
+     "why": "'I' makes it personal and relatable."
+    },
+    {
+     "text": "Headline",
+     "alias": [
+      "title"
+     ],
+     "tier": 1,
+     "why": "Title that hooks the reader."
+    },
+    {
+     "text": "Informal tone",
+     "alias": [
+      "informal",
+      "conversational tone",
+      "informal register"
+     ],
+     "tier": 2,
+     "why": "Chatty register builds connection."
+    },
+    {
+     "text": "Hyperlinks",
+     "alias": [
+      "links"
+     ],
+     "tier": 2,
+     "why": "Links to other pages add credibility and depth."
+    },
+    {
+     "text": "Comments section",
+     "alias": [
+      "comments"
+     ],
+     "tier": 2,
+     "why": "Lets readers respond: a community."
+    },
+    {
+     "text": "Images",
+     "alias": [
+      "photos",
+      "pictures"
+     ],
+     "tier": 2,
+     "why": "Photos break up text and add appeal."
+    },
+    {
+     "text": "Anecdote",
+     "alias": [
+      "personal story",
+      "personal anecdote"
+     ],
+     "tier": 3,
+     "why": "A short personal story to draw the reader in."
+    },
+    {
+     "text": "Subheadings",
+     "alias": [],
+     "tier": 3,
+     "why": "Break text into easy chunks."
+    },
+    {
+     "text": "Direct address",
+     "alias": [
+      "second person",
+      "addressing the reader"
+     ],
+     "tier": 3,
+     "why": "'You' speaks straight to the reader."
+    },
+    {
+     "text": "Date stamp",
+     "alias": [
+      "date",
+      "timestamp",
+      "date posted"
+     ],
+     "tier": 3,
+     "why": "Shows when it was posted: timeliness."
+    },
+    {
+     "text": "Author bio",
+     "alias": [
+      "bio",
+      "about the author"
+     ],
+     "tier": 4,
+     "why": "Short 'about me' builds ethos."
+    },
+    {
+     "text": "Tags",
+     "alias": [
+      "hashtags",
+      "categories"
+     ],
+     "tier": 4,
+     "why": "Categories or hashtags help readers find posts."
+    },
+    {
+     "text": "Share buttons",
+     "alias": [
+      "social sharing"
+     ],
+     "tier": 5,
+     "why": "Social sharing extends the audience."
+    }
+   ]
+  },
+  {
+   "id": "eng-30",
+   "unit": "u5",
+   "prompt": "Name a persuasive or rhetorical technique",
+   "answers": [
+    {
+     "text": "Rhetorical question",
+     "alias": [
+      "rhetorical questions"
+     ],
+     "tier": 1,
+     "why": "Makes the audience think and agree."
+    },
+    {
+     "text": "Emotive language",
+     "alias": [
+      "emotive diction"
+     ],
+     "tier": 1,
+     "why": "Words chosen to stir feeling."
+    },
+    {
+     "text": "Statistics",
+     "alias": [
+      "stats",
+      "facts and statistics"
+     ],
+     "tier": 1,
+     "why": "Numbers make a claim look factual."
+    },
+    {
+     "text": "Repetition",
+     "alias": [],
+     "tier": 1,
+     "why": "Hammers a key idea home."
+    },
+    {
+     "text": "Ethos",
+     "alias": [
+      "appeal to credibility"
+     ],
+     "tier": 2,
+     "why": "Appeal to credibility or character."
+    },
+    {
+     "text": "Pathos",
+     "alias": [
+      "emotional appeal",
+      "appeal to emotion"
+     ],
+     "tier": 2,
+     "why": "Appeal to emotion."
+    },
+    {
+     "text": "Logos",
+     "alias": [
+      "appeal to logic"
+     ],
+     "tier": 2,
+     "why": "Appeal to logic and evidence."
+    },
+    {
+     "text": "Rule of three",
+     "alias": [
+      "tricolon",
+      "triad"
+     ],
+     "tier": 2,
+     "why": "Three-part lists sound complete."
+    },
+    {
+     "text": "Anecdote",
+     "alias": [],
+     "tier": 2,
+     "why": "A short story makes an issue human."
+    },
+    {
+     "text": "Hyperbole",
+     "alias": [
+      "exaggeration"
+     ],
+     "tier": 2,
+     "why": "Exaggeration for impact."
+    },
+    {
+     "text": "Inclusive pronouns",
+     "alias": [
+      "inclusive language"
+     ],
+     "tier": 3,
+     "why": "'We' and 'us' make the audience feel on your side."
+    },
+    {
+     "text": "Expert opinion",
+     "alias": [
+      "expert testimony"
+     ],
+     "tier": 3,
+     "why": "Quoting authorities borrows credibility."
+    },
+    {
+     "text": "Imperatives",
+     "alias": [
+      "commands",
+      "imperative"
+     ],
+     "tier": 3,
+     "why": "Commands push the reader to act."
+    },
+    {
+     "text": "Alliteration",
+     "alias": [],
+     "tier": 3,
+     "why": "Repeated first sounds make phrases stick."
+    },
+    {
+     "text": "Counterargument",
+     "alias": [
+      "rebuttal",
+      "refutation",
+      "counter-argument"
+     ],
+     "tier": 4,
+     "why": "Raising and rebutting the other side."
+    },
+    {
+     "text": "Kairos",
+     "alias": [],
+     "tier": 5,
+     "why": "Appeal to the right moment or urgency."
+    }
+   ]
+  },
+  {
+   "id": "eng-31",
+   "unit": "u6",
+   "prompt": "Name a part of the TCEAEL paragraph",
+   "answers": [
+    {
+     "text": "Topic sentence",
+     "alias": [
+      "topic"
+     ],
+     "tier": 1,
+     "why": "T: names the authorial choice AND the theme. Name the theme, don't just say 'the theme'."
+    },
+    {
+     "text": "Context",
+     "alias": [
+      "context sentence"
+     ],
+     "tier": 1,
+     "why": "C: one or two lines on where the moment is. Keep it short."
+    },
+    {
+     "text": "Evidence",
+     "alias": [
+      "quote",
+      "quotation"
+     ],
+     "tier": 1,
+     "why": "E: a short, precise quote or paraphrase."
+    },
+    {
+     "text": "Analysis",
+     "alias": [],
+     "tier": 2,
+     "why": "A: 2-3 sentences on how the choice creates meaning. Go deeper."
+    },
+    {
+     "text": "Link",
+     "alias": [
+      "link back",
+      "concluding sentence"
+     ],
+     "tier": 2,
+     "why": "L: close by linking back to the theme."
+    },
+    {
+     "text": "Evaluation",
+     "alias": [],
+     "tier": 4,
+     "why": "E: how effective the choice is and why. The 4/5 bands need it."
+    }
+   ]
+  },
+  {
+   "id": "eng-32",
+   "unit": "u6",
+   "prompt": "Name an analytical verb for 'Hamid ___' (better than 'shows')",
+   "answers": [
+    {
+     "text": "Highlights",
+     "alias": [
+      "highlight"
+     ],
+     "tier": 1,
+     "why": "'Hamid highlights...' Strong verb for the magic sentence."
+    },
+    {
+     "text": "Portrays",
+     "alias": [
+      "portray"
+     ],
+     "tier": 1,
+     "why": "'Hamid portrays the theme of identity through...'"
+    },
+    {
+     "text": "Explores",
+     "alias": [
+      "explore"
+     ],
+     "tier": 1,
+     "why": "'Hamid explores...' suits themes."
+    },
+    {
+     "text": "Conveys",
+     "alias": [
+      "convey"
+     ],
+     "tier": 2,
+     "why": "'Conveys' says how meaning is carried to the reader."
+    },
+    {
+     "text": "Illustrates",
+     "alias": [
+      "illustrate"
+     ],
+     "tier": 2,
+     "why": "Good in theses: 'Hamid illustrates...'"
+    },
+    {
+     "text": "Depicts",
+     "alias": [
+      "depict"
+     ],
+     "tier": 2,
+     "why": "The class thesis frame: 'Hamid effectively uses ___ to depict...'"
+    },
+    {
+     "text": "Emphasises",
+     "alias": [
+      "emphasizes",
+      "emphasise",
+      "emphasize"
+     ],
+     "tier": 2,
+     "why": "Stresses an idea."
+    },
+    {
+     "text": "Suggests",
+     "alias": [
+      "suggest"
+     ],
+     "tier": 2,
+     "why": "Good for hedged, interpretive claims."
+    },
+    {
+     "text": "Accentuates",
+     "alias": [
+      "accentuate"
+     ],
+     "tier": 3,
+     "why": "Sharpens a contrast or feeling."
+    },
+    {
+     "text": "Critiques",
+     "alias": [
+      "critique",
+      "criticises",
+      "criticizes"
+     ],
+     "tier": 3,
+     "why": "When Hamid judges something, like corporate America."
+    },
+    {
+     "text": "Exposes",
+     "alias": [
+      "expose",
+      "reveals"
+     ],
+     "tier": 3,
+     "why": "Reveals something hidden, like prejudice."
+    },
+    {
+     "text": "Evokes",
+     "alias": [
+      "evoke"
+     ],
+     "tier": 4,
+     "why": "Calls up a feeling in the reader."
+    },
+    {
+     "text": "Foreshadows",
+     "alias": [
+      "foreshadow"
+     ],
+     "tier": 4,
+     "why": "Hints at what's coming."
+    },
+    {
+     "text": "Undermines",
+     "alias": [
+      "undermine"
+     ],
+     "tier": 5,
+     "why": "Weakens an idea, like the meritocracy myth."
+    },
+    {
+     "text": "Subverts",
+     "alias": [
+      "subvert"
+     ],
+     "tier": 5,
+     "why": "Turns an expectation upside down, like who the 'threat' is."
+    }
+   ]
+  },
+  {
+   "id": "eng-33",
+   "unit": "u6",
+   "prompt": "Name something that belongs in an essay introduction",
+   "answers": [
+    {
+     "text": "Hook",
+     "alias": [],
+     "tier": 1,
+     "why": "Opening line to grab the reader; a rhetorical question is fine."
+    },
+    {
+     "text": "Thesis",
+     "alias": [
+      "thesis statement"
+     ],
+     "tier": 1,
+     "why": "One clear argument: choices + theme + what Hamid reveals. Not a device list."
+    },
+    {
+     "text": "Title",
+     "alias": [
+      "title of the text"
+     ],
+     "tier": 1,
+     "why": "Name the text: The Reluctant Fundamentalist."
+    },
+    {
+     "text": "Author",
+     "alias": [
+      "author's name",
+      "mohsin hamid"
+     ],
+     "tier": 1,
+     "why": "Name the writer: Mohsin Hamid."
+    },
+    {
+     "text": "Publication date",
+     "alias": [
+      "2007",
+      "date",
+      "publication year"
+     ],
+     "tier": 2,
+     "why": "TRF was published in 2007."
+    },
+    {
+     "text": "Brief context",
+     "alias": [
+      "context"
+     ],
+     "tier": 2,
+     "why": "Short background: Lahore, Princeton, Underwood Samson. No plot summary."
+    },
+    {
+     "text": "Key terms defined",
+     "alias": [
+      "definitions",
+      "define key terms"
+     ],
+     "tier": 3,
+     "why": "Define the theme words in the question."
+    },
+    {
+     "text": "Text type",
+     "alias": [
+      "genre",
+      "form"
+     ],
+     "tier": 3,
+     "why": "Say it's a dramatic monologue."
+    },
+    {
+     "text": "Setting",
+     "alias": [],
+     "tier": 3,
+     "why": "Lahore café frame, New York flashback."
+    },
+    {
+     "text": "Themes",
+     "alias": [
+      "common themes"
+     ],
+     "tier": 3,
+     "why": "Name the theme(s) the essay argues about."
+    },
+    {
+     "text": "Question breakdown",
+     "alias": [
+      "breaking down the question"
+     ],
+     "tier": 4,
+     "why": "Unpack what the question is really asking."
+    },
+    {
+     "text": "Characters linked to question",
+     "alias": [
+      "characters"
+     ],
+     "tier": 4,
+     "why": "Introduce key characters and tie them to the prompt."
+    }
+   ]
+  },
+  {
+   "id": "eng-34",
+   "unit": "u6",
+   "prompt": "Name a term from the IB Language & Literature assessment model",
+   "answers": [
+    {
+     "text": "Paper 1",
+     "alias": [
+      "p1",
+      "guided textual analysis"
+     ],
+     "tier": 1,
+     "why": "Guided textual analysis of an unseen non-literary text."
+    },
+    {
+     "text": "Paper 2",
+     "alias": [
+      "p2",
+      "comparative essay"
+     ],
+     "tier": 1,
+     "why": "Comparative essay on two literary works you've studied."
+    },
+    {
+     "text": "Individual Oral",
+     "alias": [
+      "io",
+      "oral"
+     ],
+     "tier": 1,
+     "why": "10 min talk + 5 min questions: a global issue in one literary and one non-literary extract."
+    },
+    {
+     "text": "Learner Portfolio",
+     "alias": [
+      "portfolio"
+     ],
+     "tier": 2,
+     "why": "Your ongoing record of reading and responses; not marked but feeds the IO."
+    },
+    {
+     "text": "Global issue",
+     "alias": [
+      "global issues"
+     ],
+     "tier": 2,
+     "why": "The big real-world issue the IO is built around."
+    },
+    {
+     "text": "Non-literary text",
+     "alias": [
+      "non-literary"
+     ],
+     "tier": 2,
+     "why": "Ads, blogs, speeches, infographics: Paper 1's material."
+    },
+    {
+     "text": "Guiding question",
+     "alias": [
+      "guiding questions"
+     ],
+     "tier": 3,
+     "why": "Paper 1 gives a question to steer your analysis."
+    },
+    {
+     "text": "Unseen passage",
+     "alias": [
+      "unseen text"
+     ],
+     "tier": 3,
+     "why": "Paper 1 texts are ones you've never seen before."
+    },
+    {
+     "text": "Body of work",
+     "alias": [
+      "bow"
+     ],
+     "tier": 4,
+     "why": "A collection of non-literary texts by one creator, used in the IO."
+    },
+    {
+     "text": "Fields of inquiry",
+     "alias": [
+      "field of inquiry"
+     ],
+     "tier": 4,
+     "why": "Broad areas for IO global issues, e.g. culture, identity and community."
+    },
+    {
+     "text": "Internal assessment",
+     "alias": [
+      "internal",
+      "ia"
+     ],
+     "tier": 4,
+     "why": "The IO is marked by your teacher and moderated."
+    },
+    {
+     "text": "Areas of exploration",
+     "alias": [
+      "area of exploration",
+      "intertextuality",
+      "time and space"
+     ],
+     "tier": 5,
+     "why": "The course's 3 areas: readers/writers/texts; time and space; intertextuality."
+    }
+   ]
+  },
+  {
+   "id": "eng-35",
+   "unit": "u6",
+   "prompt": "Name a 'broader authorial choice' you could use in a whole-novel essay",
+   "answers": [
+    {
+     "text": "Dramatic monologue",
+     "alias": [
+      "monologue"
+     ],
+     "tier": 1,
+     "why": "The whole form: Changez controls everything we hear."
+    },
+    {
+     "text": "Symbolism",
+     "alias": [],
+     "tier": 1,
+     "why": "The beard, Erica, the flags, the title."
+    },
+    {
+     "text": "Ambiguous ending",
+     "alias": [
+      "ambiguity",
+      "open ending"
+     ],
+     "tier": 2,
+     "why": "The glint of metal: our assumptions decide."
+    },
+    {
+     "text": "Juxtaposition",
+     "alias": [
+      "contrast"
+     ],
+     "tier": 2,
+     "why": "Before vs after 9/11; Lahore vs New York."
+    },
+    {
+     "text": "Character development",
+     "alias": [
+      "characterisation",
+      "characterization"
+     ],
+     "tier": 2,
+     "why": "Princeton scholar to analyst to janissary to lecturer."
+    },
+    {
+     "text": "Second-person address",
+     "alias": [
+      "second person",
+      "direct address"
+     ],
+     "tier": 2,
+     "why": "'You' puts the reader on trial."
+    },
+    {
+     "text": "Frame narrative",
+     "alias": [
+      "frame story"
+     ],
+     "tier": 3,
+     "why": "The menacing present keeps interrupting the past."
+    },
+    {
+     "text": "Setting",
+     "alias": [],
+     "tier": 3,
+     "why": "Lahore, New York, Manila, Valparaíso: place and history shape identity."
+    },
+    {
+     "text": "Allusion",
+     "alias": [
+      "historical allusion"
+     ],
+     "tier": 3,
+     "why": "The janissaries give Changez a name for what he's become."
+    },
+    {
+     "text": "Allegory",
+     "alias": [],
+     "tier": 4,
+     "why": "Erica as America, Underwood Samson as U.S. power."
+    },
+    {
+     "text": "Title",
+     "alias": [
+      "the title"
+     ],
+     "tier": 4,
+     "why": "A central metaphor: fundamentals vs fundamentalism."
+    },
+    {
+     "text": "Symbolic names",
+     "alias": [
+      "names"
+     ],
+     "tier": 5,
+     "why": "Underwood Samson = U.S.; Erica ≈ Am-Erica; Changez ≈ change."
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "unit": "u4",
+   "front": "Dramatic monologue",
+   "back": "One character speaks to a silent listener, revealing their mind through what they choose to say. TRF: Changez speaks; the American never gets a line."
+  },
+  {
+   "unit": "u4",
+   "front": "Second-person address",
+   "back": "Narration that speaks to 'you'. Changez calls the American 'you', which puts the reader in the American's chair for the whole novel."
+  },
+  {
+   "unit": "u4",
+   "front": "Frame narrative",
+   "back": "A story inside a story. The present-tense Lahore café evening frames Changez's past-tense story of Princeton, Erica, 9/11 and Chile."
+  },
+  {
+   "unit": "u4",
+   "front": "Unreliable narrator",
+   "back": "A narrator we can't fully trust. Changez admits he may misremember or exaggerate, and he alone controls what we learn."
+  },
+  {
+   "unit": "u4",
+   "front": "Retrospective narration",
+   "back": "Telling the past from after it happened. Changez narrates his New York years already knowing how they end."
+  },
+  {
+   "unit": "u4",
+   "front": "Ambiguous ending",
+   "back": "The American reaches into his jacket; Changez sees a glint of metal and hopes it's a business-card holder. Hamid never says which."
+  },
+  {
+   "unit": "u4",
+   "front": "Allegory",
+   "back": "A story where characters stand for bigger ideas: Changez and Erica as Pakistan and America; Underwood Samson as U.S. power."
+  },
+  {
+   "unit": "u4",
+   "front": "Effect of the silent American",
+   "back": "We only infer his words from Changez's replies, so our own assumptions fill the gap. Who is threatening whom is the reader's problem."
+  },
+  {
+   "unit": "u4",
+   "front": "Structure of the frame",
+   "back": "One evening: afternoon (gates locked) to sunset (lights, blackout) to dusk (bats) to night (walk to the hotel). Tension rises as it darkens."
+  },
+  {
+   "unit": "u5",
+   "front": "Foreshadowing",
+   "back": "Hints of what's to come. The American's hand going to his jacket early on is echoed on the last page."
+  },
+  {
+   "unit": "u5",
+   "front": "Symbolism",
+   "back": "An object standing for an idea. 'Underwood Samson' abbreviates to U.S., standing for America itself."
+  },
+  {
+   "unit": "u5",
+   "front": "Motif",
+   "back": "A repeated image or idea that builds a theme. Nostalgia recurs: Erica for Chris, America for its pre-9/11 self."
+  },
+  {
+   "unit": "u5",
+   "front": "Metaphor",
+   "back": "A direct comparison without like/as. Erica describes turning grief into writing like an oyster making a pearl."
+  },
+  {
+   "unit": "u5",
+   "front": "Simile",
+   "back": "Comparison with like/as. In ch.3 the American is like an animal unsure whether it is predator or prey."
+  },
+  {
+   "unit": "u5",
+   "front": "Situational irony",
+   "back": "The opposite of what you'd expect. Changez is trained to 'focus on the fundamentals' of finance and ends up seen as a fundamentalist."
+  },
+  {
+   "unit": "u5",
+   "front": "Dramatic irony",
+   "back": "The reader suspects more than a character. We sense danger at the café long before anything is confirmed."
+  },
+  {
+   "unit": "u5",
+   "front": "Pun",
+   "back": "Wordplay on two meanings. 'Fundamentals' (valuation) vs 'fundamentalism' (religion)."
+  },
+  {
+   "unit": "u5",
+   "front": "Allusion",
+   "back": "A reference to a real event or text. The janissaries allude to Ottoman history; 9/11 roots the novel in real events."
+  },
+  {
+   "unit": "u5",
+   "front": "Juxtaposition",
+   "back": "Placing opposites side by side. Changez's limousine next to the jeepney in Manila; the shabby Lahore house vs Manhattan."
+  },
+  {
+   "unit": "u5",
+   "front": "Anaphora",
+   "back": "Repeating words at the start of clauses. Changez repeats 'This was...' when he sees his family home in ch.9."
+  },
+  {
+   "unit": "u5",
+   "front": "Diction",
+   "back": "Word choice and what it reveals. Changez's formal, courtly 'sir' marks him as polite but performing."
+  },
+  {
+   "unit": "u5",
+   "front": "Tone vs mood",
+   "back": "Tone = the writer's/narrator's attitude. Mood = the feeling created in the reader. Changez's polite tone creates a tense mood."
+  },
+  {
+   "unit": "u5",
+   "front": "Syntax / short sentence",
+   "back": "Sentence shape for effect. 'And then I smiled.' The short sentence lands like a confession."
+  },
+  {
+   "unit": "u5",
+   "front": "Pathetic fallacy",
+   "back": "Setting or weather mirroring feeling. Dusk falls and bats gather as Changez reaches 9/11 in his story."
+  },
+  {
+   "unit": "u5",
+   "front": "Personification",
+   "back": "Human qualities for non-human things. America is pictured as brought 'to her knees' on 9/11."
+  },
+  {
+   "unit": "u5",
+   "front": "Euphemism",
+   "back": "A soft word for a harsh thing. 'Downsizing' (ch.7) means mass layoffs."
+  },
+  {
+   "unit": "u5",
+   "front": "Oxymoron",
+   "back": "Two contradictory words together. 'Reluctant fundamentalist': hesitation vs zealous certainty."
+  },
+  {
+   "unit": "u5",
+   "front": "Ethos / pathos / logos",
+   "back": "Ethos = credibility, pathos = emotion, logos = logic/evidence. The three classic persuasive appeals in non-literary texts."
+  },
+  {
+   "unit": "u5",
+   "front": "Paper 1 text types",
+   "back": "Non-literary: ads, blogs, infographics, speeches, opinion columns, news articles, posters, cartoons, letters, websites, brochures."
+  },
+  {
+   "unit": "u5",
+   "front": "Analysing an ad",
+   "back": "Look at: image, slogan, logo, colour, layout, typography, call to action, target audience, and how they work together."
+  },
+  {
+   "unit": "u5",
+   "front": "Analysing an infographic",
+   "back": "Look at: statistics, charts, icons, colour coding, layout and visual hierarchy, captions, sources."
+  },
+  {
+   "unit": "u1",
+   "front": "Changez",
+   "back": "Narrator: Pakistani Princeton graduate, top Underwood Samson trainee, now a university lecturer in Lahore telling his story to the American."
+  },
+  {
+   "unit": "u1",
+   "front": "The American",
+   "back": "Silent listener at the Lahore café: keeps his jacket on, sits with his back to the wall, swaps cups. Threat or threatened? Never settled."
+  },
+  {
+   "unit": "u1",
+   "front": "Erica",
+   "back": "Changez's love interest, met in Greece; aspiring novelist who can't move past Chris. Often read as 'Am-Erica'."
+  },
+  {
+   "unit": "u1",
+   "front": "Chris",
+   "back": "Erica's childhood best friend and boyfriend who died of lung cancer. Stands for an idealised past she can't let go of."
+  },
+  {
+   "unit": "u1",
+   "front": "Jim",
+   "back": "Senior man at Underwood Samson who hires and mentors Changez; grew up 'dirt poor'. Later says Changez betrayed his trust."
+  },
+  {
+   "unit": "u1",
+   "front": "Wainwright",
+   "back": "Changez's closest trainee friend; father from Barbados; ranks second. Tells him to 'focus on the fundamentals' and warns him to shave."
+  },
+  {
+   "unit": "u1",
+   "front": "Sherman",
+   "back": "Underwood Samson vice president who tells recruits the firm is a meritocracy that ranks them and cuts the weakest."
+  },
+  {
+   "unit": "u1",
+   "front": "Juan-Bautista",
+   "back": "Head of the Valparaíso publishing firm. Tells the janissary story, which makes Changez walk away from the job."
+  },
+  {
+   "unit": "u1",
+   "front": "Erica's parents",
+   "back": "Mother appraises Changez and later warns him Erica is fragile. Father, a businessman, talks down to him about Pakistan."
+  },
+  {
+   "unit": "u1",
+   "front": "Jeepney driver",
+   "back": "In Manila he glares at Changez's limousine; Changez feels closer to him than to his American colleagues."
+  },
+  {
+   "unit": "u1",
+   "front": "The waiter",
+   "back": "Recurring café waiter the American fears. Changez says his hard face comes from the north-west mountains. Follows them at the end."
+  },
+  {
+   "unit": "u1",
+   "front": "Chapter order (1-6)",
+   "back": "1 Lahore meeting, Princeton, Jim. 2 Greece, Erica, Chris. 3 Training, ranked first. 4 Erica's parents. 5 Manila, 9/11 smile, airport. 6 Post-9/11 NY."
+  },
+  {
+   "unit": "u1",
+   "front": "Chapter order (7-12)",
+   "back": "7 New Jersey, 'fundamentals', Afghanistan. 8 Erica's relapse, slur. 9 Lahore, beard, clinic. 10 Valparaíso, janissaries. 11 Let go, Erica gone. 12 The ending."
+  },
+  {
+   "unit": "u1",
+   "front": "The 9/11 smile (ch.5)",
+   "back": "On his last evening in Manila he watches the towers fall on TV and smiles: at the symbolism of America humbled, not at the deaths."
+  },
+  {
+   "unit": "u1",
+   "front": "Airport search (ch.5)",
+   "back": "Flying back, he is stripped to his underwear in a secure room; his colleagues go on ahead and he reaches Manhattan alone."
+  },
+  {
+   "unit": "u1",
+   "front": "Quit or fired?",
+   "back": "Both: he abandons the Chile assignment in ch.10, then is formally let go and escorted out in ch.11."
+  },
+  {
+   "unit": "u1",
+   "front": "Erica's fate (ch.11)",
+   "back": "She vanishes from the clinic; her clothes are found above the Hudson. Suicide is suggested, never stated. Her mother gives Changez the manuscript."
+  },
+  {
+   "unit": "u1",
+   "front": "Changez at the end",
+   "back": "A Lahore university lecturer who urges students to disengage from the US and criticises Pakistan's US ties on TV."
+  },
+  {
+   "unit": "u2",
+   "front": "Lahore (Old Anarkali)",
+   "back": "The frame setting: a café in Old Anarkali market. Changez is host, the American the guest, which reverses the usual power."
+  },
+  {
+   "unit": "u2",
+   "front": "Princeton",
+   "back": "Changez's university (class of 2001): the meritocracy's gateway. He hid his jobs from richer classmates."
+  },
+  {
+   "unit": "u2",
+   "front": "New York",
+   "back": "He feels 'immediately a New Yorker' though never American. After 9/11 the city fills with flags and suspicion."
+  },
+  {
+   "unit": "u2",
+   "front": "Manila",
+   "back": "Philippines assignment valuing a music company; he acts American ('play-acting') and sees 9/11 on his hotel TV."
+  },
+  {
+   "unit": "u2",
+   "front": "Valparaíso",
+   "back": "Chile, last assignment: valuing a publishing house. The janissary story and the ruins make him walk away."
+  },
+  {
+   "unit": "u2",
+   "front": "Underwood Samson",
+   "back": "Elite valuation firm whose initials spell U.S.: America's promise of merit and its creed 'focus on the fundamentals'."
+  },
+  {
+   "unit": "u2",
+   "front": "The beard",
+   "back": "Grown in Lahore, kept in New York: to Changez a protest and symbol of identity; to Americans, a sign of threat."
+  },
+  {
+   "unit": "u2",
+   "front": "The janissaries",
+   "back": "Christian boys taken by the Ottoman Empire and trained to fight their own people, 'ferocious and utterly loyal'. Changez sees himself in them."
+  },
+  {
+   "unit": "u2",
+   "front": "The title",
+   "back": "Fundamentals of finance vs religious fundamentalism. 'Reluctant' questions what the reader assumes."
+  },
+  {
+   "unit": "u2",
+   "front": "Flags after 9/11",
+   "back": "Flags everywhere in New York: patriotism that shuts outsiders out, and nostalgia for an earlier America."
+  },
+  {
+   "unit": "u2",
+   "front": "Erica's manuscript",
+   "back": "A simple story of a girl alone on an island, not the grief memoir Changez expected: Erica choosing her own path."
+  },
+  {
+   "unit": "u2",
+   "front": "Bats and blackout",
+   "back": "Frame details (ch.4-5) that make the American flinch: they build menace and foreshadow the ending."
+  },
+  {
+   "unit": "u3",
+   "front": "Class themes for TRF",
+   "back": "Identity & belonging, East vs West, American Dream, power & privilege, 9/11 & aftermath, appearance vs reality, prejudice, nationalism."
+  },
+  {
+   "unit": "u3",
+   "front": "Nostalgia (Erica / America)",
+   "back": "Erica retreats into memories of Chris; Changez sees post-9/11 America in the same 'dangerous nostalgia' for its past."
+  },
+  {
+   "unit": "u3",
+   "front": "American Dream arc",
+   "back": "Princeton → hired on the spot → ranked first → first-class travel → 9/11 → beard → walks out in Chile → let go."
+  },
+  {
+   "unit": "u3",
+   "front": "Prejudice before 9/11",
+   "back": "Erica's father's condescending remarks and the rich classmates' treatment of Changez as exotic: polite prejudice before the attacks."
+  },
+  {
+   "unit": "u3",
+   "front": "Prejudice after 9/11",
+   "back": "Airport strip search, rumours of attacks on Muslims, a slur in a parking lot, stares at the beard."
+  },
+  {
+   "unit": "u3",
+   "front": "'Islam Is Not a Monolith'",
+   "back": "Hamid's 2013 newspaper essay, paired with the novel: readers wrongly project religious fundamentalism onto Changez."
+  },
+  {
+   "unit": "u6",
+   "front": "TCEAEL",
+   "back": "Topic sentence (choice + named theme), Context (1-2 lines), Evidence (short quote/paraphrase), Analysis, Evaluation (how effective), Link to theme."
+  },
+  {
+   "unit": "u6",
+   "front": "The magic sentence",
+   "back": "Writer + Verb + Technique + Purpose + Idea. E.g. 'Hamid uses juxtaposition to highlight how 9/11 transforms Changez's identity.'"
+  },
+  {
+   "unit": "u6",
+   "front": "Class thesis frame",
+   "back": "'Hamid effectively uses ___ to depict the theme(s) of ___.' One dominant argument, not a device list. Avoid the verb 'show'."
+  },
+  {
+   "unit": "u6",
+   "front": "Introduction checklist",
+   "back": "Hook, title, author, 2007, dramatic monologue, brief context, key terms of the question defined, thesis. No plot summary."
+  },
+  {
+   "unit": "u6",
+   "front": "Whole-novel essay body paragraph",
+   "back": "Choice + theme, short context, the moment, analysis, effect on the reader, authorial intent, link back to the theme."
+  },
+  {
+   "unit": "u6",
+   "front": "Conclusion",
+   "back": "Restate the thesis in the question's words, synthesise (don't just summarise), authorial intent, and relevance of the text today."
+  },
+  {
+   "unit": "u6",
+   "front": "Paper 1",
+   "back": "Guided textual analysis of an unseen non-literary text (SL: one text, 1h15, 35%). Analyse the writer's choices and their effects."
+  },
+  {
+   "unit": "u6",
+   "front": "Paper 2",
+   "back": "Comparative essay on two literary works studied in class, answering one of four general questions (1h45, 35% at SL)."
+  },
+  {
+   "unit": "u6",
+   "front": "Individual Oral",
+   "back": "15 min: 10 min talk + 5 min questions. A global issue explored in one literary and one non-literary extract (30% at SL)."
+  },
+  {
+   "unit": "u6",
+   "front": "Learner Portfolio",
+   "back": "Ongoing record of your reading, annotations and responses. Not marked directly, but it's where IO ideas and evidence come from."
+  },
+  {
+   "unit": "u6",
+   "front": "IB criteria (A-D)",
+   "back": "A Knowledge, understanding & interpretation · B Analysis & evaluation · C Focus & organisation · D Language."
+  },
+  {
+   "unit": "u6",
+   "front": "Evaluation matters",
+   "back": "In the analysis criterion, 'evaluation' only appears in the top bands: analysis alone caps you. Say how effective a choice is and why."
+  }
+ ],
+ "quiz": [
+  {
+   "unit": "u4",
+   "q": "The Reluctant Fundamentalist is best described as a…",
+   "choices": [
+    "Epistolary novel",
+    "Dramatic monologue",
+    "Third-person omniscient novel",
+    "Stream of consciousness"
+   ],
+   "answer": 1,
+   "explain": "One speaker (Changez) talks to a silent listener (the American) for the whole novel."
+  },
+  {
+   "unit": "u4",
+   "q": "Why does the American never speak directly?",
+   "choices": [
+    "Hamid forgot to give him lines",
+    "He doesn't speak English",
+    "The monologue form means only Changez's voice exists",
+    "He is a ghost"
+   ],
+   "answer": 2,
+   "explain": "Dramatic monologue: we only infer his words from Changez's replies, so we can't verify anything."
+  },
+  {
+   "unit": "u4",
+   "q": "Changez's use of 'you' mainly…",
+   "choices": [
+    "Places the reader in the American's seat",
+    "Shows he forgets names",
+    "Is a translation error",
+    "Signals a flashback"
+   ],
+   "answer": 0,
+   "explain": "Second-person address makes the reader the listener, so our own assumptions are tested."
+  },
+  {
+   "unit": "u4",
+   "q": "The café evening in Lahore that encloses the New York story is called the…",
+   "choices": [
+    "Subplot",
+    "Epilogue",
+    "Prologue",
+    "Frame narrative"
+   ],
+   "answer": 3,
+   "explain": "The present-tense frame surrounds the embedded past-tense story."
+  },
+  {
+   "unit": "u4",
+   "q": "Changez is called an unreliable narrator mainly because…",
+   "choices": [
+    "He lies about every fact",
+    "He controls and curates what we hear and admits he may exaggerate",
+    "He is a child",
+    "He is drunk"
+   ],
+   "answer": 1,
+   "explain": "His unreliability is about control and self-interest, not obvious lies."
+  },
+  {
+   "unit": "u4",
+   "q": "How does the novel end?",
+   "choices": [
+    "The American is arrested",
+    "Changez is shot",
+    "Unresolved: a glint of metal as the American reaches into his jacket",
+    "They become friends"
+   ],
+   "answer": 2,
+   "explain": "Hamid leaves it ambiguous; Changez hopes it's a business-card holder."
+  },
+  {
+   "unit": "u1",
+   "q": "In which chapter does Changez watch 9/11 on TV?",
+   "choices": [
+    "Chapter 5, in Manila",
+    "Chapter 1, at Princeton",
+    "Chapter 9, in Lahore",
+    "Chapter 10, in Valparaíso"
+   ],
+   "answer": 0,
+   "explain": "On his last evening in Manila, he sees the towers fall on TV and smiles."
+  },
+  {
+   "unit": "u1",
+   "q": "What does Changez say his smile at 9/11 was really about?",
+   "choices": [
+    "Joy at the deaths",
+    "A nervous habit",
+    "Relief at going home",
+    "The symbolism of America being humbled"
+   ],
+   "answer": 3,
+   "explain": "He stresses it was the symbolism, not the victims, which still shocks the American."
+  },
+  {
+   "unit": "u1",
+   "q": "Who hires Changez at Underwood Samson?",
+   "choices": [
+    "Sherman",
+    "Wainwright",
+    "Jim",
+    "Juan-Bautista"
+   ],
+   "answer": 2,
+   "explain": "Jim interviews him at Princeton and offers him the job on the spot."
+  },
+  {
+   "unit": "u1",
+   "q": "Where does Changez first meet Erica?",
+   "choices": [
+    "At Princeton's library",
+    "On a trip to Greece",
+    "In Manila",
+    "At Underwood Samson"
+   ],
+   "answer": 1,
+   "explain": "On the post-graduation Greece trip organised by rich classmates."
+  },
+  {
+   "unit": "u1",
+   "q": "How did Chris die?",
+   "choices": [
+    "Lung cancer",
+    "Car crash",
+    "In the 9/11 attacks",
+    "Overdose"
+   ],
+   "answer": 0,
+   "explain": "Chris died of lung cancer; Erica never gets over him."
+  },
+  {
+   "unit": "u1",
+   "q": "What story does Juan-Bautista tell Changez in Valparaíso?",
+   "choices": [
+    "The story of Pablo Neruda's exile",
+    "The fall of the Twin Towers",
+    "Erica's disappearance",
+    "The janissaries"
+   ],
+   "answer": 3,
+   "explain": "Christian boys taken by the Ottomans to fight their own people: Changez sees himself."
+  },
+  {
+   "unit": "u1",
+   "q": "How does Changez's time at Underwood Samson end?",
+   "choices": [
+    "He is promoted to partner",
+    "He abandons the Chile job, then is let go",
+    "He retires rich",
+    "He moves to the London office"
+   ],
+   "answer": 1,
+   "explain": "Ch.10 he stops working in Valparaíso; ch.11 he is dismissed and escorted out."
+  },
+  {
+   "unit": "u1",
+   "q": "What happens to Erica?",
+   "choices": [
+    "She marries Changez",
+    "She becomes a famous novelist",
+    "She disappears from the clinic; her clothes are found by the Hudson",
+    "She moves to Lahore"
+   ],
+   "answer": 2,
+   "explain": "Her fate is never confirmed; suicide is suggested, not stated."
+  },
+  {
+   "unit": "u1",
+   "q": "Who tells Changez to 'focus on the fundamentals'?",
+   "choices": [
+    "Wainwright",
+    "Jim",
+    "Erica",
+    "His mother"
+   ],
+   "answer": 0,
+   "explain": "Wainwright says it during the New Jersey job in ch.7: the line behind the title's pun."
+  },
+  {
+   "unit": "u1",
+   "q": "What does Changez become back in Lahore?",
+   "choices": [
+    "A banker",
+    "A soldier",
+    "A taxi driver",
+    "A university lecturer"
+   ],
+   "answer": 3,
+   "explain": "He teaches and urges students to disengage from the US."
+  },
+  {
+   "unit": "u2",
+   "q": "What do the initials of Underwood Samson spell?",
+   "choices": [
+    "U.N.",
+    "U.S.",
+    "U.K.",
+    "S.U."
+   ],
+   "answer": 1,
+   "explain": "U.S. The firm stands for America and its economic power."
+  },
+  {
+   "unit": "u2",
+   "q": "To Changez, the beard is mainly…",
+   "choices": [
+    "A disguise",
+    "A sign of laziness",
+    "A symbol of identity and protest",
+    "A religious requirement from work"
+   ],
+   "answer": 2,
+   "explain": "He keeps it despite stares; to Americans it reads as a threat."
+  },
+  {
+   "unit": "u2",
+   "q": "Erica is often read as a symbol of…",
+   "choices": [
+    "America",
+    "Pakistan",
+    "Chile",
+    "The Ottoman Empire"
+   ],
+   "answer": 0,
+   "explain": "'Am-Erica': her nostalgia and retreat mirror post-9/11 America."
+  },
+  {
+   "unit": "u2",
+   "q": "The title's 'fundamentalist' first refers to…",
+   "choices": [
+    "Erica's grief",
+    "Juan-Bautista's poetry",
+    "The American's job",
+    "Underwood Samson's 'fundamentals' of finance"
+   ],
+   "answer": 3,
+   "explain": "Changez is first a fundamentalist of finance; the religious reading is the reader's assumption."
+  },
+  {
+   "unit": "u2",
+   "q": "The janissaries are…",
+   "choices": [
+    "Muslim boys trained to fight Christians",
+    "Christian boys taken by the Ottomans to fight their own people",
+    "Chilean poets",
+    "US soldiers"
+   ],
+   "answer": 1,
+   "explain": "Muslim-for-Christian is a common mix-up. They were Christian boys turned into Ottoman fighters."
+  },
+  {
+   "unit": "u2",
+   "q": "What fills New York after 9/11 that makes Changez feel shut out?",
+   "choices": [
+    "Snow",
+    "Protests",
+    "Flags",
+    "Tourists"
+   ],
+   "answer": 2,
+   "explain": "The flags show patriotism turning inward and aggressive."
+  },
+  {
+   "unit": "u3",
+   "q": "Which theme fits Changez 'play-acting' as an American in Manila?",
+   "choices": [
+    "Identity and belonging",
+    "Love and relationships",
+    "Grief and loss",
+    "Nature"
+   ],
+   "answer": 0,
+   "explain": "He performs Americanness for status, and the jeepney driver's glare exposes it."
+  },
+  {
+   "unit": "u3",
+   "q": "Erica's father lecturing Changez about Pakistan shows…",
+   "choices": [
+    "Post-9/11 violence",
+    "Prejudice existed before 9/11",
+    "Changez's fundamentalism",
+    "Erica's nostalgia"
+   ],
+   "answer": 1,
+   "explain": "Polite condescension happens before the attacks; 9/11 just makes it louder."
+  },
+  {
+   "unit": "u3",
+   "q": "Which pairing shows the nostalgia parallel?",
+   "choices": [
+    "Jim and Sherman",
+    "The waiter and the American",
+    "Wainwright and Chuck",
+    "Erica's longing for Chris and America's longing for its past"
+   ],
+   "answer": 3,
+   "explain": "Both retreat from the present into an idealised past."
+  },
+  {
+   "unit": "u3",
+   "q": "'Pretend I am him' (Changez to Erica) best develops…",
+   "choices": [
+    "Love requiring self-erasure",
+    "The American Dream's success",
+    "Nationalism",
+    "Fear of the waiter"
+   ],
+   "answer": 0,
+   "explain": "To be loved he has to become Chris, which mirrors how he erases himself to fit in America."
+  },
+  {
+   "unit": "u5",
+   "q": "'Downsizing' for mass layoffs is an example of…",
+   "choices": [
+    "Hyperbole",
+    "Euphemism",
+    "Alliteration",
+    "Onomatopoeia"
+   ],
+   "answer": 1,
+   "explain": "A soft word for a harsh reality, typical corporate language."
+  },
+  {
+   "unit": "u5",
+   "q": "'Reluctant fundamentalist' is an example of…",
+   "choices": [
+    "Simile",
+    "Anaphora",
+    "Oxymoron",
+    "Pathetic fallacy"
+   ],
+   "answer": 2,
+   "explain": "Two clashing words: hesitation and zealous certainty."
+  },
+  {
+   "unit": "u5",
+   "q": "The bats and darkening evening mirroring rising tension is…",
+   "choices": [
+    "Pathetic fallacy",
+    "Allusion",
+    "Euphemism",
+    "Anaphora"
+   ],
+   "answer": 0,
+   "explain": "Setting reflects mood; the café darkens as the menace grows."
+  },
+  {
+   "unit": "u5",
+   "q": "Which is a NON-literary text for Paper 1?",
+   "choices": [
+    "A novel extract",
+    "A sonnet",
+    "A play scene",
+    "An infographic"
+   ],
+   "answer": 3,
+   "explain": "Paper 1 uses non-literary texts: ads, blogs, infographics, speeches, articles…"
+  },
+  {
+   "unit": "u5",
+   "q": "An ad's line 'Buy now and save!' uses…",
+   "choices": [
+    "A call to action with imperatives",
+    "Pathetic fallacy",
+    "Dramatic irony",
+    "Retrospective narration"
+   ],
+   "answer": 0,
+   "explain": "Command verbs tell the audience exactly what to do."
+  },
+  {
+   "unit": "u5",
+   "q": "Quoting a doctor in a health blog mainly appeals to…",
+   "choices": [
+    "Pathos",
+    "Ethos",
+    "Kairos",
+    "Bathos"
+   ],
+   "answer": 1,
+   "explain": "An expert borrows credibility (ethos)."
+  },
+  {
+   "unit": "u6",
+   "q": "In TCEAEL, what does the second 'E' stand for?",
+   "choices": [
+    "Example",
+    "Explanation",
+    "Evaluation",
+    "Ending"
+   ],
+   "answer": 2,
+   "explain": "Topic, Context, Evidence, Analysis, Evaluation, Link. Evaluation = how effective the choice is."
+  },
+  {
+   "unit": "u6",
+   "q": "Which is the best thesis?",
+   "choices": [
+    "Hamid uses many devices like metaphor, simile and irony.",
+    "This essay will show the theme of identity.",
+    "The novel is about a man in Lahore.",
+    "Hamid uses symbolism and the dramatic monologue to depict how identity is decided by others after 9/11."
+   ],
+   "answer": 3,
+   "explain": "One clear argument: choices + named theme + what Hamid reveals. Not a device list; avoid 'show'."
+  },
+  {
+   "unit": "u6",
+   "q": "What should NOT go in the introduction?",
+   "choices": [
+    "Long quotes and plot summary",
+    "Title and author",
+    "A hook",
+    "The thesis"
+   ],
+   "answer": 0,
+   "explain": "Intro = hook, title, author, date, brief context, key terms, thesis. No quotes or plot retelling."
+  },
+  {
+   "unit": "u6",
+   "q": "The 'magic sentence' formula is…",
+   "choices": [
+    "Point + Evidence + Explain",
+    "Writer + Verb + Technique + Purpose + Idea",
+    "Hook + Thesis + Summary",
+    "Claim + Counterclaim + Judgment"
+   ],
+   "answer": 1,
+   "explain": "E.g. 'Hamid uses the beard's symbolism to highlight how identity becomes visible after 9/11.'"
+  },
+  {
+   "unit": "u6",
+   "q": "The Individual Oral explores…",
+   "choices": [
+    "A grammar test",
+    "One poem only",
+    "A global issue through one literary and one non-literary extract",
+    "A comparison of two novels"
+   ],
+   "answer": 2,
+   "explain": "10 min talk + 5 min questions, built around a global issue."
+  },
+  {
+   "unit": "u6",
+   "q": "Paper 2 at SL is…",
+   "choices": [
+    "A comparative essay on two literary works studied",
+    "Analysis of an unseen ad",
+    "An oral presentation",
+    "A creative writing task"
+   ],
+   "answer": 0,
+   "explain": "1h45, 35%: compare two works you studied in class in answer to a general question."
+  },
+  {
+   "unit": "u6",
+   "q": "What is the Learner Portfolio?",
+   "choices": [
+    "A marked final exam",
+    "Your ongoing record of reading and responses",
+    "A list of grades",
+    "The teacher's lesson plans"
+   ],
+   "answer": 1,
+   "explain": "It's not marked directly but it feeds your IO and essays."
+  }
+ ]
+}

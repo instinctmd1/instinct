@@ -1,0 +1,3515 @@
+{
+ "subject": "econ",
+ "name": "Economics",
+ "units": [
+  {
+   "id": "u1",
+   "name": "Foundations of Economics"
+  },
+  {
+   "id": "u2",
+   "name": "Supply, Demand & Equilibrium"
+  },
+  {
+   "id": "u3",
+   "name": "Elasticities (PED, YED, PES)"
+  },
+  {
+   "id": "exam",
+   "name": "Exam Skills: Essays & Diagrams"
+  }
+ ],
+ "prompts": [
+  {
+   "id": "econ-01",
+   "unit": "u1",
+   "prompt": "Name a factor of production or the reward it earns",
+   "answers": [
+    {
+     "text": "Land",
+     "alias": [
+      "natural resources"
+     ],
+     "tier": 1,
+     "why": "All natural resources, the 'gifts of nature': soil, water, minerals, fish."
+    },
+    {
+     "text": "Labour",
+     "alias": [
+      "labor",
+      "workers"
+     ],
+     "tier": 1,
+     "why": "Human physical and mental effort used in production."
+    },
+    {
+     "text": "Capital",
+     "alias": [
+      "capital goods",
+      "machinery"
+     ],
+     "tier": 1,
+     "why": "Produced means of production: machines, tools, factories. Not money itself."
+    },
+    {
+     "text": "Entrepreneurship",
+     "alias": [
+      "entrepreneur",
+      "enterprise",
+      "entrepreneurs"
+     ],
+     "tier": 2,
+     "why": "The factor that organises land, labour and capital, innovates and takes risks."
+    },
+    {
+     "text": "Wages",
+     "alias": [
+      "wage",
+      "salary",
+      "salaries"
+     ],
+     "tier": 2,
+     "why": "The reward paid to labour."
+    },
+    {
+     "text": "Profit",
+     "alias": [
+      "profits"
+     ],
+     "tier": 2,
+     "why": "The reward paid to entrepreneurship."
+    },
+    {
+     "text": "Rent",
+     "alias": [],
+     "tier": 3,
+     "why": "The reward paid to land."
+    },
+    {
+     "text": "Interest",
+     "alias": [],
+     "tier": 3,
+     "why": "The reward paid to capital."
+    }
+   ]
+  },
+  {
+   "id": "econ-02",
+   "unit": "u1",
+   "prompt": "Name one of the nine central concepts of IB Economics",
+   "answers": [
+    {
+     "text": "Scarcity",
+     "alias": [],
+     "tier": 1,
+     "why": "Limited resources vs unlimited wants: the basic economic problem."
+    },
+    {
+     "text": "Choice",
+     "alias": [],
+     "tier": 1,
+     "why": "Scarcity forces choices, and every choice has an opportunity cost."
+    },
+    {
+     "text": "Efficiency",
+     "alias": [],
+     "tier": 2,
+     "why": "Getting the most output or benefit from given resources, with no waste."
+    },
+    {
+     "text": "Equity",
+     "alias": [],
+     "tier": 2,
+     "why": "Fairness in how resources or outcomes are shared. Normative, not the same as equality."
+    },
+    {
+     "text": "Sustainability",
+     "alias": [],
+     "tier": 2,
+     "why": "Meeting today's needs without harming the ability to meet future needs."
+    },
+    {
+     "text": "Intervention",
+     "alias": [
+      "government intervention"
+     ],
+     "tier": 3,
+     "why": "Government action to influence or correct market outcomes."
+    },
+    {
+     "text": "Economic well-being",
+     "alias": [
+      "well-being",
+      "wellbeing",
+      "economic wellbeing"
+     ],
+     "tier": 3,
+     "why": "Living standards: income, security and quality of life."
+    },
+    {
+     "text": "Change",
+     "alias": [],
+     "tier": 3,
+     "why": "Economies, technology and institutions are always evolving, not static."
+    },
+    {
+     "text": "Interdependence",
+     "alias": [],
+     "tier": 3,
+     "why": "Households, firms, governments and countries all rely on one another."
+    }
+   ]
+  },
+  {
+   "id": "econ-03",
+   "unit": "u1",
+   "prompt": "Name a leakage or an injection in the circular flow of income",
+   "answers": [
+    {
+     "text": "Savings",
+     "alias": [
+      "saving"
+     ],
+     "tier": 1,
+     "why": "Leakage: income not spent, which flows to financial markets. Its matching injection is investment."
+    },
+    {
+     "text": "Taxes",
+     "alias": [
+      "taxation",
+      "tax"
+     ],
+     "tier": 1,
+     "why": "Leakage: income taken by government. Its matching injection is government spending."
+    },
+    {
+     "text": "Imports",
+     "alias": [
+      "import"
+     ],
+     "tier": 2,
+     "why": "Leakage: spending that flows out to other countries. Its matching injection is exports."
+    },
+    {
+     "text": "Investment",
+     "alias": [
+      "investment spending"
+     ],
+     "tier": 2,
+     "why": "Injection: firms' spending on capital goods, often financed from savings."
+    },
+    {
+     "text": "Government spending",
+     "alias": [
+      "government expenditure",
+      "public spending"
+     ],
+     "tier": 2,
+     "why": "Injection: government expenditure, financed partly by tax revenue."
+    },
+    {
+     "text": "Exports",
+     "alias": [
+      "export"
+     ],
+     "tier": 2,
+     "why": "Injection: foreigners' spending on domestically produced goods and services."
+    }
+   ]
+  },
+  {
+   "id": "econ-04",
+   "unit": "u1",
+   "prompt": "Name something a PPC diagram can show",
+   "answers": [
+    {
+     "text": "Opportunity cost",
+     "alias": [
+      "opportunity costs"
+     ],
+     "tier": 1,
+     "why": "Moving along the curve means giving up some of one good to get more of the other."
+    },
+    {
+     "text": "Scarcity",
+     "alias": [],
+     "tier": 1,
+     "why": "Points outside the curve are unattainable with current resources and technology."
+    },
+    {
+     "text": "Economic growth",
+     "alias": [
+      "growth"
+     ],
+     "tier": 1,
+     "why": "Growth is shown by the curve shifting outward, or by a point moving toward the curve."
+    },
+    {
+     "text": "Choice",
+     "alias": [],
+     "tier": 2,
+     "why": "Society has to pick one combination (one point) on the curve."
+    },
+    {
+     "text": "Unemployed resources",
+     "alias": [
+      "unemployment",
+      "idle resources",
+      "inefficiency",
+      "underused resources"
+     ],
+     "tier": 2,
+     "why": "A point inside the curve means resources are idle or used inefficiently."
+    },
+    {
+     "text": "Productive efficiency",
+     "alias": [
+      "full employment"
+     ],
+     "tier": 2,
+     "why": "Any point ON the curve: you can't make more of one good without making less of the other."
+    },
+    {
+     "text": "Actual growth",
+     "alias": [],
+     "tier": 3,
+     "why": "A point inside moving to the curve, using idle resources. The curve itself doesn't move."
+    },
+    {
+     "text": "Growth in production possibilities",
+     "alias": [
+      "potential growth",
+      "outward shift"
+     ],
+     "tier": 3,
+     "why": "The whole curve shifts outward because of more or better resources or technology."
+    },
+    {
+     "text": "Unattainable combinations",
+     "alias": [
+      "unattainable",
+      "unattainable points"
+     ],
+     "tier": 3,
+     "why": "Points outside the curve can't be produced with today's resources and technology."
+    },
+    {
+     "text": "Increasing opportunity cost",
+     "alias": [
+      "bowed out ppc",
+      "concave ppc"
+     ],
+     "tier": 4,
+     "why": "Bowed-out curve: resources are specialised, so each extra unit costs more of the other good."
+    },
+    {
+     "text": "Constant opportunity cost",
+     "alias": [
+      "straight line ppc"
+     ],
+     "tier": 4,
+     "why": "Straight-line PPC: resources are equally suited to both goods."
+    },
+    {
+     "text": "Inward shift",
+     "alias": [
+      "fall in production possibilities"
+     ],
+     "tier": 5,
+     "why": "A fall in production possibilities, e.g. after a war or natural disaster destroys resources."
+    }
+   ]
+  },
+  {
+   "id": "econ-05",
+   "unit": "u1",
+   "prompt": "Name an economist, school of thought or big idea from the schools-of-thought lesson",
+   "answers": [
+    {
+     "text": "Adam Smith",
+     "alias": [
+      "smith"
+     ],
+     "tier": 1,
+     "why": "18th century: self-interest in free markets serves society. Keep government small."
+    },
+    {
+     "text": "Keynes",
+     "alias": [
+      "john maynard keynes",
+      "keynesian",
+      "keynesian economics"
+     ],
+     "tier": 1,
+     "why": "After the Great Depression: markets don't always self-correct, so government should spend in a recession."
+    },
+    {
+     "text": "Karl Marx",
+     "alias": [
+      "marx",
+      "marxist",
+      "marxism"
+     ],
+     "tier": 2,
+     "why": "Critique of capitalism: workers create the value, but capital owners capture the profit."
+    },
+    {
+     "text": "Invisible hand",
+     "alias": [],
+     "tier": 2,
+     "why": "Smith's idea that self-interest, guided by prices, ends up benefiting society."
+    },
+    {
+     "text": "Laissez-faire",
+     "alias": [
+      "laissez faire",
+      "free market"
+     ],
+     "tier": 2,
+     "why": "'Leave it alone': let free markets work with minimal government intervention."
+    },
+    {
+     "text": "Behavioural economics",
+     "alias": [
+      "behavioral economics",
+      "behavioural"
+     ],
+     "tier": 3,
+     "why": "Adds psychology: real people aren't perfectly rational, as shown by bounded rationality."
+    },
+    {
+     "text": "Monetarist",
+     "alias": [
+      "monetarism",
+      "chicago school",
+      "new classical"
+     ],
+     "tier": 3,
+     "why": "New classical view: government meddling causes inflation, so control the money supply."
+    },
+    {
+     "text": "Milton Friedman",
+     "alias": [
+      "friedman"
+     ],
+     "tier": 3,
+     "why": "Leading monetarist: trust markets and control the money supply."
+    },
+    {
+     "text": "Classical economics",
+     "alias": [
+      "classical"
+     ],
+     "tier": 3,
+     "why": "Markets self-correct; utility and thinking at the margin."
+    },
+    {
+     "text": "Neoclassical",
+     "alias": [
+      "neoclassical economics"
+     ],
+     "tier": 4,
+     "why": "Builds on classical ideas: rational consumers and firms maximising utility and profit."
+    },
+    {
+     "text": "Say's Law",
+     "alias": [
+      "says law",
+      "jean-baptiste say"
+     ],
+     "tier": 4,
+     "why": "'Supply creates its own demand', so markets can't have long shortfalls in demand."
+    },
+    {
+     "text": "Labour theory of value",
+     "alias": [
+      "labor theory of value"
+     ],
+     "tier": 4,
+     "why": "Marx's idea that the value of goods comes from the labour used to make them."
+    },
+    {
+     "text": "Circular economy",
+     "alias": [],
+     "tier": 4,
+     "why": "Replace take-make-waste with use-make-recycle, linking economics to sustainability."
+    },
+    {
+     "text": "Austrian school",
+     "alias": [
+      "austrian",
+      "hayek"
+     ],
+     "tier": 5,
+     "why": "Free-market school (e.g. Hayek) that is sceptical of central planning and intervention."
+    }
+   ]
+  },
+  {
+   "id": "econ-06",
+   "unit": "u1",
+   "prompt": "Name a basic economic question or a type of economic system",
+   "answers": [
+    {
+     "text": "What to produce",
+     "alias": [
+      "what",
+      "what and how much to produce"
+     ],
+     "tier": 1,
+     "why": "Basic question 1: what and how much should be made with scarce resources?"
+    },
+    {
+     "text": "How to produce",
+     "alias": [
+      "how"
+     ],
+     "tier": 1,
+     "why": "Basic question 2: which methods and resources should be used?"
+    },
+    {
+     "text": "For whom to produce",
+     "alias": [
+      "for whom",
+      "who to produce for"
+     ],
+     "tier": 1,
+     "why": "Basic question 3: who gets the output? This links to equity."
+    },
+    {
+     "text": "Free market economy",
+     "alias": [
+      "market economy",
+      "free market system"
+     ],
+     "tier": 2,
+     "why": "Private ownership, and the price mechanism answers the three questions."
+    },
+    {
+     "text": "Planned economy",
+     "alias": [
+      "command economy",
+      "centrally planned economy"
+     ],
+     "tier": 2,
+     "why": "The state owns resources and central planners answer the three questions."
+    },
+    {
+     "text": "Mixed economy",
+     "alias": [],
+     "tier": 2,
+     "why": "Markets plus government intervention. Every real economy is mixed to some degree."
+    }
+   ]
+  },
+  {
+   "id": "econ-07",
+   "unit": "u2",
+   "prompt": "Name a non-price determinant of demand",
+   "answers": [
+    {
+     "text": "Income",
+     "alias": [
+      "incomes",
+      "consumer income"
+     ],
+     "tier": 1,
+     "why": "Higher income shifts D right for normal goods and left for inferior goods."
+    },
+    {
+     "text": "Tastes and preferences",
+     "alias": [
+      "tastes",
+      "preferences",
+      "advertising",
+      "fashion"
+     ],
+     "tier": 1,
+     "why": "Fashion, advertising or health news in favour of a good shift D right."
+    },
+    {
+     "text": "Price of substitutes",
+     "alias": [
+      "substitutes",
+      "price of a substitute"
+     ],
+     "tier": 2,
+     "why": "A substitute gets dearer, so buyers switch to this good and D shifts right."
+    },
+    {
+     "text": "Price of complements",
+     "alias": [
+      "complements",
+      "price of a complement"
+     ],
+     "tier": 2,
+     "why": "A complement gets dearer, so both goods are bought less and D shifts left."
+    },
+    {
+     "text": "Number of consumers",
+     "alias": [
+      "population",
+      "number of buyers",
+      "demographics"
+     ],
+     "tier": 2,
+     "why": "More buyers (population growth, tourism) shift D right."
+    },
+    {
+     "text": "Expectations",
+     "alias": [
+      "expected future prices",
+      "consumer expectations"
+     ],
+     "tier": 3,
+     "why": "If buyers expect prices to rise soon, they buy more now and D shifts right."
+    },
+    {
+     "text": "Weather",
+     "alias": [
+      "seasons",
+      "seasonal changes"
+     ],
+     "tier": 4,
+     "why": "Seasonal or weather changes shift tastes, e.g. umbrella demand in the monsoon."
+    }
+   ]
+  },
+  {
+   "id": "econ-08",
+   "unit": "u2",
+   "prompt": "Name a determinant of supply (think STORES)",
+   "answers": [
+    {
+     "text": "Technology",
+     "alias": [
+      "new technology",
+      "technological change"
+     ],
+     "tier": 1,
+     "why": "T in STORES: better technology cuts costs, so S shifts right."
+    },
+    {
+     "text": "Resource costs",
+     "alias": [
+      "costs of production",
+      "input costs",
+      "production costs",
+      "wages",
+      "raw material costs"
+     ],
+     "tier": 1,
+     "why": "R: dearer wages, materials or energy make production less profitable, so S shifts left."
+    },
+    {
+     "text": "Indirect taxes",
+     "alias": [
+      "taxes",
+      "tax"
+     ],
+     "tier": 2,
+     "why": "S: a tax raises the cost per unit, so S shifts up/left by the tax."
+    },
+    {
+     "text": "Subsidies",
+     "alias": [
+      "subsidy"
+     ],
+     "tier": 2,
+     "why": "S: a subsidy lowers firms' costs, so S shifts down/right."
+    },
+    {
+     "text": "Number of firms",
+     "alias": [
+      "size of the industry",
+      "number of sellers",
+      "number of producers"
+     ],
+     "tier": 2,
+     "why": "S (size): more firms in the market shift S right, and firms leaving shift it left."
+    },
+    {
+     "text": "Expectations",
+     "alias": [
+      "producer expectations",
+      "expected future prices"
+     ],
+     "tier": 3,
+     "why": "E: firms expecting higher future prices may hold back supply now."
+    },
+    {
+     "text": "Joint supply",
+     "alias": [],
+     "tier": 4,
+     "why": "O: making one good also makes another (beef and leather), so their supply moves together."
+    },
+    {
+     "text": "Competitive supply",
+     "alias": [
+      "price of related goods",
+      "other related goods"
+     ],
+     "tier": 4,
+     "why": "O: the same resources could make either good. A better price for one pulls resources from the other."
+    },
+    {
+     "text": "Supply shocks",
+     "alias": [
+      "weather",
+      "natural disasters",
+      "shocks"
+     ],
+     "tier": 4,
+     "why": "Weather or natural disasters (drought, floods) suddenly shift supply, especially for farm goods."
+    }
+   ]
+  },
+  {
+   "id": "econ-09",
+   "unit": "u2",
+   "prompt": "Name an event that shifts DEMAND to the right",
+   "answers": [
+    {
+     "text": "Rise in income",
+     "alias": [
+      "higher income",
+      "income rises",
+      "income increase"
+     ],
+     "tier": 1,
+     "why": "For a normal good, higher income means more demand at every price."
+    },
+    {
+     "text": "Successful advertising",
+     "alias": [
+      "advertising",
+      "advertising campaign"
+     ],
+     "tier": 1,
+     "why": "Advertising changes tastes in the good's favour."
+    },
+    {
+     "text": "Substitute price rises",
+     "alias": [
+      "rise in price of a substitute",
+      "substitute gets more expensive"
+     ],
+     "tier": 2,
+     "why": "Buyers switch away from the dearer rival (Pepsi dearer, so demand for Coke rises)."
+    },
+    {
+     "text": "Complement price falls",
+     "alias": [
+      "fall in price of a complement",
+      "complement gets cheaper"
+     ],
+     "tier": 2,
+     "why": "Cheaper printers mean more demand for ink, since the goods are used together."
+    },
+    {
+     "text": "Population growth",
+     "alias": [
+      "more consumers",
+      "more buyers",
+      "rising population"
+     ],
+     "tier": 2,
+     "why": "More consumers in the market."
+    },
+    {
+     "text": "Expected price rise",
+     "alias": [
+      "expected future price rise",
+      "expectations of higher prices"
+     ],
+     "tier": 3,
+     "why": "Buyers expecting a higher price later buy more now."
+    },
+    {
+     "text": "Fall in income",
+     "alias": [
+      "lower income",
+      "income falls"
+     ],
+     "tier": 3,
+     "why": "For an INFERIOR good (instant noodles), lower income raises demand."
+    },
+    {
+     "text": "Tourism boom",
+     "alias": [
+      "more tourists"
+     ],
+     "tier": 4,
+     "why": "Tourists add buyers, e.g. for hotel rooms and taxis."
+    },
+    {
+     "text": "Positive health news",
+     "alias": [
+      "health study",
+      "health trend"
+     ],
+     "tier": 4,
+     "why": "A study praising a food shifts tastes toward it."
+    }
+   ]
+  },
+  {
+   "id": "econ-10",
+   "unit": "u2",
+   "prompt": "Name an event that shifts SUPPLY to the left",
+   "answers": [
+    {
+     "text": "Indirect tax",
+     "alias": [
+      "new tax",
+      "tax increase",
+      "excise tax"
+     ],
+     "tier": 1,
+     "why": "The tax per unit raises costs, so S shifts up by the tax."
+    },
+    {
+     "text": "Higher wages",
+     "alias": [
+      "wage rise",
+      "rise in wages"
+     ],
+     "tier": 1,
+     "why": "Labour costs rise, which is the R (resource costs) in STORES."
+    },
+    {
+     "text": "Higher raw material prices",
+     "alias": [
+      "raw materials cost more",
+      "rise in input costs"
+     ],
+     "tier": 2,
+     "why": "Dearer inputs mean less is profitable to supply at every price."
+    },
+    {
+     "text": "Drought",
+     "alias": [
+      "bad weather",
+      "poor harvest",
+      "crop failure"
+     ],
+     "tier": 2,
+     "why": "A supply shock: farm output falls whatever the price."
+    },
+    {
+     "text": "Higher energy costs",
+     "alias": [
+      "energy prices rise",
+      "fuel costs rise"
+     ],
+     "tier": 2,
+     "why": "Fuel and electricity are inputs too, so S shifts left."
+    },
+    {
+     "text": "Subsidy removed",
+     "alias": [
+      "subsidy cut",
+      "end of subsidy"
+     ],
+     "tier": 3,
+     "why": "Taking away a subsidy raises firms' costs again."
+    },
+    {
+     "text": "Firms leave the market",
+     "alias": [
+      "firms exit",
+      "fewer firms"
+     ],
+     "tier": 3,
+     "why": "Fewer sellers means less supply at every price."
+    },
+    {
+     "text": "Natural disaster",
+     "alias": [
+      "flood",
+      "earthquake"
+     ],
+     "tier": 3,
+     "why": "A flood or earthquake destroys capacity."
+    },
+    {
+     "text": "Competitive good's price rises",
+     "alias": [
+      "competitive supply",
+      "related good price rise"
+     ],
+     "tier": 4,
+     "why": "Farmers switch fields to the now dearer crop, so supply of this crop falls."
+    },
+    {
+     "text": "Expected future price rise",
+     "alias": [
+      "firms expect higher prices"
+     ],
+     "tier": 5,
+     "why": "Firms hold stock back now to sell later at the higher price."
+    }
+   ]
+  },
+  {
+   "id": "econ-11",
+   "unit": "u2",
+   "prompt": "Name a key term from market equilibrium and the price mechanism",
+   "answers": [
+    {
+     "text": "Equilibrium price",
+     "alias": [
+      "equilibrium",
+      "market clearing price"
+     ],
+     "tier": 1,
+     "why": "The price where quantity demanded equals quantity supplied, so the market clears."
+    },
+    {
+     "text": "Shortage",
+     "alias": [
+      "excess demand"
+     ],
+     "tier": 1,
+     "why": "Excess demand: below the equilibrium price, Qd > Qs, so price gets bid up."
+    },
+    {
+     "text": "Surplus",
+     "alias": [
+      "excess supply"
+     ],
+     "tier": 1,
+     "why": "Excess supply: above the equilibrium price, Qs > Qd, so sellers cut the price."
+    },
+    {
+     "text": "Consumer surplus",
+     "alias": [],
+     "tier": 2,
+     "why": "The area above the price and below D: what buyers were willing to pay minus what they paid."
+    },
+    {
+     "text": "Producer surplus",
+     "alias": [],
+     "tier": 2,
+     "why": "The area below the price and above S: the price received minus the lowest price firms would accept."
+    },
+    {
+     "text": "Signalling function",
+     "alias": [
+      "signal",
+      "signalling",
+      "signaling"
+     ],
+     "tier": 2,
+     "why": "Prices carry information. A rising price tells producers more is wanted (Uber surge)."
+    },
+    {
+     "text": "Incentive function",
+     "alias": [
+      "incentive",
+      "incentives"
+     ],
+     "tier": 2,
+     "why": "Higher prices motivate firms to supply more (surge pay pulls drivers on the road)."
+    },
+    {
+     "text": "Rationing function",
+     "alias": [
+      "rationing"
+     ],
+     "tier": 3,
+     "why": "A rising price decides who gets scarce goods: those willing and able to pay."
+    },
+    {
+     "text": "Allocative efficiency",
+     "alias": [
+      "mb = mc"
+     ],
+     "tier": 3,
+     "why": "At equilibrium, MB = MC (D = MB, S = MC). Society gets the goods it values most."
+    },
+    {
+     "text": "Social surplus",
+     "alias": [
+      "community surplus",
+      "total surplus"
+     ],
+     "tier": 4,
+     "why": "Consumer + producer surplus. It is maximised at the competitive equilibrium."
+    },
+    {
+     "text": "Extension in quantity supplied",
+     "alias": [
+      "movement along supply",
+      "rise in quantity supplied"
+     ],
+     "tier": 5,
+     "why": "After a demand shift, price rises and Qs extends along S. Supply itself does not shift."
+    }
+   ]
+  },
+  {
+   "id": "econ-12",
+   "unit": "u3",
+   "prompt": "Name a determinant of price elasticity of demand (think HINTS)",
+   "answers": [
+    {
+     "text": "Substitutes",
+     "alias": [
+      "number of substitutes",
+      "closeness of substitutes",
+      "availability of substitutes"
+     ],
+     "tier": 1,
+     "why": "S in HINTS: more and closer substitutes make it easy to switch, so demand is more elastic."
+    },
+    {
+     "text": "Necessity",
+     "alias": [
+      "degree of necessity",
+      "necessity vs luxury"
+     ],
+     "tier": 1,
+     "why": "N: essentials (insulin, Daraprim) are bought whatever the price, so demand is inelastic."
+    },
+    {
+     "text": "Time",
+     "alias": [
+      "time period",
+      "time to adjust",
+      "short run vs long run"
+     ],
+     "tier": 2,
+     "why": "T: buyers can't switch at first. Over time they find alternatives, so PED rises in the long run."
+    },
+    {
+     "text": "Proportion of income",
+     "alias": [
+      "income share",
+      "share of income",
+      "percentage of income"
+     ],
+     "tier": 2,
+     "why": "I: a big share of income (cars) makes demand elastic. A tiny share (salt) makes it inelastic."
+    },
+    {
+     "text": "Habits",
+     "alias": [
+      "habit",
+      "addiction",
+      "addictiveness",
+      "habit-forming"
+     ],
+     "tier": 3,
+     "why": "H: addictive or habit-forming goods (cigarettes) keep being bought, so demand is inelastic."
+    },
+    {
+     "text": "Breadth of definition",
+     "alias": [
+      "how broadly the good is defined",
+      "definition of the market"
+     ],
+     "tier": 4,
+     "why": "One brand has many substitutes (elastic). A whole category like 'all biscuits' is inelastic."
+    }
+   ]
+  },
+  {
+   "id": "econ-13",
+   "unit": "u3",
+   "prompt": "Name a determinant of PES (think TRICS), or a time period used to analyse it",
+   "answers": [
+    {
+     "text": "Time",
+     "alias": [
+      "time period",
+      "time lags"
+     ],
+     "tier": 1,
+     "why": "T in TRICS: supply is inelastic in the short run because of time lags, and more elastic over time."
+    },
+    {
+     "text": "Spare capacity",
+     "alias": [
+      "capacity",
+      "unused capacity",
+      "excess capacity"
+     ],
+     "tier": 2,
+     "why": "C: unused machines and workers let output rise quickly, so supply is elastic."
+    },
+    {
+     "text": "Inventory",
+     "alias": [
+      "ability to store",
+      "stocks",
+      "storage",
+      "ability to store stock"
+     ],
+     "tier": 2,
+     "why": "I: firms holding stock can release it fast, so supply is elastic. Perishables can't be stored."
+    },
+    {
+     "text": "Factor mobility",
+     "alias": [
+      "mobility of factors",
+      "substitute factors",
+      "mobility of factors of production"
+     ],
+     "tier": 3,
+     "why": "S (substitute factors): mobile inputs can switch to the good whose price rose, so supply is elastic."
+    },
+    {
+     "text": "Rate costs increase",
+     "alias": [
+      "rate at which costs rise",
+      "marginal cost",
+      "how fast costs rise"
+     ],
+     "tier": 3,
+     "why": "R: if marginal cost rises slowly, supply is elastic. If it rises fast (deep oil wells), inelastic."
+    },
+    {
+     "text": "Short run",
+     "alias": [
+      "short term"
+     ],
+     "tier": 3,
+     "why": "Some inputs are fixed (no new factory yet), so PES is low."
+    },
+    {
+     "text": "Long run",
+     "alias": [
+      "long term"
+     ],
+     "tier": 3,
+     "why": "All inputs can change (new farms and factories), so PES is higher."
+    },
+    {
+     "text": "Momentary period",
+     "alias": [
+      "momentary",
+      "immediate run",
+      "market period"
+     ],
+     "tier": 4,
+     "why": "So short that output can't change at all: PES = 0, a vertical supply curve."
+    }
+   ]
+  },
+  {
+   "id": "econ-14",
+   "unit": "u3",
+   "prompt": "Name a degree of PED, or the diagram shape that shows it",
+   "answers": [
+    {
+     "text": "Elastic",
+     "alias": [
+      "price elastic",
+      "relatively elastic"
+     ],
+     "tier": 1,
+     "why": "|PED| > 1: quantity demanded changes proportionately MORE than price."
+    },
+    {
+     "text": "Inelastic",
+     "alias": [
+      "price inelastic",
+      "relatively inelastic"
+     ],
+     "tier": 1,
+     "why": "0 < |PED| < 1: quantity demanded changes proportionately LESS than price."
+    },
+    {
+     "text": "Unit elastic",
+     "alias": [
+      "unitary elastic",
+      "unitary",
+      "unit elasticity"
+     ],
+     "tier": 2,
+     "why": "|PED| = 1: quantity changes by the same % as price, so TR stays the same."
+    },
+    {
+     "text": "Perfectly inelastic",
+     "alias": [],
+     "tier": 2,
+     "why": "PED = 0: quantity doesn't change at all when price changes."
+    },
+    {
+     "text": "Perfectly elastic",
+     "alias": [
+      "infinitely elastic"
+     ],
+     "tier": 2,
+     "why": "PED = infinity: any price rise above P* loses every buyer."
+    },
+    {
+     "text": "Vertical demand curve",
+     "alias": [
+      "vertical line",
+      "vertical curve"
+     ],
+     "tier": 3,
+     "why": "Shows PED = 0 (perfectly inelastic): quantity never moves."
+    },
+    {
+     "text": "Horizontal demand curve",
+     "alias": [
+      "horizontal line",
+      "horizontal curve"
+     ],
+     "tier": 3,
+     "why": "Shows PED = infinity (perfectly elastic)."
+    },
+    {
+     "text": "Midpoint of linear demand",
+     "alias": [
+      "midpoint"
+     ],
+     "tier": 4,
+     "why": "HL: on a straight-line D, PED = 1 exactly at the midpoint."
+    },
+    {
+     "text": "Rectangular hyperbola",
+     "alias": [
+      "hyperbola"
+     ],
+     "tier": 5,
+     "why": "The bowed curve where P x Q is the same everywhere, so PED = 1 at every point."
+    }
+   ]
+  },
+  {
+   "id": "econ-15",
+   "unit": "u3",
+   "prompt": "Name a good likely to have price-INELASTIC demand",
+   "answers": [
+    {
+     "text": "Petrol",
+     "alias": [
+      "gasoline",
+      "fuel",
+      "diesel"
+     ],
+     "tier": 1,
+     "why": "Few substitutes in the short run and needed for commuting, so demand is inelastic."
+    },
+    {
+     "text": "Cigarettes",
+     "alias": [
+      "tobacco",
+      "cigarette"
+     ],
+     "tier": 1,
+     "why": "Habit-forming, so smokers keep buying. That's why governments tax them for revenue."
+    },
+    {
+     "text": "Insulin",
+     "alias": [],
+     "tier": 2,
+     "why": "A life-saving necessity with no substitute: buyers keep buying even at higher prices."
+    },
+    {
+     "text": "Salt",
+     "alias": [],
+     "tier": 2,
+     "why": "A tiny share of income, so a price rise is barely noticed."
+    },
+    {
+     "text": "Alcohol",
+     "alias": [
+      "beer",
+      "liquor"
+     ],
+     "tier": 2,
+     "why": "Habit-forming, and governments tax it for revenue because demand is inelastic."
+    },
+    {
+     "text": "Rice",
+     "alias": [
+      "staple food",
+      "basic food"
+     ],
+     "tier": 2,
+     "why": "A staple food (necessity) with few substitutes in many diets."
+    },
+    {
+     "text": "Electricity",
+     "alias": [
+      "power"
+     ],
+     "tier": 3,
+     "why": "An essential with no easy substitute in the short run."
+    },
+    {
+     "text": "Water",
+     "alias": [
+      "tap water",
+      "drinking water"
+     ],
+     "tier": 3,
+     "why": "An essential with no substitute."
+    },
+    {
+     "text": "Crude oil",
+     "alias": [
+      "oil"
+     ],
+     "tier": 3,
+     "why": "Primary commodity: an essential input with few substitutes, so PED is low."
+    },
+    {
+     "text": "Daraprim",
+     "alias": [
+      "life-saving drugs",
+      "life saving medicine"
+     ],
+     "tier": 4,
+     "why": "The class case: price jumped from $13.50 to $750, but it's life-saving with no substitute."
+    },
+    {
+     "text": "Paracetamol",
+     "alias": [],
+     "tier": 4,
+     "why": "Cheap medicine: a tiny income share and a necessity, so PED is low."
+    }
+   ]
+  },
+  {
+   "id": "econ-16",
+   "unit": "u3",
+   "prompt": "Name a good likely to have price-ELASTIC demand",
+   "answers": [
+    {
+     "text": "Luxury goods",
+     "alias": [
+      "luxuries",
+      "luxury"
+     ],
+     "tier": 1,
+     "why": "Not essential and easy to postpone, so buyers react strongly to price."
+    },
+    {
+     "text": "One brand of biscuits",
+     "alias": [
+      "a single brand",
+      "one brand",
+      "biscuit brand"
+     ],
+     "tier": 2,
+     "why": "Other brands sit on the same shelf. One brand is elastic, but all biscuits aren't."
+    },
+    {
+     "text": "Restaurant meals",
+     "alias": [
+      "eating out",
+      "restaurant dinners"
+     ],
+     "tier": 2,
+     "why": "Easy to cut back on, so a price rise means fewer dinners out."
+    },
+    {
+     "text": "Cars",
+     "alias": [
+      "new cars",
+      "car"
+     ],
+     "tier": 2,
+     "why": "A large share of income, so a price rise noticeably cuts purchasing power."
+    },
+    {
+     "text": "Foreign holidays",
+     "alias": [
+      "holidays",
+      "vacations"
+     ],
+     "tier": 2,
+     "why": "Not essential, and lots of alternative destinations."
+    },
+    {
+     "text": "Soft drink brand",
+     "alias": [
+      "cola brand",
+      "one cola"
+     ],
+     "tier": 3,
+     "why": "Coke vs Pepsi: close substitutes mean high PED for a single brand."
+    },
+    {
+     "text": "Designer clothes",
+     "alias": [
+      "designer jeans",
+      "jeans"
+     ],
+     "tier": 3,
+     "why": "Not a necessity, with many rival brands."
+    },
+    {
+     "text": "Cinema tickets",
+     "alias": [
+      "movie tickets"
+     ],
+     "tier": 3,
+     "why": "Leisure spending with many alternatives (streaming, other outings)."
+    },
+    {
+     "text": "Cafe coffee",
+     "alias": [
+      "coffee shop coffee"
+     ],
+     "tier": 3,
+     "why": "Many cafes nearby. In the class example, a 10% price cut raised cups sold 20% (PED = -2)."
+    },
+    {
+     "text": "Premium fruit juice",
+     "alias": [
+      "fruit juice"
+     ],
+     "tier": 4,
+     "why": "Practice-paper case: a 10% price cut raised sales 25% (PED = 2.5), so TR rose."
+    }
+   ]
+  },
+  {
+   "id": "econ-17",
+   "unit": "u3",
+   "prompt": "Name an inferior good (negative YED)",
+   "answers": [
+    {
+     "text": "Instant noodles",
+     "alias": [
+      "noodles",
+      "instant noodle"
+     ],
+     "tier": 1,
+     "why": "The class example: as income rises, people switch to proper meals."
+    },
+    {
+     "text": "Canned food",
+     "alias": [
+      "tinned food",
+      "canned goods"
+     ],
+     "tier": 2,
+     "why": "Demand falls as income rises because people switch to fresh food."
+    },
+    {
+     "text": "Second-hand clothes",
+     "alias": [
+      "used clothes",
+      "second hand clothes"
+     ],
+     "tier": 2,
+     "why": "Richer consumers switch to new clothes."
+    },
+    {
+     "text": "Bus rides",
+     "alias": [
+      "bus travel",
+      "public bus",
+      "buses"
+     ],
+     "tier": 2,
+     "why": "As income rises, people switch to cabs or their own car. YED < 0."
+    },
+    {
+     "text": "Own-brand products",
+     "alias": [
+      "budget brands",
+      "store brand",
+      "generic brands"
+     ],
+     "tier": 3,
+     "why": "Supermarket budget lines sell more in recessions, so they're counter-cyclical."
+    },
+    {
+     "text": "Taxi rides",
+     "alias": [
+      "taxis"
+     ],
+     "tier": 4,
+     "why": "Practice case: incomes up 12%, rides down 4.5%, so YED = -0.38 there."
+    }
+   ]
+  },
+  {
+   "id": "econ-18",
+   "unit": "u3",
+   "prompt": "Name a luxury good or service (YED > 1)",
+   "answers": [
+    {
+     "text": "Restaurant meals",
+     "alias": [
+      "eating out",
+      "restaurants"
+     ],
+     "tier": 1,
+     "why": "Demand rises proportionately more than income, so it's income-elastic."
+    },
+    {
+     "text": "Foreign holidays",
+     "alias": [
+      "holidays",
+      "travel",
+      "vacations"
+     ],
+     "tier": 1,
+     "why": "Travel spending rises faster than income."
+    },
+    {
+     "text": "Sports cars",
+     "alias": [
+      "sports car",
+      "luxury cars"
+     ],
+     "tier": 2,
+     "why": "An example from the class slides of a luxury with YED > 1."
+    },
+    {
+     "text": "Flights",
+     "alias": [
+      "air travel",
+      "airline tickets"
+     ],
+     "tier": 2,
+     "why": "Drill: incomes +8% with YED 2.5 means demand +20%."
+    },
+    {
+     "text": "Jewellery",
+     "alias": [
+      "jewelry",
+      "gold jewellery"
+     ],
+     "tier": 2,
+     "why": "Spending on it rises faster than income."
+    },
+    {
+     "text": "Designer clothes",
+     "alias": [
+      "designer brands"
+     ],
+     "tier": 3,
+     "why": "Branded fashion is income-elastic."
+    },
+    {
+     "text": "Imported chocolate",
+     "alias": [
+      "chocolate"
+     ],
+     "tier": 3,
+     "why": "Practice case: income +6%, demand +15%, so YED = +2.5."
+    },
+    {
+     "text": "Mechanical watches",
+     "alias": [
+      "luxury watches",
+      "watches"
+     ],
+     "tier": 4,
+     "why": "A slide example: demand changes proportionately more than income."
+    },
+    {
+     "text": "Imported fruit",
+     "alias": [],
+     "tier": 4,
+     "why": "Supermarkets stock more of it in a boom, because it's a luxury."
+    }
+   ]
+  },
+  {
+   "id": "econ-19",
+   "unit": "u3",
+   "prompt": "Name a necessity good (0 < YED < 1)",
+   "answers": [
+    {
+     "text": "Rice",
+     "alias": [
+      "staple food"
+     ],
+     "tier": 1,
+     "why": "You eat only a little more rice when richer. Drill: income +10%, rice +3%, so YED = 0.3."
+    },
+    {
+     "text": "Toothpaste",
+     "alias": [],
+     "tier": 2,
+     "why": "A class slide example: demand rises much more slowly than income."
+    },
+    {
+     "text": "Salt",
+     "alias": [],
+     "tier": 2,
+     "why": "Basic food: demand barely rises with income."
+    },
+    {
+     "text": "Bread",
+     "alias": [],
+     "tier": 2,
+     "why": "A staple. The Engel curve example shows bread changing type as income rises."
+    },
+    {
+     "text": "Milk",
+     "alias": [],
+     "tier": 2,
+     "why": "An everyday essential with low YED."
+    },
+    {
+     "text": "Soap",
+     "alias": [],
+     "tier": 3,
+     "why": "Basic hygiene: demand rises slowly as income rises."
+    },
+    {
+     "text": "Electricity",
+     "alias": [],
+     "tier": 3,
+     "why": "Essential: use rises with income, but less than proportionately."
+    },
+    {
+     "text": "Wheat flour",
+     "alias": [
+      "flour",
+      "atta"
+     ],
+     "tier": 3,
+     "why": "Food (primary sector) has a low YED, which is why that sector shrinks as countries grow."
+    }
+   ]
+  },
+  {
+   "id": "econ-20",
+   "unit": "u3",
+   "prompt": "Name a way firms or governments use PED",
+   "answers": [
+    {
+     "text": "Raise price if inelastic",
+     "alias": [
+      "revenue maximisation",
+      "revenue maximization",
+      "raise prices"
+     ],
+     "tier": 1,
+     "why": "When PED < 1, a price rise increases total revenue."
+    },
+    {
+     "text": "Tax inelastic goods",
+     "alias": [
+      "cigarette tax",
+      "indirect tax revenue",
+      "tax revenue"
+     ],
+     "tier": 1,
+     "why": "Governments tax cigarettes and alcohol: quantity barely falls, so revenue is large."
+    },
+    {
+     "text": "Cut price if elastic",
+     "alias": [
+      "lower prices",
+      "price cut"
+     ],
+     "tier": 2,
+     "why": "When PED > 1, a price cut raises TR because quantity rises proportionately more."
+    },
+    {
+     "text": "Price discrimination",
+     "alias": [
+      "student discounts",
+      "student tickets"
+     ],
+     "tier": 2,
+     "why": "Student tickets: students' demand is more elastic, so they're charged less."
+    },
+    {
+     "text": "Dynamic pricing",
+     "alias": [
+      "surge pricing",
+      "peak pricing"
+     ],
+     "tier": 3,
+     "why": "Peak holiday airfares and surge pricing: demand is inelastic at that moment."
+    },
+    {
+     "text": "Passing on costs",
+     "alias": [
+      "pass on cost increases"
+     ],
+     "tier": 3,
+     "why": "With inelastic demand, a firm can pass a cost rise on to buyers without losing many sales."
+    },
+    {
+     "text": "Predict tax incidence",
+     "alias": [
+      "tax incidence",
+      "incidence"
+     ],
+     "tier": 4,
+     "why": "The less elastic side bears more of the tax. If PED < PES, consumers pay most."
+    },
+    {
+     "text": "Unit-elastic pricing",
+     "alias": [
+      "price at ped = 1",
+      "set price where ped = 1",
+      "mr = 0"
+     ],
+     "tier": 5,
+     "why": "TR is maximised where PED = 1 and MR = 0, at the midpoint of a linear D."
+    }
+   ]
+  },
+  {
+   "id": "econ-21",
+   "unit": "u3",
+   "prompt": "Name a reason primary commodities have low PED or low PES",
+   "answers": [
+    {
+     "text": "Necessities",
+     "alias": [
+      "necessity",
+      "essential goods",
+      "essentials"
+     ],
+     "tier": 1,
+     "why": "PED side: food and fuel are essentials, so people keep buying when prices rise."
+    },
+    {
+     "text": "Few substitutes",
+     "alias": [
+      "no substitutes",
+      "lack of substitutes"
+     ],
+     "tier": 2,
+     "why": "PED side: there's no real substitute for wheat in flour mills, or for crude oil in many uses."
+    },
+    {
+     "text": "Long growing time",
+     "alias": [
+      "time to grow",
+      "time lags",
+      "growing season"
+     ],
+     "tier": 2,
+     "why": "PES side (Time): crops take a season, and coffee or mango trees take years to bear fruit."
+    },
+    {
+     "text": "Perishable",
+     "alias": [
+      "cannot be stored",
+      "perishability",
+      "can't store"
+     ],
+     "tier": 3,
+     "why": "PES side (Inventory): onions, milk and flowers can't be stored to sell when prices rise."
+    },
+    {
+     "text": "Fixed land",
+     "alias": [
+      "full capacity",
+      "land is fixed",
+      "no spare capacity"
+     ],
+     "tier": 3,
+     "why": "PES side (Capacity): farms are usually already fully planted."
+    },
+    {
+     "text": "Immobile factors",
+     "alias": [
+      "factor immobility",
+      "specialised factors"
+     ],
+     "tier": 4,
+     "why": "PES side: land, drills and skills often suit only one crop or mine."
+    },
+    {
+     "text": "Small cost share",
+     "alias": [
+      "small share of final price",
+      "small proportion of income",
+      "small share of income"
+     ],
+     "tier": 4,
+     "why": "PED side: the cotton in a shirt is a tiny part of its cost, so buyers barely react."
+    },
+    {
+     "text": "Costs rise quickly",
+     "alias": [
+      "rising marginal cost",
+      "rate costs increase"
+     ],
+     "tier": 5,
+     "why": "PES side (Rate): more oil or minerals means deeper, costlier extraction."
+    }
+   ]
+  },
+  {
+   "id": "econ-22",
+   "unit": "u3",
+   "prompt": "Name a primary commodity",
+   "answers": [
+    {
+     "text": "Coffee",
+     "alias": [
+      "coffee beans"
+     ],
+     "tier": 1,
+     "why": "Farm good from the primary sector. Practice case: trees take four years to mature, so PES is low."
+    },
+    {
+     "text": "Wheat",
+     "alias": [],
+     "tier": 1,
+     "why": "Agricultural primary commodity with low PED."
+    },
+    {
+     "text": "Crude oil",
+     "alias": [
+      "oil",
+      "petroleum"
+     ],
+     "tier": 1,
+     "why": "A mined/extracted commodity: an essential input with few substitutes."
+    },
+    {
+     "text": "Cotton",
+     "alias": [],
+     "tier": 2,
+     "why": "A raw material for textiles, from agriculture."
+    },
+    {
+     "text": "Copper",
+     "alias": [],
+     "tier": 2,
+     "why": "A mined metal: a raw material from the primary sector."
+    },
+    {
+     "text": "Rice",
+     "alias": [],
+     "tier": 2,
+     "why": "A staple crop."
+    },
+    {
+     "text": "Sugar",
+     "alias": [
+      "sugar cane",
+      "sugarcane"
+     ],
+     "tier": 2,
+     "why": "A farm commodity traded worldwide."
+    },
+    {
+     "text": "Cocoa",
+     "alias": [
+      "cocoa beans"
+     ],
+     "tier": 3,
+     "why": "A tropical crop. Its price swings a lot with the weather."
+    },
+    {
+     "text": "Timber",
+     "alias": [
+      "wood",
+      "lumber"
+     ],
+     "tier": 3,
+     "why": "Forestry is part of the primary sector too."
+    },
+    {
+     "text": "Fish",
+     "alias": [],
+     "tier": 3,
+     "why": "Fishing is a primary-sector activity."
+    },
+    {
+     "text": "Iron ore",
+     "alias": [],
+     "tier": 3,
+     "why": "A mining commodity used to make steel."
+    },
+    {
+     "text": "Natural gas",
+     "alias": [
+      "gas",
+      "lng"
+     ],
+     "tier": 3,
+     "why": "An extracted energy commodity."
+    }
+   ]
+  },
+  {
+   "id": "econ-23",
+   "unit": "u3",
+   "prompt": "Name a feature of PED along a straight-line demand curve (HL)",
+   "answers": [
+    {
+     "text": "PED varies",
+     "alias": [
+      "ped changes along the line",
+      "elasticity changes"
+     ],
+     "tier": 1,
+     "why": "Same slope everywhere, but PED runs from infinity down to 0. Slope is not elasticity."
+    },
+    {
+     "text": "Midpoint",
+     "alias": [
+      "ped = 1 at midpoint"
+     ],
+     "tier": 2,
+     "why": "PED = 1 exactly halfway along the line."
+    },
+    {
+     "text": "Elastic upper half",
+     "alias": [
+      "elastic above midpoint",
+      "upper half elastic"
+     ],
+     "tier": 2,
+     "why": "Above the midpoint: high P, low Q, so %ΔQ is big and %ΔP small. PED > 1."
+    },
+    {
+     "text": "Inelastic lower half",
+     "alias": [
+      "inelastic below midpoint",
+      "lower half inelastic"
+     ],
+     "tier": 2,
+     "why": "Below the midpoint: PED < 1."
+    },
+    {
+     "text": "TR maximised at midpoint",
+     "alias": [
+      "tr maximised",
+      "maximum total revenue",
+      "tr max"
+     ],
+     "tier": 3,
+     "why": "Total revenue peaks where PED = 1. Price changes either way lower TR."
+    },
+    {
+     "text": "Constant slope",
+     "alias": [
+      "same slope",
+      "slope is constant"
+     ],
+     "tier": 3,
+     "why": "Slope uses absolute changes, PED uses % changes. That's why they differ."
+    },
+    {
+     "text": "MR curve",
+     "alias": [
+      "marginal revenue"
+     ],
+     "tier": 3,
+     "why": "Marginal revenue: the extra revenue from one more unit sold."
+    },
+    {
+     "text": "MR = 0",
+     "alias": [
+      "mr equals zero"
+     ],
+     "tier": 4,
+     "why": "MR hits zero at the midpoint quantity, the same point where TR peaks."
+    },
+    {
+     "text": "MR twice as steep",
+     "alias": [
+      "mr is twice as steep"
+     ],
+     "tier": 4,
+     "why": "For a linear D, MR starts at the same price intercept and is twice as steep."
+    },
+    {
+     "text": "Infinite PED at top",
+     "alias": [
+      "ped infinite at price axis",
+      "ped = infinity"
+     ],
+     "tier": 4,
+     "why": "As Q approaches 0 (where D meets the price axis), PED approaches infinity."
+    },
+    {
+     "text": "Zero PED at bottom",
+     "alias": [
+      "ped zero at quantity axis",
+      "ped = 0 at bottom"
+     ],
+     "tier": 4,
+     "why": "Where D meets the quantity axis (P = 0), PED = 0."
+    },
+    {
+     "text": "D = AR",
+     "alias": [
+      "average revenue",
+      "demand equals average revenue"
+     ],
+     "tier": 5,
+     "why": "The demand curve is also the average revenue curve, because AR = TR ÷ Q = price."
+    }
+   ]
+  },
+  {
+   "id": "econ-24",
+   "unit": "u3",
+   "prompt": "Name a diagram you must be able to draw for elasticities",
+   "answers": [
+    {
+     "text": "Elastic vs inelastic demand",
+     "alias": [
+      "elastic and inelastic demand"
+     ],
+     "tier": 1,
+     "why": "Two panels, same price rise. The flat curve loses a lot of quantity, the steep one little."
+    },
+    {
+     "text": "Perfectly inelastic demand",
+     "alias": [
+      "vertical demand"
+     ],
+     "tier": 2,
+     "why": "A vertical D labelled PED = 0."
+    },
+    {
+     "text": "Perfectly elastic demand",
+     "alias": [
+      "horizontal demand"
+     ],
+     "tier": 2,
+     "why": "A horizontal D at P*, labelled PED = infinity."
+    },
+    {
+     "text": "Revenue boxes",
+     "alias": [
+      "total revenue diagram",
+      "tr diagram",
+      "ped and total revenue"
+     ],
+     "tier": 2,
+     "why": "Shade the revenue lost (A) and gained (B) when price changes. The bigger box decides TR."
+    },
+    {
+     "text": "PES shapes",
+     "alias": [
+      "elastic vs inelastic supply",
+      "supply curves"
+     ],
+     "tier": 2,
+     "why": "S from the Q-axis = inelastic, from the P-axis = elastic, through the origin = PES 1."
+    },
+    {
+     "text": "Engel curve",
+     "alias": [],
+     "tier": 2,
+     "why": "Income on the vertical axis. Shows luxury, then necessity, then inferior as income rises."
+    },
+    {
+     "text": "Unit elastic demand",
+     "alias": [
+      "unitary demand curve"
+     ],
+     "tier": 3,
+     "why": "A rectangular hyperbola. Equal rectangles show constant TR."
+    },
+    {
+     "text": "Linear demand with TR",
+     "alias": [
+      "ped along linear demand",
+      "linear demand curve"
+     ],
+     "tier": 3,
+     "why": "HL: PED from infinity to 0 along D, MR twice as steep, and a TR hill peaking at the midpoint."
+    },
+    {
+     "text": "Indirect tax incidence",
+     "alias": [
+      "tax incidence diagram",
+      "indirect tax diagram"
+     ],
+     "tier": 3,
+     "why": "S shifts up by the tax. Consumer and producer burdens are split at the old price."
+    },
+    {
+     "text": "Short/long run supply",
+     "alias": [
+      "short vs long run supply",
+      "time and pes"
+     ],
+     "tier": 4,
+     "why": "Momentary (vertical), short run (steep) and long run (shallow) through one point."
+    },
+    {
+     "text": "Commodity price volatility",
+     "alias": [
+      "primary commodity diagram",
+      "price volatility"
+     ],
+     "tier": 4,
+     "why": "HL: steep D and S. A supply shock causes a big price swing for a small quantity change."
+    }
+   ]
+  },
+  {
+   "id": "econ-25",
+   "unit": "u3",
+   "prompt": "Name a term linked to why YED matters for firms and the economy (HL)",
+   "answers": [
+    {
+     "text": "Recession",
+     "alias": [
+      "slump"
+     ],
+     "tier": 1,
+     "why": "Incomes fall, so luxuries lose the most sales while inferior goods gain."
+    },
+    {
+     "text": "Business cycle",
+     "alias": [
+      "trade cycle",
+      "economic cycle"
+     ],
+     "tier": 2,
+     "why": "Booms and recessions. YED tells a firm how much its sales will swing."
+    },
+    {
+     "text": "Tertiary sector",
+     "alias": [
+      "services",
+      "service sector"
+     ],
+     "tier": 2,
+     "why": "Services have the highest YED, so they grow fastest as incomes rise (e.g. India)."
+    },
+    {
+     "text": "Primary sector",
+     "alias": [
+      "agriculture"
+     ],
+     "tier": 2,
+     "why": "Farming and mining have 0 < YED < 1, so their share shrinks as economies grow."
+    },
+    {
+     "text": "Secondary sector",
+     "alias": [
+      "manufacturing"
+     ],
+     "tier": 3,
+     "why": "Manufacturing (YED > 1) grows faster than the primary sector."
+    },
+    {
+     "text": "Counter-cyclical",
+     "alias": [
+      "countercyclical"
+     ],
+     "tier": 3,
+     "why": "Inferior goods sell more in recessions, moving opposite to the economy."
+    },
+    {
+     "text": "Boom",
+     "alias": [
+      "expansion"
+     ],
+     "tier": 3,
+     "why": "Rising incomes: luxury sales jump the most."
+    },
+    {
+     "text": "Sectoral change",
+     "alias": [
+      "structural change",
+      "sectoral structure"
+     ],
+     "tier": 4,
+     "why": "The shift of output from primary to secondary to tertiary as incomes grow, driven by YED."
+    },
+    {
+     "text": "Diversification",
+     "alias": [
+      "diversify"
+     ],
+     "tier": 4,
+     "why": "Firms selling high-YED luxuries diversify to protect against recessions."
+    }
+   ]
+  },
+  {
+   "id": "econ-26",
+   "unit": "u3",
+   "prompt": "Name a type of good classified by its YED or XED",
+   "answers": [
+    {
+     "text": "Normal good",
+     "alias": [
+      "normal"
+     ],
+     "tier": 1,
+     "why": "YED > 0: demand rises as income rises."
+    },
+    {
+     "text": "Inferior good",
+     "alias": [
+      "inferior"
+     ],
+     "tier": 1,
+     "why": "YED < 0: demand falls as income rises. Keep the minus sign!"
+    },
+    {
+     "text": "Luxury",
+     "alias": [
+      "luxury good"
+     ],
+     "tier": 2,
+     "why": "YED > 1: demand rises proportionately more than income."
+    },
+    {
+     "text": "Necessity",
+     "alias": [
+      "necessity good"
+     ],
+     "tier": 2,
+     "why": "0 < YED < 1: demand rises, but proportionately less than income."
+    },
+    {
+     "text": "Substitutes",
+     "alias": [
+      "substitute goods"
+     ],
+     "tier": 3,
+     "why": "XED positive: the price of B rises, so demand for A rises (tea and coffee)."
+    },
+    {
+     "text": "Complements",
+     "alias": [
+      "complementary goods",
+      "complement"
+     ],
+     "tier": 3,
+     "why": "XED negative: goods used together (petrol and SUVs)."
+    },
+    {
+     "text": "Unrelated goods",
+     "alias": [
+      "independent goods"
+     ],
+     "tier": 4,
+     "why": "XED about 0: toothpaste and cricket bats."
+    }
+   ]
+  },
+  {
+   "id": "econ-27",
+   "unit": "exam",
+   "prompt": "Name a letter of CLASPP, the evaluation toolkit",
+   "answers": [
+    {
+     "text": "Stakeholders",
+     "alias": [
+      "stakeholder"
+     ],
+     "tier": 1,
+     "why": "Who wins and who loses, with numbers if possible. Use this one every time."
+    },
+    {
+     "text": "Assumptions",
+     "alias": [
+      "assumption"
+     ],
+     "tier": 1,
+     "why": "What the theory takes for granted (ceteris paribus, constant PED). Use this one every time too."
+    },
+    {
+     "text": "Long/short run",
+     "alias": [
+      "long run vs short run",
+      "long run",
+      "short run",
+      "long term vs short term",
+      "time"
+     ],
+     "tier": 2,
+     "why": "Effects change over time. PED for petrol is low now but rises as people switch."
+    },
+    {
+     "text": "Conclusion",
+     "alias": [
+      "conclusions",
+      "judgement",
+      "judgment"
+     ],
+     "tier": 2,
+     "why": "A weighed, conditional verdict that answers the question, not a summary."
+    },
+    {
+     "text": "Priorities",
+     "alias": [
+      "priority"
+     ],
+     "tier": 3,
+     "why": "Goals conflict: revenue vs health vs equity. Which matters most here?"
+    },
+    {
+     "text": "Pros and cons",
+     "alias": [
+      "pros/cons",
+      "advantages and disadvantages"
+     ],
+     "tier": 3,
+     "why": "Advantages, disadvantages and alternatives, developed rather than listed."
+    }
+   ]
+  },
+  {
+   "id": "econ-28",
+   "unit": "exam",
+   "prompt": "Name a stakeholder to weigh in a market or policy evaluation",
+   "answers": [
+    {
+     "text": "Consumers",
+     "alias": [
+      "buyers",
+      "households",
+      "consumer"
+     ],
+     "tier": 1,
+     "why": "Pay higher prices or gain cheaper goods. Under a tax on inelastic demand they bear most of it."
+    },
+    {
+     "text": "Producers",
+     "alias": [
+      "firms",
+      "sellers",
+      "producer"
+     ],
+     "tier": 1,
+     "why": "Firms in the market: revenue, profit and output change."
+    },
+    {
+     "text": "Government",
+     "alias": [
+      "the state"
+     ],
+     "tier": 1,
+     "why": "Gains tax revenue, pays for subsidies, and cares about equity and health."
+    },
+    {
+     "text": "Workers",
+     "alias": [
+      "employees",
+      "labour"
+     ],
+     "tier": 2,
+     "why": "Jobs and wages depend on what happens to output."
+    },
+    {
+     "text": "Low-income households",
+     "alias": [
+      "the poor",
+      "poor households"
+     ],
+     "tier": 3,
+     "why": "A tax on necessities or habits is regressive: it takes a bigger share of their income."
+    },
+    {
+     "text": "Other firms",
+     "alias": [
+      "competitors",
+      "rival firms"
+     ],
+     "tier": 3,
+     "why": "Rivals and suppliers in related markets are affected too."
+    },
+    {
+     "text": "Producers of substitutes",
+     "alias": [
+      "substitutes",
+      "substitute producers"
+     ],
+     "tier": 4,
+     "why": "Listed in the class feedback: when one good gets dearer, sellers of substitutes win."
+    },
+    {
+     "text": "Taxpayers",
+     "alias": [],
+     "tier": 4,
+     "why": "They fund subsidies and benefit when tax revenue is spent well."
+    },
+    {
+     "text": "Third parties",
+     "alias": [
+      "health system",
+      "society"
+     ],
+     "tier": 4,
+     "why": "People outside the deal, e.g. the health system bearing smoking costs."
+    },
+    {
+     "text": "Future generations",
+     "alias": [],
+     "tier": 5,
+     "why": "A sustainability angle: who pays later for today's choices?"
+    }
+   ]
+  },
+  {
+   "id": "econ-29",
+   "unit": "exam",
+   "prompt": "Name something you must label on an economics diagram",
+   "answers": [
+    {
+     "text": "Price axis",
+     "alias": [
+      "price",
+      "vertical axis",
+      "y axis"
+     ],
+     "tier": 1,
+     "why": "Vertical axis with units, e.g. 'Price ($)' or the text's currency."
+    },
+    {
+     "text": "Quantity axis",
+     "alias": [
+      "quantity",
+      "horizontal axis",
+      "x axis"
+     ],
+     "tier": 1,
+     "why": "Horizontal axis, e.g. 'Quantity of wheat (tonnes per year)'."
+    },
+    {
+     "text": "Demand curve",
+     "alias": [
+      "d",
+      "d1",
+      "demand"
+     ],
+     "tier": 1,
+     "why": "Label every curve: D, D1, D2."
+    },
+    {
+     "text": "Supply curve",
+     "alias": [
+      "s",
+      "s1",
+      "supply"
+     ],
+     "tier": 1,
+     "why": "Label S, S1, S2, or S + tax."
+    },
+    {
+     "text": "Equilibrium point",
+     "alias": [
+      "e1",
+      "intersection"
+     ],
+     "tier": 2,
+     "why": "Mark the intersection, e.g. e1, then e2 after the change."
+    },
+    {
+     "text": "Equilibrium price",
+     "alias": [
+      "pe",
+      "p1"
+     ],
+     "tier": 2,
+     "why": "Pe or P1 on the price axis, using the numbers from the text when given."
+    },
+    {
+     "text": "Equilibrium quantity",
+     "alias": [
+      "qe",
+      "q1"
+     ],
+     "tier": 2,
+     "why": "Qe or Q1 on the quantity axis."
+    },
+    {
+     "text": "Title",
+     "alias": [
+      "figure title",
+      "diagram title"
+     ],
+     "tier": 3,
+     "why": "The class rule: every diagram needs a title, e.g. 'Figure 1: Market for petrol'."
+    },
+    {
+     "text": "Dotted lines",
+     "alias": [
+      "dashed lines",
+      "dotted lines to axes"
+     ],
+     "tier": 3,
+     "why": "Dash from every intersection to both axes."
+    },
+    {
+     "text": "Arrows",
+     "alias": [
+      "shift arrows",
+      "arrow"
+     ],
+     "tier": 3,
+     "why": "Show the direction of any shift (D1 to D2). Diagrams should be dynamic."
+    },
+    {
+     "text": "Shaded areas",
+     "alias": [
+      "areas",
+      "labelled areas"
+     ],
+     "tier": 4,
+     "why": "'Label all areas': TR boxes, tax revenue, consumer and producer burden."
+    },
+    {
+     "text": "Exact values",
+     "alias": [
+      "numbers on axes",
+      "actual numbers"
+     ],
+     "tier": 4,
+     "why": "'Indicate exact prices or quantity': put the text's numbers on the axes."
+    },
+    {
+     "text": "Origin",
+     "alias": [
+      "zero",
+      "0"
+     ],
+     "tier": 5,
+     "why": "Mark 0 where the axes meet. On PES diagrams it matters whether S starts at the origin."
+    }
+   ]
+  },
+  {
+   "id": "econ-30",
+   "unit": "exam",
+   "prompt": "Name a step or feature of a top-band Paper 1 essay",
+   "answers": [
+    {
+     "text": "Define",
+     "alias": [
+      "definitions",
+      "definition",
+      "define key terms"
+     ],
+     "tier": 1,
+     "why": "Start by defining the key terms in the question, word-perfect."
+    },
+    {
+     "text": "Diagram",
+     "alias": [
+      "draw a diagram",
+      "diagrams"
+     ],
+     "tier": 1,
+     "why": "A correct, fully labelled diagram. An essay with no diagram loses a lot of marks."
+    },
+    {
+     "text": "Explain",
+     "alias": [
+      "explanation",
+      "explain the diagram"
+     ],
+     "tier": 2,
+     "why": "Narrate the theory step by step as a cause-and-effect chain, referring to the diagram."
+    },
+    {
+     "text": "Real-world example",
+     "alias": [
+      "example",
+      "real world example",
+      "rwe"
+     ],
+     "tier": 2,
+     "why": "Named and specific (Daraprim, cigarette taxes, India's services growth)."
+    },
+    {
+     "text": "Evaluation",
+     "alias": [
+      "evaluate",
+      "clasp",
+      "claspp"
+     ],
+     "tier": 3,
+     "why": "For 15-markers: balanced weighing using at least 3 CLASPP angles."
+    },
+    {
+     "text": "Judgement",
+     "alias": [
+      "conclusion",
+      "judgment",
+      "verdict"
+     ],
+     "tier": 3,
+     "why": "A final conditional verdict ('effective provided that...')."
+    },
+    {
+     "text": "Refer to the diagram",
+     "alias": [
+      "refer to figure",
+      "reference the diagram"
+     ],
+     "tier": 4,
+     "why": "Name every letter and point in your writing. Never let the diagram speak for itself."
+    },
+    {
+     "text": "Ceteris paribus",
+     "alias": [
+      "all else equal",
+      "other things equal"
+     ],
+     "tier": 4,
+     "why": "State it when giving a law or prediction, and question it in evaluation."
+    },
+    {
+     "text": "Balanced argument",
+     "alias": [
+      "balance",
+      "both sides"
+     ],
+     "tier": 4,
+     "why": "Top band needs 'effective and balanced' evaluation, with both sides developed."
+    },
+    {
+     "text": "Contingent conclusion",
+     "alias": [
+      "conditional conclusion",
+      "conditioned conclusion"
+     ],
+     "tier": 5,
+     "why": "A verdict that depends on named conditions. It separates the top band from the middle."
+    }
+   ]
+  },
+  {
+   "id": "econ-31",
+   "unit": "exam",
+   "prompt": "Name an IB command term you might meet in Economics",
+   "answers": [
+    {
+     "text": "Define",
+     "alias": [],
+     "tier": 1,
+     "why": "Give the precise meaning of a term. Usually 2 marks."
+    },
+    {
+     "text": "Explain",
+     "alias": [],
+     "tier": 1,
+     "why": "Give a detailed account with reasons or causes. Usually needs a diagram in Economics."
+    },
+    {
+     "text": "Evaluate",
+     "alias": [],
+     "tier": 1,
+     "why": "Weigh strengths and limitations and reach a supported judgement. The 15-mark term."
+    },
+    {
+     "text": "Calculate",
+     "alias": [],
+     "tier": 2,
+     "why": "Get a number with working shown. The answer alone earns only 1 of 2 marks."
+    },
+    {
+     "text": "Discuss",
+     "alias": [],
+     "tier": 2,
+     "why": "Give a balanced review with arguments on both sides and a conclusion."
+    },
+    {
+     "text": "To what extent",
+     "alias": [],
+     "tier": 3,
+     "why": "Judge how far something is true. Needs a conditional conclusion."
+    },
+    {
+     "text": "Distinguish",
+     "alias": [
+      "distinguish between"
+     ],
+     "tier": 3,
+     "why": "Make clear the differences between two concepts (e.g. positive vs normative)."
+    },
+    {
+     "text": "Identify",
+     "alias": [],
+     "tier": 3,
+     "why": "Pick out an answer from the text or data. Usually 1 mark."
+    },
+    {
+     "text": "Analyse",
+     "alias": [
+      "analyze"
+     ],
+     "tier": 3,
+     "why": "Break down to bring out the essential elements and how they link."
+    },
+    {
+     "text": "Outline",
+     "alias": [],
+     "tier": 4,
+     "why": "Give a brief account or summary."
+    },
+    {
+     "text": "Compare and contrast",
+     "alias": [
+      "compare"
+     ],
+     "tier": 5,
+     "why": "Give similarities AND differences between two items."
+    },
+    {
+     "text": "Examine",
+     "alias": [],
+     "tier": 5,
+     "why": "Consider an argument or concept in a way that uncovers its assumptions."
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "unit": "u1",
+   "front": "Economics",
+   "back": "The study of choices leading to the best possible use of scarce resources to best satisfy unlimited human needs and wants; a social science."
+  },
+  {
+   "unit": "u1",
+   "front": "Scarcity",
+   "back": "Resources are limited/finite AND cannot produce everything humans need and want (unlimited wants) — both halves required."
+  },
+  {
+   "unit": "u1",
+   "front": "Opportunity cost",
+   "back": "The value of the next best alternative that is given up/sacrificed when a choice is made."
+  },
+  {
+   "unit": "u1",
+   "front": "Free good",
+   "back": "A good that is not scarce and therefore has zero opportunity cost and no price (e.g. air, sunlight)."
+  },
+  {
+   "unit": "u1",
+   "front": "Production possibilities curve (PPC)",
+   "back": "A model showing all combinations of the maximum output of two goods an economy can produce, given fixed resources and technology, with full and efficient employment of resources."
+  },
+  {
+   "unit": "u1",
+   "front": "Point inside the PPC",
+   "back": "Represents unemployed or inefficiently used resources — output could increase without new resources."
+  },
+  {
+   "unit": "u1",
+   "front": "Point outside the PPC",
+   "back": "Represents a currently unattainable combination given existing resources and technology."
+  },
+  {
+   "unit": "u1",
+   "front": "Actual growth",
+   "back": "Movement from a point inside the PPC toward the curve, achieved by using previously idle/unemployed resources; the curve itself does not move."
+  },
+  {
+   "unit": "u1",
+   "front": "Growth in production possibilities",
+   "back": "An outward shift of the entire PPC, caused by more/better resources or improved technology; also called potential growth."
+  },
+  {
+   "unit": "u1",
+   "front": "Increasing opportunity cost",
+   "back": "Each additional unit of one good costs progressively more of the other good, because resources are not equally suited to producing both — shown by a bowed-out (concave) PPC."
+  },
+  {
+   "unit": "u1",
+   "front": "Non-parallel shift of the PPC",
+   "back": "An outward or inward shift that favours one good's axis more than the other, caused by a change specific to producing that good (e.g. new technology in only one industry)."
+  },
+  {
+   "unit": "u1",
+   "front": "Zero opportunity cost (from an interior point)",
+   "back": "Moving from a point INSIDE the PPC to a point ON it uses previously idle/unemployed resources, so nothing else has to be sacrificed — distinct from a movement ALONG the curve, which does carry an opportunity cost."
+  },
+  {
+   "unit": "u1",
+   "front": "Ceteris paribus",
+   "back": "Latin for \"other things being equal/held constant\"; the assumption that all other relevant variables are held unchanged so the effect of one variable can be isolated and analysed."
+  },
+  {
+   "unit": "u1",
+   "front": "Positive statement",
+   "back": "A testable, verifiable \"is\" statement about the world; can be proven false and still be positive (e.g. a wrong statistic is still a positive statement)."
+  },
+  {
+   "unit": "u1",
+   "front": "Normative statement",
+   "back": "A value judgment or prescriptive statement, typically containing \"should,\" \"ought,\" or \"too much/little.\""
+  },
+  {
+   "unit": "u1",
+   "front": "Equity",
+   "back": "Fairness in the distribution of resources or outcomes — a normative, value-based concept."
+  },
+  {
+   "unit": "u1",
+   "front": "Circular flow of income",
+   "back": "A model showing the flow of income, expenditure, and factors of production between households and firms (and, in the five-sector version, financial markets, government, and the foreign sector)."
+  },
+  {
+   "unit": "u1",
+   "front": "Leakage",
+   "back": "Income that flows OUT of the circular flow instead of being spent on domestic output — savings, taxes, and imports."
+  },
+  {
+   "unit": "u1",
+   "front": "Injection",
+   "back": "Spending that flows INTO the circular flow from outside the household-firm loop — investment, government spending, and exports."
+  },
+  {
+   "unit": "u1",
+   "front": "Leakages > injections",
+   "back": "Causes national income/output to FALL, because more money is exiting the circular flow than is being injected back in."
+  },
+  {
+   "unit": "u1",
+   "front": "Injections > leakages",
+   "back": "Causes national income/output to RISE, because more money is being injected into the circular flow than is leaking out."
+  },
+  {
+   "unit": "u1",
+   "front": "Output = income = expenditure",
+   "back": "The value of everything produced (output) equals total income earned (from selling that output) equals total expenditure (spent buying it) — three equivalent ways of measuring the same national income."
+  },
+  {
+   "unit": "u1",
+   "front": "Nine key concepts (list)",
+   "back": "Scarcity, choice, efficiency, equity, economic well-being, sustainability, change, interdependence, intervention — the organizing concepts of the whole DP Economics course; each IA commentary must use a different one."
+  },
+  {
+   "unit": "u1",
+   "front": "Bounded rationality",
+   "back": "The critique that real decision-makers have limited information, time, and cognitive ability, so they cannot make perfectly rational decisions as classical theory assumes."
+  },
+  {
+   "unit": "u1",
+   "front": "Adam Smith / laissez-faire",
+   "back": "18th-century idea that self-interest in free markets, guided by an \"invisible hand,\" serves society without government intervention; foundation of classical economics."
+  },
+  {
+   "unit": "u1",
+   "front": "Keynesian economics",
+   "back": "View, following the Great Depression, that markets do not always self-correct and government must intervene (e.g. spending) to revive demand in a recession."
+  },
+  {
+   "unit": "u1",
+   "front": "Behavioural economics",
+   "back": "Field incorporating psychology into economics, showing real people do not always act as perfectly rational, utility-maximizing agents."
+  },
+  {
+   "unit": "u1",
+   "front": "Factors of production and their rewards",
+   "back": "Land earns rent, labour earns wages, capital earns interest, entrepreneurship earns profit."
+  },
+  {
+   "unit": "u1",
+   "front": "Three basic economic questions",
+   "back": "What (and how much) to produce, how to produce it, and for whom to produce it."
+  },
+  {
+   "unit": "u1",
+   "front": "Leakages vs injections (pairs)",
+   "back": "Savings and investment (financial markets); taxes and government spending (government); imports and exports (foreign sector)."
+  },
+  {
+   "unit": "u1",
+   "front": "Opportunity cost from a PPC",
+   "back": "Units of the other good given up ÷ units gained. E.g. giving up 500,000 chocolate bars for 3,000 watches = about 167 bars per watch."
+  },
+  {
+   "unit": "u1",
+   "front": "Planned vs mixed economy",
+   "back": "Planned: the state owns resources and central planners allocate them. Mixed: markets plus government intervention. All real economies are mixed."
+  },
+  {
+   "unit": "u2",
+   "front": "Demand",
+   "back": "The quantities of a good or service that consumers are willing and able to buy at different possible prices over a given time period."
+  },
+  {
+   "unit": "u2",
+   "front": "Law of demand",
+   "back": "As price rises, quantity demanded falls (and vice versa), ceteris paribus: an inverse relationship, so D slopes down."
+  },
+  {
+   "unit": "u2",
+   "front": "Supply",
+   "back": "The quantities of a good or service that firms are willing and able to produce and sell at different possible prices over a given time period."
+  },
+  {
+   "unit": "u2",
+   "front": "Law of supply",
+   "back": "As price rises, quantity supplied rises, ceteris paribus: a positive relationship, because higher prices give firms an incentive to produce more."
+  },
+  {
+   "unit": "u2",
+   "front": "Movement vs shift",
+   "back": "Own price change = movement ALONG the curve (change in quantity demanded/supplied). Non-price determinant = SHIFT of the whole curve (change in demand/supply)."
+  },
+  {
+   "unit": "u2",
+   "front": "STORES (determinants of supply)",
+   "back": "Subsidies and taxes, Technology, Other related goods (joint/competitive supply), Resource costs, Expectations, Size/number of firms."
+  },
+  {
+   "unit": "u2",
+   "front": "Non-price determinants of demand",
+   "back": "Income (normal/inferior), tastes and preferences, prices of substitutes and complements, expectations, number of consumers."
+  },
+  {
+   "unit": "u2",
+   "front": "Joint vs competitive supply",
+   "back": "Joint: making one good also makes another (beef and leather). Competitive: the same resources make either good (a field for wheat OR corn)."
+  },
+  {
+   "unit": "u2",
+   "front": "Shortage and surplus",
+   "back": "Shortage (excess demand): price below equilibrium, Qd > Qs, so price is bid up. Surplus (excess supply): price above equilibrium, Qs > Qd, so price falls."
+  },
+  {
+   "unit": "u2",
+   "front": "Three functions of the price mechanism",
+   "back": "Signalling (prices carry information), incentive (higher prices motivate more supply), rationing (scarce goods go to those willing and able to pay)."
+  },
+  {
+   "unit": "u2",
+   "front": "Consumer surplus",
+   "back": "The benefit consumers get from paying less than the most they were willing to pay: the area below D and above the price."
+  },
+  {
+   "unit": "u2",
+   "front": "Producer surplus",
+   "back": "The benefit producers get from selling above the lowest price they would accept: the area above S and below the price."
+  },
+  {
+   "unit": "u2",
+   "front": "Allocative efficiency",
+   "back": "Producing what society values most, where marginal benefit = marginal cost (D = MB, S = MC). Reached at competitive equilibrium, where social surplus is maximised."
+  },
+  {
+   "unit": "u2",
+   "front": "The #1 trap after a demand shift",
+   "back": "Price rises and QUANTITY SUPPLIED extends along S. Supply does not shift because of price. Only a non-price determinant shifts a curve."
+  },
+  {
+   "unit": "u3",
+   "front": "PED (definition)",
+   "back": "A measure of the responsiveness of the quantity demanded of a good or service to a change in its price."
+  },
+  {
+   "unit": "u3",
+   "front": "PED formula",
+   "back": "%Δ quantity demanded ÷ %Δ price. The value is negative (law of demand) and read as an absolute value."
+  },
+  {
+   "unit": "u3",
+   "front": "Percentage change rule",
+   "back": "(new − old) ÷ old × 100. Always divide by the OLD (original) value. Elasticities have no units and no % sign."
+  },
+  {
+   "unit": "u3",
+   "front": "Price-elastic demand",
+   "back": "A change in price leads to a proportionately larger change in quantity demanded: |PED| > 1."
+  },
+  {
+   "unit": "u3",
+   "front": "Price-inelastic demand",
+   "back": "A change in price leads to a proportionately smaller change in quantity demanded: PED between 0 and 1."
+  },
+  {
+   "unit": "u3",
+   "front": "Unit elastic, perfectly inelastic, perfectly elastic",
+   "back": "Unit: PED = 1, equal % changes, TR unchanged. Perfectly inelastic: PED = 0, vertical D. Perfectly elastic: PED = ∞, horizontal D."
+  },
+  {
+   "unit": "u3",
+   "front": "HINTS (determinants of PED)",
+   "back": "Habits, Income share, Necessity, Time, Substitutes (number and closeness). Give one determinant with a full chain, not a list."
+  },
+  {
+   "unit": "u3",
+   "front": "PED and total revenue",
+   "back": "Inelastic: raise price and TR rises. Elastic: cut price and TR rises. Unit elastic: TR unchanged. TR = P × Q."
+  },
+  {
+   "unit": "u3",
+   "front": "Revenue boxes",
+   "back": "When price falls, area A = revenue lost on existing units and area B = revenue gained on extra units. If B > A, TR rises (elastic demand)."
+  },
+  {
+   "unit": "u3",
+   "front": "PED along a linear demand curve (HL)",
+   "back": "Elastic above the midpoint, PED = 1 at the midpoint (TR max, MR = 0), inelastic below. Slope is constant but PED isn't."
+  },
+  {
+   "unit": "u3",
+   "front": "Daraprim case",
+   "back": "Price went from $13.50 to $750 a tablet (5,500%). Life-saving, no close substitutes, small share of income: extremely inelastic, so revenue jumped."
+  },
+  {
+   "unit": "u3",
+   "front": "YED (definition and formula)",
+   "back": "A measure of the responsiveness of demand to a change in (real) income. YED = %ΔQd ÷ %ΔY. Keep the sign."
+  },
+  {
+   "unit": "u3",
+   "front": "YED values",
+   "back": "Normal: YED > 0. Necessity: 0 < YED < 1. Luxury: YED > 1. Inferior: YED < 0 (instant noodles, canned food, second-hand clothes)."
+  },
+  {
+   "unit": "u3",
+   "front": "Engel curve",
+   "back": "Income (vertical) against quantity (horizontal). Flat zone = luxury, steep zone = necessity, bending back = inferior. A good can change type as income rises."
+  },
+  {
+   "unit": "u3",
+   "front": "YED and the business cycle (HL)",
+   "back": "Luxuries swing most with the cycle, necessities are least affected, and inferior goods are counter-cyclical (they sell more in recessions)."
+  },
+  {
+   "unit": "u3",
+   "front": "YED and sectoral change (HL)",
+   "back": "Primary goods have 0 < YED < 1, manufactured goods YED > 1 and services even higher. As incomes rise the tertiary sector grows fastest."
+  },
+  {
+   "unit": "u3",
+   "front": "PES (definition and formula)",
+   "back": "A measure of the responsiveness of quantity supplied to a change in price. PES = %ΔQs ÷ %ΔP. Always ≥ 0."
+  },
+  {
+   "unit": "u3",
+   "front": "TRICS (determinants of PES)",
+   "back": "Time, Rate at which costs increase, Inventory (ability to store), Capacity (spare), Substitute factors (factor mobility)."
+  },
+  {
+   "unit": "u3",
+   "front": "PES shapes",
+   "back": "Straight S from the Q-axis: PES < 1. From the P-axis: PES > 1. Through the origin: PES = 1. Vertical: 0. Horizontal: ∞."
+  },
+  {
+   "unit": "u3",
+   "front": "Time and PES",
+   "back": "Momentary period: output fixed (PES = 0). Short run: some inputs fixed (low PES). Long run: all inputs variable (higher PES)."
+  },
+  {
+   "unit": "u3",
+   "front": "Why primary commodities have low PED",
+   "back": "They're necessities with few substitutes (food, oil), and often a small share of the final product's cost."
+  },
+  {
+   "unit": "u3",
+   "front": "Why primary commodities have low PES",
+   "back": "Long growing times, perishable (can't store), land fixed (no spare capacity), immobile factors, and costs rise fast in extraction."
+  },
+  {
+   "unit": "u3",
+   "front": "Low PED + low PES for commodities",
+   "back": "A supply shock (drought or bumper harvest) causes big price swings and a small quantity change, so farm incomes are volatile."
+  },
+  {
+   "unit": "u3",
+   "front": "XED (light)",
+   "back": "%ΔQd of A ÷ %ΔP of B. Positive = substitutes, negative = complements (used together), about 0 = unrelated."
+  },
+  {
+   "unit": "u3",
+   "front": "Primary commodity",
+   "back": "A raw material produced in the primary sector (agriculture, fishing, forestry, mining), e.g. coffee, wheat, copper, crude oil."
+  },
+  {
+   "unit": "u3",
+   "front": "Indirect tax incidence (preview)",
+   "back": "The tax shifts S up by the tax per unit. The less elastic side bears more of it: with inelastic demand, consumers pay most."
+  },
+  {
+   "unit": "exam",
+   "front": "Paper 1 method",
+   "back": "Define, Diagram, Explain, Example (DEED). For a 15-marker add Evaluation (CLASPP) and a conditional conclusion."
+  },
+  {
+   "unit": "exam",
+   "front": "CLASPP",
+   "back": "Conclusions, Long vs short run, Assumptions, Stakeholders, Priorities, Pros/cons. Use at least 3, always including Stakeholders and Assumptions."
+  },
+  {
+   "unit": "exam",
+   "front": "Diagram checklist",
+   "back": "Ruler, title, axes with units, every curve labelled, intersections marked, dotted lines to both axes, areas labelled, exact values, arrows (dynamic)."
+  },
+  {
+   "unit": "exam",
+   "front": "Writing a calculation for full marks",
+   "back": "Line 1: both % changes with numbers. Line 2: formula with numbers in. Line 3: answer (2 dp, sign) plus a word, e.g. '−0.50, inelastic'."
+  },
+  {
+   "unit": "exam",
+   "front": "Own-figure rule",
+   "back": "If an early figure is wrong but you use it correctly later, you still get the later marks, but only if your working is shown."
+  },
+  {
+   "unit": "exam",
+   "front": "Top band (13–15) of a 15-marker",
+   "back": "Theory fully explained in context, terms used throughout, diagrams included AND fully explained, effective and balanced evaluation, supported judgement."
+  },
+  {
+   "unit": "exam",
+   "front": "Explain vs evaluate",
+   "back": "Explain: a cause-and-effect chain, no judgement needed. Evaluate: weigh both sides and reach a conditional judgement. Don't evaluate when asked to explain."
+  },
+  {
+   "unit": "exam",
+   "front": "A 2-mark definition",
+   "back": "Two halves: what kind of thing it is plus the precise condition, and the value range if it has one. Never define with an example alone."
+  }
+ ],
+ "quiz": [
+  {
+   "unit": "u1",
+   "q": "A point INSIDE the PPC shows…",
+   "choices": [
+    "Unattainable output",
+    "Unemployed or inefficiently used resources",
+    "Productive efficiency",
+    "Increasing opportunity cost"
+   ],
+   "answer": 1,
+   "explain": "Inside = idle or misused resources. ON the curve = productively efficient. OUTSIDE = unattainable for now."
+  },
+  {
+   "unit": "u1",
+   "q": "Moving from A to B along a PPC, an economy gains 3,000 watches and gives up 500,000 chocolate bars. What is the opportunity cost of one watch?",
+   "choices": [
+    "6 bars",
+    "3,000 bars",
+    "500,000 bars",
+    "About 167 bars"
+   ],
+   "answer": 3,
+   "explain": "Opportunity cost = amount given up ÷ units gained = 500,000 ÷ 3,000 ≈ 167 bars per watch."
+  },
+  {
+   "unit": "u1",
+   "q": "Which is a NORMATIVE statement?",
+   "choices": [
+    "Unemployment in India is 2%",
+    "A higher minimum wage will raise unemployment",
+    "The government should raise the minimum wage",
+    "Inflation rose last year"
+   ],
+   "answer": 2,
+   "explain": "'Should' is a value judgement. A wrong statistic is still positive, because it can be tested."
+  },
+  {
+   "unit": "u1",
+   "q": "Which list contains only LEAKAGES from the circular flow?",
+   "choices": [
+    "Savings, taxes, imports",
+    "Investment, government spending, exports",
+    "Savings, investment, exports",
+    "Taxes, exports, imports"
+   ],
+   "answer": 0,
+   "explain": "Leakages leave the household-firm loop: S, T, M. Injections come in: I, G, X."
+  },
+  {
+   "unit": "u1",
+   "q": "A bowed-out (concave) PPC shows…",
+   "choices": [
+    "Increasing opportunity cost",
+    "Constant opportunity cost",
+    "Zero opportunity cost",
+    "Unemployment"
+   ],
+   "answer": 0,
+   "explain": "Resources are specialised, so each extra unit of one good costs more and more of the other."
+  },
+  {
+   "unit": "u1",
+   "q": "Which school argued governments should spend to fight a recession?",
+   "choices": [
+    "Keynesian",
+    "Monetarist",
+    "Classical (Say's Law)",
+    "Laissez-faire"
+   ],
+   "answer": 0,
+   "explain": "Keynes, after the Great Depression: markets don't always self-correct, so government spending revives demand."
+  },
+  {
+   "unit": "u2",
+   "q": "The price of a good rises. On a diagram this is shown as…",
+   "choices": [
+    "A shift of demand to the left",
+    "A shift of supply to the right",
+    "A shift of demand to the right",
+    "A movement along the demand curve"
+   ],
+   "answer": 3,
+   "explain": "A change in the good's own price moves you along the curve: a change in quantity demanded, not in demand."
+  },
+  {
+   "unit": "u2",
+   "q": "Demand for hotel rooms shifts right. What happens next, ceteris paribus?",
+   "choices": [
+    "Price rises and quantity supplied extends along S",
+    "Supply shifts right",
+    "Price falls",
+    "Supply shifts left"
+   ],
+   "answer": 0,
+   "explain": "Supply never shifts because of price. The higher price causes a movement along S (Qs rises)."
+  },
+  {
+   "unit": "u2",
+   "q": "Which is NOT a determinant of supply in STORES?",
+   "choices": [
+    "Technology",
+    "Subsidies",
+    "Consumer income",
+    "Resource costs"
+   ],
+   "answer": 2,
+   "explain": "Income is a determinant of DEMAND. STORES: Subsidies/taxes, Technology, Other related goods, Resource costs, Expectations, Size/number of firms."
+  },
+  {
+   "unit": "u2",
+   "q": "At a price BELOW equilibrium there is…",
+   "choices": [
+    "A surplus, so price falls",
+    "Allocative efficiency",
+    "A shortage, so price is bid up",
+    "Excess supply"
+   ],
+   "answer": 2,
+   "explain": "Below Pe, Qd > Qs (excess demand). Buyers bid the price up until Qd = Qs."
+  },
+  {
+   "unit": "u2",
+   "q": "Uber surge pay pulling more drivers onto the road is an example of the price mechanism's…",
+   "choices": [
+    "Incentive function",
+    "Rationing function",
+    "Signalling function",
+    "Equity function"
+   ],
+   "answer": 0,
+   "explain": "Higher prices raise profit per ride, which motivates more supply: the incentive function."
+  },
+  {
+   "unit": "u2",
+   "q": "Consumer surplus is the area…",
+   "choices": [
+    "Below the price and above supply",
+    "Between S and D to the right of equilibrium",
+    "Under the supply curve",
+    "Above the price and below demand"
+   ],
+   "answer": 3,
+   "explain": "What buyers were willing to pay minus what they paid: above P, below D."
+  },
+  {
+   "unit": "u2",
+   "q": "Beef and leather are an example of…",
+   "choices": [
+    "Competitive supply",
+    "Joint supply",
+    "Complements in demand",
+    "Substitutes"
+   ],
+   "answer": 1,
+   "explain": "Producing beef automatically produces leather, so their supplies move together."
+  },
+  {
+   "unit": "u3",
+   "q": "Coffee falls from $2.00 to $1.80 and cups sold rise from 100 to 120. PED is…",
+   "choices": [
+    "−0.5 (inelastic)",
+    "−1 (unit elastic)",
+    "−2 (elastic)",
+    "−0.2 (inelastic)"
+   ],
+   "answer": 2,
+   "explain": "%ΔQd = +20%, %ΔP = −10%. PED = 20 ÷ −10 = −2, so |2| > 1 and demand is elastic. TR rises from $200 to $216."
+  },
+  {
+   "unit": "u3",
+   "q": "Chai rises from ₹20 to ₹22 and cups sold fall from 100 to 95. What happens to total revenue?",
+   "choices": [
+    "Falls, because demand is elastic",
+    "Stays the same",
+    "Falls, because PED = −2",
+    "Rises, because PED = −0.5 (inelastic)"
+   ],
+   "answer": 3,
+   "explain": "%ΔQd = −5%, %ΔP = +10%, so PED = −0.5. TR goes from ₹2,000 to ₹2,090."
+  },
+  {
+   "unit": "u3",
+   "q": "800 units are demanded at $20 and PED = −0.4. Price rises to $40. The new quantity demanded is…",
+   "choices": [
+    "320",
+    "480",
+    "760",
+    "400"
+   ],
+   "answer": 1,
+   "explain": "%ΔP = +100%, so %ΔQd = −0.4 × 100 = −40%. 800 × 0.6 = 480 units."
+  },
+  {
+   "unit": "u3",
+   "q": "PED = −4 and sales rose 10%. What price change caused it?",
+   "choices": [
+    "+2.5%",
+    "−40%",
+    "−2.5%",
+    "−0.4%"
+   ],
+   "answer": 2,
+   "explain": "%ΔP = %ΔQd ÷ PED = 10 ÷ −4 = −2.5%, a price cut."
+  },
+  {
+   "unit": "u3",
+   "q": "A price goes from ₹120 to ₹100. The percentage change is…",
+   "choices": [
+    "−20%",
+    "+20%",
+    "−16.7%",
+    "−25%"
+   ],
+   "answer": 2,
+   "explain": "Divide by the OLD value: (100 − 120) ÷ 120 × 100 = −16.7%."
+  },
+  {
+   "unit": "u3",
+   "q": "Real incomes rise 10% and bus rides fall from 40 to 36. YED is…",
+   "choices": [
+    "+1.0, a luxury",
+    "−1.0, an inferior good",
+    "−0.1, a necessity",
+    "+0.1, a normal good"
+   ],
+   "answer": 1,
+   "explain": "%ΔQd = −10%, %ΔY = +10%, so YED = −1.0. The negative sign means an inferior good. Keep the sign!"
+  },
+  {
+   "unit": "u3",
+   "q": "Incomes rise 8% and the YED for flights is 2.5. Demand for flights…",
+   "choices": [
+    "Rises 3.2%, a necessity",
+    "Rises 20%, a luxury",
+    "Falls 20%, inferior",
+    "Rises 10.5%"
+   ],
+   "answer": 1,
+   "explain": "%ΔQd = YED × %ΔY = 2.5 × 8 = +20%. YED > 1, so flights are a luxury."
+  },
+  {
+   "unit": "u3",
+   "q": "Household income rises from ₹50,000 to ₹55,000 and rice bought rises from 10 kg to 10.3 kg. Rice is…",
+   "choices": [
+    "A luxury (YED 3)",
+    "Inferior (YED −0.3)",
+    "Unit elastic",
+    "A necessity (YED 0.3)"
+   ],
+   "answer": 3,
+   "explain": "%ΔQd = +3%, %ΔY = +10%, so YED = 0.3. Between 0 and 1 means a normal good and a necessity."
+  },
+  {
+   "unit": "u3",
+   "q": "Avocado prices rise from $2.00 to $2.50 and quantity supplied rises from 1,000 to 1,100 tonnes. PES is…",
+   "choices": [
+    "0.4, inelastic",
+    "2.5, elastic",
+    "1.0, unit elastic",
+    "0.1, inelastic"
+   ],
+   "answer": 0,
+   "explain": "%ΔQs = +10%, %ΔP = +25%, so PES = 0.4. Trees take years to mature (Time in TRICS)."
+  },
+  {
+   "unit": "u3",
+   "q": "World coffee price falls from $4.00 to $3.20 and supply falls from 500,000 to 490,000 tonnes. PES is…",
+   "choices": [
+    "10",
+    "0.2",
+    "2",
+    "0.1"
+   ],
+   "answer": 3,
+   "explain": "%ΔQs = −2%, %ΔP = −20%, so PES = 0.1: very inelastic, typical of a primary commodity."
+  },
+  {
+   "unit": "u3",
+   "q": "A sugary drink rises from 50 to 58 and sales fall from 40m to 36.8m litres. PED is…",
+   "choices": [
+    "−2",
+    "−0.5",
+    "−0.16",
+    "−8"
+   ],
+   "answer": 1,
+   "explain": "%ΔQd = −3.2 ÷ 40 = −8%. %ΔP = 8 ÷ 50 = +16%. PED = −8 ÷ 16 = −0.5, inelastic."
+  },
+  {
+   "unit": "u3",
+   "q": "Coffee's price rises 10% and demand for tea rises 5%. XED is…",
+   "choices": [
+    "−0.5, complements",
+    "+2, substitutes",
+    "+0.5, substitutes",
+    "0, unrelated"
+   ],
+   "answer": 2,
+   "explain": "XED = +5 ÷ +10 = +0.5. Positive means substitutes (weak ones, since it's below 1)."
+  },
+  {
+   "unit": "u3",
+   "q": "Which is a determinant of PES, not PED?",
+   "choices": [
+    "Spare capacity",
+    "Number of substitutes",
+    "Proportion of income",
+    "Habits"
+   ],
+   "answer": 0,
+   "explain": "Spare capacity (the C in TRICS) is about sellers' ability to raise output. The others are HINTS demand-side reasons."
+  },
+  {
+   "unit": "u3",
+   "q": "On a straight-line demand curve, total revenue is maximised…",
+   "choices": [
+    "Where the curve meets the price axis",
+    "Where the curve meets the quantity axis",
+    "Wherever the slope is steepest",
+    "At the midpoint, where PED = 1 and MR = 0"
+   ],
+   "answer": 3,
+   "explain": "TR rises while demand is elastic and falls once it's inelastic, so it peaks at the midpoint where PED = 1."
+  },
+  {
+   "unit": "u3",
+   "q": "A straight supply line that starts on the QUANTITY axis has…",
+   "choices": [
+    "PES < 1",
+    "PES > 1",
+    "PES = 1",
+    "PES = ∞"
+   ],
+   "answer": 0,
+   "explain": "Inelastic S cuts the Q-axis, elastic S cuts the P-axis, and any line through the origin has PES = 1. (A class slide swaps these.)"
+  },
+  {
+   "unit": "u3",
+   "q": "Why do governments tax cigarettes to raise revenue?",
+   "choices": [
+    "Demand is price elastic",
+    "Demand is price inelastic, so quantity barely falls",
+    "Supply is perfectly elastic",
+    "Cigarettes have a positive YED"
+   ],
+   "answer": 1,
+   "explain": "Inelastic demand (habit) means sales fall only a little, so tax × quantity stays large. But it cuts smoking only a little."
+  },
+  {
+   "unit": "u3",
+   "q": "Which is the BEST reason primary commodities have low PED?",
+   "choices": [
+    "Crops take a long time to grow",
+    "They can't be stored",
+    "They are necessities with few substitutes",
+    "Land is fixed"
+   ],
+   "answer": 2,
+   "explain": "PED reasons are about buyers. Growing time, storage and fixed land are PES (supply-side) reasons."
+  },
+  {
+   "unit": "u3",
+   "q": "Inferior goods are described as counter-cyclical because…",
+   "choices": [
+    "They sell more in booms",
+    "Their PED is zero",
+    "Their YED is above 1",
+    "They sell more in recessions as incomes fall"
+   ],
+   "answer": 3,
+   "explain": "YED < 0, so when incomes fall in a recession, demand for them rises."
+  },
+  {
+   "unit": "exam",
+   "q": "For a 'Define' question worth 2 marks, which answer scores 2/2 for 'inferior good'?",
+   "choices": [
+    "Like instant noodles",
+    "A good whose demand falls",
+    "A good with negative YED: as income rises, demand for it falls",
+    "A cheap, low-quality good"
+   ],
+   "answer": 2,
+   "explain": "Two halves: what it is (negative YED) plus the condition (demand falls as income rises). An example alone scores 0."
+  },
+  {
+   "unit": "exam",
+   "q": "Which CLASPP angles should you use in EVERY evaluation?",
+   "choices": [
+    "Stakeholders and Assumptions",
+    "Conclusion and Priorities",
+    "Pros/cons and Long run",
+    "Priorities and Pros/cons"
+   ],
+   "answer": 0,
+   "explain": "The class rule: at least three angles, always including Stakeholders and Assumptions, plus one of your choice."
+  },
+  {
+   "unit": "exam",
+   "q": "A calculation answer with the right number but NO working usually earns…",
+   "choices": [
+    "Full marks",
+    "0 marks",
+    "Bonus marks",
+    "1 of 2 marks"
+   ],
+   "answer": 3,
+   "explain": "Working (both % changes plus the formula) is the method mark. The answer alone gets 1 of 2."
+  },
+  {
+   "unit": "exam",
+   "q": "What most often caps a 15-mark essay in the middle band?",
+   "choices": [
+    "Using too many diagrams",
+    "No diagram, or one-sided evaluation",
+    "Defining terms",
+    "Writing a conclusion"
+   ],
+   "answer": 1,
+   "explain": "Top bands need diagrams included and fully explained AND balanced evaluation with a supported judgement."
+  },
+  {
+   "unit": "exam",
+   "q": "An 'Explain…' 10-marker needs…",
+   "choices": [
+    "Only a diagram",
+    "Definitions, a narrated diagram, an explained chain and an example, with no evaluation needed",
+    "A full CLASPP evaluation",
+    "A list of determinants"
+   ],
+   "answer": 1,
+   "explain": "Explain = Define, Diagram, Explain, Example. Evaluation earns nothing extra under 'explain' and wastes time."
+  },
+  {
+   "unit": "exam",
+   "q": "Which conclusion is most likely to reach the top band?",
+   "choices": [
+    "On balance the tax raises revenue now, but cuts consumption only in the long run, provided substitutes are taxed too.",
+    "The tax is good.",
+    "In conclusion, there are pros and cons.",
+    "The government should decide."
+   ],
+   "answer": 0,
+   "explain": "A contingent judgement: it weighs both sides, answers the question and names the conditions."
+  }
+ ]
+}
